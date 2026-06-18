@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanji Quiz - Stats</title>
+
+    <style>
+:root {
+    --bg-sepia: #f9f6f0;
+    --text-sepia: #4a3f35;
+    --text-light: #8c7e71;
+    --border-sepia: #dcd3c6;
+    --accent: #b25d38;
+    --success: #5b7a5b;
+    --error: #b25d38;
+    --font-jp: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", "MS PMincho", serif;
+    --font-system: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: var(--font-system);
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--bg-sepia);
+    color: var(--text-sepia);
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: var(--font-jp);
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.user-greeting {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    margin-bottom: 20px;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+}
+
+button, .btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    font-family: var(--font-system);
+    font-weight: 500;
+    color: var(--text-sepia);
+    background: transparent;
+    border: 1px solid var(--border-sepia);
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+button:hover, .btn:hover {
+    background: rgba(0, 0, 0, 0.03);
+    border-color: var(--text-sepia);
+}
+
+.primary-btn {
+    background: var(--text-sepia);
+    color: var(--bg-sepia);
+    border-color: var(--text-sepia);
+}
+
+.primary-btn:hover {
+    background: var(--accent);
+    color: var(--bg-sepia);
+    border-color: var(--accent);
+}
+
+.stats-summary {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.stat-card {
+    flex: 1;
+    background: rgba(0,0,0,0.02);
+    border: 1px solid var(--border-sepia);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 2.5rem;
+    font-family: var(--font-jp);
+    margin-bottom: 5px;
+    color: var(--success);
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-light);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-sepia);
+}
+
+th {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-light);
+    font-weight: 500;
+}
+
+td.kanji-cell {
+    font-family: var(--font-jp);
+    font-size: 1.5rem;
+}
+
+.score-dots {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--border-sepia);
+}
+
+.dot.filled {
+    background: var(--success);
+}
+
+.status-badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-remembered {
+    background: rgba(91, 122, 91, 0.1);
+    color: var(--success);
+}
+
+.status-learning {
+    background: rgba(178, 93, 56, 0.1);
+    color: var(--error);
+}
+
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-light);
+    font-style: italic;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>Your Stats</h1>
+                <div class="user-greeting" id="userGreeting"></div>
+            </div>
+            <div class="actions">
+                <a href="index.html" class="btn">Return Home</a>
+                <button id="downloadCsvBtn" class="btn primary-btn">Download CSV</button>
+            </div>
+        </header>
+
+        <div class="stats-summary">
+            <div class="stat-card">
+                <div class="stat-value" id="totalRemembered">0</div>
+                <div class="stat-label">Kanji Remembered</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" style="color: var(--text-sepia);" id="totalLearning">0</div>
+                <div class="stat-label">Currently Learning</div>
+            </div>
+        </div>
+
+        <table id="statsTable">
+            <thead>
+                <tr>
+                    <th>Kanji</th>
+                    <th>Meaning</th>
+                    <th>Level</th>
+                    <th>Score</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="statsTableBody">
+                <!-- Rows will be populated by JS -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        const storageKey = 'kanji_srs_data';
+        const rawData = localStorage.getItem(storageKey);
+        const data = rawData ? JSON.parse(rawData) : {};
+        let userName = localStorage.getItem('kanji_username') || 'Anonymous';
+        
+        document.getElementById('userGreeting').textContent = `User: ${userName}`;
+        
+        const tableBody = document.getElementById('statsTableBody');
+        const rememberedEl = document.getElementById('totalRemembered');
+        const learningEl = document.getElementById('totalLearning');
+        const downloadBtn = document.getElementById('downloadCsvBtn');
+
+        const kanjiEntries = Object.entries(data).map(([kanji, stats]) => ({
+            kanji,
+            ...stats
+        }));
+
+        let rememberedCount = 0;
+        let learningCount = 0;
+
+        if (kanjiEntries.length === 0) {
+            tableBody.innerHTML = `<tr><td colspan="5" class="empty-state">No stats available yet. Go play the quiz!</td></tr>`;
+            downloadBtn.style.display = 'none';
+        } else {
+            // Sort by score descending
+            kanjiEntries.sort((a, b) => b.score - a.score);
+
+            kanjiEntries.forEach(entry => {
+                const isRemembered = entry.score >= 3;
+                if (isRemembered) rememberedCount++;
+                else learningCount++;
+
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td class="kanji-cell"><a href="kanjidetail.html?kanji=${entry.kanji}" style="text-decoration: none; color: inherit;">${entry.kanji}</a></td>
+                    <td>${entry.meaning}</td>
+                    <td>${entry.level}</td>
+                    <td>
+                        <div class="score-dots">
+                            <div class="dot ${entry.score >= 1 ? 'filled' : ''}"></div>
+                            <div class="dot ${entry.score >= 2 ? 'filled' : ''}"></div>
+                            <div class="dot ${entry.score >= 3 ? 'filled' : ''}"></div>
+                            <span style="margin-left: 10px; font-size: 0.85rem; color: var(--text-light);">${entry.score}/3</span>
+                        </div>
+                    </td>
+                    <td>
+                        <span class="status-badge ${isRemembered ? 'status-remembered' : 'status-learning'}">
+                            ${isRemembered ? 'Remembered' : 'Learning'}
+                        </span>
+                    </td>
+                `;
+                tableBody.appendChild(tr);
+            });
+
+            rememberedEl.textContent = rememberedCount;
+            learningEl.textContent = learningCount;
+        }
+
+        // CSV Download Logic - prompting for name
+        downloadBtn.addEventListener('click', () => {
+            const enteredName = prompt("Enter your name to attach to your scores:", userName !== 'Anonymous' ? userName : "");
+            if (!enteredName) return; // User cancelled
+            
+            userName = enteredName.trim();
+            localStorage.setItem('kanji_username', userName);
+            
+            // Update leaderboard scores to have this name
+            const rawScores = localStorage.getItem('kanji_highscores');
+            if (rawScores) {
+                let highScores = JSON.parse(rawScores);
+                highScores.forEach(entry => entry.name = userName);
+                localStorage.setItem('kanji_highscores', JSON.stringify(highScores));
+            }
+
+            // Update UI greeting if it exists
+            const greeting = document.getElementById('userGreeting');
+            if (greeting) greeting.textContent = `User: ${userName}`;
+
+            let csvContent = "Name,Kanji Remembered\n";
+            csvContent += `"${userName}",${rememberedCount}\n`;
+
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            
+            const link = document.createElement("a");
+            link.setAttribute("href", url);
+            link.setAttribute("download", `${userName.replace(/[^a-z0-9]/gi, '_').toLowerCase()}_score.csv`);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });
+    </script>
+</body>
+</html>

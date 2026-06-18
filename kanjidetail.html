@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanji Detail</title>
+
+    <style>
+:root {
+    --bg-sepia: #f9f6f0;
+    --text-sepia: #4a3f35;
+    --text-light: #8c7e71;
+    --border-sepia: #dcd3c6;
+    --accent: #b25d38;
+    --error: #b25d38;
+    --success: #5b7a5b;
+    --font-jp: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", "MS PMincho", serif;
+    --font-system: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: var(--font-system);
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--bg-sepia);
+    color: var(--text-sepia);
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    font-family: var(--font-system);
+    font-weight: 500;
+    color: var(--text-sepia);
+    background: transparent;
+    border: 1px solid var(--border-sepia);
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background: rgba(0, 0, 0, 0.03);
+    border-color: var(--text-sepia);
+}
+
+.detail-card {
+    background: rgba(0,0,0,0.02);
+    border: 1px solid var(--border-sepia);
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.kanji-display {
+    font-family: var(--font-jp);
+    font-size: 6rem;
+    line-height: 1;
+    margin-bottom: 20px;
+    color: var(--text-sepia);
+}
+
+.meaning {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+    letter-spacing: 0.02em;
+}
+
+.readings {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    background: var(--bg-sepia);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--border-sepia);
+}
+
+.reading-row {
+    display: flex;
+    align-items: baseline;
+}
+
+.reading-label {
+    width: 80px;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-light);
+    font-weight: 600;
+}
+
+.reading-value {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.section-title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+    border-bottom: 1px solid var(--border-sepia);
+    padding-bottom: 10px;
+}
+
+.word-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.word-item {
+    display: flex;
+    align-items: baseline;
+    padding: 15px;
+    background: rgba(0,0,0,0.02);
+    border-radius: 8px;
+    border: 1px solid var(--border-sepia);
+}
+
+.word-kanji {
+    font-family: var(--font-jp);
+    font-size: 1.5rem;
+    width: 120px;
+}
+
+.word-reading {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    width: 120px;
+}
+
+.word-meaning {
+    flex: 1;
+    font-size: 1.05rem;
+}
+
+.error-state {
+    text-align: center;
+    padding: 60px;
+    font-size: 1.2rem;
+    color: var(--error);
+}
+
+.srs-score-section {
+    margin-top: 20px;
+    padding: 15px 20px;
+    background: var(--bg-sepia);
+    border: 1px solid var(--border-sepia);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.srs-score-section .score-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.srs-score-section .dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--border-sepia);
+}
+
+.srs-score-section .dot.filled {
+    background: var(--success);
+}
+
+.srs-score-section .status-text {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kanji Detail</h1>
+            <a href="stats.html" class="btn">Back to Stats</a>
+        </header>
+
+        <div id="content">
+            <!-- Populated by JS -->
+        </div>
+    </div>
+
+    <!-- Include the shared data containing questionData and kanjiDictionary -->
+    <script src="data.js"></script>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const targetKanji = urlParams.get('kanji');
+        const contentDiv = document.getElementById('content');
+
+        if (!targetKanji || !kanjiDictionary[targetKanji]) {
+            contentDiv.innerHTML = `<div class="error-state">Kanji details not found for "${targetKanji || 'Unknown'}"</div>`;
+        } else {
+            const data = kanjiDictionary[targetKanji];
+            
+            // Find words using this kanji
+            const relatedWords = questionData.filter(q => q.word.includes(targetKanji));
+
+            let wordsHtml = '';
+            if (relatedWords.length > 0) {
+                wordsHtml = `<h3 class="section-title">Vocabulary</h3><ul class="word-list">`;
+                relatedWords.forEach(w => {
+                    const fullReading = w.parts.map(p => p.reading).join('');
+                    wordsHtml += `
+                        <li class="word-item">
+                            <div class="word-kanji">${w.word}</div>
+                            <div class="word-reading">${fullReading}</div>
+                            <div class="word-meaning">${w.meaning}</div>
+                        </li>
+                    `;
+                });
+                wordsHtml += `</ul>`;
+            } else {
+                wordsHtml = `<h3 class="section-title">Vocabulary</h3><p style="color: var(--text-light); font-style: italic;">No vocabulary words found in the current deck.</p>`;
+            }
+
+            contentDiv.innerHTML = `
+                <div class="detail-card">
+                    <div class="kanji-display">${targetKanji}</div>
+                    <div class="meaning">${data.meaning}</div>
+                    
+                    <div class="readings">
+                        <div class="reading-row">
+                            <div class="reading-label">Kun</div>
+                            <div class="reading-value">${data.kunyomi}</div>
+                        </div>
+                        <div class="reading-row">
+                            <div class="reading-label">On</div>
+                            <div class="reading-value">${data.onyomi}</div>
+                        </div>
+                    </div>
+
+                    <div class="srs-score-section" id="srsScore"></div>
+                </div>
+                ${wordsHtml}
+            `;
+
+            // Show SRS score from localStorage
+            const srsData = JSON.parse(localStorage.getItem('kanji_srs_data') || '{}');
+            const srsSection = document.getElementById('srsScore');
+            const kanjiStats = srsData[targetKanji];
+
+            if (kanjiStats) {
+                const isRemembered = kanjiStats.score >= 3;
+                const statusColor = isRemembered ? 'var(--success)' : 'var(--error)';
+                const statusText = isRemembered ? 'Remembered' : 'Learning';
+                srsSection.innerHTML = `
+                    <div style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-light);">Your Progress</div>
+                    <div class="score-dots">
+                        <div class="dot ${kanjiStats.score >= 1 ? 'filled' : ''}"></div>
+                        <div class="dot ${kanjiStats.score >= 2 ? 'filled' : ''}"></div>
+                        <div class="dot ${kanjiStats.score >= 3 ? 'filled' : ''}"></div>
+                    </div>
+                    <div class="status-text" style="color: ${statusColor};">${statusText} (${kanjiStats.score}/3)</div>
+                `;
+            } else {
+                srsSection.innerHTML = `
+                    <div style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-light);">Your Progress</div>
+                    <div style="margin-top: 8px; font-size: 0.9rem; color: var(--text-light); font-style: italic;">Not yet encountered in a quiz</div>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanji Quiz</title>
+    <meta name="description" content="A minimalist Kanji reading quiz.">
+
+    <style>
+:root {
+    --bg-sepia: #f9f6f0;
+    --text-sepia: #4a3f35;
+    --text-light: #8c7e71;
+    --border-sepia: #dcd3c6;
+    --accent: #b25d38;
+    --success: #5b7a5b;
+    --error: #b25d38;
+    --font-jp: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", "MS PMincho", serif;
+    --font-system: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: var(--font-system);
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-sepia);
+    color: var(--text-sepia);
+}
+
+.container {
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+
+.score-board {
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+.quiz-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kanji-display {
+    margin-bottom: 40px;
+}
+
+#kanji-character {
+    font-family: var(--font-jp);
+    font-size: 6.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--text-sepia);
+    animation: softFadeIn 0.8s ease-out;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.input-section {
+    width: 100%;
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.2rem;
+    font-family: var(--font-system);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border-sepia);
+    color: var(--text-sepia);
+    outline: none;
+    text-align: center;
+    transition: border-color 0.3s ease;
+}
+
+input::placeholder {
+    color: var(--text-light);
+    font-weight: 300;
+    opacity: 0.6;
+}
+
+input:focus {
+    border-bottom-color: var(--text-sepia);
+}
+
+button {
+    display: none;
+}
+
+.feedback {
+    margin-top: 24px;
+    font-size: 0.9rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.feedback.show {
+    opacity: 1;
+}
+
+.feedback-part {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background: rgba(0,0,0,0.02);
+    border-radius: 4px;
+}
+
+.feedback-part.correct { border-left: 3px solid var(--success); }
+.feedback-part.incorrect { border-left: 3px solid var(--error); }
+
+@keyframes softFadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    border: 1px solid var(--border-sepia);
+    border-radius: 8px;
+    color: var(--text-sepia);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+.btn:hover {
+    background: rgba(0,0,0,0.03);
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kanji</h1>
+            <div class="score-board"><span id="score">0</span> points</div>
+        </header>
+
+        <main class="quiz-card">
+            <div class="kanji-display">
+                <h2 id="kanji-character">漢字</h2>
+            </div>
+            
+            <div class="input-section">
+                <form id="quiz-form">
+                    <input type="text" id="answer-input" placeholder="Reading (romaji)" autocomplete="off" autofocus>
+                </form>
+                <div id="feedback" class="feedback"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="data.js"></script>
+    <script>
+// SRS Tracker Logic
+class KanjiTracker {
+    constructor() {
+        this.storageKey = 'kanji_srs_data';
+        this.data = JSON.parse(localStorage.getItem(this.storageKey)) || {};
+    }
+
+    recordAttempt(kanji, level, meaning, isCorrect) {
+        if (!this.data[kanji]) {
+            this.data[kanji] = {
+                level: level,
+                meaning: meaning,
+                score: 0,
+                lastAttempt: null
+            };
+        }
+        
+        if (isCorrect) {
+            this.data[kanji].score = Math.min(3, this.data[kanji].score + 1);
+        } else {
+            this.data[kanji].score = Math.max(0, this.data[kanji].score - 1);
+        }
+        this.data[kanji].lastAttempt = new Date().toISOString();
+        this.save();
+    }
+
+    save() {
+        localStorage.setItem(this.storageKey, JSON.stringify(this.data));
+    }
+}
+const tracker = new KanjiTracker();
+
+const urlParams = new URLSearchParams(window.location.search);
+const selectedLevel = urlParams.get('level') || 'N5';
+const requestedLength = parseInt(urlParams.get('length')) || 20;
+
+let quizDeck = questionData.filter(k => k.level === selectedLevel);
+if (quizDeck.length === 0) quizDeck = questionData;
+
+// Calculate weights for the SRS adaptive algorithm
+let weightedDeck = quizDeck.map(wordObj => {
+    let weight = 1; // base weight
+    wordObj.parts.forEach(part => {
+        let kanjiScore = tracker.data[part.kanji] ? tracker.data[part.kanji].score : 0;
+        if (kanjiScore === 0) weight += 3;
+        else if (kanjiScore === 1) weight += 2;
+        else if (kanjiScore === 2) weight += 1;
+        // kanjiScore === 3 adds 0
+    });
+    return { wordObj, weight: weight };
+});
+
+let sessionDeck = [];
+while (sessionDeck.length < requestedLength) {
+    let totalWeight = weightedDeck.reduce((sum, item) => sum + item.weight, 0);
+    let randomNum = Math.random() * totalWeight;
+    let weightSum = 0;
+    
+    for (let i = 0; i < weightedDeck.length; i++) {
+        weightSum += weightedDeck[i].weight;
+        if (randomNum <= weightSum) {
+            sessionDeck.push(weightedDeck[i].wordObj);
+            // Slightly reduce weight so we don't pick the exact same word endlessly if requestedLength is huge
+            weightedDeck[i].weight = Math.max(0.1, weightedDeck[i].weight * 0.3); 
+            break;
+        }
+    }
+}
+
+let currentQuestionIndex = 0;
+let currentWordData = null;
+let score = 0;
+let isAnimating = false;
+
+const kanjiElement = document.getElementById('kanji-character');
+const form = document.getElementById('quiz-form');
+const input = document.getElementById('answer-input');
+const feedback = document.getElementById('feedback');
+const scoreElement = document.getElementById('score');
+
+function loadNewWord() {
+    if (currentQuestionIndex >= sessionDeck.length) {
+        finishQuiz();
+        return;
+    }
+
+    currentWordData = sessionDeck[currentQuestionIndex];
+    kanjiElement.textContent = currentWordData.word;
+    
+    kanjiElement.style.animation = 'none';
+    kanjiElement.offsetHeight; 
+    kanjiElement.style.animation = null; 
+    
+    input.value = '';
+    input.disabled = false;
+    input.focus();
+    isAnimating = false;
+}
+
+function evaluateAnswer(userAnswer, parts) {
+    let results = [];
+    let remainingAnswer = userAnswer;
+    let isFullyCorrect = true;
+
+    // We do substring checks. To allow flexibility, if the user string includes the expected part,
+    // we mark it correct and replace the FIRST occurrence so we don't double count.
+    for (let part of parts) {
+        if (remainingAnswer.includes(part.reading)) {
+            results.push({ kanji: part.kanji, reading: part.reading, isCorrect: true });
+            remainingAnswer = remainingAnswer.replace(part.reading, '');
+        } else {
+            results.push({ kanji: part.kanji, reading: part.reading, isCorrect: false });
+            isFullyCorrect = false;
+        }
+    }
+
+    // If there are extra characters leftover (like typing "dennwa" instead of "denwa"),
+    // the mental spelling of the word was wrong. We mark the entire word as incorrect to enforce accuracy.
+    if (remainingAnswer.length > 0) {
+        isFullyCorrect = false;
+        results = results.map(r => ({ ...r, isCorrect: false }));
+    }
+
+    return { results, isFullyCorrect };
+}
+
+function finishQuiz() {
+    kanjiElement.style.display = "none";
+    form.style.display = 'none';
+    feedback.className = 'feedback show';
+    feedback.style.color = 'var(--text-sepia)';
+    
+    let html = `<h2>Quiz Complete!</h2>`;
+    html += `<p style="margin: 15px 0;">Final Score: <strong>${score}</strong> points</p>`;
+    
+    html += `<div style="max-height: 250px; overflow-y: auto; text-align: left; margin: 20px 0; border-top: 1px solid var(--border-sepia); padding-top: 15px;">`;
+    
+    // Save to leaderboards
+    const rawScores = localStorage.getItem('kanji_highscores');
+    let highScores = rawScores ? JSON.parse(rawScores) : [];
+    const accuracy = Math.round((sessionDeck.filter(q => q.isFullyCorrect).length / sessionDeck.length) * 100) || 0;
+    
+    highScores.push({
+        score: score,
+        level: selectedLevel,
+        length: requestedLength,
+        accuracy: accuracy,
+        date: new Date().toLocaleDateString(),
+        name: localStorage.getItem('kanji_username') || "Anonymous"
+    });
+    highScores.sort((a, b) => b.score - a.score);
+    localStorage.setItem('kanji_highscores', JSON.stringify(highScores.slice(0, 10)));
+    
+    // sessionDeck items now have `.evalResults` attached during showFeedback
+    sessionDeck.forEach(q => {
+        if (!q.evalResults) return; // skipped or errored
+        
+        html += `<div style="margin-bottom: 15px; padding: 12px; background: rgba(0,0,0,0.02); border-radius: 4px; border-left: 3px solid ${q.isFullyCorrect ? 'var(--success)' : 'var(--error)'};">
+            <div style="font-size: 1.4rem; font-family: var(--font-jp); margin-bottom: 4px;">${q.word} <span style="font-size:0.9rem; color:var(--text-light)">(${q.meaning})</span></div>`;
+            
+        q.evalResults.forEach(res => {
+            const currentScore = tracker.data[res.kanji] ? tracker.data[res.kanji].score : 0;
+            const status = currentScore >= 3 ? `<span style="color:var(--success)">[Remembered!]</span>` : `(Score: ${currentScore}/3)`;
+            const icon = res.isCorrect ? "✅" : "❌";
+            html += `<div style="font-size: 0.9rem; margin-top: 4px;">${icon} ${res.kanji} (${res.reading}) - ${status}</div>`;
+        });
+        html += `</div>`;
+    });
+    html += `</div>`;
+    
+    html += `<div style="display: flex; gap: 10px; justify-content: center;">
+        <a href="index.html" class="btn" style="flex:1;">Return Home</a>
+        <a href="stats.html" class="btn" style="flex:1; background: rgba(0,0,0,0.03);">View Stats</a>
+    </div>`;
+    
+    feedback.innerHTML = html;
+}
+
+function showFeedback(evalObj, userAnswer) {
+    isAnimating = true;
+    input.disabled = true;
+    feedback.className = 'feedback show';
+    
+    // Save for summary
+    sessionDeck[currentQuestionIndex].evalResults = evalObj.results;
+    sessionDeck[currentQuestionIndex].isFullyCorrect = evalObj.isFullyCorrect;
+    
+    let feedbackHtml = '';
+    
+    evalObj.results.forEach(res => {
+        const kanjiMeaning = (kanjiDictionary[res.kanji] && kanjiDictionary[res.kanji].meaning) || currentWordData.meaning;
+        tracker.recordAttempt(res.kanji, currentWordData.level, kanjiMeaning, res.isCorrect);
+        
+        // Build UI feedback
+        const classStr = res.isCorrect ? 'correct' : 'incorrect';
+        const symbol = res.isCorrect ? '+1' : '-1';
+        feedbackHtml += `<div class="feedback-part ${classStr}">
+            <span><strong>${res.kanji}</strong></span>
+            <span>${res.reading} (${symbol})</span>
+        </div>`;
+        
+        if (res.isCorrect) score += 10;
+        else score = Math.max(0, score - 5);
+    });
+    
+    scoreElement.textContent = score;
+    feedback.innerHTML = feedbackHtml;
+    
+    currentQuestionIndex++;
+    
+    setTimeout(() => {
+        feedback.className = 'feedback';
+        setTimeout(() => loadNewWord(), 300);
+    }, 2500); // give them time to read the partial feedback
+}
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (isAnimating) return;
+    
+    const userAnswer = input.value.trim().toLowerCase();
+    if (!userAnswer) return;
+
+    const evaluation = evaluateAnswer(userAnswer, currentWordData.parts);
+    showFeedback(evaluation, userAnswer);
+});
+
+loadNewWord();
+    </script>
+</body>
+</html>
