@@ -138,41 +138,47 @@ h1 {
         <header>
             <h1>Company Leaderboard</h1>
             <div style="display: flex; gap: 10px;">
-                <input type="file" id="csvFileInput" multiple accept=".csv" style="display: none;">
                 <button id="loadCsvBtn" class="btn" style="background: var(--text-sepia); color: var(--bg-sepia);">Load SVN Scores</button>
                 <a href="index.html" class="btn">Return Home</a>
             </div>
         </header>
 
         <div class="leaderboard-list" id="leaderboardList">
-            <div class="empty-state">Click "Load SVN Scores" and select the CSV files from the SVN folder to view the company rankings!</div>
+            <div class="empty-state">Click "Load SVN Scores" to fetch and view the company rankings!</div>
         </div>
     </div>
 
     <script>
         const leaderboardList = document.getElementById('leaderboardList');
-        const fileInput = document.getElementById('csvFileInput');
         const loadBtn = document.getElementById('loadCsvBtn');
 
-        loadBtn.addEventListener('click', () => {
-            fileInput.click();
-        });
+        // Add the names of your CSV files here
+        const FIXED_SCORE_FILES = [
+            'scores/alice_score.csv',
+            'scores/bob_score.csv'
+        ];
 
-        fileInput.addEventListener('change', async (e) => {
-            const files = e.target.files;
-            if (files.length === 0) return;
-
+        loadBtn.addEventListener('click', async () => {
+            leaderboardList.innerHTML = `<div class="empty-state">Loading scores...</div>`;
+            
             let parsedScores = [];
-            let filesRead = 0;
+            let filesAttempted = 0;
 
-            for (let i = 0; i < files.length; i++) {
-                const reader = new FileReader();
-                reader.onload = (event) => {
-                    const text = event.target.result;
+            if (FIXED_SCORE_FILES.length === 0) {
+                renderLeaderboard([]);
+                return;
+            }
+
+            for (const filePath of FIXED_SCORE_FILES) {
+                try {
+                    // Fetch the file
+                    const response = await fetch(filePath);
+                    if (!response.ok) throw new Error(`Failed to load ${filePath}`);
+                    
+                    const text = await response.text();
                     const lines = text.trim().split('\n');
                     
                     if (lines.length >= 2) {
-                        // lines[1] is something like: "UserName",15
                         const dataLine = lines[1];
                         const parts = dataLine.split(',');
                         if (parts.length >= 2) {
@@ -181,13 +187,14 @@ h1 {
                             parsedScores.push({ name, score });
                         }
                     }
-
-                    filesRead++;
-                    if (filesRead === files.length) {
+                } catch (error) {
+                    console.warn(error.message);
+                } finally {
+                    filesAttempted++;
+                    if (filesAttempted === FIXED_SCORE_FILES.length) {
                         renderLeaderboard(parsedScores);
                     }
-                };
-                reader.readAsText(files[i]);
+                }
             }
         });
 

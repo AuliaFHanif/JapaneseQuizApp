@@ -142,23 +142,6 @@ td.kanji-cell {
     font-size: 1.5rem;
 }
 
-.score-dots {
-    display: flex;
-    gap: 5px;
-    align-items: center;
-}
-
-.dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: var(--border-sepia);
-}
-
-.dot.filled {
-    background: var(--success);
-}
-
 .status-badge {
     padding: 4px 8px;
     border-radius: 4px;
@@ -215,7 +198,6 @@ td.kanji-cell {
                     <th>Kanji</th>
                     <th>Meaning</th>
                     <th>Level</th>
-                    <th>Score</th>
                     <th>Status</th>
                 </tr>
             </thead>
@@ -247,7 +229,7 @@ td.kanji-cell {
         let learningCount = 0;
 
         if (kanjiEntries.length === 0) {
-            tableBody.innerHTML = `<tr><td colspan="5" class="empty-state">No stats available yet. Go play the quiz!</td></tr>`;
+            tableBody.innerHTML = `<tr><td colspan="4" class="empty-state">No stats available yet. Go play the quiz!</td></tr>`;
             downloadBtn.style.display = 'none';
         } else {
             // Sort by score descending
@@ -263,14 +245,6 @@ td.kanji-cell {
                     <td class="kanji-cell"><a href="kanjidetail.html?kanji=${entry.kanji}" style="text-decoration: none; color: inherit;">${entry.kanji}</a></td>
                     <td>${entry.meaning}</td>
                     <td>${entry.level}</td>
-                    <td>
-                        <div class="score-dots">
-                            <div class="dot ${entry.score >= 1 ? 'filled' : ''}"></div>
-                            <div class="dot ${entry.score >= 2 ? 'filled' : ''}"></div>
-                            <div class="dot ${entry.score >= 3 ? 'filled' : ''}"></div>
-                            <span style="margin-left: 10px; font-size: 0.85rem; color: var(--text-light);">${entry.score}/3</span>
-                        </div>
-                    </td>
                     <td>
                         <span class="status-badge ${isRemembered ? 'status-remembered' : 'status-learning'}">
                             ${isRemembered ? 'Remembered' : 'Learning'}
