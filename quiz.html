@@ -314,8 +314,19 @@
         const selectedLevel = urlParams.get('level') || 'N5';
         const requestedLength = parseInt(urlParams.get('length')) || 20;
 
-        let quizDeck = questionData.filter(k => k.level === selectedLevel);
-        if (quizDeck.length === 0) quizDeck = questionData;
+        let selectedCategories = urlParams.getAll('category');
+        if (selectedCategories.length === 0) {
+            const categories = ['verb', 'noun', 'adjective'];
+            const numCategories = Math.floor(Math.random() * 3) + 1;
+            selectedCategories = categories.sort(() => 0.5 - Math.random()).slice(0, numCategories);
+        }
+
+        let quizDeck = questionData.filter(k => k.level === selectedLevel && selectedCategories.includes(k.category));
+        if (quizDeck.length === 0) {
+            // Fallback if no words match the selected category for this level
+            quizDeck = questionData.filter(k => k.level === selectedLevel);
+            if (quizDeck.length === 0) quizDeck = questionData;
+        }
 
         // Calculate weights for the SRS adaptive algorithm
         let weightedDeck = quizDeck.map(wordObj => {
@@ -384,30 +395,54 @@
         }
 
         function evaluateAnswer(userAnswer, parts) {
-            let results = [];
-            let remainingAnswer = userAnswer;
-            let isFullyCorrect = true;
+            const expectedFullAnswer = parts.map(p => p.reading).join('');
 
-            // We do substring checks. To allow flexibility, if the user string includes the expected part,
-            // we mark it correct and replace the FIRST occurrence so we don't double count.
-            for (let part of parts) {
-                if (remainingAnswer.includes(part.reading)) {
-                    results.push({ kanji: part.kanji, reading: part.reading, isCorrect: true });
-                    remainingAnswer = remainingAnswer.replace(part.reading, '');
-                } else {
-                    results.push({ kanji: part.kanji, reading: part.reading, isCorrect: false });
-                    isFullyCorrect = false;
-                }
+            // Normalize: strip whitespace, normalize unicode (NFC handles composed/decomposed chars)
+            const normalizedUser = userAnswer.normalize('NFC').replace(/\s/g, '');
+            const normalizedExpected = expectedFullAnswer.normalize('NFC');
+
+            // Fast path: exact match
+            if (normalizedUser === normalizedExpected) {
+                return {
+                    results: parts.map(p => ({ kanji: p.kanji, reading: p.reading, isCorrect: true })),
+                    isFullyCorrect: true
+                };
             }
 
-            // If there are extra characters leftover (like typing "dennwa" instead of "denwa"),
-            // the mental spelling of the word was wrong. We mark the entire word as incorrect to enforce accuracy.
-            if (remainingAnswer.length > 0) {
-                isFullyCorrect = false;
+            // Strict sequential matching from the beginning of the user's answer.
+            // Each part's reading must appear at exactly the expected position (no gaps, no skips).
+            // This prevents:
+            //   - Skipping parts (typing "せい" for "せんせい" and getting false credit for 生)
+            //   - Reversed order (typing "しゃかい" for "かいしゃ")
+            //   - Garbage characters injected between readings
+            let results = [];
+            let cursor = 0;
+            let allPartsCorrect = true;
+
+            for (let part of parts) {
+                const reading = part.reading.normalize('NFC');
+
+                if (cursor + reading.length <= normalizedUser.length &&
+                    normalizedUser.substring(cursor, cursor + reading.length) === reading) {
+                    results.push({ kanji: part.kanji, reading: part.reading, isCorrect: true });
+                } else {
+                    results.push({ kanji: part.kanji, reading: part.reading, isCorrect: false });
+                    allPartsCorrect = false;
+                }
+
+                // Always advance cursor by expected reading length to keep alignment
+                // for remaining parts (enables accurate partial credit per-kanji)
+                cursor += reading.length;
+            }
+
+            // If the user typed MORE characters than expected, it means trailing garbage.
+            // Override all parts to incorrect to enforce strict accuracy.
+            if (normalizedUser.length > normalizedExpected.length) {
+                allPartsCorrect = false;
                 results = results.map(r => ({ ...r, isCorrect: false }));
             }
 
-            return { results, isFullyCorrect };
+            return { results, isFullyCorrect: allPartsCorrect };
         }
 
         function finishQuiz() {

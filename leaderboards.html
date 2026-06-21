@@ -1,144 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kanji Quiz - Leaderboards</title>
 
     <style>
-:root {
-    --bg-sepia: #f9f6f0;
-    --text-sepia: #4a3f35;
-    --text-light: #8c7e71;
-    --border-sepia: #dcd3c6;
-    --accent: #b25d38;
-    --gold: #d4af37;
-    --silver: #c0c0c0;
-    --bronze: #cd7f32;
-    --font-jp: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", "MS PMincho", serif;
-    --font-system: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
+        :root {
+            --bg-sepia: #f9f6f0;
+            --text-sepia: #4a3f35;
+            --text-light: #8c7e71;
+            --border-sepia: #dcd3c6;
+            --accent: #b25d38;
+            --gold: #d4af37;
+            --silver: #c0c0c0;
+            --bronze: #cd7f32;
+            --font-jp: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", "MS PMincho", serif;
+            --font-system: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-body {
-    font-family: var(--font-system);
-    -webkit-font-smoothing: antialiased;
-    background-color: var(--bg-sepia);
-    color: var(--text-sepia);
-    padding: 40px 20px;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-}
+        body {
+            font-family: var(--font-system);
+            -webkit-font-smoothing: antialiased;
+            background-color: var(--bg-sepia);
+            color: var(--text-sepia);
+            padding: 40px 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
 
-.container {
-    width: 100%;
-    max-width: 600px;
-}
+        .container {
+            width: 100%;
+            max-width: 600px;
+        }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
-}
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
 
-h1 {
-    font-family: var(--font-jp);
-    font-size: 2.5rem;
-    font-weight: 400;
-}
+        h1 {
+            font-family: var(--font-jp);
+            font-size: 2.5rem;
+            font-weight: 400;
+        }
 
-.btn {
-    padding: 10px 20px;
-    font-size: 0.95rem;
-    font-family: var(--font-system);
-    font-weight: 500;
-    color: var(--text-sepia);
-    background: transparent;
-    border: 1px solid var(--border-sepia);
-    border-radius: 6px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: all 0.2s ease;
-}
+        .btn {
+            padding: 10px 20px;
+            font-size: 0.95rem;
+            font-family: var(--font-system);
+            font-weight: 500;
+            color: var(--text-sepia);
+            background: transparent;
+            border: 1px solid var(--border-sepia);
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
 
-.btn:hover {
-    background: rgba(0, 0, 0, 0.03);
-    border-color: var(--text-sepia);
-}
+        .btn:hover {
+            background: rgba(0, 0, 0, 0.03);
+            border-color: var(--text-sepia);
+        }
 
-.leaderboard-list {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
+        .leaderboard-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
 
-.score-card {
-    display: flex;
-    align-items: center;
-    background: rgba(0,0,0,0.02);
-    border: 1px solid var(--border-sepia);
-    border-radius: 12px;
-    padding: 20px;
-    transition: transform 0.2s ease;
-}
+        .score-card {
+            display: flex;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.02);
+            border: 1px solid var(--border-sepia);
+            border-radius: 12px;
+            padding: 20px;
+            transition: transform 0.2s ease;
+        }
 
-.score-card:hover {
-    transform: translateY(-2px);
-    background: rgba(0,0,0,0.03);
-}
+        .score-card:hover {
+            transform: translateY(-2px);
+            background: rgba(0, 0, 0, 0.03);
+        }
 
-.rank {
-    font-family: var(--font-jp);
-    font-size: 2rem;
-    font-weight: 600;
-    width: 60px;
-    text-align: center;
-    color: var(--text-light);
-}
+        .rank {
+            font-family: var(--font-jp);
+            font-size: 2rem;
+            font-weight: 600;
+            width: 60px;
+            text-align: center;
+            color: var(--text-light);
+        }
 
-.rank-1 { color: var(--gold); font-size: 2.5rem; }
-.rank-2 { color: var(--silver); font-size: 2.2rem; }
-.rank-3 { color: var(--bronze); font-size: 2.1rem; }
+        .rank-1 {
+            color: var(--gold);
+            font-size: 2.5rem;
+        }
 
-.score-details {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding-left: 20px;
-    border-left: 1px solid var(--border-sepia);
-}
+        .rank-2 {
+            color: var(--silver);
+            font-size: 2.2rem;
+        }
 
-.score-points {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--text-sepia);
-}
+        .rank-3 {
+            color: var(--bronze);
+            font-size: 2.1rem;
+        }
 
-.score-meta {
-    font-size: 0.85rem;
-    color: var(--text-light);
-    display: flex;
-    gap: 15px;
-}
+        .score-details {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            padding-left: 20px;
+            border-left: 1px solid var(--border-sepia);
+        }
 
-.empty-state {
-    text-align: center;
-    padding: 60px 20px;
-    color: var(--text-light);
-    font-style: italic;
-}
+        .score-points {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text-sepia);
+        }
+
+        .score-meta {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            display: flex;
+            gap: 15px;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-light);
+            font-style: italic;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
             <h1>Company Leaderboard</h1>
             <div style="display: flex; gap: 10px;">
-                <button id="loadCsvBtn" class="btn" style="background: var(--text-sepia); color: var(--bg-sepia);">Load SVN Scores</button>
+                <button id="loadCsvBtn" class="btn" style="background: var(--text-sepia); color: var(--bg-sepia);">Load
+                    SVN Scores</button>
                 <a href="index.html" class="btn">Return Home</a>
             </div>
         </header>
@@ -160,7 +178,7 @@ h1 {
 
         loadBtn.addEventListener('click', async () => {
             leaderboardList.innerHTML = `<div class="empty-state">Loading scores...</div>`;
-            
+
             let parsedScores = [];
             let filesAttempted = 0;
 
@@ -174,10 +192,10 @@ h1 {
                     // Fetch the file
                     const response = await fetch(filePath);
                     if (!response.ok) throw new Error(`Failed to load ${filePath}`);
-                    
+
                     const text = await response.text();
                     const lines = text.trim().split('\n');
-                    
+
                     if (lines.length >= 2) {
                         const dataLine = lines[1];
                         const parts = dataLine.split(',');
@@ -200,7 +218,7 @@ h1 {
 
         function renderLeaderboard(scores) {
             leaderboardList.innerHTML = '';
-            
+
             if (scores.length === 0) {
                 leaderboardList.innerHTML = `<div class="empty-state">No valid scores found in the selected files.</div>`;
                 return;
@@ -232,4 +250,5 @@ h1 {
         }
     </script>
 </body>
+
 </html>
