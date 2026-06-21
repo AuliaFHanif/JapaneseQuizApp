@@ -198,6 +198,7 @@ td.kanji-cell {
                     <th>Kanji</th>
                     <th>Meaning</th>
                     <th>Level</th>
+                    <th>Score</th>
                     <th>Status</th>
                 </tr>
             </thead>
@@ -229,7 +230,7 @@ td.kanji-cell {
         let learningCount = 0;
 
         if (kanjiEntries.length === 0) {
-            tableBody.innerHTML = `<tr><td colspan="4" class="empty-state">No stats available yet. Go play the quiz!</td></tr>`;
+            tableBody.innerHTML = `<tr><td colspan="5" class="empty-state">No stats available yet. Go play the quiz!</td></tr>`;
             downloadBtn.style.display = 'none';
         } else {
             // Sort by score descending
@@ -245,6 +246,7 @@ td.kanji-cell {
                     <td class="kanji-cell"><a href="kanjidetail.html?kanji=${entry.kanji}" style="text-decoration: none; color: inherit;">${entry.kanji}</a></td>
                     <td>${entry.meaning}</td>
                     <td>${entry.level}</td>
+                    <td>${entry.score}/3</td>
                     <td>
                         <span class="status-badge ${isRemembered ? 'status-remembered' : 'status-learning'}">
                             ${isRemembered ? 'Remembered' : 'Learning'}
@@ -278,8 +280,12 @@ td.kanji-cell {
             const greeting = document.getElementById('userGreeting');
             if (greeting) greeting.textContent = `User: ${userName}`;
 
-            let csvContent = "Name,Kanji Remembered\n";
-            csvContent += `"${userName}",${rememberedCount}\n`;
+            // Build CSV with replay proof
+            const sessionLogs = localStorage.getItem('kanji_session_logs') || '[]';
+            const proof = btoa(unescape(encodeURIComponent(sessionLogs)));
+
+            let csvContent = "Name,Kanji Remembered,Proof\n";
+            csvContent += `"${userName}",${rememberedCount},${proof}\n`;
 
             const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
             const url = URL.createObjectURL(blob);
@@ -290,6 +296,13 @@ td.kanji-cell {
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
+
+            // Show SVN reminder
+            const reminder = document.createElement('div');
+            reminder.style.cssText = 'margin-top: 15px; padding: 15px; background: rgba(91,122,91,0.1); border: 1px solid var(--success); border-radius: 8px; font-size: 0.9rem; color: var(--text-sepia); text-align: center;';
+            reminder.innerHTML = '✅ CSV downloaded! Now save it to the <strong>scores/</strong> folder and <strong>SVN commit</strong>.';
+            downloadBtn.parentElement.appendChild(reminder);
+            setTimeout(() => reminder.remove(), 8000);
         });
     </script>
 </body>
