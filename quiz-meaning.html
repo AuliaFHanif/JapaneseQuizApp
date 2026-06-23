@@ -634,7 +634,7 @@
             // Log for replay proof (anti-cheat)
             sessionLog.push({ word: currentWordData.word, answer: userAnswer, meaning: userMeaning });
 
-            let feedbackHtml = `<div style="text-align: center; margin-bottom: 10px; font-weight: bold; font-size: 1.2rem; color: var(--text-sepia);">${currentWordData.meaning}</div>`;
+            let feedbackHtml = ``;
 
             evalObj.results.forEach(res => {
                 const isPartKanji = /[\u4e00-\u9faf]/.test(res.kanji);
@@ -657,7 +657,7 @@
             const mIcon = evalObj.isMeaningCorrect ? "✅" : "❌";
             feedbackHtml += `<div class="feedback-part ${mClassStr}">
                 <span><strong>Meaning</strong></span>
-                <span>${userMeaning || '---'} ${mIcon}</span>
+                <span>${currentWordData.meaning} ${mIcon}</span>
             </div>`;
 
             if (evalObj.isFullyCorrect) {
