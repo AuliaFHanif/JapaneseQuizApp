@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanji Quiz</title>
+    <meta name="description" content="A minimalist Kanji reading quiz.">
+
+    <style>
+        :root {
+            --bg-sepia: #f9f6f0;
+            --text-sepia: #4a3f35;
+            --text-light: #8c7e71;
+            --border-sepia: #dcd3c6;
+            --accent: #b25d38;
+            --success: #5b7a5b;
+            --error: #b25d38;
+            --font-jp: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", "MS PMincho", serif;
+            --font-system: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-system);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--bg-sepia);
+            color: var(--text-sepia);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            padding: 40px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 1.4rem;
+            font-weight: 500;
+            letter-spacing: -0.02em;
+        }
+
+        .score-board {
+            font-size: 1.1rem;
+            color: var(--text-light);
+        }
+
+        .quiz-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .kanji-display {
+            margin-bottom: 40px;
+        }
+
+        #kanji-character {
+            font-family: var(--font-jp);
+            font-size: clamp(4rem, 20vw, 8.5rem);
+            font-weight: 400;
+            line-height: 1.2;
+            color: var(--text-sepia);
+            animation: softFadeIn 0.8s ease-out;
+            letter-spacing: 0.05em;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        .input-section {
+            width: 100%;
+            position: relative;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        input {
+            width: 100%;
+            padding: 16px 0;
+            font-size: 1.6rem;
+            font-family: var(--font-system);
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid var(--border-sepia);
+            color: var(--text-sepia);
+            outline: none;
+            text-align: center;
+            transition: border-color 0.3s ease;
+        }
+
+        input::placeholder {
+            color: var(--text-light);
+            font-weight: 300;
+            opacity: 0.6;
+        }
+
+        input:focus {
+            border-bottom-color: var(--text-sepia);
+        }
+
+        .hiragana-display {
+            text-align: center;
+            font-size: 2.2rem;
+            font-family: var(--font-jp);
+            color: var(--text-light);
+            min-height: 3rem;
+            margin-top: 15px;
+        }
+
+        button {
+            display: none;
+        }
+
+        .feedback {
+            margin-top: 24px;
+            font-size: 1.1rem;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .feedback.show {
+            opacity: 1;
+        }
+
+        .feedback-part {
+            margin: 5px 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 10px;
+            background: rgba(0, 0, 0, 0.02);
+            border-radius: 4px;
+        }
+
+        .feedback-part.correct {
+            border-left: 3px solid var(--success);
+        }
+
+        .feedback-part.incorrect {
+            border-left: 3px solid var(--error);
+        }
+
+        @keyframes softFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(5px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 24px;
+            border: 1px solid var(--border-sepia);
+            border-radius: 8px;
+            color: var(--text-sepia);
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background: rgba(0, 0, 0, 0.03);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Kanji</h1>
+            <div class="score-board"><span id="score">0</span> / <span id="total-questions">0</span> correct</div>
+        </header>
+
+        <main class="quiz-card">
+            <div class="kanji-display">
+                <h2 id="kanji-character">漢字</h2>
+            </div>
+
+            <div class="input-section">
+                <form id="quiz-form">
+                    <input type="text" id="answer-input" placeholder="Reading (romaji)" autocomplete="off" autofocus>
+                    <input type="text" id="meaning-input" placeholder="Meaning (english)" autocomplete="off" style="margin-top: 10px;">
+                    <div id="hiragana-display" class="hiragana-display"></div>
+                </form>
+                <div id="feedback" class="feedback"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="KanjiBank.js"></script>
+    <script src="QuestionBank.js"></script>
+    <script>
+        </script>
+    <script>
+        const romajiToHiraganaMap = {
+            'a': 'あ', 'i': 'い', 'u': 'う', 'e': 'え', 'o': 'お',
+            'ka': 'か', 'ki': 'き', 'ku': 'く', 'ke': 'け', 'ko': 'こ',
+            'sa': 'さ', 'shi': 'し', 'si': 'し', 'su': 'す', 'se': 'せ', 'so': 'そ',
+            'ta': 'た', 'chi': 'ち', 'ti': 'ち', 'tsu': 'つ', 'tu': 'つ', 'te': 'て', 'to': 'と',
+            'na': 'な', 'ni': 'に', 'nu': 'ぬ', 'ne': 'ね', 'no': 'の',
+            'ha': 'は', 'hi': 'ひ', 'fu': 'ふ', 'hu': 'ふ', 'he': 'へ', 'ho': 'ほ',
+            'ma': 'ま', 'mi': 'み', 'mu': 'む', 'me': 'め', 'mo': 'も',
+            'ya': 'や', 'yu': 'ゆ', 'yo': 'よ',
+            'ra': 'ら', 'ri': 'り', 'ru': 'る', 're': 'れ', 'ro': 'ろ',
+            'wa': 'わ', 'wo': 'を',
+
+            'ga': 'が', 'gi': 'ぎ', 'gu': 'ぐ', 'ge': 'げ', 'go': 'ご',
+            'za': 'ざ', 'ji': 'じ', 'zi': 'じ', 'zu': 'ず', 'ze': 'ぜ', 'zo': 'ぞ',
+            'da': 'だ', 'di': 'ぢ', 'du': 'づ', 'dzu': 'づ', 'de': 'で', 'do': 'ど',
+            'ba': 'ば', 'bi': 'び', 'bu': 'ぶ', 'be': 'べ', 'bo': 'ぼ',
+            'pa': 'ぱ', 'pi': 'ぴ', 'pu': 'ぷ', 'pe': 'ぺ', 'po': 'ぽ',
+
+            'kya': 'きゃ', 'kyu': 'きゅ', 'kyo': 'きょ',
+            'sha': 'しゃ', 'shu': 'しゅ', 'sho': 'しょ',
+            'sya': 'しゃ', 'syu': 'しゅ', 'syo': 'しょ',
+            'cha': 'ちゃ', 'chu': 'ちゅ', 'cho': 'ちょ',
+            'tya': 'ちゃ', 'tyu': 'ちゅ', 'tyo': 'ちょ',
+            'nya': 'にゃ', 'nyu': 'にゅ', 'nyo': 'にょ',
+            'hya': 'ひゃ', 'hyu': 'ひゅ', 'hyo': 'ひょ',
+            'mya': 'みゃ', 'myu': 'みゅ', 'myo': 'みょ',
+            'rya': 'りゃ', 'ryu': 'りゅ', 'ryo': 'りょ',
+            'dya': 'ぢゃ', 'dyu': 'ぢゅ', 'dyo': 'ぢょ',
+
+            'gya': 'ぎゃ', 'gyu': 'ぎゅ', 'gyo': 'ぎょ',
+            'ja': 'じゃ', 'ju': 'じゅ', 'jo': 'じょ',
+            'jya': 'じゃ', 'jyu': 'じゅ', 'jyo': 'じょ',
+            'zya': 'じゃ', 'zyu': 'じゅ', 'zyo': 'じょ',
+            'bya': 'びゃ', 'byu': 'びゅ', 'byo': 'びょ',
+            'pya': 'ぴゃ', 'pyu': 'ぴゅ', 'pyo': 'ぴょ',
+
+            // Explicit small tsu (wāpuro-style)
+            'xtu': 'っ', 'xtsu': 'っ', 'ltu': 'っ', 'ltsu': 'っ'
+        };
+
+        const mapKeys = Object.keys(romajiToHiraganaMap).sort((a, b) => b.length - a.length);
+
+        function convertToHiragana(romaji) {
+            let result = '';
+            let i = 0;
+            while (i < romaji.length) {
+                // Skip apostrophes/hyphens (used as separators, e.g. n'yo → んよ)
+                if (romaji[i] === "'" || romaji[i] === '-') {
+                    i++;
+                    continue;
+                }
+
+                // ん detection: 'n' needs special handling because it's ambiguous.
+                // 'n' is ん when:
+                //   - It's at the end of the string
+                //   - It's followed by a consonant that ISN'T 'y' or another 'n' (those form ny*/nn combos)
+                //   - It's followed by 'n' + a non-n/y-vowel char (nn → ん, next char starts fresh)
+                //   - It's followed by a vowel or 'y' ONLY if apostrophe separated (handled above)
+                // 'n' is NOT ん when it's followed by a vowel (na, ni, nu, ne, no) or 'y' (nya, nyu, nyo)
+                if (romaji[i] === 'n') {
+                    const next = i + 1 < romaji.length ? romaji[i + 1] : null;
+
+                    // 'nn' → ん (consume both n's, let next char start a new syllable)
+                    if (next === 'n') {
+                        result += 'ん';
+                        i += 2;
+                        continue;
+                    }
+
+                    // 'n' at end of string → ん
+                    if (next === null) {
+                        result += 'ん';
+                        i++;
+                        continue;
+                    }
+
+                    // 'n' followed by a vowel or 'y' → this is na/ni/nu/ne/no/nya/nyu/nyo
+                    // Let it fall through to the normal key matching below
+                    if ('aiueoy'.includes(next)) {
+                        // Fall through — will match 'na', 'ni', 'nya', etc.
+                    } else {
+                        // 'n' followed by any other consonant → ん
+                        result += 'ん';
+                        i++;
+                        continue;
+                    }
+                }
+
+                // Double consonant → っ (gemination)
+                // e.g. 'kk' in 'gakkou', 'tt' in 'zettai', 'pp' in 'yappari'
+                if (i + 1 < romaji.length && romaji[i] === romaji[i + 1] && !"aeiouyn".includes(romaji[i])) {
+                    result += 'っ';
+                    i++;
+                    continue;
+                }
+
+                // Standard key matching (longest match first)
+                let matched = false;
+                for (const key of mapKeys) {
+                    if (romaji.substring(i, i + key.length) === key) {
+                        result += romajiToHiraganaMap[key];
+                        i += key.length;
+                        matched = true;
+                        break;
+                    }
+                }
+                if (!matched) {
+                    result += romaji[i];
+                    i++;
+                }
+            }
+            return result;
+        }
+
+        // SRS Tracker Logic
+        class KanjiTracker {
+            constructor() {
+                this.storageKey = 'kanji_srs_data';
+                this.data = JSON.parse(localStorage.getItem(this.storageKey)) || {};
+            }
+
+            recordAttempt(kanji, level, meaning, isCorrect) {
+                if (!this.data[kanji]) {
+                    this.data[kanji] = {
+                        level: level,
+                        meaning: meaning,
+                        correctCount: 0,
+                        wrongCount: 0,
+                        lastAttempt: null
+                    };
+                }
+                if (this.data[kanji].correctCount === undefined) this.data[kanji].correctCount = 0;
+                if (this.data[kanji].wrongCount === undefined) this.data[kanji].wrongCount = 0;
+
+                if (isCorrect) {
+                    this.data[kanji].correctCount++;
+                } else {
+                    this.data[kanji].wrongCount++;
+                }
+                this.data[kanji].lastAttempt = new Date().toISOString();
+                this.save();
+            }
+
+            save() {
+                localStorage.setItem(this.storageKey, JSON.stringify(this.data));
+            }
+        }
+        const tracker = new KanjiTracker();
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const selectedLevel = urlParams.get('level') || 'N5';
+        const requestedLength = parseInt(urlParams.get('length')) || 20;
+
+        let selectedCategories = urlParams.getAll('category');
+        if (selectedCategories.length === 0) {
+            const categories = ['verb', 'noun', 'adjective'];
+            const numCategories = Math.floor(Math.random() * 3) + 1;
+            selectedCategories = categories.sort(() => 0.5 - Math.random()).slice(0, numCategories);
+        }
+
+        let quizDeck = questionData.filter(k => k.level === selectedLevel && selectedCategories.includes(k.category));
+        if (quizDeck.length === 0) {
+            // Fallback if no words match the selected category for this level
+            quizDeck = questionData.filter(k => k.level === selectedLevel);
+            if (quizDeck.length === 0) quizDeck = questionData;
+        }
+
+        // Calculate weights for the SRS adaptive algorithm
+        let weightedDeck = quizDeck.map(wordObj => {
+            let weight = 1; // base weight
+            wordObj.parts.forEach(part => {
+                if (!/[\u4e00-\u9faf]/.test(part.kanji)) return; // Skip pure kana parts
+
+                let kanjiData = tracker.data[part.kanji];
+                let correctCount = kanjiData ? (kanjiData.correctCount || 0) : 0;
+                let wrongCount = kanjiData ? (kanjiData.wrongCount || 0) : 0;
+                let total = correctCount + wrongCount;
+
+                if (total >= 10 && (correctCount / total) >= 0.8) {
+                    // Remembered, add 0 weight
+                    weight += 0;
+                } else {
+                    // Prioritize kanji with fewer attempts (to reach the 10-attempt calibration).
+                    let missingAttempts = Math.max(0, 10 - total);
+                    weight += missingAttempts;
+                    // Give a slight bump to kanji that have low accuracy but enough attempts
+                    if (total >= 10 && (correctCount / total) < 0.8) {
+                        weight += 2;
+                    }
+                }
+            });
+            return { wordObj, weight: weight };
+        });
+
+        let sessionDeck = [];
+        const maxWords = Math.min(requestedLength, weightedDeck.length);
+
+        while (sessionDeck.length < maxWords) {
+            let totalWeight = weightedDeck.reduce((sum, item) => sum + item.weight, 0);
+            
+            if (totalWeight <= 0) {
+                // All remaining words have 0 weight (perfectly remembered)
+                let randomIndex = Math.floor(Math.random() * weightedDeck.length);
+                sessionDeck.push(weightedDeck[randomIndex].wordObj);
+                weightedDeck.splice(randomIndex, 1);
+                continue;
+            }
+
+            let randomNum = Math.random() * totalWeight;
+            let weightSum = 0;
+
+            for (let i = 0; i < weightedDeck.length; i++) {
+                weightSum += weightedDeck[i].weight;
+                if (randomNum <= weightSum) {
+                    sessionDeck.push(weightedDeck[i].wordObj);
+                    weightedDeck.splice(i, 1); // remove to prevent duplicates
+                    break;
+                }
+            }
+        }
+
+        let currentQuestionIndex = 0;
+        let currentWordData = null;
+        let score = 0;
+        let isAnimating = false;
+        let sessionLog = [];
+
+        const kanjiElement = document.getElementById('kanji-character');
+        const form = document.getElementById('quiz-form');
+        const input = document.getElementById('answer-input');
+        const meaningInput = document.getElementById('meaning-input');
+        const hiraganaDisplay = document.getElementById('hiragana-display');
+        const feedback = document.getElementById('feedback');
+        const scoreElement = document.getElementById('score');
+        const totalQuestionsElement = document.getElementById('total-questions');
+
+        totalQuestionsElement.textContent = sessionDeck.length;
+
+        input.addEventListener('input', (e) => {
+            hiraganaDisplay.textContent = convertToHiragana(e.target.value.toLowerCase());
+        });
+
+        function loadNewWord() {
+            if (currentQuestionIndex >= sessionDeck.length) {
+                finishQuiz();
+                return;
+            }
+
+            currentWordData = sessionDeck[currentQuestionIndex];
+            kanjiElement.textContent = currentWordData.word;
+
+            kanjiElement.style.animation = 'none';
+            kanjiElement.offsetHeight;
+            kanjiElement.style.animation = null;
+
+            input.value = '';
+            if (hiraganaDisplay) hiraganaDisplay.textContent = '';
+            input.disabled = false;
+            meaningInput.disabled = false;
+            meaningInput.value = '';
+            input.focus();
+            isAnimating = false;
+        }
+
+        function evaluateAnswer(userAnswer, parts) {
+            const expectedFullAnswer = parts.map(p => p.reading).join('');
+
+            // Normalize: strip whitespace, normalize unicode (NFC handles composed/decomposed chars)
+            const normalizedUser = userAnswer.normalize('NFC').replace(/\s/g, '');
+            const normalizedExpected = expectedFullAnswer.normalize('NFC');
+
+            // Fast path: exact match
+            if (normalizedUser === normalizedExpected) {
+                return {
+                    results: parts.map(p => ({ kanji: p.kanji, reading: p.reading, isCorrect: true })),
+                    isFullyCorrect: true
+                };
+            }
+
+            // Strict sequential matching from the beginning of the user's answer.
+            // Each part's reading must appear at exactly the expected position (no gaps, no skips).
+            // This prevents:
+            //   - Skipping parts (typing "せい" for "せんせい" and getting false credit for 生)
+            //   - Reversed order (typing "しゃかい" for "かいしゃ")
+            //   - Garbage characters injected between readings
+            let results = [];
+            let cursor = 0;
+            let allPartsCorrect = true;
+
+            for (let part of parts) {
+                const reading = part.reading.normalize('NFC');
+
+                if (cursor + reading.length <= normalizedUser.length &&
+                    normalizedUser.substring(cursor, cursor + reading.length) === reading) {
+                    results.push({ kanji: part.kanji, reading: part.reading, isCorrect: true });
+                } else {
+                    results.push({ kanji: part.kanji, reading: part.reading, isCorrect: false });
+                    allPartsCorrect = false;
+                }
+
+                // Always advance cursor by expected reading length to keep alignment
+                // for remaining parts (enables accurate partial credit per-kanji)
+                cursor += reading.length;
+            }
+
+            // If the user typed MORE characters than expected, it means trailing garbage.
+            // Override all parts to incorrect to enforce strict accuracy.
+            if (normalizedUser.length > normalizedExpected.length) {
+                allPartsCorrect = false;
+                results = results.map(r => ({ ...r, isCorrect: false }));
+            }
+
+            return { results, isFullyCorrect: allPartsCorrect };
+        }
+
+        function finishQuiz() {
+            kanjiElement.style.display = "none";
+            form.style.display = 'none';
+            feedback.className = 'feedback show';
+            feedback.style.color = 'var(--text-sepia)';
+
+            let html = `<h2>Quiz Complete!</h2>`;
+            html += `<p style="margin: 15px 0;">Final Score: <strong>${score} / ${sessionDeck.length}</strong> correct</p>`;
+
+            html += `<div style="max-height: 250px; overflow-y: auto; text-align: left; margin: 20px 0; border-top: 1px solid var(--border-sepia); padding-top: 15px;">`;
+
+            // Save session log for replay proof (anti-cheat)
+            const existingSessions = JSON.parse(localStorage.getItem('kanji_session_logs') || '[]');
+            existingSessions.push({
+                level: selectedLevel,
+                date: new Date().toISOString(),
+                questions: sessionLog
+            });
+            localStorage.setItem('kanji_session_logs', JSON.stringify(existingSessions));
+
+            // Save to leaderboards
+            const rawScores = localStorage.getItem('kanji_highscores');
+            let highScores = rawScores ? JSON.parse(rawScores) : [];
+            const accuracy = Math.round((sessionDeck.filter(q => q.isFullyCorrect).length / sessionDeck.length) * 100) || 0;
+
+            highScores.push({
+                score: score,
+                level: selectedLevel,
+                length: requestedLength,
+                accuracy: accuracy,
+                date: new Date().toLocaleDateString(),
+                name: localStorage.getItem('kanji_username') || "Anonymous"
+            });
+            highScores.sort((a, b) => b.score - a.score);
+            localStorage.setItem('kanji_highscores', JSON.stringify(highScores.slice(0, 10)));
+
+            // sessionDeck items now have `.evalResults` attached during showFeedback
+            sessionDeck.forEach(q => {
+                if (!q.evalResults) return; // skipped or errored
+
+                html += `<div style="margin-bottom: 15px; padding: 12px; background: rgba(0,0,0,0.02); border-radius: 4px; border-left: 3px solid ${q.isFullyCorrect ? 'var(--success)' : 'var(--error)'};">
+            <div style="font-size: 1.4rem; font-family: var(--font-jp); margin-bottom: 4px;">${q.word} <span style="font-size:0.9rem; color:var(--text-light)">(${q.meaning})</span></div>`;
+
+                q.evalResults.forEach(res => {
+                    if (!/[\u4e00-\u9faf]/.test(res.kanji)) return; // Only show stats for actual kanji
+                    
+                    const kanjiData = tracker.data[res.kanji] || {};
+                    const correctCount = kanjiData.correctCount || 0;
+                    const wrongCount = kanjiData.wrongCount || 0;
+                    const total = correctCount + wrongCount;
+                    const acc = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+                    
+                    let status = `(Total: ${total}, Acc: ${acc}%)`;
+                    if (total >= 10 && (correctCount / total) >= 0.8) {
+                        status = `<span style="color:var(--success)">[Remembered! ${acc}%]</span>`;
+                    }
+                    
+                    const icon = res.isCorrect ? "✅" : "❌";
+                    html += `<div style="font-size: 0.9rem; margin-top: 4px;">${icon} ${res.kanji} (${res.reading}) - ${status}</div>`;
+                });
+                html += `</div>`;
+            });
+            html += `</div>`;
+
+            html += `<div style="display: flex; gap: 10px; justify-content: center;">
+        <a href="index.html" class="btn" style="flex:1;">Return Home</a>
+        <a href="stats.html" class="btn" style="flex:1; background: rgba(0,0,0,0.03);">View Stats</a>
+    </div>`;
+
+            feedback.innerHTML = html;
+        }
+
+        function showFeedback(evalObj, userAnswer) {
+            isAnimating = true;
+            input.disabled = true;
+            feedback.className = 'feedback show';
+
+            // Save for summary
+            sessionDeck[currentQuestionIndex].evalResults = evalObj.results;
+            sessionDeck[currentQuestionIndex].isFullyCorrect = evalObj.isFullyCorrect;
+
+            // Log for replay proof (anti-cheat)
+            sessionLog.push({ word: currentWordData.word, answer: userAnswer });
+
+            let feedbackHtml = `<div style="text-align: center; margin-bottom: 10px; font-weight: bold; font-size: 1.2rem; color: var(--text-sepia);">${currentWordData.meaning}</div>`;
+
+            evalObj.results.forEach(res => {
+                const isPartKanji = /[\u4e00-\u9faf]/.test(res.kanji);
+                
+                if (isPartKanji) {
+                    const kanjiMeaning = (kanjiDictionary[res.kanji] && kanjiDictionary[res.kanji].meaning) || currentWordData.meaning;
+                    tracker.recordAttempt(res.kanji, currentWordData.level, kanjiMeaning, res.isCorrect);
+                }
+
+                // Build UI feedback
+                const classStr = res.isCorrect ? 'correct' : 'incorrect';
+                const icon = res.isCorrect ? "✅" : "❌";
+                feedbackHtml += `<div class="feedback-part ${classStr}">
+            <span><strong>${res.kanji}</strong></span>
+            <span>${res.reading} ${icon}</span>
+        </div>`;
+            });
+
+            if (evalObj.isFullyCorrect) {
+                score++;
+            }
+            scoreElement.textContent = score;
+            feedback.innerHTML = feedbackHtml;
+
+            currentQuestionIndex++;
+
+            setTimeout(() => {
+                feedback.className = 'feedback';
+                setTimeout(() => loadNewWord(), 300);
+            }, 2500); // give them time to read the partial feedback
+        }
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            if (isAnimating) return;
+
+            const userAnswer = input.value.trim().toLowerCase();
+            if (!userAnswer) return;
+
+            const hiraganaAnswer = convertToHiragana(userAnswer);
+            const evaluation = evaluateAnswer(hiraganaAnswer, currentWordData.parts);
+            showFeedback(evaluation, hiraganaAnswer);
+        });
+
+        loadNewWord();
+    </script>
+</body>
+
+</html>
