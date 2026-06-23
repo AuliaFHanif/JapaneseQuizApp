@@ -39,7 +39,7 @@
 
         .container {
             width: 100%;
-            max-width: 450px;
+            max-width: 800px;
             padding: 40px;
         }
 
@@ -73,13 +73,14 @@
 
         #kanji-character {
             font-family: var(--font-jp);
-            font-size: 6.5rem;
+            font-size: clamp(3rem, 15vw, 6.5rem);
             font-weight: 400;
             line-height: 1.2;
             color: var(--text-sepia);
             animation: softFadeIn 0.8s ease-out;
             letter-spacing: 0.05em;
             text-align: center;
+            white-space: nowrap;
         }
 
         .input-section {
@@ -194,7 +195,7 @@
     <div class="container">
         <header>
             <h1>Kanji</h1>
-            <div class="score-board"><span id="score">0</span> points</div>
+            <div class="score-board"><span id="score">0</span> / <span id="total-questions">0</span> correct</div>
         </header>
 
         <main class="quiz-card">
@@ -11079,15 +11080,18 @@ const kanjiDictionary = {
                     this.data[kanji] = {
                         level: level,
                         meaning: meaning,
-                        score: 0,
+                        correctCount: 0,
+                        wrongCount: 0,
                         lastAttempt: null
                     };
                 }
+                if (this.data[kanji].correctCount === undefined) this.data[kanji].correctCount = 0;
+                if (this.data[kanji].wrongCount === undefined) this.data[kanji].wrongCount = 0;
 
                 if (isCorrect) {
-                    this.data[kanji].score = Math.min(3, this.data[kanji].score + 1);
+                    this.data[kanji].correctCount++;
                 } else {
-                    this.data[kanji].score = Math.max(0, this.data[kanji].score - 1);
+                    this.data[kanji].wrongCount++;
                 }
                 this.data[kanji].lastAttempt = new Date().toISOString();
                 this.save();
@@ -11121,18 +11125,43 @@ const kanjiDictionary = {
         let weightedDeck = quizDeck.map(wordObj => {
             let weight = 1; // base weight
             wordObj.parts.forEach(part => {
-                let kanjiScore = tracker.data[part.kanji] ? tracker.data[part.kanji].score : 0;
-                if (kanjiScore === 0) weight += 3;
-                else if (kanjiScore === 1) weight += 2;
-                else if (kanjiScore === 2) weight += 1;
-                // kanjiScore === 3 adds 0
+                if (!/[\u4e00-\u9faf]/.test(part.kanji)) return; // Skip pure kana parts
+
+                let kanjiData = tracker.data[part.kanji];
+                let correctCount = kanjiData ? (kanjiData.correctCount || 0) : 0;
+                let wrongCount = kanjiData ? (kanjiData.wrongCount || 0) : 0;
+                let total = correctCount + wrongCount;
+
+                if (total >= 10 && (correctCount / total) >= 0.8) {
+                    // Remembered, add 0 weight
+                    weight += 0;
+                } else {
+                    // Prioritize kanji with fewer attempts (to reach the 10-attempt calibration).
+                    let missingAttempts = Math.max(0, 10 - total);
+                    weight += missingAttempts;
+                    // Give a slight bump to kanji that have low accuracy but enough attempts
+                    if (total >= 10 && (correctCount / total) < 0.8) {
+                        weight += 2;
+                    }
+                }
             });
             return { wordObj, weight: weight };
         });
 
         let sessionDeck = [];
-        while (sessionDeck.length < requestedLength) {
+        const maxWords = Math.min(requestedLength, weightedDeck.length);
+
+        while (sessionDeck.length < maxWords) {
             let totalWeight = weightedDeck.reduce((sum, item) => sum + item.weight, 0);
+            
+            if (totalWeight <= 0) {
+                // All remaining words have 0 weight (perfectly remembered)
+                let randomIndex = Math.floor(Math.random() * weightedDeck.length);
+                sessionDeck.push(weightedDeck[randomIndex].wordObj);
+                weightedDeck.splice(randomIndex, 1);
+                continue;
+            }
+
             let randomNum = Math.random() * totalWeight;
             let weightSum = 0;
 
@@ -11140,8 +11169,7 @@ const kanjiDictionary = {
                 weightSum += weightedDeck[i].weight;
                 if (randomNum <= weightSum) {
                     sessionDeck.push(weightedDeck[i].wordObj);
-                    // Slightly reduce weight so we don't pick the exact same word endlessly if requestedLength is huge
-                    weightedDeck[i].weight = Math.max(0.1, weightedDeck[i].weight * 0.3);
+                    weightedDeck.splice(i, 1); // remove to prevent duplicates
                     break;
                 }
             }
@@ -11159,6 +11187,9 @@ const kanjiDictionary = {
         const hiraganaDisplay = document.getElementById('hiragana-display');
         const feedback = document.getElementById('feedback');
         const scoreElement = document.getElementById('score');
+        const totalQuestionsElement = document.getElementById('total-questions');
+
+        totalQuestionsElement.textContent = sessionDeck.length;
 
         input.addEventListener('input', (e) => {
             hiraganaDisplay.textContent = convertToHiragana(e.target.value.toLowerCase());
@@ -11242,7 +11273,7 @@ const kanjiDictionary = {
             feedback.style.color = 'var(--text-sepia)';
 
             let html = `<h2>Quiz Complete!</h2>`;
-            html += `<p style="margin: 15px 0;">Final Score: <strong>${score}</strong> points</p>`;
+            html += `<p style="margin: 15px 0;">Final Score: <strong>${score} / ${sessionDeck.length}</strong> correct</p>`;
 
             html += `<div style="max-height: 250px; overflow-y: auto; text-align: left; margin: 20px 0; border-top: 1px solid var(--border-sepia); padding-top: 15px;">`;
 
@@ -11279,8 +11310,19 @@ const kanjiDictionary = {
             <div style="font-size: 1.4rem; font-family: var(--font-jp); margin-bottom: 4px;">${q.word} <span style="font-size:0.9rem; color:var(--text-light)">(${q.meaning})</span></div>`;
 
                 q.evalResults.forEach(res => {
-                    const currentScore = tracker.data[res.kanji] ? tracker.data[res.kanji].score : 0;
-                    const status = currentScore >= 3 ? `<span style="color:var(--success)">[Remembered!]</span>` : `(Score: ${currentScore}/3)`;
+                    if (!/[\u4e00-\u9faf]/.test(res.kanji)) return; // Only show stats for actual kanji
+                    
+                    const kanjiData = tracker.data[res.kanji] || {};
+                    const correctCount = kanjiData.correctCount || 0;
+                    const wrongCount = kanjiData.wrongCount || 0;
+                    const total = correctCount + wrongCount;
+                    const acc = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+                    
+                    let status = `(Total: ${total}, Acc: ${acc}%)`;
+                    if (total >= 10 && (correctCount / total) >= 0.8) {
+                        status = `<span style="color:var(--success)">[Remembered! ${acc}%]</span>`;
+                    }
+                    
                     const icon = res.isCorrect ? "✅" : "❌";
                     html += `<div style="font-size: 0.9rem; margin-top: 4px;">${icon} ${res.kanji} (${res.reading}) - ${status}</div>`;
                 });
@@ -11308,24 +11350,28 @@ const kanjiDictionary = {
             // Log for replay proof (anti-cheat)
             sessionLog.push({ word: currentWordData.word, answer: userAnswer });
 
-            let feedbackHtml = '';
+            let feedbackHtml = `<div style="text-align: center; margin-bottom: 10px; font-weight: bold; font-size: 1.2rem; color: var(--text-sepia);">${currentWordData.meaning}</div>`;
 
             evalObj.results.forEach(res => {
-                const kanjiMeaning = (kanjiDictionary[res.kanji] && kanjiDictionary[res.kanji].meaning) || currentWordData.meaning;
-                tracker.recordAttempt(res.kanji, currentWordData.level, kanjiMeaning, res.isCorrect);
+                const isPartKanji = /[\u4e00-\u9faf]/.test(res.kanji);
+                
+                if (isPartKanji) {
+                    const kanjiMeaning = (kanjiDictionary[res.kanji] && kanjiDictionary[res.kanji].meaning) || currentWordData.meaning;
+                    tracker.recordAttempt(res.kanji, currentWordData.level, kanjiMeaning, res.isCorrect);
+                }
 
                 // Build UI feedback
                 const classStr = res.isCorrect ? 'correct' : 'incorrect';
-                const symbol = res.isCorrect ? '+1' : '-1';
+                const icon = res.isCorrect ? "✅" : "❌";
                 feedbackHtml += `<div class="feedback-part ${classStr}">
             <span><strong>${res.kanji}</strong></span>
-            <span>${res.reading} (${symbol})</span>
+            <span>${res.reading} ${icon}</span>
         </div>`;
-
-                if (res.isCorrect) score += 10;
-                else score = Math.max(0, score - 5);
             });
 
+            if (evalObj.isFullyCorrect) {
+                score++;
+            }
             scoreElement.textContent = score;
             feedback.innerHTML = feedbackHtml;
 

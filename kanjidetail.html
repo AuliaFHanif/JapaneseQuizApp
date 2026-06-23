@@ -11015,17 +11015,23 @@ const kanjiDictionary = {
             const kanjiStats = srsData[targetKanji];
 
             if (kanjiStats) {
-                const isRemembered = kanjiStats.score >= 3;
+                const correctCount = kanjiStats.correctCount || 0;
+                const wrongCount = kanjiStats.wrongCount || 0;
+                const total = correctCount + wrongCount;
+                const acc = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+                const isRemembered = total >= 10 && (correctCount / total) >= 0.8;
+                
                 const statusColor = isRemembered ? 'var(--success)' : 'var(--error)';
                 const statusText = isRemembered ? 'Remembered' : 'Learning';
+                
                 srsSection.innerHTML = `
                     <div style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-light);">Your Progress</div>
-                    <div class="score-dots">
-                        <div class="dot ${kanjiStats.score >= 1 ? 'filled' : ''}"></div>
-                        <div class="dot ${kanjiStats.score >= 2 ? 'filled' : ''}"></div>
-                        <div class="dot ${kanjiStats.score >= 3 ? 'filled' : ''}"></div>
+                    <div style="margin-top: 10px; margin-bottom: 5px; font-weight: 500;">Accuracy: ${acc}%</div>
+                    <div style="background: rgba(0,0,0,0.1); height: 8px; border-radius: 4px; overflow: hidden; margin-bottom: 10px;">
+                        <div style="background: ${statusColor}; height: 100%; width: ${acc}%;"></div>
                     </div>
-                    <div class="status-text" style="color: ${statusColor};">${statusText} (${kanjiStats.score}/3)</div>
+                    <div style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 5px;">Total Attempts: ${total} ${total < 10 ? '(Needs 10)' : ''}</div>
+                    <div class="status-text" style="color: ${statusColor}; font-weight: bold;">${statusText}</div>
                 `;
             } else {
                 srsSection.innerHTML = `

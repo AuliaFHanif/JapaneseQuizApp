@@ -11007,7 +11007,7 @@ const kanjiDictionary = {
         // === REPLAY SESSION LOGS TO INDEPENDENTLY COMPUTE SCORE ===
         function replayAllSessions(sessions) {
             // Rebuild SRS state from scratch by replaying every answer
-            const srsState = {}; // kanji -> score (0-3)
+            const srsState = {}; // kanji -> { correct: 0, wrong: 0 }
 
             for (const session of sessions) {
                 if (!session.questions || !Array.isArray(session.questions)) continue;
@@ -11022,22 +11022,27 @@ const kanjiDictionary = {
 
                     // Update SRS state for each kanji part
                     evalResult.results.forEach(res => {
+                        if (!/[\u4e00-\u9faf]/.test(res.kanji)) return; // Skip pure kana parts
+
                         if (!(res.kanji in srsState)) {
-                            srsState[res.kanji] = 0;
+                            srsState[res.kanji] = { correct: 0, wrong: 0 };
                         }
                         if (res.isCorrect) {
-                            srsState[res.kanji] = Math.min(3, srsState[res.kanji] + 1);
+                            srsState[res.kanji].correct++;
                         } else {
-                            srsState[res.kanji] = Math.max(0, srsState[res.kanji] - 1);
+                            srsState[res.kanji].wrong++;
                         }
                     });
                 }
             }
 
-            // Count remembered kanji (score >= 3)
+            // Count remembered kanji
             let kanjiRemembered = 0;
             for (const kanji in srsState) {
-                if (srsState[kanji] >= 3) kanjiRemembered++;
+                const total = srsState[kanji].correct + srsState[kanji].wrong;
+                if (total >= 10 && (srsState[kanji].correct / total) >= 0.8) {
+                    kanjiRemembered++;
+                }
             }
 
             return { kanjiRemembered, srsState };

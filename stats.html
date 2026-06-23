@@ -11021,18 +11021,35 @@ const kanjiDictionary = {
         };
 
         // Populate encountered kanjis (Remembered and Learning)
-        const srsKanjiList = Object.keys(data);
+        // Only consider actual Kanji, not stray hiragana
+        const srsKanjiList = Object.keys(data).filter(k => /[\u4e00-\u9faf]/.test(k));
         const encounteredKanjis = new Set(srsKanjiList);
 
-        srsKanjiList.sort((a, b) => data[b].score - data[a].score).forEach(kanji => {
+        // Sort by accuracy (descending), then by total attempts (descending)
+        srsKanjiList.sort((a, b) => {
+            const statsA = data[a];
+            const statsB = data[b];
+            const totalA = (statsA.correctCount || 0) + (statsA.wrongCount || 0);
+            const totalB = (statsB.correctCount || 0) + (statsB.wrongCount || 0);
+            const accA = totalA > 0 ? (statsA.correctCount || 0) / totalA : 0;
+            const accB = totalB > 0 ? (statsB.correctCount || 0) / totalB : 0;
+            if (accA !== accB) return accB - accA;
+            return totalB - totalA;
+        }).forEach(kanji => {
             const stats = data[kanji];
-            const isRemembered = stats.score >= 3;
+            const correctCount = stats.correctCount || 0;
+            const wrongCount = stats.wrongCount || 0;
+            const total = correctCount + wrongCount;
+            const acc = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+            const isRemembered = total >= 10 && (correctCount / total) >= 0.8;
+            
+            const kanjiMeaning = kanjiDictionary[kanji] ? kanjiDictionary[kanji].meaning : stats.meaning;
             
             const item = {
                 kanji,
                 href: `kanjidetail.html?kanji=${kanji}`,
                 className: `kanji-box ${isRemembered ? 'remembered' : 'learning'}`,
-                title: `${kanji} - ${stats.meaning} (Score: ${stats.score}/3)`
+                title: `${kanji} - ${kanjiMeaning} (Total: ${total}, Acc: ${acc}%)`
             };
 
             if (isRemembered) {
