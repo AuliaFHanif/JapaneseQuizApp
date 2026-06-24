@@ -194,7 +194,10 @@
 <body>
     <div class="container">
         <header>
-            <h1>Kanji</h1>
+            <div style="display: flex; align-items: baseline; gap: 15px;">
+                <a href="index.html" style="text-decoration: none; color: var(--text-light); font-size: 1.4rem; transition: color 0.2s;" onmouseover="this.style.color='var(--text-sepia)'" onmouseout="this.style.color='var(--text-light)'">&larr;</a>
+                <h1>Kanji</h1>
+            </div>
             <div class="score-board"><span id="score">0</span> / <span id="total-questions">0</span> correct</div>
         </header>
 
@@ -373,6 +376,8 @@
         const selectedLevel = urlParams.get('level') || 'N5';
         const requestedLength = parseInt(urlParams.get('length')) || 20;
 
+        const difficulty = urlParams.get('difficulty') || 'hard';
+
         let selectedCategories = urlParams.getAll('category');
         if (selectedCategories.length === 0) {
             const categories = ['verb', 'noun', 'adjective'];
@@ -380,10 +385,21 @@
             selectedCategories = categories.sort(() => 0.5 - Math.random()).slice(0, numCategories);
         }
 
-        let quizDeck = questionData.filter(k => k.level === selectedLevel && selectedCategories.includes(k.category));
+        let allowedDifficulties = ['easy', 'medium', 'hard'];
+        if (difficulty === 'easy') {
+            allowedDifficulties = ['easy'];
+        } else if (difficulty === 'medium') {
+            allowedDifficulties = ['easy', 'medium'];
+        }
+
+        let quizDeck = questionData.filter(k => 
+            k.level === selectedLevel && 
+            selectedCategories.includes(k.category) && 
+            allowedDifficulties.includes(k.difficulty)
+        );
         if (quizDeck.length === 0) {
             // Fallback if no words match the selected category for this level
-            quizDeck = questionData.filter(k => k.level === selectedLevel);
+            quizDeck = questionData.filter(k => k.level === selectedLevel && allowedDifficulties.includes(k.difficulty));
             if (quizDeck.length === 0) quizDeck = questionData;
         }
 

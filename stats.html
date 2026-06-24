@@ -222,6 +222,7 @@ button:hover, .btn:hover {
             </div>
             <div class="actions">
                 <a href="index.html" class="btn">Return Home</a>
+                <button id="clearStatsBtn" class="btn" style="color: var(--error); border-color: var(--error);">Clear Stats</button>
                 <button id="downloadCsvBtn" class="btn primary-btn">Download CSV</button>
             </div>
         </header>
@@ -448,6 +449,15 @@ button:hover, .btn:hover {
             reminder.innerHTML = '✅ CSV downloaded! Now save it to the <strong>scores/</strong> folder and <strong>SVN commit</strong>.';
             downloadBtn.parentElement.appendChild(reminder);
             setTimeout(() => reminder.remove(), 8000);
+        });
+
+        // Clear Stats Logic
+        document.getElementById('clearStatsBtn').addEventListener('click', () => {
+            if (confirm("Are you sure you want to clear all your stats? This will reset your SRS progress and session logs. This cannot be undone.")) {
+                localStorage.removeItem('kanji_srs_data');
+                localStorage.removeItem('kanji_session_logs');
+                location.reload();
+            }
         });
     </script>
 </body>

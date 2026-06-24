@@ -192,6 +192,24 @@ button[type="submit"]:hover {
             </div>
             
             <div class="form-group">
+                <label>Difficulty</label>
+                <div class="radio-group" id="difficulty-group">
+                    <label class="radio-btn">
+                        <input type="radio" name="difficulty" value="easy">
+                        <span id="diff-easy-label">Easy</span>
+                    </label>
+                    <label class="radio-btn">
+                        <input type="radio" name="difficulty" value="medium">
+                        <span id="diff-medium-label">Medium</span>
+                    </label>
+                    <label class="radio-btn">
+                        <input type="radio" name="difficulty" value="hard" checked>
+                        <span id="diff-hard-label">Hard</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
                 <label>Number of Questions</label>
                 <div class="radio-group">
                     <label class="radio-btn">
@@ -253,6 +271,7 @@ button[type="submit"]:hover {
         </form>
     </div>
 
+    <script src="QuestionBank.js"></script>
     <script>
         const form = document.getElementById('start-form');
         form.addEventListener('submit', function(e) {
@@ -263,6 +282,39 @@ button[type="submit"]:hover {
                 form.action = 'quiz.html';
             }
         });
+
+        // Update difficulty counts
+        function updateDifficultyCounts() {
+            const level = document.querySelector('input[name="level"]:checked').value;
+            let easyCount = 0;
+            let mediumCount = 0;
+            let hardCount = 0;
+
+            if (typeof questionData !== 'undefined') {
+                for (let word of questionData) {
+                    if (word.level === level) {
+                        if (word.difficulty === 'easy') easyCount++;
+                        else if (word.difficulty === 'medium') mediumCount++;
+                        else if (word.difficulty === 'hard') hardCount++;
+                    }
+                }
+            }
+
+            let cumulativeMediumCount = easyCount + mediumCount;
+            let cumulativeHardCount = easyCount + mediumCount + hardCount;
+
+            document.getElementById('diff-easy-label').innerText = `Easy\n(${easyCount})`;
+            document.getElementById('diff-medium-label').innerText = `Medium\n(${cumulativeMediumCount})`;
+            document.getElementById('diff-hard-label').innerText = `Hard\n(${cumulativeHardCount})`;
+        }
+
+        const levelInputs = document.querySelectorAll('input[name="level"]');
+        levelInputs.forEach(input => {
+            input.addEventListener('change', updateDifficultyCounts);
+        });
+
+        // Initial update
+        updateDifficultyCounts();
     </script>
 </body>
 </html>
