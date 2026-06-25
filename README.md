@@ -12,7 +12,6 @@ A minimalist, web-based Japanese Kanji reading and meaning quiz application desi
   - *Reading:* Test your ability to read the Kanji.
   - *Reading + Meaning:* Test both your reading and comprehension of the Kanji.
 - **Stats Tracking:** Keep track of your progress and accuracy over time.
-- **Leaderboards:** Compete and see how you rank against others.
 - **Kanji Details:** Explore detailed information about specific Kanji.
 
 ## Getting Started

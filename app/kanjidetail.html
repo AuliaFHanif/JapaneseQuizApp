@@ -240,7 +240,7 @@ h1 {
                     const fullReading = w.parts.map(p => p.reading).join('');
                     wordsHtml += `
                         <li class="word-item">
-                            <div class="word-kanji">${w.word}</div>
+                            <div class="word-kanji"><a href="worddetail.html?word=${w.word}" style="color:var(--text-sepia);text-decoration:none;">${w.word}</a></div>
                             <div class="word-reading">${fullReading}</div>
                             <div class="word-meaning">${w.meaning}</div>
                         </li>

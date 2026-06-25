@@ -195,7 +195,7 @@
     <div class="container">
         <header>
             <div style="display: flex; align-items: baseline; gap: 15px;">
-                <a href="index.html" style="text-decoration: none; color: var(--text-light); font-size: 1.4rem; transition: color 0.2s;" onmouseover="this.style.color='var(--text-sepia)'" onmouseout="this.style.color='var(--text-light)'">&larr;</a>
+                <a href="../index.html" style="text-decoration: none; color: var(--text-light); font-size: 1.4rem; transition: color 0.2s;" onmouseover="this.style.color='var(--text-sepia)'" onmouseout="this.style.color='var(--text-light)'">&larr;</a>
                 <h1>Kanji</h1>
             </div>
             <div class="score-board"><span id="score">0</span> / <span id="total-questions">0</span> correct</div>
@@ -209,8 +209,6 @@
             <div class="input-section">
                 <form id="quiz-form">
                     <input type="text" id="answer-input" placeholder="Reading (romaji)" autocomplete="off" autofocus>
-                    <input type="text" id="meaning-input" placeholder="Meaning (english)" autocomplete="off" style="margin-top: 10px;">
-                    <button type="submit" style="display: none;">Submit</button>
                     <div id="hiragana-display" class="hiragana-display"></div>
                 </form>
                 <div id="feedback" class="feedback"></div>
@@ -466,14 +464,6 @@
         const kanjiElement = document.getElementById('kanji-character');
         const form = document.getElementById('quiz-form');
         const input = document.getElementById('answer-input');
-        const meaningInput = document.getElementById('meaning-input');
-        
-        input.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter') {
-                e.preventDefault();
-                meaningInput.focus();
-            }
-        });
         const hiraganaDisplay = document.getElementById('hiragana-display');
         const feedback = document.getElementById('feedback');
         const scoreElement = document.getElementById('score');
@@ -501,41 +491,31 @@
             input.value = '';
             if (hiraganaDisplay) hiraganaDisplay.textContent = '';
             input.disabled = false;
-            meaningInput.disabled = false;
-            meaningInput.value = '';
             input.focus();
             isAnimating = false;
         }
 
-                function evaluateAnswer(userAnswer, userMeaning, parts) {
+        function evaluateAnswer(userAnswer, parts) {
             const expectedFullAnswer = parts.map(p => p.reading).join('');
 
-            // Normalize
+            // Normalize: strip whitespace, normalize unicode (NFC handles composed/decomposed chars)
             const normalizedUser = userAnswer.normalize('NFC').replace(/\s/g, '');
             const normalizedExpected = expectedFullAnswer.normalize('NFC');
 
-            // 1. Meaning Evaluation (Done first so it can be used in fast path)
-            const actualMeanings = currentWordData.meaning.toLowerCase().split(/[,;]/).map(s => s.trim());
-            const stripArticles = str => str.replace(/^(a|an|the|to)\s+/i, '').trim();
-            const userM = stripArticles(userMeaning);
-            
-            let isMeaningCorrect = false;
-            if (userM !== '') {
-                isMeaningCorrect = actualMeanings.some(m => {
-                    const strippedM = stripArticles(m);
-                    return strippedM === userM || strippedM.includes(userM) || userM.includes(strippedM);
-                });
-            }
-
-            // Fast path: exact match for reading
+            // Fast path: exact match
             if (normalizedUser === normalizedExpected) {
                 return {
                     results: parts.map(p => ({ kanji: p.kanji, reading: p.reading, isCorrect: true })),
-                    isFullyCorrect: isMeaningCorrect, // Must have meaning correct too!
-                    isMeaningCorrect: isMeaningCorrect
+                    isFullyCorrect: true
                 };
             }
 
+            // Strict sequential matching from the beginning of the user's answer.
+            // Each part's reading must appear at exactly the expected position (no gaps, no skips).
+            // This prevents:
+            //   - Skipping parts (typing "せい" for "せんせい" and getting false credit for 生)
+            //   - Reversed order (typing "しゃかい" for "かいしゃ")
+            //   - Garbage characters injected between readings
             let results = [];
             let cursor = 0;
             let allPartsCorrect = true;
@@ -550,19 +530,20 @@
                     results.push({ kanji: part.kanji, reading: part.reading, isCorrect: false });
                     allPartsCorrect = false;
                 }
+
+                // Always advance cursor by expected reading length to keep alignment
+                // for remaining parts (enables accurate partial credit per-kanji)
                 cursor += reading.length;
             }
 
+            // If the user typed MORE characters than expected, it means trailing garbage.
+            // Override all parts to incorrect to enforce strict accuracy.
             if (normalizedUser.length > normalizedExpected.length) {
                 allPartsCorrect = false;
                 results = results.map(r => ({ ...r, isCorrect: false }));
             }
 
-            if (!isMeaningCorrect) {
-                allPartsCorrect = false;
-            }
-
-            return { results, isFullyCorrect: allPartsCorrect, isMeaningCorrect };
+            return { results, isFullyCorrect: allPartsCorrect };
         }
 
         function finishQuiz() {
@@ -585,21 +566,6 @@
             });
             localStorage.setItem('kanji_session_logs', JSON.stringify(existingSessions));
 
-            // Save to leaderboards
-            const rawScores = localStorage.getItem('kanji_highscores');
-            let highScores = rawScores ? JSON.parse(rawScores) : [];
-            const accuracy = Math.round((sessionDeck.filter(q => q.isFullyCorrect).length / sessionDeck.length) * 100) || 0;
-
-            highScores.push({
-                score: score,
-                level: selectedLevel,
-                length: requestedLength,
-                accuracy: accuracy,
-                date: new Date().toLocaleDateString(),
-                name: localStorage.getItem('kanji_username') || "Anonymous"
-            });
-            highScores.sort((a, b) => b.score - a.score);
-            localStorage.setItem('kanji_highscores', JSON.stringify(highScores.slice(0, 10)));
 
             // sessionDeck items now have `.evalResults` attached during showFeedback
             sessionDeck.forEach(q => {
@@ -608,39 +574,40 @@
                 html += `<div style="margin-bottom: 15px; padding: 12px; background: rgba(0,0,0,0.02); border-radius: 4px; border-left: 3px solid ${q.isFullyCorrect ? 'var(--success)' : 'var(--error)'};">
             <div style="font-size: 1.4rem; font-family: var(--font-jp); margin-bottom: 4px;">${q.word} <span style="font-size:0.9rem; color:var(--text-light)">(${q.meaning})</span></div>`;
 
+                const wordData = tracker.data[q.word] || {};
+                const correctCount = wordData.correctCount || 0;
+                const wrongCount = wordData.wrongCount || 0;
+                const total = correctCount + wrongCount;
+                const acc = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+                
+                let status = `(Total: ${total}, Acc: ${acc}%)`;
+                if (total >= 10 && (correctCount / total) >= 0.8) {
+                    status = `<span style="color:var(--success)">[Remembered! ${acc}%]</span>`;
+                }
+                
+                const icon = q.isFullyCorrect ? "✅" : "❌";
+                html += `<div style="font-size: 0.9rem; margin-top: 4px;">${icon} Overall Progress - ${status}</div>`;
+                
                 q.evalResults.forEach(res => {
-                    if (!/[\u4e00-\u9faf]/.test(res.kanji)) return; // Only show stats for actual kanji
-                    
-                    const kanjiData = tracker.data[res.kanji] || {};
-                    const correctCount = kanjiData.correctCount || 0;
-                    const wrongCount = kanjiData.wrongCount || 0;
-                    const total = correctCount + wrongCount;
-                    const acc = total > 0 ? Math.round((correctCount / total) * 100) : 0;
-                    
-                    let status = `(Total: ${total}, Acc: ${acc}%)`;
-                    if (total >= 10 && (correctCount / total) >= 0.8) {
-                        status = `<span style="color:var(--success)">[Remembered! ${acc}%]</span>`;
-                    }
-                    
-                    const icon = res.isCorrect ? "✅" : "❌";
-                    html += `<div style="font-size: 0.9rem; margin-top: 4px;">${icon} ${res.kanji} (${res.reading}) - ${status}</div>`;
+                    const partIcon = res.isCorrect ? "✅" : "❌";
+                    html += `<div style="font-size: 0.8rem; margin-top: 2px; margin-left: 20px; color: var(--text-light);">${partIcon} ${res.kanji} (${res.reading})</div>`;
                 });
                 html += `</div>`;
             });
             html += `</div>`;
 
             html += `<div style="display: flex; gap: 10px; justify-content: center;">
-        <a href="index.html" class="btn" style="flex:1;">Return Home</a>
+        <a href="../index.html" class="btn" style="flex:1;">Return Home</a>
+        <a href="#" class="btn" style="flex:1; background: var(--text-sepia); color: var(--bg-sepia); border-color: var(--text-sepia);" onclick="location.reload(); return false;">Play Again</a>
         <a href="stats.html" class="btn" style="flex:1; background: rgba(0,0,0,0.03);">View Stats</a>
     </div>`;
 
             feedback.innerHTML = html;
         }
 
-        function showFeedback(evalObj, userAnswer, userMeaning) {
+        function showFeedback(evalObj, userAnswer) {
             isAnimating = true;
             input.disabled = true;
-            meaningInput.disabled = true;
             feedback.className = 'feedback show';
 
             // Save for summary
@@ -648,17 +615,14 @@
             sessionDeck[currentQuestionIndex].isFullyCorrect = evalObj.isFullyCorrect;
 
             // Log for replay proof (anti-cheat)
-            sessionLog.push({ word: currentWordData.word, answer: userAnswer, meaning: userMeaning });
+            sessionLog.push({ word: currentWordData.word, answer: userAnswer });
 
-            let feedbackHtml = ``;
+            let feedbackHtml = `<div style="text-align: center; margin-bottom: 10px; font-weight: bold; font-size: 1.2rem; color: var(--text-sepia);">${currentWordData.meaning}</div>`;
+
+            // Record attempt for the full word
+            tracker.recordAttempt(currentWordData.word, currentWordData.level, currentWordData.meaning, evalObj.isFullyCorrect);
 
             evalObj.results.forEach(res => {
-                const isPartKanji = /[\u4e00-\u9faf]/.test(res.kanji);
-                
-                if (isPartKanji) {
-                    const kanjiMeaning = (kanjiDictionary[res.kanji] && kanjiDictionary[res.kanji].meaning) || currentWordData.meaning;
-                    tracker.recordAttempt(res.kanji, currentWordData.level, kanjiMeaning, res.isCorrect);
-                }
 
                 // Build UI feedback
                 const classStr = res.isCorrect ? 'correct' : 'incorrect';
@@ -668,13 +632,6 @@
             <span>${res.reading} ${icon}</span>
         </div>`;
             });
-
-            const mClassStr = evalObj.isMeaningCorrect ? 'correct' : 'incorrect';
-            const mIcon = evalObj.isMeaningCorrect ? "✅" : "❌";
-            feedbackHtml += `<div class="feedback-part ${mClassStr}">
-                <span><strong>Meaning</strong></span>
-                <span>${currentWordData.meaning} ${mIcon}</span>
-            </div>`;
 
             if (evalObj.isFullyCorrect) {
                 score++;
@@ -695,17 +652,11 @@
             if (isAnimating) return;
 
             const userAnswer = input.value.trim().toLowerCase();
-            const userMeaning = meaningInput.value.trim().toLowerCase();
-            if (!userAnswer || !userMeaning) {
-                // If one is filled but not the other, focus the empty one
-                if (userAnswer && !userMeaning) meaningInput.focus();
-                else if (!userAnswer && userMeaning) input.focus();
-                return;
-            }
+            if (!userAnswer) return;
 
             const hiraganaAnswer = convertToHiragana(userAnswer);
-            const evaluation = evaluateAnswer(hiraganaAnswer, userMeaning, currentWordData.parts);
-            showFeedback(evaluation, hiraganaAnswer, userMeaning);
+            const evaluation = evaluateAnswer(hiraganaAnswer, currentWordData.parts);
+            showFeedback(evaluation, hiraganaAnswer);
         });
 
         loadNewWord();

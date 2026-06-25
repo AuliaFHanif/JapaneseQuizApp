@@ -127,8 +127,8 @@ button:hover, .btn:hover {
 }
 
 .kanji-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 15px;
     margin-bottom: 30px;
 }
@@ -137,7 +137,9 @@ button:hover, .btn:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    aspect-ratio: 1;
+    height: 70px;
+    flex-grow: 1;
+    flex-basis: 70px;
     background: var(--bg-sepia);
     border: 1px solid var(--border-sepia);
     border-radius: 8px;
@@ -146,6 +148,10 @@ button:hover, .btn:hover {
     color: var(--text-sepia);
     text-decoration: none;
     transition: all 0.2s ease;
+}
+
+.kanji-box.wide {
+    flex-basis: 150px;
 }
 
 .kanji-box:hover {
@@ -211,6 +217,8 @@ button:hover, .btn:hover {
     font-size: 0.95rem;
     color: var(--text-light);
 }
+
+
 </style>
 </head>
 <body>
@@ -218,19 +226,17 @@ button:hover, .btn:hover {
         <header>
             <div>
                 <h1>Your Stats</h1>
-                <div class="user-greeting" id="userGreeting"></div>
             </div>
             <div class="actions">
-                <a href="index.html" class="btn">Return Home</a>
+                <a href="../index.html" class="btn">Return Home</a>
                 <button id="clearStatsBtn" class="btn" style="color: var(--error); border-color: var(--error);">Clear Stats</button>
-                <button id="downloadCsvBtn" class="btn primary-btn">Download CSV</button>
             </div>
         </header>
 
         <div class="stats-summary">
             <div class="stat-card">
                 <div class="stat-value" id="totalRemembered">0</div>
-                <div class="stat-label">Kanji Remembered</div>
+                <div class="stat-label">Words Remembered</div>
             </div>
             <div class="stat-card">
                 <div class="stat-value" style="color: var(--text-sepia);" id="totalLearning">0</div>
@@ -261,14 +267,10 @@ button:hover, .btn:hover {
         const storageKey = 'kanji_srs_data';
         const rawData = localStorage.getItem(storageKey);
         const data = rawData ? JSON.parse(rawData) : {};
-        let userName = localStorage.getItem('kanji_username') || 'Anonymous';
-        
-        document.getElementById('userGreeting').textContent = `User: ${userName}`;
         
         const rememberedEl = document.getElementById('totalRemembered');
         const learningEl = document.getElementById('totalLearning');
         const neverEl = document.getElementById('totalNever');
-        const downloadBtn = document.getElementById('downloadCsvBtn');
 
         let rememberedCount = 0;
         let learningCount = 0;
@@ -285,13 +287,12 @@ button:hover, .btn:hover {
             never: 1
         };
 
-        // Populate encountered kanjis (Remembered and Learning)
-        // Only consider actual Kanji, not stray hiragana
-        const srsKanjiList = Object.keys(data).filter(k => /[\u4e00-\u9faf]/.test(k));
-        const encounteredKanjis = new Set(srsKanjiList);
+        // Populate encountered words (Remembered and Learning)
+        const srsWordList = Object.keys(data).filter(w => questionData.some(q => q.word === w));
+        const encounteredWords = new Set(srsWordList);
 
         // Sort by accuracy (descending), then by total attempts (descending)
-        srsKanjiList.sort((a, b) => {
+        srsWordList.sort((a, b) => {
             const statsA = data[a];
             const statsB = data[b];
             const totalA = (statsA.correctCount || 0) + (statsA.wrongCount || 0);
@@ -300,21 +301,22 @@ button:hover, .btn:hover {
             const accB = totalB > 0 ? (statsB.correctCount || 0) / totalB : 0;
             if (accA !== accB) return accB - accA;
             return totalB - totalA;
-        }).forEach(kanji => {
-            const stats = data[kanji];
+        }).forEach(word => {
+            const stats = data[word];
             const correctCount = stats.correctCount || 0;
             const wrongCount = stats.wrongCount || 0;
             const total = correctCount + wrongCount;
             const acc = total > 0 ? Math.round((correctCount / total) * 100) : 0;
             const isRemembered = total >= 10 && (correctCount / total) >= 0.8;
             
-            const kanjiMeaning = kanjiDictionary[kanji] ? kanjiDictionary[kanji].meaning : stats.meaning;
+            const qData = questionData.find(q => q.word === word);
+            const wordMeaning = qData ? qData.meaning : stats.meaning;
             
             const item = {
-                kanji,
-                href: `kanjidetail.html?kanji=${kanji}`,
-                className: `kanji-box ${isRemembered ? 'remembered' : 'learning'}`,
-                title: `${kanji} - ${kanjiMeaning} (Total: ${total}, Acc: ${acc}%)`
+                kanji: word,
+                href: `worddetail.html?word=${word}`,
+                className: `kanji-box ${isRemembered ? 'remembered' : 'learning'}` + (word.length > 1 ? ' wide' : ''),
+                title: `${word} - ${wordMeaning} (Total: ${total}, Acc: ${acc}%)`
             };
 
             if (isRemembered) {
@@ -326,20 +328,39 @@ button:hover, .btn:hover {
             }
         });
 
-        // Populate never encountered kanjis
-        const allKanjis = Object.keys(kanjiDictionary || {});
-        allKanjis.forEach(kanji => {
-            if (!encounteredKanjis.has(kanji)) {
-                const dictEntry = kanjiDictionary[kanji];
+        // Populate never encountered words
+        questionData.forEach(q => {
+            if (!encounteredWords.has(q.word)) {
                 neverData.push({
-                    kanji,
-                    href: `kanjidetail.html?kanji=${kanji}`,
-                    className: 'kanji-box never',
-                    title: `${kanji} - ${dictEntry.meaning} (Not encountered yet)`
+                    kanji: q.word,
+                    href: `worddetail.html?word=${q.word}`,
+                    className: 'kanji-box never' + (q.word.length > 1 ? ' wide' : ''),
+                    title: `${q.word} - ${q.meaning} (Not encountered yet)`
                 });
                 neverCount++;
             }
         });
+
+        function calculatePages(dataArray, slotsPerPage) {
+            const pages = [];
+            let currentPageItems = [];
+            let currentSlots = 0;
+            
+            for (const item of dataArray) {
+                const itemSlots = item.kanji.length > 1 ? 2 : 1;
+                if (currentSlots + itemSlots > slotsPerPage && currentPageItems.length > 0) {
+                    pages.push(currentPageItems);
+                    currentPageItems = [];
+                    currentSlots = 0;
+                }
+                currentPageItems.push(item);
+                currentSlots += itemSlots;
+            }
+            if (currentPageItems.length > 0) {
+                pages.push(currentPageItems);
+            }
+            return pages;
+        }
 
         function renderGrid(dataArray, gridId, pagId, type) {
             const grid = document.getElementById(gridId);
@@ -354,15 +375,19 @@ button:hover, .btn:hover {
                 return;
             }
 
-            const totalPages = Math.ceil(dataArray.length / ITEMS_PER_PAGE);
+            const pages = calculatePages(dataArray, ITEMS_PER_PAGE);
+            const totalPages = pages.length;
+            if (currentPage[type] > totalPages) currentPage[type] = totalPages;
             const page = currentPage[type];
-            const startIdx = (page - 1) * ITEMS_PER_PAGE;
-            const endIdx = startIdx + ITEMS_PER_PAGE;
 
-            dataArray.slice(startIdx, endIdx).forEach(item => {
+            pages[page - 1].forEach(item => {
                 const a = document.createElement('a');
                 a.href = item.href;
                 a.className = item.className;
+                if (item.kanji.length > 1) {
+                    a.classList.add('wide');
+                }
+
                 a.textContent = item.kanji;
                 a.title = item.title;
                 grid.appendChild(a);
@@ -397,59 +422,9 @@ button:hover, .btn:hover {
         renderGrid(learningData, 'gridLearning', 'pagLearning', 'learning');
         renderGrid(neverData, 'gridNever', 'pagNever', 'never');
 
-        // Hide download button if no data at all
-        if (srsKanjiList.length === 0) {
-            downloadBtn.style.display = 'none';
-        }
-
         rememberedEl.textContent = rememberedCount;
         learningEl.textContent = learningCount;
         neverEl.textContent = neverCount;
-
-        // CSV Download Logic - prompting for name
-        downloadBtn.addEventListener('click', () => {
-            const enteredName = prompt("Enter your name to attach to your scores:", userName !== 'Anonymous' ? userName : "");
-            if (!enteredName) return; // User cancelled
-            
-            userName = enteredName.trim();
-            localStorage.setItem('kanji_username', userName);
-            
-            // Update leaderboard scores to have this name
-            const rawScores = localStorage.getItem('kanji_highscores');
-            if (rawScores) {
-                let highScores = JSON.parse(rawScores);
-                highScores.forEach(entry => entry.name = userName);
-                localStorage.setItem('kanji_highscores', JSON.stringify(highScores));
-            }
-
-            // Update UI greeting if it exists
-            const greeting = document.getElementById('userGreeting');
-            if (greeting) greeting.textContent = `User: ${userName}`;
-
-            // Build CSV with replay proof
-            const sessionLogs = localStorage.getItem('kanji_session_logs') || '[]';
-            const proof = btoa(unescape(encodeURIComponent(sessionLogs)));
-
-            let csvContent = "Name,Kanji Remembered,Proof\n";
-            csvContent += `"${userName}",${rememberedCount},${proof}\n`;
-
-            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
-            const url = URL.createObjectURL(blob);
-            
-            const link = document.createElement("a");
-            link.setAttribute("href", url);
-            link.setAttribute("download", `${userName.replace(/[^a-z0-9]/gi, '_').toLowerCase()}_score.csv`);
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-
-            // Show SVN reminder
-            const reminder = document.createElement('div');
-            reminder.style.cssText = 'margin-top: 15px; padding: 15px; background: rgba(91,122,91,0.1); border: 1px solid var(--success); border-radius: 8px; font-size: 0.9rem; color: var(--text-sepia); text-align: center;';
-            reminder.innerHTML = '✅ CSV downloaded! Now save it to the <strong>scores/</strong> folder and <strong>SVN commit</strong>.';
-            downloadBtn.parentElement.appendChild(reminder);
-            setTimeout(() => reminder.remove(), 8000);
-        });
 
         // Clear Stats Logic
         document.getElementById('clearStatsBtn').addEventListener('click', () => {
