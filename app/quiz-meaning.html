@@ -380,9 +380,7 @@
 
         let selectedCategories = urlParams.getAll('category');
         if (selectedCategories.length === 0) {
-            const categories = ['verb', 'noun', 'adjective'];
-            const numCategories = Math.floor(Math.random() * 3) + 1;
-            selectedCategories = categories.sort(() => 0.5 - Math.random()).slice(0, numCategories);
+            selectedCategories = ['verb', 'noun', 'adjective']; // Select all by default
         }
 
         let allowedDifficulties = ['easy', 'medium', 'hard'];
