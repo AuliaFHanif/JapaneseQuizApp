@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,164 +8,176 @@
     <meta name="description" content="A minimalist Kanji reading quiz.">
 
     <style>
-:root {
-    --bg-sepia: #f9f6f0;
-    --text-sepia: #4a3f35;
-    --text-light: #8c7e71;
-    --border-sepia: #dcd3c6;
-    --accent: #b25d38;
-    --font-jp: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", "MS PMincho", serif;
-    
-    /* Apple system font stack */
-    --font-system: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
+        :root {
+            --bg-sepia: #f9f6f0;
+            --text-sepia: #4a3f35;
+            --text-light: #8c7e71;
+            --border-sepia: #dcd3c6;
+            --accent: #b25d38;
+            --font-jp: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", "MS PMincho", serif;
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+            /* Apple system font stack */
+            --font-system: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
 
-body {
-    font-family: var(--font-system);
-    -webkit-font-smoothing: antialiased;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--bg-sepia);
-    color: var(--text-sepia);
-}
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-.container {
-    width: 100%;
-    max-width: 400px;
-    padding: 40px;
-    text-align: center;
-}
+        body {
+            font-family: var(--font-system);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--bg-sepia);
+            color: var(--text-sepia);
+        }
 
-h1 {
-    font-family: var(--font-jp);
-    font-size: 4rem;
-    font-weight: 400;
-    margin-bottom: 50px;
-    color: var(--text-sepia);
-    animation: softFadeIn 0.8s ease-out;
-}
+        .container {
+            width: 100%;
+            max-width: 400px;
+            padding: 40px;
+            text-align: center;
+        }
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-}
+        h1 {
+            font-family: var(--font-jp);
+            font-size: 4rem;
+            font-weight: 400;
+            margin-bottom: 50px;
+            color: var(--text-sepia);
+            animation: softFadeIn 0.8s ease-out;
+        }
 
-.form-group {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+        }
 
-.form-group > label {
-    font-size: 0.85rem;
-    color: var(--text-light);
-    margin-bottom: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
 
-.radio-group {
-    display: flex;
-    gap: 10px;
-    width: 100%;
-}
+        .form-group>label {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
 
-.radio-btn {
-    flex: 1;
-    position: relative;
-    cursor: pointer;
-    margin-bottom: 0;
-}
+        .radio-group {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+        }
 
-.radio-btn input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-}
+        .radio-btn {
+            flex: 1;
+            position: relative;
+            cursor: pointer;
+            margin-bottom: 0;
+        }
 
-.radio-btn span {
-    display: block;
-    padding: 10px 0;
-    text-align: center;
-    border: 1px solid var(--border-sepia);
-    border-radius: 6px;
-    color: var(--text-light);
-    transition: all 0.2s ease;
-    font-size: 0.95rem;
-}
+        .radio-btn input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
 
-.radio-btn input:checked ~ span {
-    background: var(--text-sepia);
-    color: var(--bg-sepia);
-    border-color: var(--text-sepia);
-}
+        .radio-btn span {
+            display: block;
+            padding: 10px 0;
+            text-align: center;
+            border: 1px solid var(--border-sepia);
+            border-radius: 6px;
+            color: var(--text-light);
+            transition: all 0.2s ease;
+            font-size: 0.95rem;
+        }
 
-.radio-btn:hover span {
-    border-color: var(--text-sepia);
-    color: var(--text-sepia);
-}
+        .radio-btn input:checked~span {
+            background: var(--text-sepia);
+            color: var(--bg-sepia);
+            border-color: var(--text-sepia);
+        }
 
-button[type="submit"] {
-    margin-top: 10px;
-    padding: 15px;
-    font-size: 1.1rem;
-    font-family: var(--font-system);
-    background: var(--text-sepia);
-    color: var(--bg-sepia);
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: transform 0.2s ease, background 0.2s ease;
-}
+        .radio-btn:hover span {
+            border-color: var(--text-sepia);
+            color: var(--text-sepia);
+        }
 
-button[type="submit"]:hover {
-    background: var(--accent);
-    transform: scale(1.02);
-}
+        button[type="submit"] {
+            margin-top: 10px;
+            padding: 15px;
+            font-size: 1.1rem;
+            font-family: var(--font-system);
+            background: var(--text-sepia);
+            color: var(--bg-sepia);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
 
-.secondary-actions {
-    display: flex;
-    gap: 15px;
-    margin-top: -15px;
-}
+        button[type="submit"]:hover {
+            background: var(--accent);
+            transform: scale(1.02);
+        }
 
-.secondary-btn {
-    flex: 1;
-    padding: 12px;
-    text-align: center;
-    font-size: 0.95rem;
-    font-family: var(--font-system);
-    font-weight: 500;
-    color: var(--text-sepia);
-    border: 1px solid var(--border-sepia);
-    border-radius: 8px;
-    text-decoration: none;
-    transition: all 0.2s ease;
-}
+        .secondary-actions {
+            display: flex;
+            gap: 15px;
+            margin-top: -15px;
+        }
 
-.secondary-btn:hover {
-    background: rgba(0, 0, 0, 0.03);
-    border-color: var(--text-sepia);
-}
+        .secondary-btn {
+            flex: 1;
+            padding: 12px;
+            text-align: center;
+            font-size: 0.95rem;
+            font-family: var(--font-system);
+            font-weight: 500;
+            color: var(--text-sepia);
+            border: 1px solid var(--border-sepia);
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
 
-@keyframes softFadeIn {
-    from { opacity: 0; transform: translateY(5px); }
-    to { opacity: 1; transform: translateY(0); }
-}
+        .secondary-btn:hover {
+            background: rgba(0, 0, 0, 0.03);
+            border-color: var(--text-sepia);
+        }
+
+        @keyframes softFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(5px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <h1>漢字</h1>
-        
-        <form action="quiz.html" method="GET" id="start-form">
+        <h1>Kanji Quiz App</h1>
+
+        <form action="app/quiz.html" method="GET" id="start-form">
             <div class="form-group">
                 <label>JLPT Level</label>
                 <div class="radio-group">
@@ -190,16 +203,34 @@ button[type="submit"]:hover {
                     </label>
                 </div>
             </div>
-            
+
+            <div class="form-group">
+                <label>Difficulty</label>
+                <div class="radio-group" id="difficulty-group">
+                    <label class="radio-btn">
+                        <input type="radio" name="difficulty" value="easy" checked>
+                        <span id="diff-easy-label">Easy</span>
+                    </label>
+                    <label class="radio-btn">
+                        <input type="radio" name="difficulty" value="medium">
+                        <span id="diff-medium-label">Medium</span>
+                    </label>
+                    <label class="radio-btn">
+                        <input type="radio" name="difficulty" value="hard">
+                        <span id="diff-hard-label">Hard</span>
+                    </label>
+                </div>
+            </div>
+
             <div class="form-group">
                 <label>Number of Questions</label>
                 <div class="radio-group">
                     <label class="radio-btn">
-                        <input type="radio" name="length" value="10">
+                        <input type="radio" name="length" value="10" checked>
                         <span>10</span>
                     </label>
                     <label class="radio-btn">
-                        <input type="radio" name="length" value="20" checked>
+                        <input type="radio" name="length" value="20">
                         <span>20</span>
                     </label>
                     <label class="radio-btn">
@@ -212,7 +243,7 @@ button[type="submit"]:hover {
                     </label>
                 </div>
             </div>
-            
+
             <div class="form-group">
                 <label>Word Category</label>
                 <div class="radio-group">
@@ -230,13 +261,74 @@ button[type="submit"]:hover {
                     </label>
                 </div>
             </div>
-            
+
+            <div class="form-group">
+                <label>Quiz Mode</label>
+                <div class="radio-group">
+                    <label class="radio-btn">
+                        <input type="radio" name="mode" value="reading" checked>
+                        <span>Reading</span>
+                    </label>
+                    <label class="radio-btn">
+                        <input type="radio" name="mode" value="meaning">
+                        <span>Reading + Meaning</span>
+                    </label>
+                </div>
+            </div>
+
             <button type="submit">Start Quiz</button>
             <div class="secondary-actions">
-                <a href="stats.html" class="secondary-btn">View Stats</a>
-                <a href="leaderboards.html" class="secondary-btn">Leaderboards</a>
+                <a href="app/dictionary.html" class="secondary-btn">Dictionary</a>
+                <a href="app/stats.html" class="secondary-btn">View Stats</a>
             </div>
         </form>
     </div>
+
+    <script src="app/QuestionBank.js"></script>
+    <script>
+        const form = document.getElementById('start-form');
+        form.addEventListener('submit', function (e) {
+            const mode = document.querySelector('input[name="mode"]:checked').value;
+            if (mode === 'meaning') {
+                form.action = 'app/quiz-meaning.html';
+            } else {
+                form.action = 'app/quiz.html';
+            }
+        });
+
+        // Update difficulty counts
+        function updateDifficultyCounts() {
+            const level = document.querySelector('input[name="level"]:checked').value;
+            let easyCount = 0;
+            let mediumCount = 0;
+            let hardCount = 0;
+
+            if (typeof questionData !== 'undefined') {
+                for (let word of questionData) {
+                    if (word.level === level) {
+                        if (word.difficulty === 'easy') easyCount++;
+                        else if (word.difficulty === 'medium') mediumCount++;
+                        else if (word.difficulty === 'hard') hardCount++;
+                    }
+                }
+            }
+
+            let cumulativeMediumCount = easyCount + mediumCount;
+            let cumulativeHardCount = easyCount + mediumCount + hardCount;
+
+            document.getElementById('diff-easy-label').innerText = `Easy\n(${easyCount})`;
+            document.getElementById('diff-medium-label').innerText = `Medium\n(${cumulativeMediumCount})`;
+            document.getElementById('diff-hard-label').innerText = `Hard\n(${cumulativeHardCount})`;
+        }
+
+        const levelInputs = document.querySelectorAll('input[name="level"]');
+        levelInputs.forEach(input => {
+            input.addEventListener('change', updateDifficultyCounts);
+        });
+
+        // Initial update
+        updateDifficultyCounts();
+    </script>
 </body>
+
 </html>
