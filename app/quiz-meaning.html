@@ -221,8 +221,6 @@
     <script src="KanjiBank.js"></script>
     <script src="QuestionBank.js"></script>
     <script>
-        </script>
-    <script>
         const romajiToHiraganaMap = {
             'a': 'あ', 'i': 'い', 'u': 'う', 'e': 'え', 'o': 'お',
             'ka': 'か', 'ki': 'き', 'ku': 'く', 'ke': 'け', 'ko': 'こ',
@@ -337,6 +335,13 @@
             return result;
         }
 
+        // HTML escaping to prevent XSS when inserting into innerHTML
+        function escapeHtml(str) {
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
         // SRS Tracker Logic
         class KanjiTracker {
             constructor() {
@@ -404,27 +409,23 @@
         // Calculate weights for the SRS adaptive algorithm
         let weightedDeck = quizDeck.map(wordObj => {
             let weight = 1; // base weight
-            wordObj.parts.forEach(part => {
-                if (!/[\u4e00-\u9faf]/.test(part.kanji)) return; // Skip pure kana parts
+            // Look up SRS data by the full word (matches how recordAttempt stores it)
+            let wordSrsData = tracker.data[wordObj.word];
+            let correctCount = wordSrsData ? (wordSrsData.correctCount || 0) : 0;
+            let wrongCount = wordSrsData ? (wordSrsData.wrongCount || 0) : 0;
+            let total = correctCount + wrongCount;
 
-                let kanjiData = tracker.data[part.kanji];
-                let correctCount = kanjiData ? (kanjiData.correctCount || 0) : 0;
-                let wrongCount = kanjiData ? (kanjiData.wrongCount || 0) : 0;
-                let total = correctCount + wrongCount;
-
-                if (total >= 10 && (correctCount / total) >= 0.8) {
-                    // Remembered, add 0 weight
-                    weight += 0;
-                } else {
-                    // Prioritize kanji with fewer attempts (to reach the 10-attempt calibration).
-                    let missingAttempts = Math.max(0, 10 - total);
-                    weight += missingAttempts;
-                    // Give a slight bump to kanji that have low accuracy but enough attempts
-                    if (total >= 10 && (correctCount / total) < 0.8) {
-                        weight += 2;
-                    }
+            if (total >= 10 && (correctCount / total) >= 0.8) {
+                // Remembered, keep base weight only
+            } else {
+                // Prioritize words with fewer attempts (to reach the 10-attempt calibration).
+                let missingAttempts = Math.max(0, 10 - total);
+                weight += missingAttempts;
+                // Give a slight bump to words that have low accuracy but enough attempts
+                if (total >= 10 && (correctCount / total) < 0.8) {
+                    weight += 2;
                 }
-            });
+            }
             return { wordObj, weight: weight };
         });
 
@@ -445,13 +446,20 @@
             let randomNum = Math.random() * totalWeight;
             let weightSum = 0;
 
+            let picked = false;
             for (let i = 0; i < weightedDeck.length; i++) {
                 weightSum += weightedDeck[i].weight;
                 if (randomNum <= weightSum) {
                     sessionDeck.push(weightedDeck[i].wordObj);
-                    weightedDeck.splice(i, 1); // remove to prevent duplicates
+                    weightedDeck.splice(i, 1);
+                    picked = true;
                     break;
                 }
+            }
+            // Safety fallback for floating-point edge cases
+            if (!picked && weightedDeck.length > 0) {
+                sessionDeck.push(weightedDeck[weightedDeck.length - 1].wordObj);
+                weightedDeck.splice(weightedDeck.length - 1, 1);
             }
         }
 
@@ -485,6 +493,14 @@
 
         function loadNewWord() {
             if (currentQuestionIndex >= sessionDeck.length) {
+                if (sessionDeck.length === 0) {
+                    kanjiElement.textContent = '\u2014';
+                    form.style.display = 'none';
+                    feedback.className = 'feedback show';
+                    feedback.innerHTML = '<p>No questions match your selected filters.</p>' +
+                        '<a href="../index.html" class="btn" style="margin-top:15px;">Return Home</a>';
+                    return;
+                }
                 finishQuiz();
                 return;
             }
@@ -514,14 +530,16 @@
 
             // 1. Meaning Evaluation (Done first so it can be used in fast path)
             const actualMeanings = currentWordData.meaning.toLowerCase().split(/[,;]/).map(s => s.trim());
-            const stripArticles = str => str.replace(/^(a|an|the|to)\s+/i, '').trim();
-            const userM = stripArticles(userMeaning);
+            const stripPrefix = str => str.replace(/^(a|an|the|to)\s+/i, '').trim();
+            const normalizeSpaces = str => str.replace(/\s+/g, ' ').trim();
+            const userM = normalizeSpaces(stripPrefix(userMeaning));
             
             let isMeaningCorrect = false;
-            if (userM !== '') {
+            if (userM.length > 0) {
                 isMeaningCorrect = actualMeanings.some(m => {
-                    const strippedM = stripArticles(m);
-                    return strippedM === userM || strippedM.includes(userM) || userM.includes(strippedM);
+                    const strippedM = normalizeSpaces(stripPrefix(m));
+                    // Exact match after normalizing prefixes, whitespace, and casing
+                    return strippedM === userM;
                 });
             }
 
@@ -581,6 +599,10 @@
                 date: new Date().toISOString(),
                 questions: sessionLog
             });
+            // Keep only the last 50 sessions to prevent localStorage overflow
+            if (existingSessions.length > 50) {
+                existingSessions.splice(0, existingSessions.length - 50);
+            }
             localStorage.setItem('kanji_session_logs', JSON.stringify(existingSessions));
 
 
@@ -589,7 +611,7 @@
                 if (!q.evalResults) return; // skipped or errored
 
                 html += `<div style="margin-bottom: 15px; padding: 12px; background: rgba(0,0,0,0.02); border-radius: 4px; border-left: 3px solid ${q.isFullyCorrect ? 'var(--success)' : 'var(--error)'};">
-            <div style="font-size: 1.4rem; font-family: var(--font-jp); margin-bottom: 4px;">${q.word} <span style="font-size:0.9rem; color:var(--text-light)">(${q.meaning})</span></div>`;
+            <div style="font-size: 1.4rem; font-family: var(--font-jp); margin-bottom: 4px;">${escapeHtml(q.word)} <span style="font-size:0.9rem; color:var(--text-light)">(${escapeHtml(q.meaning)})</span></div>`;
 
                 const wordData = tracker.data[q.word] || {};
                 const correctCount = wordData.correctCount || 0;
@@ -607,7 +629,7 @@
                 
                 q.evalResults.forEach(res => {
                     const partIcon = res.isCorrect ? "✅" : "❌";
-                    html += `<div style="font-size: 0.8rem; margin-top: 2px; margin-left: 20px; color: var(--text-light);">${partIcon} ${res.kanji} (${res.reading})</div>`;
+                    html += `<div style="font-size: 0.8rem; margin-top: 2px; margin-left: 20px; color: var(--text-light);">${partIcon} ${escapeHtml(res.kanji)} (${escapeHtml(res.reading)})</div>`;
                 });
                 html += `</div>`;
             });
@@ -646,8 +668,8 @@
                 const classStr = res.isCorrect ? 'correct' : 'incorrect';
                 const icon = res.isCorrect ? "✅" : "❌";
                 feedbackHtml += `<div class="feedback-part ${classStr}">
-            <span><strong>${res.kanji}</strong></span>
-            <span>${res.reading} ${icon}</span>
+            <span><strong>${escapeHtml(res.kanji)}</strong></span>
+            <span>${escapeHtml(res.reading)} ${icon}</span>
         </div>`;
             });
 
@@ -655,7 +677,7 @@
             const mIcon = evalObj.isMeaningCorrect ? "✅" : "❌";
             feedbackHtml += `<div class="feedback-part ${mClassStr}">
                 <span><strong>Meaning</strong></span>
-                <span>${currentWordData.meaning} ${mIcon}</span>
+                <span>${escapeHtml(currentWordData.meaning)} ${mIcon}</span>
             </div>`;
 
             if (evalObj.isFullyCorrect) {
@@ -679,9 +701,17 @@
             const userAnswer = input.value.trim().toLowerCase();
             const userMeaning = meaningInput.value.trim().toLowerCase();
             if (!userAnswer || !userMeaning) {
-                // If one is filled but not the other, focus the empty one
+                // Highlight empty field(s) with error color and focus the first empty one
+                if (!userAnswer) {
+                    input.style.borderBottomColor = 'var(--error)';
+                    setTimeout(() => input.style.borderBottomColor = '', 1500);
+                }
+                if (!userMeaning) {
+                    meaningInput.style.borderBottomColor = 'var(--error)';
+                    setTimeout(() => meaningInput.style.borderBottomColor = '', 1500);
+                }
                 if (userAnswer && !userMeaning) meaningInput.focus();
-                else if (!userAnswer && userMeaning) input.focus();
+                else if (!userAnswer) input.focus();
                 return;
             }
 
