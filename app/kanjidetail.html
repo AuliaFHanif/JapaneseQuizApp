@@ -216,10 +216,14 @@ h1 {
 
     <!-- Include the shared data containing questionData and kanjiDictionary -->
     <script src="KanjiBank.js"></script>
-    <script src="QuestionBank.js"></script>
+    <script src="dataManager.js"></script>
     <script>
         </script>
     <script>
+        (async function init() {
+        document.getElementById('kanji-title').textContent = "Loading...";
+        await dataManager.loadAllQuestionData();
+        
         const urlParams = new URLSearchParams(window.location.search);
         const targetKanji = urlParams.get('kanji');
         const contentDiv = document.getElementById('content');

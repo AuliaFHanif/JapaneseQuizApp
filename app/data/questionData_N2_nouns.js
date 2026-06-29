@@ -1,0 +1,19075 @@
+window.questionData_N2_nouns = [
+  {
+    "word": "題名",
+    "meaning": "title",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "題",
+        "reading": "だい"
+      },
+      {
+        "kanji": "名",
+        "reading": "めい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "目上",
+    "meaning": "superior(s), senior",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "目",
+        "reading": "め"
+      },
+      {
+        "kanji": "上",
+        "reading": "うえ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "成分",
+    "meaning": "ingredient, component, composition",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "成",
+        "reading": "せい"
+      },
+      {
+        "kanji": "分",
+        "reading": "ぶん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "毛糸",
+    "meaning": "knitting wool",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "毛",
+        "reading": "け"
+      },
+      {
+        "kanji": "糸",
+        "reading": "いと"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "中世",
+    "meaning": "Middle Ages, mediaeval times",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "中",
+        "reading": "ちゅう"
+      },
+      {
+        "kanji": "世",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "雨戸",
+    "meaning": "sliding storm door",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "雨",
+        "reading": "あま"
+      },
+      {
+        "kanji": "戸",
+        "reading": "ど"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "矢印",
+    "meaning": "directing arrow",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "矢",
+        "reading": "や"
+      },
+      {
+        "kanji": "印",
+        "reading": "じるし"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "御中",
+    "meaning": "and Company, Messrs.",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "御",
+        "reading": "おん"
+      },
+      {
+        "kanji": "中",
+        "reading": "ちゅう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "目安",
+    "meaning": "criterion, aim",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "目",
+        "reading": "め"
+      },
+      {
+        "kanji": "安",
+        "reading": "やす"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "架空",
+    "meaning": "aerial, overhead, fiction, fanciful",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "架",
+        "reading": "か"
+      },
+      {
+        "kanji": "空",
+        "reading": "くう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "売行き",
+    "meaning": "sales",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "売行",
+        "reading": "うれゆ"
+      },
+      {
+        "kanji": "き",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "民謡",
+    "meaning": "folk song, popular song",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "民",
+        "reading": "みん"
+      },
+      {
+        "kanji": "謡",
+        "reading": "よう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "真っ暗",
+    "meaning": "total darkness, shortsightedness, pitch dark",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "真",
+        "reading": "ま"
+      },
+      {
+        "kanji": "っ",
+        "reading": "っ"
+      },
+      {
+        "kanji": "暗",
+        "reading": "くら"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "小学生",
+    "meaning": "grade school student",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "小",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "学",
+        "reading": "がく"
+      },
+      {
+        "kanji": "生",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "手入れ",
+    "meaning": "repairs, maintenance",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "手入",
+        "reading": "てい"
+      },
+      {
+        "kanji": "れ",
+        "reading": "れ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "文献",
+    "meaning": "literature, books (reference)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "文",
+        "reading": "ぶん"
+      },
+      {
+        "kanji": "献",
+        "reading": "けん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "休業",
+    "meaning": "closed (e.g. store), business suspended, shutdown, holiday",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "休",
+        "reading": "きゅう"
+      },
+      {
+        "kanji": "業",
+        "reading": "ぎょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "意義",
+    "meaning": "meaning, significance",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "意",
+        "reading": "い"
+      },
+      {
+        "kanji": "義",
+        "reading": "ぎ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "基準",
+    "meaning": "standard, basis, criteria, norm",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "基",
+        "reading": "き"
+      },
+      {
+        "kanji": "準",
+        "reading": "じゅん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "先端",
+    "meaning": "pointed end, tip, fine point",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "先",
+        "reading": "せん"
+      },
+      {
+        "kanji": "端",
+        "reading": "たん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "中性",
+    "meaning": "neuter gender, neutral (chem.), indifference, sterility",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "中",
+        "reading": "ちゅう"
+      },
+      {
+        "kanji": "性",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "比較的",
+    "meaning": "comparatively, relatively",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "比",
+        "reading": "ひ"
+      },
+      {
+        "kanji": "較",
+        "reading": "かく"
+      },
+      {
+        "kanji": "的",
+        "reading": "てき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "書籍",
+    "meaning": "book, publication",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "書",
+        "reading": "しょ"
+      },
+      {
+        "kanji": "籍",
+        "reading": "せき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "芯",
+    "meaning": "core, heart, wick, marrow",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "芯",
+        "reading": "しん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "琴",
+    "meaning": "Koto (Japanese harp)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "琴",
+        "reading": "きん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "お代わり",
+    "meaning": "second helping, another cup",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "お",
+        "reading": "お"
+      },
+      {
+        "kanji": "代",
+        "reading": "か"
+      },
+      {
+        "kanji": "わり",
+        "reading": "わり"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "基盤",
+    "meaning": "foundation, basis",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "基",
+        "reading": "き"
+      },
+      {
+        "kanji": "盤",
+        "reading": "ばん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "先々週",
+    "meaning": "",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "先々",
+        "reading": "さきざき"
+      },
+      {
+        "kanji": "週",
+        "reading": "しゅう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "真っ黒",
+    "meaning": "pitch black",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "真",
+        "reading": "ま"
+      },
+      {
+        "kanji": "っ",
+        "reading": "っ"
+      },
+      {
+        "kanji": "黒",
+        "reading": "くろ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "水平",
+    "meaning": "water level, horizon",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "水",
+        "reading": "すい"
+      },
+      {
+        "kanji": "平",
+        "reading": "へい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "着々",
+    "meaning": "steadily",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "着々",
+        "reading": "ちゃくちゃく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "記号",
+    "meaning": "symbol, code",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "記",
+        "reading": "き"
+      },
+      {
+        "kanji": "号",
+        "reading": "ごう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "催促",
+    "meaning": "request, demand, claim, urge (action), press for",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "催",
+        "reading": "さい"
+      },
+      {
+        "kanji": "促",
+        "reading": "そく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "平気",
+    "meaning": "coolness, calmness, composure, unconcern",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "平",
+        "reading": "へい"
+      },
+      {
+        "kanji": "気",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "学級",
+    "meaning": "grade in school",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "学",
+        "reading": "がっ"
+      },
+      {
+        "kanji": "級",
+        "reading": "きゅう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "制作",
+    "meaning": "work (film, book)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "制",
+        "reading": "せい"
+      },
+      {
+        "kanji": "作",
+        "reading": "さく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "特売",
+    "meaning": "special sale",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "特",
+        "reading": "とく"
+      },
+      {
+        "kanji": "売",
+        "reading": "ばい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "休講",
+    "meaning": "lecture cancelled",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "休",
+        "reading": "きゅう"
+      },
+      {
+        "kanji": "講",
+        "reading": "こう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "鉱物",
+    "meaning": "mineral",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "鉱",
+        "reading": "こう"
+      },
+      {
+        "kanji": "物",
+        "reading": "ぶつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "山林",
+    "meaning": "mountain forest, mountains and forest",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "山",
+        "reading": "さん"
+      },
+      {
+        "kanji": "林",
+        "reading": "りん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "粒",
+    "meaning": "grain",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "粒",
+        "reading": "つぶ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "速達",
+    "meaning": "express, special delivery",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "速",
+        "reading": "そく"
+      },
+      {
+        "kanji": "達",
+        "reading": "たつ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "必需品",
+    "meaning": "necessities, necessary article, requisite, essential",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "必",
+        "reading": "ひつ"
+      },
+      {
+        "kanji": "需",
+        "reading": "じゅ"
+      },
+      {
+        "kanji": "品",
+        "reading": "ひん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "農薬",
+    "meaning": "agricultural chemicals",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "農",
+        "reading": "のう"
+      },
+      {
+        "kanji": "薬",
+        "reading": "やく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "女の人",
+    "meaning": "woman",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "女",
+        "reading": "おんな"
+      },
+      {
+        "kanji": "の",
+        "reading": "の"
+      },
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "余計",
+    "meaning": "too much, unnecessary, abundance, surplus, excess, superfluity",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "余",
+        "reading": "よ"
+      },
+      {
+        "kanji": "計",
+        "reading": "けい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "大通り",
+    "meaning": "main street",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "大通",
+        "reading": "おおどお"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "改造",
+    "meaning": "(1) remodeling, (2) modding (comp)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "改",
+        "reading": "かい"
+      },
+      {
+        "kanji": "造",
+        "reading": "ぞう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "大小",
+    "meaning": "size",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "大",
+        "reading": "だい"
+      },
+      {
+        "kanji": "小",
+        "reading": "しょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "妥当",
+    "meaning": "valid, proper, right, appropriate",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "妥",
+        "reading": "だ"
+      },
+      {
+        "kanji": "当",
+        "reading": "とう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "整備",
+    "meaning": "adjustment, completion, consolidation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "整",
+        "reading": "せい"
+      },
+      {
+        "kanji": "備",
+        "reading": "び"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "曲線",
+    "meaning": "curve",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "曲",
+        "reading": "きょく"
+      },
+      {
+        "kanji": "線",
+        "reading": "せん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "四季",
+    "meaning": "four seasons",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "四",
+        "reading": "し"
+      },
+      {
+        "kanji": "季",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "蕎麦",
+    "meaning": "soba (buckwheat noodles)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "蕎麦",
+        "reading": "そば"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "機関車",
+    "meaning": "locomotive, engine",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "機",
+        "reading": "き"
+      },
+      {
+        "kanji": "関",
+        "reading": "かん"
+      },
+      {
+        "kanji": "車",
+        "reading": "しゃ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "留守番",
+    "meaning": "care-taking, caretaker, house-watching",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "留",
+        "reading": "る"
+      },
+      {
+        "kanji": "守",
+        "reading": "す"
+      },
+      {
+        "kanji": "番",
+        "reading": "ばん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "美容",
+    "meaning": "beauty of figure or form",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "美",
+        "reading": "び"
+      },
+      {
+        "kanji": "容",
+        "reading": "よう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "対照",
+    "meaning": "contrast, antithesis, comparison",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "対",
+        "reading": "たい"
+      },
+      {
+        "kanji": "照",
+        "reading": "しょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "学会",
+    "meaning": "scientific society, academic meeting",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "学",
+        "reading": "がっ"
+      },
+      {
+        "kanji": "会",
+        "reading": "かい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "木材",
+    "meaning": "lumber, timber, wood",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "木",
+        "reading": "もく"
+      },
+      {
+        "kanji": "材",
+        "reading": "ざい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "従姉妹",
+    "meaning": "cousin (female)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "従姉妹",
+        "reading": "いとこ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "校庭",
+    "meaning": "campus",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "校",
+        "reading": "こう"
+      },
+      {
+        "kanji": "庭",
+        "reading": "てい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "殻",
+    "meaning": "shell, husk, hull, chaff",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "殻",
+        "reading": "から"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "碁",
+    "meaning": "Go (board game of capturing territory)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "碁",
+        "reading": "ご"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "学年",
+    "meaning": "year in school, grade in school",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "学",
+        "reading": "がく"
+      },
+      {
+        "kanji": "年",
+        "reading": "ねん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "仮定",
+    "meaning": "assumption, supposition, hypothesis",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "仮",
+        "reading": "か"
+      },
+      {
+        "kanji": "定",
+        "reading": "てい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "大して",
+    "meaning": "(not so) much, (not) very",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "大",
+        "reading": "たい"
+      },
+      {
+        "kanji": "して",
+        "reading": "して"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "終了",
+    "meaning": "end, close, termination",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "終",
+        "reading": "しゅう"
+      },
+      {
+        "kanji": "了",
+        "reading": "りょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "三日月",
+    "meaning": "new moon, crescent moon",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "三",
+        "reading": "み"
+      },
+      {
+        "kanji": "日",
+        "reading": "か"
+      },
+      {
+        "kanji": "月",
+        "reading": "づき"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "飾り",
+    "meaning": "decoration",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "飾",
+        "reading": "かざ"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "塊",
+    "meaning": "lump, mass, clod, cluster",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "塊",
+        "reading": "かたまり"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "紙幣",
+    "meaning": "paper money, notes, bills",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "紙",
+        "reading": "し"
+      },
+      {
+        "kanji": "幣",
+        "reading": "へい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "道順",
+    "meaning": "itinerary, route",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "道",
+        "reading": "みち"
+      },
+      {
+        "kanji": "順",
+        "reading": "じゅん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "盗難",
+    "meaning": "theft, robbery",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "盗",
+        "reading": "とう"
+      },
+      {
+        "kanji": "難",
+        "reading": "なん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "講師",
+    "meaning": "lecturer",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "講",
+        "reading": "こう"
+      },
+      {
+        "kanji": "師",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "思いっ切り",
+    "meaning": "",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "思",
+        "reading": "おも"
+      },
+      {
+        "kanji": "いっ",
+        "reading": "いっ"
+      },
+      {
+        "kanji": "切",
+        "reading": "き"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "生意気",
+    "meaning": "impertinent, saucy, cheeky, conceit, audacious, brazen",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "生",
+        "reading": "なま"
+      },
+      {
+        "kanji": "意",
+        "reading": "い"
+      },
+      {
+        "kanji": "気",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "折角",
+    "meaning": "with trouble, at great pains, long-awaited",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "折",
+        "reading": "せっ"
+      },
+      {
+        "kanji": "角",
+        "reading": "かく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "謙虚",
+    "meaning": "modesty, humility",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "謙",
+        "reading": "けん"
+      },
+      {
+        "kanji": "虚",
+        "reading": "きょ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "太鼓",
+    "meaning": "drum, tambourine",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "太",
+        "reading": "たい"
+      },
+      {
+        "kanji": "鼓",
+        "reading": "こ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "調味料",
+    "meaning": "condiment, seasoning",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "調",
+        "reading": "ちょう"
+      },
+      {
+        "kanji": "味",
+        "reading": "み"
+      },
+      {
+        "kanji": "料",
+        "reading": "りょう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "並木",
+    "meaning": "roadside tree, row of trees",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "並",
+        "reading": "なみ"
+      },
+      {
+        "kanji": "木",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "海洋",
+    "meaning": "ocean",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "海",
+        "reading": "かい"
+      },
+      {
+        "kanji": "洋",
+        "reading": "よう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "定員",
+    "meaning": "fixed number of regular personnel, capacity (of boat, etc.)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "定",
+        "reading": "てい"
+      },
+      {
+        "kanji": "員",
+        "reading": "いん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "混合",
+    "meaning": "mixing, mixture",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "混",
+        "reading": "こん"
+      },
+      {
+        "kanji": "合",
+        "reading": "ごう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "水滴",
+    "meaning": "drop of water",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "水",
+        "reading": "すい"
+      },
+      {
+        "kanji": "滴",
+        "reading": "てき"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "鉄砲",
+    "meaning": "gun",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "鉄",
+        "reading": "てっ"
+      },
+      {
+        "kanji": "砲",
+        "reading": "ぽう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "寮",
+    "meaning": "hostel, dormitory",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "寮",
+        "reading": "りょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "書留",
+    "meaning": "writing down, putting on record, recording, making a note of, registration (of mail)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "書留",
+        "reading": "かきとめ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "花嫁",
+    "meaning": "bride",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "花",
+        "reading": "はな"
+      },
+      {
+        "kanji": "嫁",
+        "reading": "よめ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "錆",
+    "meaning": "rust (colour)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "錆",
+        "reading": "さび"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "反省",
+    "meaning": "reflection, reconsideration, introspection, meditation, contemplation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "反",
+        "reading": "はん"
+      },
+      {
+        "kanji": "省",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "新幹線",
+    "meaning": "bullet train (very high speed), shinkansen",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "新",
+        "reading": "しん"
+      },
+      {
+        "kanji": "幹",
+        "reading": "かん"
+      },
+      {
+        "kanji": "線",
+        "reading": "せん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "乾電池",
+    "meaning": "dry cell, battery",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "乾",
+        "reading": "かん"
+      },
+      {
+        "kanji": "電",
+        "reading": "でん"
+      },
+      {
+        "kanji": "池",
+        "reading": "ち"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "同格",
+    "meaning": "the same rank, equality, apposition",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "同",
+        "reading": "どう"
+      },
+      {
+        "kanji": "格",
+        "reading": "かく"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "南北",
+    "meaning": "south and north",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "南",
+        "reading": "なん"
+      },
+      {
+        "kanji": "北",
+        "reading": "ぼく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "時間割",
+    "meaning": "timetable, schedule",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "時",
+        "reading": "じ"
+      },
+      {
+        "kanji": "間",
+        "reading": "かん"
+      },
+      {
+        "kanji": "割",
+        "reading": "わり"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "人命",
+    "meaning": "(human) life",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "人",
+        "reading": "じん"
+      },
+      {
+        "kanji": "命",
+        "reading": "めい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "小指",
+    "meaning": "little finger",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "小",
+        "reading": "こ"
+      },
+      {
+        "kanji": "指",
+        "reading": "ゆび"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "大層",
+    "meaning": "very much, exaggerated, very fine",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "大",
+        "reading": "たい"
+      },
+      {
+        "kanji": "層",
+        "reading": "そう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "実績",
+    "meaning": "achievements, actual results",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "実",
+        "reading": "じっ"
+      },
+      {
+        "kanji": "績",
+        "reading": "せき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "電柱",
+    "meaning": "telephone pole, telegraph pole, lightpole",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "電",
+        "reading": "でん"
+      },
+      {
+        "kanji": "柱",
+        "reading": "ちゅう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "叔母さん",
+    "meaning": "(1) aunt, (2) middle-aged lady",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "叔母",
+        "reading": "おば"
+      },
+      {
+        "kanji": "さん",
+        "reading": "さん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "梯子",
+    "meaning": "ladder, stairs",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "梯子",
+        "reading": "はしご"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "速力",
+    "meaning": "speed",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "速",
+        "reading": "そく"
+      },
+      {
+        "kanji": "力",
+        "reading": "りょく"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "私鉄",
+    "meaning": "private railway",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "私",
+        "reading": "し"
+      },
+      {
+        "kanji": "鉄",
+        "reading": "てつ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "測定",
+    "meaning": "measurement",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "測",
+        "reading": "そく"
+      },
+      {
+        "kanji": "定",
+        "reading": "てい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "英和",
+    "meaning": "English-Japanese (e.g. dictionary)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "英",
+        "reading": "えい"
+      },
+      {
+        "kanji": "和",
+        "reading": "わ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "面接",
+    "meaning": "interview",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "面",
+        "reading": "めん"
+      },
+      {
+        "kanji": "接",
+        "reading": "せつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "公正",
+    "meaning": "justice, fairness, impartiality",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "公",
+        "reading": "こう"
+      },
+      {
+        "kanji": "正",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "熟語",
+    "meaning": "idiom, idiomatic phrase, kanji compound",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "熟",
+        "reading": "じゅく"
+      },
+      {
+        "kanji": "語",
+        "reading": "ご"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "地質",
+    "meaning": "geological features",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "地",
+        "reading": "ち"
+      },
+      {
+        "kanji": "質",
+        "reading": "しつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "知合い",
+    "meaning": "acquaintance",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "知合",
+        "reading": "しりあ"
+      },
+      {
+        "kanji": "い",
+        "reading": "い"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "綱",
+    "meaning": "rope",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "綱",
+        "reading": "つな"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "呑気",
+    "meaning": "carefree, optimistic, careless, reckless, heedless",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "呑気",
+        "reading": "のんき"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "歌謡",
+    "meaning": "song, ballad",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "歌",
+        "reading": "か"
+      },
+      {
+        "kanji": "謡",
+        "reading": "よう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "点ける",
+    "meaning": "to turn on, to switch on, to light up",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "点",
+        "reading": "てん"
+      },
+      {
+        "kanji": "ける",
+        "reading": "ける"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "公式",
+    "meaning": "formula, formality, official",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "公",
+        "reading": "こう"
+      },
+      {
+        "kanji": "式",
+        "reading": "しき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "拝見",
+    "meaning": "(hum) (pol) seeing, look at",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "拝",
+        "reading": "はい"
+      },
+      {
+        "kanji": "見",
+        "reading": "けん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "来日",
+    "meaning": "arrival in Japan, coming to Japan, visit to Japan",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "来",
+        "reading": "らい"
+      },
+      {
+        "kanji": "日",
+        "reading": "にち"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "交差",
+    "meaning": "cross",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "交",
+        "reading": "こう"
+      },
+      {
+        "kanji": "差",
+        "reading": "さ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "稀",
+    "meaning": "rare, seldom",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "稀",
+        "reading": "まれ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "追加",
+    "meaning": "addition, supplement, appendix",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "追",
+        "reading": "つい"
+      },
+      {
+        "kanji": "加",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "産地",
+    "meaning": "producing area",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "産",
+        "reading": "さん"
+      },
+      {
+        "kanji": "地",
+        "reading": "ち"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "初めに",
+    "meaning": "",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "初",
+        "reading": "はじ"
+      },
+      {
+        "kanji": "めに",
+        "reading": "めに"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "公衆",
+    "meaning": "the public",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "公",
+        "reading": "こう"
+      },
+      {
+        "kanji": "衆",
+        "reading": "しゅう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "定期券",
+    "meaning": "commuter pass, season ticket",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "定",
+        "reading": "てい"
+      },
+      {
+        "kanji": "期",
+        "reading": "き"
+      },
+      {
+        "kanji": "券",
+        "reading": "けん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "欄",
+    "meaning": "column of text (e.g. as in a newspaper)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "欄",
+        "reading": "らん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "中旬",
+    "meaning": "second third of a month",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "中",
+        "reading": "ちゅう"
+      },
+      {
+        "kanji": "旬",
+        "reading": "じゅん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "地盤",
+    "meaning": "(the) ground",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "地",
+        "reading": "じ"
+      },
+      {
+        "kanji": "盤",
+        "reading": "ばん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "免税",
+    "meaning": "tax exemption, duty exemption",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "免",
+        "reading": "めん"
+      },
+      {
+        "kanji": "税",
+        "reading": "ぜい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "吹雪",
+    "meaning": "snow storm",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "吹雪",
+        "reading": "ふぶき"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "人差指",
+    "meaning": "index finger",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "人",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "差",
+        "reading": "さし"
+      },
+      {
+        "kanji": "指",
+        "reading": "ゆび"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "障子",
+    "meaning": "paper sliding door",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "障",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "子",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "括弧",
+    "meaning": "parenthesis, brackets",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "括",
+        "reading": "かっ"
+      },
+      {
+        "kanji": "弧",
+        "reading": "こ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "行事",
+    "meaning": "event, function",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "行",
+        "reading": "ぎょう"
+      },
+      {
+        "kanji": "事",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "無地",
+    "meaning": "plain, unfigured",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "無",
+        "reading": "む"
+      },
+      {
+        "kanji": "地",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "肘",
+    "meaning": "elbow",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "肘",
+        "reading": "ひじ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "集合",
+    "meaning": "gathering, assembly, meeting, set (math)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "集",
+        "reading": "しゅう"
+      },
+      {
+        "kanji": "合",
+        "reading": "ごう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "傑作",
+    "meaning": "masterpiece, best work, boner, blunder",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "傑",
+        "reading": "けっ"
+      },
+      {
+        "kanji": "作",
+        "reading": "さく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "下車",
+    "meaning": "alighting, getting off",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "下",
+        "reading": "げ"
+      },
+      {
+        "kanji": "車",
+        "reading": "しゃ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "文体",
+    "meaning": "literary style",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "文",
+        "reading": "ぶん"
+      },
+      {
+        "kanji": "体",
+        "reading": "たい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "和英",
+    "meaning": "Japanese-English",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "和英",
+        "reading": "かずひで"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "弱点",
+    "meaning": "weak point, weakness",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "弱",
+        "reading": "じゃく"
+      },
+      {
+        "kanji": "点",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "整数",
+    "meaning": "integer",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "整",
+        "reading": "せい"
+      },
+      {
+        "kanji": "数",
+        "reading": "すう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "東洋",
+    "meaning": "Orient",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "東",
+        "reading": "とう"
+      },
+      {
+        "kanji": "洋",
+        "reading": "よう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "片道",
+    "meaning": "one-way (trip)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "片",
+        "reading": "かた"
+      },
+      {
+        "kanji": "道",
+        "reading": "みち"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "矛盾",
+    "meaning": "contradiction, inconsistency",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "矛",
+        "reading": "む"
+      },
+      {
+        "kanji": "盾",
+        "reading": "じゅん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "競馬",
+    "meaning": "horse racing",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "競",
+        "reading": "けい"
+      },
+      {
+        "kanji": "馬",
+        "reading": "ば"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "彫刻",
+    "meaning": "carving, engraving, sculpture",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "彫",
+        "reading": "ちょう"
+      },
+      {
+        "kanji": "刻",
+        "reading": "こく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "線路",
+    "meaning": "line, track, roadbed",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "線",
+        "reading": "せん"
+      },
+      {
+        "kanji": "路",
+        "reading": "ろ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "持参",
+    "meaning": "bringing, taking, carrying",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "持",
+        "reading": "じ"
+      },
+      {
+        "kanji": "参",
+        "reading": "さん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "貸し出し",
+    "meaning": "lending, loaning",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "貸",
+        "reading": "か"
+      },
+      {
+        "kanji": "し",
+        "reading": "し"
+      },
+      {
+        "kanji": "出",
+        "reading": "だ"
+      },
+      {
+        "kanji": "し",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "続々",
+    "meaning": "successively, one after another",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "続々",
+        "reading": "ぞくぞく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "振り仮名",
+    "meaning": "pronunciation key",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "振",
+        "reading": "ふ"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      },
+      {
+        "kanji": "仮",
+        "reading": "か"
+      },
+      {
+        "kanji": "名",
+        "reading": "めい"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "順々",
+    "meaning": "in order, in turn",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "順々",
+        "reading": "じゅんじゅん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "夕日",
+    "meaning": "(in) the evening sun, setting sun",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "夕",
+        "reading": "ゆう"
+      },
+      {
+        "kanji": "日",
+        "reading": "ひ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "絵の具",
+    "meaning": "colors, paints",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "絵",
+        "reading": "え"
+      },
+      {
+        "kanji": "の",
+        "reading": "の"
+      },
+      {
+        "kanji": "具",
+        "reading": "ぐ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "強引",
+    "meaning": "overbearing, coercive, pushy, forcible, high-handed",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "強",
+        "reading": "ごう"
+      },
+      {
+        "kanji": "引",
+        "reading": "いん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "学部",
+    "meaning": "department of a university, undergraduate",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "学",
+        "reading": "がく"
+      },
+      {
+        "kanji": "部",
+        "reading": "ぶ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "応接",
+    "meaning": "reception",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "応",
+        "reading": "おう"
+      },
+      {
+        "kanji": "接",
+        "reading": "せつ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "勝敗",
+    "meaning": "victory or defeat, issue (of battle)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "勝",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "敗",
+        "reading": "はい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "原始",
+    "meaning": "origin, primeval",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "原",
+        "reading": "げん"
+      },
+      {
+        "kanji": "始",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "墨",
+    "meaning": "ink",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "墨",
+        "reading": "すみ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "住居",
+    "meaning": "dwelling, house, residence, address",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "住",
+        "reading": "じゅう"
+      },
+      {
+        "kanji": "居",
+        "reading": "きょ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "回数券",
+    "meaning": "book of tickets",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "回",
+        "reading": "かい"
+      },
+      {
+        "kanji": "数",
+        "reading": "すう"
+      },
+      {
+        "kanji": "券",
+        "reading": "けん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "仲良し",
+    "meaning": "intimate friend, bosom buddy, chum",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "仲良",
+        "reading": "なかよ"
+      },
+      {
+        "kanji": "し",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "高度",
+    "meaning": "altitude, height, advanced",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "高",
+        "reading": "こう"
+      },
+      {
+        "kanji": "度",
+        "reading": "ど"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "引算",
+    "meaning": "subtraction",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "引",
+        "reading": "ひき"
+      },
+      {
+        "kanji": "算",
+        "reading": "ざん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "高等",
+    "meaning": "high class, high grade",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "高",
+        "reading": "こう"
+      },
+      {
+        "kanji": "等",
+        "reading": "とう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "通路",
+    "meaning": "passage, pathway",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "通",
+        "reading": "つう"
+      },
+      {
+        "kanji": "路",
+        "reading": "ろ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "統一",
+    "meaning": "unity, consolidation, uniformity",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "統",
+        "reading": "とう"
+      },
+      {
+        "kanji": "一",
+        "reading": "いつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "中味",
+    "meaning": "contents, interior, substance, filling, (sword) blade",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "中",
+        "reading": "なか"
+      },
+      {
+        "kanji": "味",
+        "reading": "み"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "受話器",
+    "meaning": "(telephone) receiver",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "受",
+        "reading": "じゅ"
+      },
+      {
+        "kanji": "話",
+        "reading": "わ"
+      },
+      {
+        "kanji": "器",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "姿勢",
+    "meaning": "attitude, posture",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "姿",
+        "reading": "し"
+      },
+      {
+        "kanji": "勢",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "敷地",
+    "meaning": "site",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "敷",
+        "reading": "しき"
+      },
+      {
+        "kanji": "地",
+        "reading": "ち"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "造船",
+    "meaning": "shipbuilding",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "造",
+        "reading": "ぞう"
+      },
+      {
+        "kanji": "船",
+        "reading": "せん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "肯定",
+    "meaning": "positive, affirmation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "肯",
+        "reading": "こう"
+      },
+      {
+        "kanji": "定",
+        "reading": "てい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "閉会",
+    "meaning": "closure",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "閉",
+        "reading": "へい"
+      },
+      {
+        "kanji": "会",
+        "reading": "かい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "平仮名",
+    "meaning": "hiragana, 47 syllables, the cursive syllabary",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "平",
+        "reading": "ひら"
+      },
+      {
+        "kanji": "仮",
+        "reading": "が"
+      },
+      {
+        "kanji": "名",
+        "reading": "な"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "意地悪",
+    "meaning": "malicious, ill-tempered, unkind",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "意",
+        "reading": "い"
+      },
+      {
+        "kanji": "地",
+        "reading": "じ"
+      },
+      {
+        "kanji": "悪",
+        "reading": "わる"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "過程",
+    "meaning": "process",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "過",
+        "reading": "か"
+      },
+      {
+        "kanji": "程",
+        "reading": "てい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "南米",
+    "meaning": "South America",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "南",
+        "reading": "なん"
+      },
+      {
+        "kanji": "米",
+        "reading": "べい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "実力",
+    "meaning": "merit, efficiency, arms, force",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "実",
+        "reading": "じつ"
+      },
+      {
+        "kanji": "力",
+        "reading": "りょく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "先頭",
+    "meaning": "head, lead, vanguard, first",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "先",
+        "reading": "せん"
+      },
+      {
+        "kanji": "頭",
+        "reading": "とう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "当番",
+    "meaning": "being on duty",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "当",
+        "reading": "とう"
+      },
+      {
+        "kanji": "番",
+        "reading": "ばん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "高級",
+    "meaning": "high class, high grade",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "高",
+        "reading": "こう"
+      },
+      {
+        "kanji": "級",
+        "reading": "きゅう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "習字",
+    "meaning": "penmanship",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "習",
+        "reading": "しゅう"
+      },
+      {
+        "kanji": "字",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "寸法",
+    "meaning": "measurement, size, dimension",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "寸",
+        "reading": "すん"
+      },
+      {
+        "kanji": "法",
+        "reading": "ぽう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "生き生き",
+    "meaning": "vividly, lively",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "生",
+        "reading": "い"
+      },
+      {
+        "kanji": "き",
+        "reading": "き"
+      },
+      {
+        "kanji": "生",
+        "reading": "い"
+      },
+      {
+        "kanji": "き",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "下品",
+    "meaning": "vulgarity, meanness, indecency, coarseness",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "下",
+        "reading": "げ"
+      },
+      {
+        "kanji": "品",
+        "reading": "ひん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "植木",
+    "meaning": "garden shrubs, trees, potted plant",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "植木",
+        "reading": "うえき"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "方程式",
+    "meaning": "equation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "方",
+        "reading": "ほう"
+      },
+      {
+        "kanji": "程",
+        "reading": "てい"
+      },
+      {
+        "kanji": "式",
+        "reading": "しき"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "段階",
+    "meaning": "gradation, grade, stage",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "段",
+        "reading": "だん"
+      },
+      {
+        "kanji": "階",
+        "reading": "かい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "別々",
+    "meaning": "separately, individually",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "別",
+        "reading": "べつ"
+      },
+      {
+        "kanji": "々",
+        "reading": "々"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "看板",
+    "meaning": "sign, signboard, doorplate, poster",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "看",
+        "reading": "かん"
+      },
+      {
+        "kanji": "板",
+        "reading": "ばん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "灯台",
+    "meaning": "lighthouse",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "灯",
+        "reading": "とう"
+      },
+      {
+        "kanji": "台",
+        "reading": "だい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "一昨日",
+    "meaning": "day before yesterday",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "一昨日",
+        "reading": "おととい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "並行",
+    "meaning": "(going) side by side, concurrent, abreast, at the same time",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "並",
+        "reading": "へい"
+      },
+      {
+        "kanji": "行",
+        "reading": "こう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "俄",
+    "meaning": "sudden, abrupt, unexpected, improvised, offhand",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "俄",
+        "reading": "にわか"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "秤",
+    "meaning": "scales, weighing machine",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "秤",
+        "reading": "はかり"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "只",
+    "meaning": "free of charge, mere, sole, only, usual, common",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "只",
+        "reading": "ただ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "郡",
+    "meaning": "country, district",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "郡",
+        "reading": "ぐん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "再来年",
+    "meaning": "year after next",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "再",
+        "reading": "さ"
+      },
+      {
+        "kanji": "来",
+        "reading": "らい"
+      },
+      {
+        "kanji": "年",
+        "reading": "ねん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "王女",
+    "meaning": "princess",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "王",
+        "reading": "おう"
+      },
+      {
+        "kanji": "女",
+        "reading": "じょ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "侵入",
+    "meaning": "penetration, invasion, raid, aggression, trespass",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "侵",
+        "reading": "しん"
+      },
+      {
+        "kanji": "入",
+        "reading": "にゅう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "都心",
+    "meaning": "heart (of city)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "都",
+        "reading": "と"
+      },
+      {
+        "kanji": "心",
+        "reading": "しん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "発揮",
+    "meaning": "exhibition, demonstration, utilization, display",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "発",
+        "reading": "はっ"
+      },
+      {
+        "kanji": "揮",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "一通り",
+    "meaning": "ordinary, usual, in general, briefly",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "一",
+        "reading": "いち"
+      },
+      {
+        "kanji": "通",
+        "reading": "とお"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "独り言",
+    "meaning": "a soliloquy, a monologue, speaking to oneself",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "独",
+        "reading": "ひと"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      },
+      {
+        "kanji": "言",
+        "reading": "ごと"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "卑怯",
+    "meaning": "cowardice, meanness, unfairness",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "卑",
+        "reading": "ひ"
+      },
+      {
+        "kanji": "怯",
+        "reading": "きょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "真っ先",
+    "meaning": "the head, the foremost, beginning",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "真",
+        "reading": "ま"
+      },
+      {
+        "kanji": "っ",
+        "reading": "っ"
+      },
+      {
+        "kanji": "先",
+        "reading": "さき"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "副詞",
+    "meaning": "adverb",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "副",
+        "reading": "ふく"
+      },
+      {
+        "kanji": "詞",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "針金",
+    "meaning": "wire",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "針",
+        "reading": "はり"
+      },
+      {
+        "kanji": "金",
+        "reading": "がね"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "催し",
+    "meaning": "event, festivities, function",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "催",
+        "reading": "もよお"
+      },
+      {
+        "kanji": "し",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "祝日",
+    "meaning": "national holiday",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "祝",
+        "reading": "しゅく"
+      },
+      {
+        "kanji": "日",
+        "reading": "じつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "無数",
+    "meaning": "countless number, infinite number",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "無",
+        "reading": "む"
+      },
+      {
+        "kanji": "数",
+        "reading": "すう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "利害",
+    "meaning": "advantages and disadvantages, interest",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "利",
+        "reading": "り"
+      },
+      {
+        "kanji": "害",
+        "reading": "がい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "終点",
+    "meaning": "terminus, last stop (e.g train)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "終",
+        "reading": "しゅう"
+      },
+      {
+        "kanji": "点",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "差し引き",
+    "meaning": "deduction, subtraction, balance, ebb and flow, rise and fall",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "差",
+        "reading": "さ"
+      },
+      {
+        "kanji": "し",
+        "reading": "し"
+      },
+      {
+        "kanji": "引",
+        "reading": "ひ"
+      },
+      {
+        "kanji": "き",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "賞金",
+    "meaning": "prize, monetary award",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "賞",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "金",
+        "reading": "きん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "乾燥",
+    "meaning": "dry, arid, insipid, dehydrated",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "乾",
+        "reading": "かん"
+      },
+      {
+        "kanji": "燥",
+        "reading": "そう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "子孫",
+    "meaning": "descendants, posterity, offspring",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "子",
+        "reading": "し"
+      },
+      {
+        "kanji": "孫",
+        "reading": "そん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "満員",
+    "meaning": "full house, no vacancy, sold out",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "満",
+        "reading": "まん"
+      },
+      {
+        "kanji": "員",
+        "reading": "いん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "夜行",
+    "meaning": "walking around at night, night train, night travel",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "夜",
+        "reading": "や"
+      },
+      {
+        "kanji": "行",
+        "reading": "こう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "親指",
+    "meaning": "thumb",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "親",
+        "reading": "おや"
+      },
+      {
+        "kanji": "指",
+        "reading": "ゆび"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "幼稚園",
+    "meaning": "kindergarten",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "幼",
+        "reading": "よう"
+      },
+      {
+        "kanji": "稚",
+        "reading": "ち"
+      },
+      {
+        "kanji": "園",
+        "reading": "えん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "特長",
+    "meaning": "forte, merit",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "特",
+        "reading": "とく"
+      },
+      {
+        "kanji": "長",
+        "reading": "ちょう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "工事",
+    "meaning": "construction work",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "工",
+        "reading": "こう"
+      },
+      {
+        "kanji": "事",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "引力",
+    "meaning": "gravity",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "引",
+        "reading": "いん"
+      },
+      {
+        "kanji": "力",
+        "reading": "りょく"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "現に",
+    "meaning": "actually, really",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "現",
+        "reading": "げん"
+      },
+      {
+        "kanji": "に",
+        "reading": "に"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "垣根",
+    "meaning": "hedge",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "垣",
+        "reading": "かき"
+      },
+      {
+        "kanji": "根",
+        "reading": "ね"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "苦情",
+    "meaning": "complaint, troubles, objection",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "苦",
+        "reading": "く"
+      },
+      {
+        "kanji": "情",
+        "reading": "じょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "効力",
+    "meaning": "effect, efficacy, validity, potency",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "効",
+        "reading": "こう"
+      },
+      {
+        "kanji": "力",
+        "reading": "りょく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "無限",
+    "meaning": "infinite",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "無",
+        "reading": "む"
+      },
+      {
+        "kanji": "限",
+        "reading": "げん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "御無沙汰",
+    "meaning": "not writing or contacting for a while",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "御",
+        "reading": "ご"
+      },
+      {
+        "kanji": "無",
+        "reading": "ぶ"
+      },
+      {
+        "kanji": "沙",
+        "reading": "さ"
+      },
+      {
+        "kanji": "汰",
+        "reading": "た"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "税関",
+    "meaning": "customs house",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "税",
+        "reading": "ぜい"
+      },
+      {
+        "kanji": "関",
+        "reading": "かん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "踏切",
+    "meaning": "railway crossing, level crossing, starting line, scratch, crossover",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "踏切",
+        "reading": "ふみきり"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "順序",
+    "meaning": "order, sequence, procedure",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "順",
+        "reading": "じゅん"
+      },
+      {
+        "kanji": "序",
+        "reading": "じょ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "地点",
+    "meaning": "site, point on a map",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "地",
+        "reading": "ち"
+      },
+      {
+        "kanji": "点",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "主役",
+    "meaning": "leading part, leading actor (actress)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "主",
+        "reading": "しゅ"
+      },
+      {
+        "kanji": "役",
+        "reading": "やく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "手首",
+    "meaning": "wrist",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "手",
+        "reading": "て"
+      },
+      {
+        "kanji": "首",
+        "reading": "くび"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "所々",
+    "meaning": "here and there, some parts (of something)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "所々",
+        "reading": "ところどころ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "鉄橋",
+    "meaning": "railway bridge, iron bridge",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "鉄",
+        "reading": "てっ"
+      },
+      {
+        "kanji": "橋",
+        "reading": "きょう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "先程",
+    "meaning": "some time ago",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "先",
+        "reading": "さき"
+      },
+      {
+        "kanji": "程",
+        "reading": "ほど"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "絶えず",
+    "meaning": "constantly",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "絶",
+        "reading": "た"
+      },
+      {
+        "kanji": "えず",
+        "reading": "えず"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "蛇口",
+    "meaning": "faucet, tap",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "蛇",
+        "reading": "じゃ"
+      },
+      {
+        "kanji": "口",
+        "reading": "ぐち"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "赤道",
+    "meaning": "equator",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "赤",
+        "reading": "せき"
+      },
+      {
+        "kanji": "道",
+        "reading": "どう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "響き",
+    "meaning": "echo, sound, reverberation, noise",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "響",
+        "reading": "ひび"
+      },
+      {
+        "kanji": "き",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "政党",
+    "meaning": "(member of) political party",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "政",
+        "reading": "せい"
+      },
+      {
+        "kanji": "党",
+        "reading": "とう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "直前",
+    "meaning": "just before",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "直",
+        "reading": "ちょく"
+      },
+      {
+        "kanji": "前",
+        "reading": "ぜん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "塵芥",
+    "meaning": "trash, rubbish",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "塵芥",
+        "reading": "ごみ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "実用",
+    "meaning": "practical use, utility",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "実",
+        "reading": "じつ"
+      },
+      {
+        "kanji": "用",
+        "reading": "よう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "四捨五入",
+    "meaning": "rounding up (fractions)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "四",
+        "reading": "し"
+      },
+      {
+        "kanji": "捨",
+        "reading": "しゃ"
+      },
+      {
+        "kanji": "五",
+        "reading": "ご"
+      },
+      {
+        "kanji": "入",
+        "reading": "にゅう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "磁石",
+    "meaning": "magnet",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "磁",
+        "reading": "じ"
+      },
+      {
+        "kanji": "石",
+        "reading": "しゃく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "周辺",
+    "meaning": "circumference, outskirts, environs, (computer) peripheral",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "周",
+        "reading": "しゅう"
+      },
+      {
+        "kanji": "辺",
+        "reading": "へん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "原産",
+    "meaning": "place of origin, habitat",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "原",
+        "reading": "げん"
+      },
+      {
+        "kanji": "産",
+        "reading": "さん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "熱する",
+    "meaning": "to heat",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "熱",
+        "reading": "ねつ"
+      },
+      {
+        "kanji": "する",
+        "reading": "する"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "問い合わせ",
+    "meaning": "enquiry, ENQ",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "問",
+        "reading": "と"
+      },
+      {
+        "kanji": "い",
+        "reading": "い"
+      },
+      {
+        "kanji": "合",
+        "reading": "あ"
+      },
+      {
+        "kanji": "わせ",
+        "reading": "わせ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "炊事",
+    "meaning": "cooking, culinary arts",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "炊",
+        "reading": "すい"
+      },
+      {
+        "kanji": "事",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "冠",
+    "meaning": "crown, diadem, first, best",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "冠",
+        "reading": "かんむり"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "碗",
+    "meaning": "bowl",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "碗",
+        "reading": "わん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "看病",
+    "meaning": "nursing (a patient)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "看",
+        "reading": "かん"
+      },
+      {
+        "kanji": "病",
+        "reading": "びょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "個所",
+    "meaning": "passage, place, point, part",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "個",
+        "reading": "か"
+      },
+      {
+        "kanji": "所",
+        "reading": "しょ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "紫",
+    "meaning": "purple colour, violet",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "紫",
+        "reading": "むらさき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "紺",
+    "meaning": "navy blue, deep blue",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "紺",
+        "reading": "こん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "湿度",
+    "meaning": "level of humidity",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "湿",
+        "reading": "しつ"
+      },
+      {
+        "kanji": "度",
+        "reading": "ど"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "箸",
+    "meaning": "chopsticks",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "箸",
+        "reading": "はし"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "水素",
+    "meaning": "hydrogen",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "水",
+        "reading": "すい"
+      },
+      {
+        "kanji": "素",
+        "reading": "そ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "髭",
+    "meaning": "moustache, beard, whiskers",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "髭",
+        "reading": "ひげ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "分量",
+    "meaning": "amount, quantity",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "分",
+        "reading": "ぶん"
+      },
+      {
+        "kanji": "量",
+        "reading": "りょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "香水",
+    "meaning": "perfume",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "香",
+        "reading": "こう"
+      },
+      {
+        "kanji": "水",
+        "reading": "すい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "申し訳ない",
+    "meaning": "inexcusable",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "申",
+        "reading": "もう"
+      },
+      {
+        "kanji": "し",
+        "reading": "し"
+      },
+      {
+        "kanji": "訳",
+        "reading": "わけ"
+      },
+      {
+        "kanji": "ない",
+        "reading": "ない"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "陽射",
+    "meaning": "sunlight, rays of the sun",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "陽",
+        "reading": "ひ"
+      },
+      {
+        "kanji": "射",
+        "reading": "しゃ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "祭日",
+    "meaning": "national holiday, festival day",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "祭",
+        "reading": "さい"
+      },
+      {
+        "kanji": "日",
+        "reading": "じつ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "容積",
+    "meaning": "capacity, volume",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "容",
+        "reading": "よう"
+      },
+      {
+        "kanji": "積",
+        "reading": "せき"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "桁",
+    "meaning": "column, beam, digit",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "桁",
+        "reading": "けた"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "送料",
+    "meaning": "postage, carriage",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "送",
+        "reading": "そう"
+      },
+      {
+        "kanji": "料",
+        "reading": "りょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "感激",
+    "meaning": "deep emotion, impression, inspiration",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "感",
+        "reading": "かん"
+      },
+      {
+        "kanji": "激",
+        "reading": "げき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "失恋",
+    "meaning": "disappointed love, broken heart, unrequited love, be lovelorn",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "失",
+        "reading": "しつ"
+      },
+      {
+        "kanji": "恋",
+        "reading": "れん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "拡充",
+    "meaning": "expansion",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "拡",
+        "reading": "かく"
+      },
+      {
+        "kanji": "充",
+        "reading": "じゅう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "性能",
+    "meaning": "ability, efficiency",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "性",
+        "reading": "せい"
+      },
+      {
+        "kanji": "能",
+        "reading": "のう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "真っ青",
+    "meaning": "deep blue, ghastly pale",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "真",
+        "reading": "ま"
+      },
+      {
+        "kanji": "っ",
+        "reading": "っ"
+      },
+      {
+        "kanji": "青",
+        "reading": "さお"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "合理",
+    "meaning": "rational",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "合",
+        "reading": "ごう"
+      },
+      {
+        "kanji": "理",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "儀式",
+    "meaning": "ceremony, rite, ritual, service",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "儀",
+        "reading": "ぎ"
+      },
+      {
+        "kanji": "式",
+        "reading": "しき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "歯磨き",
+    "meaning": "dentifrice, toothpaste",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "歯磨",
+        "reading": "はみが"
+      },
+      {
+        "kanji": "き",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "苦心",
+    "meaning": "pain, trouble",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "苦",
+        "reading": "く"
+      },
+      {
+        "kanji": "心",
+        "reading": "しん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "醤油",
+    "meaning": "soy sauce",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "醤",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "油",
+        "reading": "ゆ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "幾分",
+    "meaning": "somewhat",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "幾",
+        "reading": "いく"
+      },
+      {
+        "kanji": "分",
+        "reading": "ぶん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "田植え",
+    "meaning": "rice planting",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "田植",
+        "reading": "たう"
+      },
+      {
+        "kanji": "え",
+        "reading": "え"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "等分",
+    "meaning": "division into equal parts",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "等",
+        "reading": "とう"
+      },
+      {
+        "kanji": "分",
+        "reading": "ぶん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "心当たり",
+    "meaning": "having some knowledge of, happening to know",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "心当",
+        "reading": "こころあ"
+      },
+      {
+        "kanji": "たり",
+        "reading": "たり"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "臨時",
+    "meaning": "temporary, special, extraordinary",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "臨",
+        "reading": "りん"
+      },
+      {
+        "kanji": "時",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "向う",
+    "meaning": "(v5u) to face, to go towards",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "向",
+        "reading": "むこ"
+      },
+      {
+        "kanji": "う",
+        "reading": "う"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "心身",
+    "meaning": "mind and body",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "心",
+        "reading": "しん"
+      },
+      {
+        "kanji": "身",
+        "reading": "しん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "丼",
+    "meaning": "porcelain bowl, bowl of rice with food on top",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "丼",
+        "reading": "どんぶり"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "各自",
+    "meaning": "individual, each",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "各",
+        "reading": "かく"
+      },
+      {
+        "kanji": "自",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "時速",
+    "meaning": "speed (per hour)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "時",
+        "reading": "じ"
+      },
+      {
+        "kanji": "速",
+        "reading": "そく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "可決",
+    "meaning": "approval, adoption (e.g. motion, bill), passage",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "可",
+        "reading": "か"
+      },
+      {
+        "kanji": "決",
+        "reading": "けつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "葬式",
+    "meaning": "funeral",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "葬",
+        "reading": "そう"
+      },
+      {
+        "kanji": "式",
+        "reading": "しき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "統計",
+    "meaning": "scattering, a scatter, dispersion",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "統",
+        "reading": "とう"
+      },
+      {
+        "kanji": "計",
+        "reading": "けい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "親類",
+    "meaning": "relation, kin",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "親",
+        "reading": "しん"
+      },
+      {
+        "kanji": "類",
+        "reading": "るい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "瞳",
+    "meaning": "pupil (of eye)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "瞳",
+        "reading": "ひとみ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "田ぼ",
+    "meaning": "paddy field, farm",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "田",
+        "reading": "た"
+      },
+      {
+        "kanji": "ぼ",
+        "reading": "ぼ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "執筆",
+    "meaning": "writing",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "執",
+        "reading": "しっ"
+      },
+      {
+        "kanji": "筆",
+        "reading": "ぴつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "遠足",
+    "meaning": "trip, hike, picnic",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "遠",
+        "reading": "えん"
+      },
+      {
+        "kanji": "足",
+        "reading": "そく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "日時",
+    "meaning": "date and time",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "日",
+        "reading": "にち"
+      },
+      {
+        "kanji": "時",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "分数",
+    "meaning": "fraction (in math)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "分",
+        "reading": "ぶん"
+      },
+      {
+        "kanji": "数",
+        "reading": "すう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "漁師",
+    "meaning": "fisherman",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "漁",
+        "reading": "りょう"
+      },
+      {
+        "kanji": "師",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "欧米",
+    "meaning": "Europe and America, the West",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "欧",
+        "reading": "おう"
+      },
+      {
+        "kanji": "米",
+        "reading": "べい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "大学院",
+    "meaning": "graduate school",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "大",
+        "reading": "だい"
+      },
+      {
+        "kanji": "学",
+        "reading": "がく"
+      },
+      {
+        "kanji": "院",
+        "reading": "いん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "知人",
+    "meaning": "friend, acquaintance",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "知",
+        "reading": "ち"
+      },
+      {
+        "kanji": "人",
+        "reading": "じん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "耕地",
+    "meaning": "arable land",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "耕",
+        "reading": "こう"
+      },
+      {
+        "kanji": "地",
+        "reading": "ち"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "養分",
+    "meaning": "nourishment, nutrient",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "養",
+        "reading": "よう"
+      },
+      {
+        "kanji": "分",
+        "reading": "ぶん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "昼寝",
+    "meaning": "nap (at home), siesta",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "昼寝",
+        "reading": "ひるね"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "書道",
+    "meaning": "calligraphy",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "書",
+        "reading": "しょ"
+      },
+      {
+        "kanji": "道",
+        "reading": "どう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "会館",
+    "meaning": "meeting hall, assembly hall",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "会",
+        "reading": "かい"
+      },
+      {
+        "kanji": "館",
+        "reading": "かん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "温室",
+    "meaning": "greenhouse",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "温",
+        "reading": "おん"
+      },
+      {
+        "kanji": "室",
+        "reading": "しつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "名物",
+    "meaning": "famous product, special product, speciality",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "名",
+        "reading": "めい"
+      },
+      {
+        "kanji": "物",
+        "reading": "ぶつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "改めて",
+    "meaning": "another time, again, over again, anew, formally",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "改",
+        "reading": "あらた"
+      },
+      {
+        "kanji": "めて",
+        "reading": "めて"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "国籍",
+    "meaning": "nationality",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "国",
+        "reading": "こく"
+      },
+      {
+        "kanji": "籍",
+        "reading": "せき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "作者",
+    "meaning": "author, authoress",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "作",
+        "reading": "さく"
+      },
+      {
+        "kanji": "者",
+        "reading": "しゃ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "省略",
+    "meaning": "omission, abbreviation, abridgment",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "省",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "略",
+        "reading": "りゃく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "落し物",
+    "meaning": "lost property",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "落",
+        "reading": "おと"
+      },
+      {
+        "kanji": "し",
+        "reading": "し"
+      },
+      {
+        "kanji": "物",
+        "reading": "もの"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "恐縮",
+    "meaning": "shame, very kind of you, sorry to trouble",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "恐",
+        "reading": "きょう"
+      },
+      {
+        "kanji": "縮",
+        "reading": "しゅく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "引受る",
+    "meaning": "to undertake, to take up, to take over",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "引",
+        "reading": "ひき"
+      },
+      {
+        "kanji": "受",
+        "reading": "うけ"
+      },
+      {
+        "kanji": "る",
+        "reading": "る"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "悠々",
+    "meaning": "quiet, calm, leisurely",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "悠々",
+        "reading": "ゆうゆう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "自習",
+    "meaning": "self-study",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "自",
+        "reading": "じ"
+      },
+      {
+        "kanji": "習",
+        "reading": "しゅう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "自然科学",
+    "meaning": "natural science",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "自",
+        "reading": "し"
+      },
+      {
+        "kanji": "然",
+        "reading": "ぜん"
+      },
+      {
+        "kanji": "科",
+        "reading": "か"
+      },
+      {
+        "kanji": "学",
+        "reading": "がく"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "点数",
+    "meaning": "marks, points, score, runs",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "点",
+        "reading": "てん"
+      },
+      {
+        "kanji": "数",
+        "reading": "すう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "素質",
+    "meaning": "character, qualities, genius",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "素",
+        "reading": "そ"
+      },
+      {
+        "kanji": "質",
+        "reading": "しつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "女房",
+    "meaning": "wife",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "女",
+        "reading": "にょう"
+      },
+      {
+        "kanji": "房",
+        "reading": "ぼう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "死体",
+    "meaning": "corpse",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "死",
+        "reading": "し"
+      },
+      {
+        "kanji": "体",
+        "reading": "たい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "定休日",
+    "meaning": "regular holiday",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "定",
+        "reading": "てい"
+      },
+      {
+        "kanji": "休",
+        "reading": "きゅう"
+      },
+      {
+        "kanji": "日",
+        "reading": "び"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "逆さ",
+    "meaning": "reverse, inversion, upside down",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "逆",
+        "reading": "さか"
+      },
+      {
+        "kanji": "さ",
+        "reading": "さ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "実習",
+    "meaning": "practice, training",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "実",
+        "reading": "じっ"
+      },
+      {
+        "kanji": "習",
+        "reading": "しゅう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "稽古",
+    "meaning": "practice, training, study",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "稽",
+        "reading": "けい"
+      },
+      {
+        "kanji": "古",
+        "reading": "こ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "国王",
+    "meaning": "king",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "国",
+        "reading": "こく"
+      },
+      {
+        "kanji": "王",
+        "reading": "おう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "改正",
+    "meaning": "revision, amendment, alteration",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "改",
+        "reading": "かい"
+      },
+      {
+        "kanji": "正",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "大分",
+    "meaning": "considerably, greatly, a lot",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "大分",
+        "reading": "おおいた"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "滝",
+    "meaning": "waterfall",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "滝",
+        "reading": "たき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "箒",
+    "meaning": "(n) broom",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "箒",
+        "reading": "ほうき"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "指定",
+    "meaning": "designation, specification, assignment, pointing at",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "指",
+        "reading": "し"
+      },
+      {
+        "kanji": "定",
+        "reading": "てい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "判子",
+    "meaning": "seal (used for signature)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "判",
+        "reading": "はん"
+      },
+      {
+        "kanji": "子",
+        "reading": "こ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "又は",
+    "meaning": "or, otherwise",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "又",
+        "reading": "また"
+      },
+      {
+        "kanji": "は",
+        "reading": "は"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "募集",
+    "meaning": "recruiting, taking applications",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "募",
+        "reading": "ぼ"
+      },
+      {
+        "kanji": "集",
+        "reading": "しゅう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "構造",
+    "meaning": "structure, construction",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "構",
+        "reading": "こう"
+      },
+      {
+        "kanji": "造",
+        "reading": "ぞう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "湯飲み",
+    "meaning": "teacup",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "湯飲",
+        "reading": "ゆの"
+      },
+      {
+        "kanji": "み",
+        "reading": "み"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "盆地",
+    "meaning": "basin (e.g. between mountains)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "盆",
+        "reading": "ぼん"
+      },
+      {
+        "kanji": "地",
+        "reading": "ち"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "器械",
+    "meaning": "instrument",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "器",
+        "reading": "き"
+      },
+      {
+        "kanji": "械",
+        "reading": "かい"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "採点",
+    "meaning": "marking, grading, looking over",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "採",
+        "reading": "さい"
+      },
+      {
+        "kanji": "点",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "一昨年",
+    "meaning": "year before last",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "一",
+        "reading": "いっ"
+      },
+      {
+        "kanji": "昨",
+        "reading": "さく"
+      },
+      {
+        "kanji": "年",
+        "reading": "ねん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "焦点",
+    "meaning": "focus, point",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "焦",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "点",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "楽器",
+    "meaning": "musical instrument",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "楽",
+        "reading": "がっ"
+      },
+      {
+        "kanji": "器",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "代名詞",
+    "meaning": "pronoun",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "代",
+        "reading": "だい"
+      },
+      {
+        "kanji": "名",
+        "reading": "めい"
+      },
+      {
+        "kanji": "詞",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "裁縫",
+    "meaning": "sewing",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "裁",
+        "reading": "さい"
+      },
+      {
+        "kanji": "縫",
+        "reading": "ほう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "定価",
+    "meaning": "established price",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "定",
+        "reading": "てい"
+      },
+      {
+        "kanji": "価",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "牧畜",
+    "meaning": "stock-farming",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "牧",
+        "reading": "ぼく"
+      },
+      {
+        "kanji": "畜",
+        "reading": "ちく"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "増大",
+    "meaning": "enlargement",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "増",
+        "reading": "ぞう"
+      },
+      {
+        "kanji": "大",
+        "reading": "だい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "杉",
+    "meaning": "Japanese cedar",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "杉",
+        "reading": "すぎ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "短所",
+    "meaning": "(1) defect, demerit, weak point, (2) disadvantage",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "短",
+        "reading": "たん"
+      },
+      {
+        "kanji": "所",
+        "reading": "しょ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "全集",
+    "meaning": "complete works",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "全",
+        "reading": "ぜん"
+      },
+      {
+        "kanji": "集",
+        "reading": "しゅう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "瓶詰",
+    "meaning": "bottling, bottled",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "瓶",
+        "reading": "びん"
+      },
+      {
+        "kanji": "詰",
+        "reading": "づめ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "蝋燭",
+    "meaning": "candle",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "蝋",
+        "reading": "ろう"
+      },
+      {
+        "kanji": "燭",
+        "reading": "そく"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "清掃",
+    "meaning": "cleaning",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "清",
+        "reading": "せい"
+      },
+      {
+        "kanji": "掃",
+        "reading": "そう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "生年月日",
+    "meaning": "birth date",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "生",
+        "reading": "せい"
+      },
+      {
+        "kanji": "年",
+        "reading": "ねん"
+      },
+      {
+        "kanji": "月",
+        "reading": "がっ"
+      },
+      {
+        "kanji": "日",
+        "reading": "ぴ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "片仮名",
+    "meaning": "katakana",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "片",
+        "reading": "かた"
+      },
+      {
+        "kanji": "仮",
+        "reading": "か"
+      },
+      {
+        "kanji": "名",
+        "reading": "な"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "西暦",
+    "meaning": "Christian Era, anno domini (A.D.)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "西",
+        "reading": "せい"
+      },
+      {
+        "kanji": "暦",
+        "reading": "れき"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "休養",
+    "meaning": "rest, break, recreation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "休",
+        "reading": "きゅう"
+      },
+      {
+        "kanji": "養",
+        "reading": "よう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "内科",
+    "meaning": "internist clinic, internal medicine",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "内",
+        "reading": "ない"
+      },
+      {
+        "kanji": "科",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "便所",
+    "meaning": "toilet, lavatory, rest room, latrine, comfort station",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "便",
+        "reading": "べん"
+      },
+      {
+        "kanji": "所",
+        "reading": "じょ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "断水",
+    "meaning": "water outage",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "断",
+        "reading": "だん"
+      },
+      {
+        "kanji": "水",
+        "reading": "すい"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "限度",
+    "meaning": "limit, bounds",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "限",
+        "reading": "げん"
+      },
+      {
+        "kanji": "度",
+        "reading": "ど"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "四つ角",
+    "meaning": "four corners, crossroads",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "四",
+        "reading": "よ"
+      },
+      {
+        "kanji": "つ",
+        "reading": "つ"
+      },
+      {
+        "kanji": "角",
+        "reading": "かど"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "櫛",
+    "meaning": "comb",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "櫛",
+        "reading": "くし"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "脱線",
+    "meaning": "derailment, digression",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "脱",
+        "reading": "だっ"
+      },
+      {
+        "kanji": "線",
+        "reading": "せん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "迷信",
+    "meaning": "superstition",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "迷",
+        "reading": "めい"
+      },
+      {
+        "kanji": "信",
+        "reading": "しん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "一定",
+    "meaning": "fixed, settled, definite",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "一",
+        "reading": "いっ"
+      },
+      {
+        "kanji": "定",
+        "reading": "てい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "勘違い",
+    "meaning": "misunderstanding, wrong guess",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "勘違",
+        "reading": "かんちが"
+      },
+      {
+        "kanji": "い",
+        "reading": "い"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "割引",
+    "meaning": "discount, reduction, rebate",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "割",
+        "reading": "わり"
+      },
+      {
+        "kanji": "引",
+        "reading": "びき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "戸棚",
+    "meaning": "cupboard, locker, closet, wardrobe",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "戸",
+        "reading": "と"
+      },
+      {
+        "kanji": "棚",
+        "reading": "だな"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "灰色",
+    "meaning": "grey, gray, ashen",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "灰",
+        "reading": "はい"
+      },
+      {
+        "kanji": "色",
+        "reading": "いろ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "物置",
+    "meaning": "storage room",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "物",
+        "reading": "もの"
+      },
+      {
+        "kanji": "置",
+        "reading": "おき"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "重量",
+    "meaning": "(1) weight, (2) heavyweight boxer",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "重",
+        "reading": "じゅう"
+      },
+      {
+        "kanji": "量",
+        "reading": "りょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "灯油",
+    "meaning": "lamp oil, kerosene",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "灯",
+        "reading": "とう"
+      },
+      {
+        "kanji": "油",
+        "reading": "ゆ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "全般",
+    "meaning": "(the) whole, universal, wholly, general",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "全",
+        "reading": "ぜん"
+      },
+      {
+        "kanji": "般",
+        "reading": "ぱん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "水筒",
+    "meaning": "canteen, flask, water bottle",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "水",
+        "reading": "すい"
+      },
+      {
+        "kanji": "筒",
+        "reading": "とう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "人造",
+    "meaning": "man-made, synthetic, artificial",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "人",
+        "reading": "じん"
+      },
+      {
+        "kanji": "造",
+        "reading": "ぞう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "目次",
+    "meaning": "table of contents",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "目",
+        "reading": "もく"
+      },
+      {
+        "kanji": "次",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "消耗",
+    "meaning": "exhaustion, consumption",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "消",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "耗",
+        "reading": "もう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "上旬",
+    "meaning": "first 10 days of month",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "上",
+        "reading": "じょう"
+      },
+      {
+        "kanji": "旬",
+        "reading": "じゅん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "一斉",
+    "meaning": "simultaneous, all at once",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "一",
+        "reading": "いっ"
+      },
+      {
+        "kanji": "斉",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "貯蔵",
+    "meaning": "storage, preservation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "貯",
+        "reading": "ちょ"
+      },
+      {
+        "kanji": "蔵",
+        "reading": "ぞう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "解放",
+    "meaning": "release, liberation, emancipation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "解",
+        "reading": "かい"
+      },
+      {
+        "kanji": "放",
+        "reading": "ほう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "観測",
+    "meaning": "observation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "観",
+        "reading": "かん"
+      },
+      {
+        "kanji": "測",
+        "reading": "そく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "述語",
+    "meaning": "predicate",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "述",
+        "reading": "じゅつ"
+      },
+      {
+        "kanji": "語",
+        "reading": "ご"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "出合い",
+    "meaning": "an encounter",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "出合",
+        "reading": "であ"
+      },
+      {
+        "kanji": "い",
+        "reading": "い"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "列島",
+    "meaning": "chain of islands",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "列",
+        "reading": "れっ"
+      },
+      {
+        "kanji": "島",
+        "reading": "とう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "血圧",
+    "meaning": "blood pressure",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "血",
+        "reading": "けつ"
+      },
+      {
+        "kanji": "圧",
+        "reading": "あつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "役所",
+    "meaning": "government office, public office",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "役",
+        "reading": "やく"
+      },
+      {
+        "kanji": "所",
+        "reading": "しょ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "対策",
+    "meaning": "counter-plan, counter-measure",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "対",
+        "reading": "たい"
+      },
+      {
+        "kanji": "策",
+        "reading": "さく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "就任",
+    "meaning": "inauguration, assumption of office",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "就",
+        "reading": "しゅう"
+      },
+      {
+        "kanji": "任",
+        "reading": "にん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "石鹸",
+    "meaning": "soap",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "石鹸",
+        "reading": "せっけん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "汁",
+    "meaning": "juice, sap, soup, broth",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "汁",
+        "reading": "しる"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "直線",
+    "meaning": "straight line",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "直",
+        "reading": "ちょく"
+      },
+      {
+        "kanji": "線",
+        "reading": "せん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "乱暴",
+    "meaning": "rude, violent, rough, lawless, unreasonable, reckless",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "乱",
+        "reading": "らん"
+      },
+      {
+        "kanji": "暴",
+        "reading": "ぼう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "退院",
+    "meaning": "leaving hospital",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "退",
+        "reading": "たい"
+      },
+      {
+        "kanji": "院",
+        "reading": "いん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "不規則",
+    "meaning": "irregularity, unsteadiness, disorderly",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "不",
+        "reading": "ふ"
+      },
+      {
+        "kanji": "規",
+        "reading": "き"
+      },
+      {
+        "kanji": "則",
+        "reading": "そく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "包帯",
+    "meaning": "bandage, dressing",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "包",
+        "reading": "ほう"
+      },
+      {
+        "kanji": "帯",
+        "reading": "たい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "車輪",
+    "meaning": "(car) wheel",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "車",
+        "reading": "しゃ"
+      },
+      {
+        "kanji": "輪",
+        "reading": "りん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "用途",
+    "meaning": "use, usefulness",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "用",
+        "reading": "よう"
+      },
+      {
+        "kanji": "途",
+        "reading": "と"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "唇",
+    "meaning": "lips",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "唇",
+        "reading": "くちびる"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "書取",
+    "meaning": "dictation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "書取",
+        "reading": "かきとり"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "人文科学",
+    "meaning": "social sciences, humanities",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "人",
+        "reading": "じん"
+      },
+      {
+        "kanji": "文",
+        "reading": "ぶん"
+      },
+      {
+        "kanji": "科",
+        "reading": "か"
+      },
+      {
+        "kanji": "学",
+        "reading": "がく"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "漸く",
+    "meaning": "gradually, finally, hardly",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "漸",
+        "reading": "ようや"
+      },
+      {
+        "kanji": "く",
+        "reading": "く"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "上級",
+    "meaning": "advanced level, high grade, senior",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "上",
+        "reading": "じょう"
+      },
+      {
+        "kanji": "級",
+        "reading": "きゅう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "煙突",
+    "meaning": "chimney",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "煙",
+        "reading": "えん"
+      },
+      {
+        "kanji": "突",
+        "reading": "とつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "附属",
+    "meaning": "attached, belonging, affiliated",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "附",
+        "reading": "ふ"
+      },
+      {
+        "kanji": "属",
+        "reading": "ぞく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "名作",
+    "meaning": "masterpiece",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "名",
+        "reading": "めい"
+      },
+      {
+        "kanji": "作",
+        "reading": "さく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "栓",
+    "meaning": "stopper, cork, stopcock",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "栓",
+        "reading": "せん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "随筆",
+    "meaning": "essays, miscellaneous writings",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "随",
+        "reading": "ずい"
+      },
+      {
+        "kanji": "筆",
+        "reading": "ひつ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "出迎え",
+    "meaning": "meeting, reception",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "出迎",
+        "reading": "でむか"
+      },
+      {
+        "kanji": "え",
+        "reading": "え"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "警備",
+    "meaning": "defense, guard, policing, security",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "警",
+        "reading": "けい"
+      },
+      {
+        "kanji": "備",
+        "reading": "び"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "清書",
+    "meaning": "clean copy",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "清",
+        "reading": "せい"
+      },
+      {
+        "kanji": "書",
+        "reading": "しょ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "銘々",
+    "meaning": "each, individual",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "銘々",
+        "reading": "めいめい"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "年度",
+    "meaning": "year, fiscal year, school year, term",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "年",
+        "reading": "ねん"
+      },
+      {
+        "kanji": "度",
+        "reading": "ど"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "直角",
+    "meaning": "right angle",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "直",
+        "reading": "ちょっ"
+      },
+      {
+        "kanji": "角",
+        "reading": "かく"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "水蒸気",
+    "meaning": "water vapour, steam",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "水",
+        "reading": "すい"
+      },
+      {
+        "kanji": "蒸",
+        "reading": "じょう"
+      },
+      {
+        "kanji": "気",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "投書",
+    "meaning": "letter to the editor, letter from a reader, contribution",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "投",
+        "reading": "とう"
+      },
+      {
+        "kanji": "書",
+        "reading": "しょ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "診断",
+    "meaning": "diagnosis",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "診",
+        "reading": "しん"
+      },
+      {
+        "kanji": "断",
+        "reading": "だん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "下旬",
+    "meaning": "month (last third of)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "下",
+        "reading": "げ"
+      },
+      {
+        "kanji": "旬",
+        "reading": "じゅん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "感想",
+    "meaning": "impressions, thoughts",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "感",
+        "reading": "かん"
+      },
+      {
+        "kanji": "想",
+        "reading": "そう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "気圧",
+    "meaning": "atmospheric pressure",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "気",
+        "reading": "き"
+      },
+      {
+        "kanji": "圧",
+        "reading": "あつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "雑巾",
+    "meaning": "house-cloth, dust cloth",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "雑",
+        "reading": "ぞう"
+      },
+      {
+        "kanji": "巾",
+        "reading": "きん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "欲張り",
+    "meaning": "avarice, covetousness, greed",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "欲張",
+        "reading": "よくば"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "相違",
+    "meaning": "difference, discrepancy, variation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "相",
+        "reading": "そう"
+      },
+      {
+        "kanji": "違",
+        "reading": "い"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "零点",
+    "meaning": "zero, no marks",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "零",
+        "reading": "れい"
+      },
+      {
+        "kanji": "点",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "打合せ",
+    "meaning": "business meeting, previous arrangement, appointment",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "打合",
+        "reading": "うちあわ"
+      },
+      {
+        "kanji": "せ",
+        "reading": "せ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "坊や",
+    "meaning": "boy",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "坊",
+        "reading": "ぼう"
+      },
+      {
+        "kanji": "や",
+        "reading": "や"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "貝",
+    "meaning": "shell, shellfish",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "貝",
+        "reading": "かい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "釜",
+    "meaning": "iron pot, kettle",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "釜",
+        "reading": "かま"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "人通り",
+    "meaning": "pedestrian traffic",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "人通",
+        "reading": "ひとどお"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "物騒",
+    "meaning": "dangerous, disturbed, insecure",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "物",
+        "reading": "ぶっ"
+      },
+      {
+        "kanji": "騒",
+        "reading": "そう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "便箋",
+    "meaning": "writing paper, stationery",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "便",
+        "reading": "びん"
+      },
+      {
+        "kanji": "箋",
+        "reading": "せん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "通訳",
+    "meaning": "interpretation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "通",
+        "reading": "つう"
+      },
+      {
+        "kanji": "訳",
+        "reading": "やく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "接近",
+    "meaning": "getting closer, drawing nearer, approaching",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "接",
+        "reading": "せっ"
+      },
+      {
+        "kanji": "近",
+        "reading": "きん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "口紅",
+    "meaning": "lipstick",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "口",
+        "reading": "くち"
+      },
+      {
+        "kanji": "紅",
+        "reading": "べに"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "初旬",
+    "meaning": "first 10 days of the month",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "初",
+        "reading": "しょ"
+      },
+      {
+        "kanji": "旬",
+        "reading": "じゅん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "艶",
+    "meaning": "gloss, glaze",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "艶",
+        "reading": "つや"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "餅",
+    "meaning": "sticky rice cake",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "餅",
+        "reading": "もち"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "修繕",
+    "meaning": "repair, mending",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "修",
+        "reading": "しゅう"
+      },
+      {
+        "kanji": "繕",
+        "reading": "ぜん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "要旨",
+    "meaning": "gist, essentials, summary, fundamentals",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "要",
+        "reading": "よう"
+      },
+      {
+        "kanji": "旨",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "両側",
+    "meaning": "both sides",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "両",
+        "reading": "りょう"
+      },
+      {
+        "kanji": "側",
+        "reading": "がわ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "洒落",
+    "meaning": "joke, pun, witticism",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "洒落",
+        "reading": "しゃれ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "司会",
+    "meaning": "chairmanship",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "司",
+        "reading": "し"
+      },
+      {
+        "kanji": "会",
+        "reading": "かい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "項目",
+    "meaning": "item",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "項",
+        "reading": "こう"
+      },
+      {
+        "kanji": "目",
+        "reading": "もく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "頂点",
+    "meaning": "top, summit",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "頂",
+        "reading": "ちょう"
+      },
+      {
+        "kanji": "点",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "筆記",
+    "meaning": "(taking) notes, copying",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "筆",
+        "reading": "ひっ"
+      },
+      {
+        "kanji": "記",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "火口",
+    "meaning": "a burner, origin of a fire",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "火",
+        "reading": "か"
+      },
+      {
+        "kanji": "口",
+        "reading": "こう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "庖丁",
+    "meaning": "kitchen knife, carving knife",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "庖",
+        "reading": "ほう"
+      },
+      {
+        "kanji": "丁",
+        "reading": "ちょう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "広々",
+    "meaning": "extensive, spacious",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "広々",
+        "reading": "ひろびろ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "家主",
+    "meaning": "landlord",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "家",
+        "reading": "や"
+      },
+      {
+        "kanji": "主",
+        "reading": "ぬし"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "校舎",
+    "meaning": "school building",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "校",
+        "reading": "こう"
+      },
+      {
+        "kanji": "舎",
+        "reading": "しゃ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "下町",
+    "meaning": "Shitamachi, lower parts of town",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "下",
+        "reading": "した"
+      },
+      {
+        "kanji": "町",
+        "reading": "まち"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "長所",
+    "meaning": "(1) strong point, merit, (2) advantage",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "長",
+        "reading": "ちょう"
+      },
+      {
+        "kanji": "所",
+        "reading": "しょ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "明け方",
+    "meaning": "dawn",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "明",
+        "reading": "あ"
+      },
+      {
+        "kanji": "け",
+        "reading": "け"
+      },
+      {
+        "kanji": "方",
+        "reading": "がた"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "広場",
+    "meaning": "plaza",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "広場",
+        "reading": "ひろば"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "過失",
+    "meaning": "error, blunder, accident",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "過",
+        "reading": "か"
+      },
+      {
+        "kanji": "失",
+        "reading": "しつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "案外",
+    "meaning": "unexpectedly",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "案",
+        "reading": "あん"
+      },
+      {
+        "kanji": "外",
+        "reading": "がい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "電波",
+    "meaning": "electro-magnetic wave",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "電",
+        "reading": "でん"
+      },
+      {
+        "kanji": "波",
+        "reading": "ぱ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "部首",
+    "meaning": "radical (of a kanji character)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "部",
+        "reading": "ぶ"
+      },
+      {
+        "kanji": "首",
+        "reading": "しゅ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "民間",
+    "meaning": "private, civilian, civil, popular, folk, unofficial",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "民",
+        "reading": "みん"
+      },
+      {
+        "kanji": "間",
+        "reading": "かん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "毛皮",
+    "meaning": "fur, skin, pelt",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "毛",
+        "reading": "け"
+      },
+      {
+        "kanji": "皮",
+        "reading": "がわ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "団地",
+    "meaning": "multi-unit apartments",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "団",
+        "reading": "だん"
+      },
+      {
+        "kanji": "地",
+        "reading": "ち"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "お帰り",
+    "meaning": "return, welcome",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "お",
+        "reading": "お"
+      },
+      {
+        "kanji": "帰",
+        "reading": "かえ"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "蚊",
+    "meaning": "mosquito",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "蚊",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "受験",
+    "meaning": "taking an examination",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "受",
+        "reading": "じゅ"
+      },
+      {
+        "kanji": "験",
+        "reading": "けん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "卒直",
+    "meaning": "frankness, candour, openheartedness",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "卒",
+        "reading": "そつ"
+      },
+      {
+        "kanji": "直",
+        "reading": "ただし"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "大工",
+    "meaning": "carpenter",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "大",
+        "reading": "だい"
+      },
+      {
+        "kanji": "工",
+        "reading": "く"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "関西",
+    "meaning": "",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "関",
+        "reading": "かん"
+      },
+      {
+        "kanji": "西",
+        "reading": "さい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "解答",
+    "meaning": "answer, solution",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "解",
+        "reading": "かい"
+      },
+      {
+        "kanji": "答",
+        "reading": "とう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "出勤",
+    "meaning": "going to work, at work",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "出",
+        "reading": "しゅっ"
+      },
+      {
+        "kanji": "勤",
+        "reading": "きん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "測量",
+    "meaning": "measurement, surveying",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "測",
+        "reading": "そく"
+      },
+      {
+        "kanji": "量",
+        "reading": "りょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "下降",
+    "meaning": "downward, descent, fall, drop, subsidence",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "下",
+        "reading": "か"
+      },
+      {
+        "kanji": "降",
+        "reading": "こう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "気を付ける",
+    "meaning": "to be careful, to pay attention, to take care",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "気",
+        "reading": "き"
+      },
+      {
+        "kanji": "を",
+        "reading": "を"
+      },
+      {
+        "kanji": "付",
+        "reading": "つ"
+      },
+      {
+        "kanji": "ける",
+        "reading": "ける"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "発売",
+    "meaning": "sale",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "発",
+        "reading": "はつ"
+      },
+      {
+        "kanji": "売",
+        "reading": "ばい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "縞",
+    "meaning": "stripe",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "縞",
+        "reading": "しま"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "派手",
+    "meaning": "showy, loud, gay, flashy, gaudy",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "派",
+        "reading": "は"
+      },
+      {
+        "kanji": "手",
+        "reading": "で"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "区分",
+    "meaning": "division, section, classification",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "区",
+        "reading": "く"
+      },
+      {
+        "kanji": "分",
+        "reading": "ぶん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "湿気",
+    "meaning": "moisture, humidity, dampness",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "湿",
+        "reading": "しっ"
+      },
+      {
+        "kanji": "気",
+        "reading": "け"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "慶び",
+    "meaning": "(n) (a) joy, (a) delight, rapture, pleasure, gratification, rejoicing, congratulations, felicitations",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "慶",
+        "reading": "よろこ"
+      },
+      {
+        "kanji": "び",
+        "reading": "び"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "姓",
+    "meaning": "surname, family name",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "姓",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "助教授",
+    "meaning": "assistant professor",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "助",
+        "reading": "じょ"
+      },
+      {
+        "kanji": "教",
+        "reading": "きょう"
+      },
+      {
+        "kanji": "授",
+        "reading": "じゅ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "襖",
+    "meaning": "sliding screen",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "襖",
+        "reading": "ふすま"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "水産",
+    "meaning": "marine products, fisheries",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "水",
+        "reading": "すい"
+      },
+      {
+        "kanji": "産",
+        "reading": "さん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "通帳",
+    "meaning": "passbook",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "通帳",
+        "reading": "かよいちょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "停電",
+    "meaning": "failure of electricity",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "停",
+        "reading": "てい"
+      },
+      {
+        "kanji": "電",
+        "reading": "でん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "平日",
+    "meaning": "weekday, ordinary days",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "平",
+        "reading": "へい"
+      },
+      {
+        "kanji": "日",
+        "reading": "じつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "何分",
+    "meaning": "what minute?, how many minutes?",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "何",
+        "reading": "なに"
+      },
+      {
+        "kanji": "分",
+        "reading": "ぶん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "早口",
+    "meaning": "fast-talking",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "早",
+        "reading": "はや"
+      },
+      {
+        "kanji": "口",
+        "reading": "くち"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "点々",
+    "meaning": "here and there, little by little",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "点々",
+        "reading": "てんてん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "直流",
+    "meaning": "direct current",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "直",
+        "reading": "ちょく"
+      },
+      {
+        "kanji": "流",
+        "reading": "りゅう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "見学",
+    "meaning": "inspection, study by observation, field trip",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "見",
+        "reading": "けん"
+      },
+      {
+        "kanji": "学",
+        "reading": "がく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "大凡",
+    "meaning": "about, roughly, as a rule, approximately",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "大凡",
+        "reading": "おおよそ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "煉瓦",
+    "meaning": "brick",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "煉",
+        "reading": "れん"
+      },
+      {
+        "kanji": "瓦",
+        "reading": "が"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "防犯",
+    "meaning": "prevention of crime",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "防",
+        "reading": "ぼう"
+      },
+      {
+        "kanji": "犯",
+        "reading": "はん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "回答",
+    "meaning": "reply, answer",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "回",
+        "reading": "かい"
+      },
+      {
+        "kanji": "答",
+        "reading": "とう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "過剰",
+    "meaning": "excess, over-",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "過",
+        "reading": "か"
+      },
+      {
+        "kanji": "剰",
+        "reading": "じょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "寿命",
+    "meaning": "life span",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "寿",
+        "reading": "じゅ"
+      },
+      {
+        "kanji": "命",
+        "reading": "みょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "不運",
+    "meaning": "unlucky, misfortune, bad luck, fate",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "不",
+        "reading": "ふ"
+      },
+      {
+        "kanji": "運",
+        "reading": "うん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "足袋",
+    "meaning": "tabi, Japanese socks (with split toe)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "足袋",
+        "reading": "たび"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "消防署",
+    "meaning": "fire station",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "消",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "防",
+        "reading": "ぼう"
+      },
+      {
+        "kanji": "署",
+        "reading": "しょ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "後輩",
+    "meaning": "junior (at work or school)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "後",
+        "reading": "こう"
+      },
+      {
+        "kanji": "輩",
+        "reading": "はい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "材木",
+    "meaning": "lumber, timber",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "材",
+        "reading": "ざい"
+      },
+      {
+        "kanji": "木",
+        "reading": "もく"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "謙遜",
+    "meaning": "humble, humility, modesty",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "謙",
+        "reading": "けん"
+      },
+      {
+        "kanji": "遜",
+        "reading": "そん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "真空",
+    "meaning": "vacuum, hollow, empty",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "真",
+        "reading": "しん"
+      },
+      {
+        "kanji": "空",
+        "reading": "くう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "間隔",
+    "meaning": "space, interval, SPC",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "間",
+        "reading": "かん"
+      },
+      {
+        "kanji": "隔",
+        "reading": "かく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "一流",
+    "meaning": "first class, top grade, foremost, top-notch",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "一",
+        "reading": "いち"
+      },
+      {
+        "kanji": "流",
+        "reading": "りゅう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "見本",
+    "meaning": "sample",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "見本",
+        "reading": "みほん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "好き好き",
+    "meaning": "matter of taste",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "好",
+        "reading": "す"
+      },
+      {
+        "kanji": "き",
+        "reading": "き"
+      },
+      {
+        "kanji": "好",
+        "reading": "す"
+      },
+      {
+        "kanji": "き",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "不潔",
+    "meaning": "unclean, dirty, filthy, impure",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "不",
+        "reading": "ふ"
+      },
+      {
+        "kanji": "潔",
+        "reading": "けつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "紅葉",
+    "meaning": "(1) (Japanese) maple",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "紅",
+        "reading": "こう"
+      },
+      {
+        "kanji": "葉",
+        "reading": "よう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "区域",
+    "meaning": "limits, boundary, domain, zone, sphere, territory",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "区",
+        "reading": "く"
+      },
+      {
+        "kanji": "域",
+        "reading": "いき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "相撲",
+    "meaning": "sumo wrestling",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "相撲",
+        "reading": "すもう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "坊っちゃん",
+    "meaning": "son (of others)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "坊",
+        "reading": "ぼ"
+      },
+      {
+        "kanji": "っちゃん",
+        "reading": "っちゃん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "通貨",
+    "meaning": "currency",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "通",
+        "reading": "つう"
+      },
+      {
+        "kanji": "貨",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "方針",
+    "meaning": "objective, plan, policy",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "方",
+        "reading": "ほう"
+      },
+      {
+        "kanji": "針",
+        "reading": "しん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "純情",
+    "meaning": "pure heart, naivete, self-sacrificing devotion",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "純",
+        "reading": "じゅん"
+      },
+      {
+        "kanji": "情",
+        "reading": "じょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "特殊",
+    "meaning": "special, unique",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "特",
+        "reading": "とく"
+      },
+      {
+        "kanji": "殊",
+        "reading": "しゅ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "お手伝いさん",
+    "meaning": "maid",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "お",
+        "reading": "お"
+      },
+      {
+        "kanji": "手伝",
+        "reading": "てつだ"
+      },
+      {
+        "kanji": "いさん",
+        "reading": "いさん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "枚数",
+    "meaning": "the number of flat things",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "枚",
+        "reading": "まい"
+      },
+      {
+        "kanji": "数",
+        "reading": "すう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "皮肉",
+    "meaning": "cynicism, sarcasm",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "皮",
+        "reading": "ひ"
+      },
+      {
+        "kanji": "肉",
+        "reading": "にく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "名刺",
+    "meaning": "business card",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "名",
+        "reading": "めい"
+      },
+      {
+        "kanji": "刺",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "屑",
+    "meaning": "waste, scrap",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "屑",
+        "reading": "くず"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "自衛",
+    "meaning": "self-defense",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "自",
+        "reading": "じ"
+      },
+      {
+        "kanji": "衛",
+        "reading": "えい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "坊さん",
+    "meaning": "Buddhist priest, monk",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "坊",
+        "reading": "ぼう"
+      },
+      {
+        "kanji": "さん",
+        "reading": "さん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "官庁",
+    "meaning": "government office, authorities",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "官",
+        "reading": "かん"
+      },
+      {
+        "kanji": "庁",
+        "reading": "ちょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "問答",
+    "meaning": "questions and answers, dialogue",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "問",
+        "reading": "もん"
+      },
+      {
+        "kanji": "答",
+        "reading": "どう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "一応",
+    "meaning": "once, tentatively, in outline, for the time being",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "一",
+        "reading": "いち"
+      },
+      {
+        "kanji": "応",
+        "reading": "おう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "申請",
+    "meaning": "application, request, petition",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "申",
+        "reading": "しん"
+      },
+      {
+        "kanji": "請",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "家屋",
+    "meaning": "house, building",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "家",
+        "reading": "か"
+      },
+      {
+        "kanji": "屋",
+        "reading": "おく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "以後",
+    "meaning": "after this, from now on, hereafter, thereafter",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "以",
+        "reading": "い"
+      },
+      {
+        "kanji": "後",
+        "reading": "ご"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "銅",
+    "meaning": "copper",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "銅",
+        "reading": "どう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "超過",
+    "meaning": "excess, being more than",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "超",
+        "reading": "ちょう"
+      },
+      {
+        "kanji": "過",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "調節",
+    "meaning": "regulation, adjustment, control",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "調",
+        "reading": "ちょう"
+      },
+      {
+        "kanji": "節",
+        "reading": "せつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "地帯",
+    "meaning": "area, zone",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "地",
+        "reading": "ち"
+      },
+      {
+        "kanji": "帯",
+        "reading": "たい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "朗らか",
+    "meaning": "brightness, cheerfulness, melodious",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "朗",
+        "reading": "ほが"
+      },
+      {
+        "kanji": "らか",
+        "reading": "らか"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "有無",
+    "meaning": "yes or no, existence, flag indicator (comp), presence or absence marker",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "有",
+        "reading": "う"
+      },
+      {
+        "kanji": "無",
+        "reading": "む"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "但し",
+    "meaning": "but, however, provided that",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "但",
+        "reading": "ただ"
+      },
+      {
+        "kanji": "し",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "遊園地",
+    "meaning": "amusement park",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "遊",
+        "reading": "ゆう"
+      },
+      {
+        "kanji": "園",
+        "reading": "えん"
+      },
+      {
+        "kanji": "地",
+        "reading": "ち"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "裏口",
+    "meaning": "backdoor, rear entrance",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "裏",
+        "reading": "うら"
+      },
+      {
+        "kanji": "口",
+        "reading": "ぐち"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "幼児",
+    "meaning": "infant, baby, child",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "幼",
+        "reading": "よう"
+      },
+      {
+        "kanji": "児",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "目覚し",
+    "meaning": "(abbr) alarm-clock",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "目覚",
+        "reading": "めざま"
+      },
+      {
+        "kanji": "し",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "方角",
+    "meaning": "direction, way, compass point",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "方",
+        "reading": "ほう"
+      },
+      {
+        "kanji": "角",
+        "reading": "がく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "小便",
+    "meaning": "(col) urine, piss",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "小",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "便",
+        "reading": "べん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "加速度",
+    "meaning": "acceleration",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "加",
+        "reading": "か"
+      },
+      {
+        "kanji": "速",
+        "reading": "そく"
+      },
+      {
+        "kanji": "度",
+        "reading": "ど"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "登場",
+    "meaning": "entry (on stage)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "登",
+        "reading": "とう"
+      },
+      {
+        "kanji": "場",
+        "reading": "じょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "近々",
+    "meaning": "nearness, before long",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "近々",
+        "reading": "ちかぢか"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "盆",
+    "meaning": "Lantern Festival, Festival of the Dead, tray",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "盆",
+        "reading": "ぼん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "形式",
+    "meaning": "form, formality, format, math expression",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "形",
+        "reading": "けい"
+      },
+      {
+        "kanji": "式",
+        "reading": "しき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "麓",
+    "meaning": "the foot, the bottom, the base (of a mountain)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "麓",
+        "reading": "ふもと"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "原料",
+    "meaning": "raw materials",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "原",
+        "reading": "げん"
+      },
+      {
+        "kanji": "料",
+        "reading": "りょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "名字",
+    "meaning": "surname, family name",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "名",
+        "reading": "みょう"
+      },
+      {
+        "kanji": "字",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "雑音",
+    "meaning": "noise (jarring, grating)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "雑",
+        "reading": "ざつ"
+      },
+      {
+        "kanji": "音",
+        "reading": "おん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "特定",
+    "meaning": "specific, special, particular",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "特",
+        "reading": "とく"
+      },
+      {
+        "kanji": "定",
+        "reading": "てい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "勝負",
+    "meaning": "victory or defeat, match, contest, game, bout",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "勝",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "負",
+        "reading": "ぶ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "縮小",
+    "meaning": "reduction, curtailment",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "縮",
+        "reading": "しゅく"
+      },
+      {
+        "kanji": "小",
+        "reading": "しょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "皮膚",
+    "meaning": "skin",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "皮",
+        "reading": "ひ"
+      },
+      {
+        "kanji": "膚",
+        "reading": "ふ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "将棋",
+    "meaning": "Japanese chess",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "将",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "棋",
+        "reading": "ぎ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "育児",
+    "meaning": "childcare, nursing, upbringing",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "育",
+        "reading": "いく"
+      },
+      {
+        "kanji": "児",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "満点",
+    "meaning": "perfect score",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "満",
+        "reading": "まん"
+      },
+      {
+        "kanji": "点",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "顕微鏡",
+    "meaning": "microscope",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "顕",
+        "reading": "けん"
+      },
+      {
+        "kanji": "微",
+        "reading": "び"
+      },
+      {
+        "kanji": "鏡",
+        "reading": "きょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "手洗い",
+    "meaning": "restroom, lavatory, hand-washing",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "手洗",
+        "reading": "てあら"
+      },
+      {
+        "kanji": "い",
+        "reading": "い"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "爪",
+    "meaning": "fingernail or toenail, claw, talon, hoof",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "爪",
+        "reading": "つめ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "円周",
+    "meaning": "circumference",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "円",
+        "reading": "えん"
+      },
+      {
+        "kanji": "周",
+        "reading": "しゅう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "薬指",
+    "meaning": "ring finger",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "薬",
+        "reading": "くすり"
+      },
+      {
+        "kanji": "指",
+        "reading": "ゆび"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "酸性",
+    "meaning": "acidity",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "酸",
+        "reading": "さん"
+      },
+      {
+        "kanji": "性",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "体制",
+    "meaning": "order, system, structure, set-up, organization",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "体",
+        "reading": "たい"
+      },
+      {
+        "kanji": "制",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "再来月",
+    "meaning": "month after next",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "再",
+        "reading": "さ"
+      },
+      {
+        "kanji": "来",
+        "reading": "らい"
+      },
+      {
+        "kanji": "月",
+        "reading": "げつ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "単数",
+    "meaning": "singular (number)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "単",
+        "reading": "たん"
+      },
+      {
+        "kanji": "数",
+        "reading": "すう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "正方形",
+    "meaning": "square",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "正",
+        "reading": "せい"
+      },
+      {
+        "kanji": "方",
+        "reading": "ほう"
+      },
+      {
+        "kanji": "形",
+        "reading": "けい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "輸血",
+    "meaning": "blood transfusion",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "輸",
+        "reading": "ゆ"
+      },
+      {
+        "kanji": "血",
+        "reading": "けつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "空っぽ",
+    "meaning": "empty, vacant, hollow",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "空",
+        "reading": "から"
+      },
+      {
+        "kanji": "っぽ",
+        "reading": "っぽ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "先々月",
+    "meaning": "month before last",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "先々",
+        "reading": "さきざき"
+      },
+      {
+        "kanji": "月",
+        "reading": "つき"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "始めに",
+    "meaning": "to begin with, first of all",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "始",
+        "reading": "はじ"
+      },
+      {
+        "kanji": "めに",
+        "reading": "めに"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "小数",
+    "meaning": "fraction (part of), decimal",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "小",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "数",
+        "reading": "すう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "開通",
+    "meaning": "opening, open",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "開",
+        "reading": "かい"
+      },
+      {
+        "kanji": "通",
+        "reading": "つう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "展開",
+    "meaning": "develop, expansion (opposite of compression)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "展",
+        "reading": "てん"
+      },
+      {
+        "kanji": "開",
+        "reading": "かい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "長方形",
+    "meaning": "rectangle, oblong",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "長",
+        "reading": "ちょう"
+      },
+      {
+        "kanji": "方",
+        "reading": "ほう"
+      },
+      {
+        "kanji": "形",
+        "reading": "けい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "工芸",
+    "meaning": "industrial arts",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "工",
+        "reading": "こう"
+      },
+      {
+        "kanji": "芸",
+        "reading": "げい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "割算",
+    "meaning": "division (math)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "割",
+        "reading": "わり"
+      },
+      {
+        "kanji": "算",
+        "reading": "ざん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "下線",
+    "meaning": "underline, underscore",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "下",
+        "reading": "か"
+      },
+      {
+        "kanji": "線",
+        "reading": "せん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "領事",
+    "meaning": "consul",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "領",
+        "reading": "りょう"
+      },
+      {
+        "kanji": "事",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "基礎",
+    "meaning": "foundation, basis",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "基",
+        "reading": "き"
+      },
+      {
+        "kanji": "礎",
+        "reading": "そ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "中指",
+    "meaning": "middle finger",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "中",
+        "reading": "なか"
+      },
+      {
+        "kanji": "指",
+        "reading": "ゆび"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "商業",
+    "meaning": "commerce, trade, business",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "商",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "業",
+        "reading": "ぎょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "真っ白",
+    "meaning": "pure white",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "真",
+        "reading": "ま"
+      },
+      {
+        "kanji": "っ",
+        "reading": "っ"
+      },
+      {
+        "kanji": "白",
+        "reading": "しろ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "資料",
+    "meaning": "materials, data",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "資",
+        "reading": "し"
+      },
+      {
+        "kanji": "料",
+        "reading": "りょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "関東",
+    "meaning": "eastern half of Japan, including Tokyo",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "関",
+        "reading": "かん"
+      },
+      {
+        "kanji": "東",
+        "reading": "とう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "専制",
+    "meaning": "despotism, autocracy",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "専",
+        "reading": "せん"
+      },
+      {
+        "kanji": "制",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "仮名遣い",
+    "meaning": "kana orthography, syllabary spelling",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "仮名遣",
+        "reading": "かなづか"
+      },
+      {
+        "kanji": "い",
+        "reading": "い"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "蒸発",
+    "meaning": "evaporation, unexplained disappearance",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "蒸",
+        "reading": "じょう"
+      },
+      {
+        "kanji": "発",
+        "reading": "はつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "羽根",
+    "meaning": "shuttlecock",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "羽",
+        "reading": "は"
+      },
+      {
+        "kanji": "根",
+        "reading": "ね"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "身分",
+    "meaning": "social position, social status",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "身",
+        "reading": "み"
+      },
+      {
+        "kanji": "分",
+        "reading": "ぶん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "本来",
+    "meaning": "essentially, naturally, by nature",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "本",
+        "reading": "ほん"
+      },
+      {
+        "kanji": "来",
+        "reading": "らい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "宛名",
+    "meaning": "address, direction",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "宛",
+        "reading": "あて"
+      },
+      {
+        "kanji": "名",
+        "reading": "な"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "交替",
+    "meaning": "alternation, change, relief, relay, shift",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "交",
+        "reading": "こう"
+      },
+      {
+        "kanji": "替",
+        "reading": "たい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "形容詞",
+    "meaning": "true adjective",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "形",
+        "reading": "けい"
+      },
+      {
+        "kanji": "容",
+        "reading": "よう"
+      },
+      {
+        "kanji": "詞",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "賞品",
+    "meaning": "prize, trophy",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "賞",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "品",
+        "reading": "ひん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "薬缶",
+    "meaning": "kettle",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "薬缶",
+        "reading": "やかん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "抽象",
+    "meaning": "abstract",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "抽",
+        "reading": "ちゅう"
+      },
+      {
+        "kanji": "象",
+        "reading": "しょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "虹",
+    "meaning": "rainbow",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "虹",
+        "reading": "にじ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "手帳",
+    "meaning": "notebook",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "手",
+        "reading": "て"
+      },
+      {
+        "kanji": "帳",
+        "reading": "ちょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "作製",
+    "meaning": "manufacture",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "作",
+        "reading": "さく"
+      },
+      {
+        "kanji": "製",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "風船",
+    "meaning": "balloon",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "風",
+        "reading": "ふう"
+      },
+      {
+        "kanji": "船",
+        "reading": "せん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "課程",
+    "meaning": "course, curriculum",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "課",
+        "reading": "か"
+      },
+      {
+        "kanji": "程",
+        "reading": "てい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "日の入り",
+    "meaning": "sunset",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "日",
+        "reading": "ひ"
+      },
+      {
+        "kanji": "の",
+        "reading": "の"
+      },
+      {
+        "kanji": "入",
+        "reading": "い"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "例外",
+    "meaning": "exception",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "例",
+        "reading": "れい"
+      },
+      {
+        "kanji": "外",
+        "reading": "がい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "却って",
+    "meaning": "on the contrary, rather, all the more, instead",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "却",
+        "reading": "かえ"
+      },
+      {
+        "kanji": "って",
+        "reading": "って"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "休息",
+    "meaning": "rest, relief, relaxation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "休",
+        "reading": "きゅう"
+      },
+      {
+        "kanji": "息",
+        "reading": "そく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "温泉",
+    "meaning": "spa, hot spring, onsen",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "温",
+        "reading": "おん"
+      },
+      {
+        "kanji": "泉",
+        "reading": "せん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "斜め",
+    "meaning": "obliqueness",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "斜",
+        "reading": "なな"
+      },
+      {
+        "kanji": "め",
+        "reading": "め"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "各々",
+    "meaning": "each, every, either, respectively, severally",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "各",
+        "reading": "かく"
+      },
+      {
+        "kanji": "々",
+        "reading": "々"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "外部",
+    "meaning": "the outside, external",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "外",
+        "reading": "がい"
+      },
+      {
+        "kanji": "部",
+        "reading": "ぶ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "金魚",
+    "meaning": "goldfish",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "金",
+        "reading": "きん"
+      },
+      {
+        "kanji": "魚",
+        "reading": "ぎょ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "御免",
+    "meaning": "your pardon, declining (something), dismissal, permission",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "御",
+        "reading": "ご"
+      },
+      {
+        "kanji": "免",
+        "reading": "めん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "各地",
+    "meaning": "every place, various places",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "各",
+        "reading": "かく"
+      },
+      {
+        "kanji": "地",
+        "reading": "ち"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "農村",
+    "meaning": "agricultural community, farm village, rural",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "農",
+        "reading": "のう"
+      },
+      {
+        "kanji": "村",
+        "reading": "そん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "破片",
+    "meaning": "fragment, splinter, broken piece",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "破",
+        "reading": "は"
+      },
+      {
+        "kanji": "片",
+        "reading": "へん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "瓦",
+    "meaning": "roof tile",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "瓦",
+        "reading": "かわら"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "接続",
+    "meaning": "(1) connection, union, join, link, (2) changing trains",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "接",
+        "reading": "せつ"
+      },
+      {
+        "kanji": "続",
+        "reading": "ぞく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "保健",
+    "meaning": "health preservation, hygiene, sanitation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "保",
+        "reading": "ほ"
+      },
+      {
+        "kanji": "健",
+        "reading": "けん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "清む",
+    "meaning": "",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "清",
+        "reading": "きよし"
+      },
+      {
+        "kanji": "む",
+        "reading": "む"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "表紙",
+    "meaning": "front cover, binding",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "表",
+        "reading": "ひょう"
+      },
+      {
+        "kanji": "紙",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "活躍",
+    "meaning": "activity",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "活",
+        "reading": "かつ"
+      },
+      {
+        "kanji": "躍",
+        "reading": "やく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "防止",
+    "meaning": "prevention, check",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "防",
+        "reading": "ぼう"
+      },
+      {
+        "kanji": "止",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "流石",
+    "meaning": "clever, adept, good, expectations, as one would expect",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "流石",
+        "reading": "さすが"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "主語",
+    "meaning": "(gram) subject",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "主",
+        "reading": "しゅ"
+      },
+      {
+        "kanji": "語",
+        "reading": "ご"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "座敷",
+    "meaning": "tatami room",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "座",
+        "reading": "ざ"
+      },
+      {
+        "kanji": "敷",
+        "reading": "しき"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "火傷",
+    "meaning": "burn, scald",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "火",
+        "reading": "か"
+      },
+      {
+        "kanji": "傷",
+        "reading": "しょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "童話",
+    "meaning": "fairy tale",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "童",
+        "reading": "どう"
+      },
+      {
+        "kanji": "話",
+        "reading": "わ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "通勤",
+    "meaning": "commuting to work",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "通",
+        "reading": "つう"
+      },
+      {
+        "kanji": "勤",
+        "reading": "きん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "謎謎",
+    "meaning": "riddle, puzzle, enigma",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "謎",
+        "reading": "なぞ"
+      },
+      {
+        "kanji": "謎",
+        "reading": "なぞ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "総理大臣",
+    "meaning": "Prime Minister",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "総",
+        "reading": "そう"
+      },
+      {
+        "kanji": "理",
+        "reading": "り"
+      },
+      {
+        "kanji": "大",
+        "reading": "だい"
+      },
+      {
+        "kanji": "臣",
+        "reading": "じん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "転々",
+    "meaning": "",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "転々",
+        "reading": "てんてん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "算盤",
+    "meaning": "abacus",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "算",
+        "reading": "そろ"
+      },
+      {
+        "kanji": "盤",
+        "reading": "ばん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "学科",
+    "meaning": "study subject, course of study",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "学",
+        "reading": "がっ"
+      },
+      {
+        "kanji": "科",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "下駄",
+    "meaning": "geta (Japanese footwear), wooden clogs",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "下",
+        "reading": "げ"
+      },
+      {
+        "kanji": "駄",
+        "reading": "た"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "成立",
+    "meaning": "coming into existence, arrangements, establishment, completion",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "成",
+        "reading": "せい"
+      },
+      {
+        "kanji": "立",
+        "reading": "りつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "地味",
+    "meaning": "plain, simple",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "地",
+        "reading": "じ"
+      },
+      {
+        "kanji": "味",
+        "reading": "み"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "花火",
+    "meaning": "fireworks",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "花",
+        "reading": "はな"
+      },
+      {
+        "kanji": "火",
+        "reading": "び"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "月給",
+    "meaning": "monthly salary",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "月",
+        "reading": "げっ"
+      },
+      {
+        "kanji": "給",
+        "reading": "きゅう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "基地",
+    "meaning": "base",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "基",
+        "reading": "き"
+      },
+      {
+        "kanji": "地",
+        "reading": "ち"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "写生",
+    "meaning": "sketching, drawing from nature",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "写",
+        "reading": "しゃ"
+      },
+      {
+        "kanji": "生",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "拡張",
+    "meaning": "expansion, extension, enlargement, escape (ESC)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "拡",
+        "reading": "かく"
+      },
+      {
+        "kanji": "張",
+        "reading": "ちょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "見掛け",
+    "meaning": "outward appearance",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "見掛",
+        "reading": "みか"
+      },
+      {
+        "kanji": "け",
+        "reading": "け"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "番地",
+    "meaning": "house number, address",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "番",
+        "reading": "ばん"
+      },
+      {
+        "kanji": "地",
+        "reading": "ち"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "出入口",
+    "meaning": "exit and entrance",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "出",
+        "reading": "で"
+      },
+      {
+        "kanji": "入",
+        "reading": "いり"
+      },
+      {
+        "kanji": "口",
+        "reading": "ぐち"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "直径",
+    "meaning": "diameter",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "直",
+        "reading": "ちょっ"
+      },
+      {
+        "kanji": "径",
+        "reading": "けい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "中身",
+    "meaning": "contents, interior, substance, filling, (sword) blade",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "中",
+        "reading": "なか"
+      },
+      {
+        "kanji": "身",
+        "reading": "み"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "売上",
+    "meaning": "amount sold, proceeds",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "売上",
+        "reading": "うりあげ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "堀",
+    "meaning": "moat, canal",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "堀",
+        "reading": "ほり"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "濃度",
+    "meaning": "concentration, brightness",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "濃",
+        "reading": "のう"
+      },
+      {
+        "kanji": "度",
+        "reading": "ど"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "流域",
+    "meaning": "(river) basin",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "流",
+        "reading": "りゅう"
+      },
+      {
+        "kanji": "域",
+        "reading": "いき"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "複数",
+    "meaning": "plural, multiple",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "複",
+        "reading": "ふく"
+      },
+      {
+        "kanji": "数",
+        "reading": "すう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "確率",
+    "meaning": "probability",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "確",
+        "reading": "かく"
+      },
+      {
+        "kanji": "率",
+        "reading": "りつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "南極",
+    "meaning": "south pole, Antarctic",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "南",
+        "reading": "なん"
+      },
+      {
+        "kanji": "極",
+        "reading": "きょく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "役人",
+    "meaning": "government official",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "役",
+        "reading": "やく"
+      },
+      {
+        "kanji": "人",
+        "reading": "にん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "実例",
+    "meaning": "example, illustration",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "実",
+        "reading": "じつ"
+      },
+      {
+        "kanji": "例",
+        "reading": "れい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "果して",
+    "meaning": "as was expected, really",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "果",
+        "reading": "はた"
+      },
+      {
+        "kanji": "して",
+        "reading": "して"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "火山",
+    "meaning": "volcano",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "火",
+        "reading": "か"
+      },
+      {
+        "kanji": "山",
+        "reading": "ざん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "蒸気",
+    "meaning": "steam, vapour",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "蒸",
+        "reading": "じょう"
+      },
+      {
+        "kanji": "気",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "恨み",
+    "meaning": "resentment",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "恨",
+        "reading": "うら"
+      },
+      {
+        "kanji": "み",
+        "reading": "み"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "半径",
+    "meaning": "radius",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "半",
+        "reading": "はん"
+      },
+      {
+        "kanji": "径",
+        "reading": "けい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "回り道",
+    "meaning": "detour",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "回",
+        "reading": "まわ"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      },
+      {
+        "kanji": "道",
+        "reading": "みち"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "峠",
+    "meaning": "ridge, (mountain) pass, difficult part",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "峠",
+        "reading": "とうげ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "平野",
+    "meaning": "plain, open field",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "平",
+        "reading": "へい"
+      },
+      {
+        "kanji": "野",
+        "reading": "や"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "元々",
+    "meaning": "originally, by nature, from the start",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "元々",
+        "reading": "もともと"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "予備",
+    "meaning": "preparation, preliminaries, reserve, spare",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "予",
+        "reading": "よ"
+      },
+      {
+        "kanji": "備",
+        "reading": "び"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "社会科学",
+    "meaning": "social science",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "社",
+        "reading": "しゃ"
+      },
+      {
+        "kanji": "会",
+        "reading": "かい"
+      },
+      {
+        "kanji": "科",
+        "reading": "か"
+      },
+      {
+        "kanji": "学",
+        "reading": "がく"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "相互",
+    "meaning": "mutual, reciprocal",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "相",
+        "reading": "そう"
+      },
+      {
+        "kanji": "互",
+        "reading": "ご"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "強化",
+    "meaning": "strengthen, intensify, reinforce, solidify",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "強",
+        "reading": "きょう"
+      },
+      {
+        "kanji": "化",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "職人",
+    "meaning": "worker, mechanic, artisan, craftsman",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "職",
+        "reading": "しょく"
+      },
+      {
+        "kanji": "人",
+        "reading": "にん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "激増",
+    "meaning": "sudden increase",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "激",
+        "reading": "げき"
+      },
+      {
+        "kanji": "増",
+        "reading": "ぞう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "役目",
+    "meaning": "duty, business",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "役",
+        "reading": "やく"
+      },
+      {
+        "kanji": "目",
+        "reading": "め"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "伯父さん",
+    "meaning": "middle-aged gentleman, uncle",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "伯父",
+        "reading": "おじ"
+      },
+      {
+        "kanji": "さん",
+        "reading": "さん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "上り",
+    "meaning": "up-train (going to Tokyo), ascent",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "上",
+        "reading": "のぼ"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "竹",
+    "meaning": "bamboo, middle (of a three-tier ranking system)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "竹",
+        "reading": "たけ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "能率",
+    "meaning": "efficiency",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "能",
+        "reading": "のう"
+      },
+      {
+        "kanji": "率",
+        "reading": "りつ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "住まい",
+    "meaning": "dwelling, house, residence, address",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "住",
+        "reading": "す"
+      },
+      {
+        "kanji": "まい",
+        "reading": "まい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "作成",
+    "meaning": "frame, draw up, make, producing",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "作",
+        "reading": "さく"
+      },
+      {
+        "kanji": "成",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "売買",
+    "meaning": "trade, buying and selling",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "売",
+        "reading": "ばい"
+      },
+      {
+        "kanji": "買",
+        "reading": "ばい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "公務",
+    "meaning": "official business, public business",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "公",
+        "reading": "こう"
+      },
+      {
+        "kanji": "務",
+        "reading": "む"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "連合",
+    "meaning": "union, alliance",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "連",
+        "reading": "れん"
+      },
+      {
+        "kanji": "合",
+        "reading": "ごう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "椀",
+    "meaning": "Japanese soup bowl, wooden bowl",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "椀",
+        "reading": "わん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "一旦",
+    "meaning": "once, for a moment, one morning, temporarily",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "一",
+        "reading": "いっ"
+      },
+      {
+        "kanji": "旦",
+        "reading": "たん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "刺身",
+    "meaning": "sliced raw fish",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "刺",
+        "reading": "さし"
+      },
+      {
+        "kanji": "身",
+        "reading": "み"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "外科",
+    "meaning": "surgical department",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "外",
+        "reading": "げ"
+      },
+      {
+        "kanji": "科",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "気体",
+    "meaning": "vapour, gas",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "気",
+        "reading": "き"
+      },
+      {
+        "kanji": "体",
+        "reading": "たい"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "行列",
+    "meaning": "(1) line, procession, (2) matrix (math)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "行",
+        "reading": "ぎょう"
+      },
+      {
+        "kanji": "列",
+        "reading": "れつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "古典",
+    "meaning": "old book, classics, classic",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "古",
+        "reading": "こ"
+      },
+      {
+        "kanji": "典",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "重体",
+    "meaning": "seriously ill, serious condition, critical state",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "重",
+        "reading": "じゅう"
+      },
+      {
+        "kanji": "体",
+        "reading": "たい"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "仮名",
+    "meaning": "(n) alias, pseudonym, pen name",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "仮",
+        "reading": "か"
+      },
+      {
+        "kanji": "名",
+        "reading": "めい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "伝記",
+    "meaning": "biography, life story",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "伝",
+        "reading": "でん"
+      },
+      {
+        "kanji": "記",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "好き嫌い",
+    "meaning": "likes and dislikes, taste",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "好",
+        "reading": "すき"
+      },
+      {
+        "kanji": "き",
+        "reading": "き"
+      },
+      {
+        "kanji": "嫌",
+        "reading": "ら"
+      },
+      {
+        "kanji": "い",
+        "reading": "い"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "部品",
+    "meaning": "parts, accessories",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "部",
+        "reading": "ぶ"
+      },
+      {
+        "kanji": "品",
+        "reading": "ひん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "伯母さん",
+    "meaning": "(hon) aunt",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "伯母",
+        "reading": "おば"
+      },
+      {
+        "kanji": "さん",
+        "reading": "さん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "実物",
+    "meaning": "real thing, original",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "実",
+        "reading": "じつ"
+      },
+      {
+        "kanji": "物",
+        "reading": "ぶつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "寝間着",
+    "meaning": "sleep-wear, nightclothes, pyjamas, nightgown, nightdress",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "寝間着",
+        "reading": "ねまき"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "床屋",
+    "meaning": "barber",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "床",
+        "reading": "とこ"
+      },
+      {
+        "kanji": "屋",
+        "reading": "や"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "針路",
+    "meaning": "course, direction, compass bearing",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "針",
+        "reading": "しん"
+      },
+      {
+        "kanji": "路",
+        "reading": "ろ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "青少年",
+    "meaning": "youth, young person",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "青",
+        "reading": "せい"
+      },
+      {
+        "kanji": "少",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "年",
+        "reading": "ねん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "公共",
+    "meaning": "public, community, public service, society, communal",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "公",
+        "reading": "こう"
+      },
+      {
+        "kanji": "共",
+        "reading": "きょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "宣伝",
+    "meaning": "propaganda, publicity",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "宣",
+        "reading": "せん"
+      },
+      {
+        "kanji": "伝",
+        "reading": "でん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "生け花",
+    "meaning": "(1) flower arrangement",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "生",
+        "reading": "い"
+      },
+      {
+        "kanji": "け",
+        "reading": "け"
+      },
+      {
+        "kanji": "花",
+        "reading": "ばな"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "飢饉",
+    "meaning": "famine",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "飢",
+        "reading": "き"
+      },
+      {
+        "kanji": "饉",
+        "reading": "きん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "溜息",
+    "meaning": "a sigh",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "溜",
+        "reading": "ため"
+      },
+      {
+        "kanji": "息",
+        "reading": "いき"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "推定",
+    "meaning": "presumption, assumption, estimation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "推",
+        "reading": "すい"
+      },
+      {
+        "kanji": "定",
+        "reading": "てい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "体操",
+    "meaning": "gymnastics, physical exercises, calisthenics",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "体",
+        "reading": "たい"
+      },
+      {
+        "kanji": "操",
+        "reading": "そう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "胡椒",
+    "meaning": "pepper",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "胡",
+        "reading": "こ"
+      },
+      {
+        "kanji": "椒",
+        "reading": "しょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "割と",
+    "meaning": "relatively, comparitively",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "割",
+        "reading": "わり"
+      },
+      {
+        "kanji": "と",
+        "reading": "と"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "消毒",
+    "meaning": "disinfection, sterilization",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "消",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "毒",
+        "reading": "どく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "冷凍",
+    "meaning": "freezing, cold storage, refrigeration",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "冷",
+        "reading": "れい"
+      },
+      {
+        "kanji": "凍",
+        "reading": "とう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "国立",
+    "meaning": "national",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "国",
+        "reading": "こく"
+      },
+      {
+        "kanji": "立",
+        "reading": "りつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "本部",
+    "meaning": "headquarters",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "本",
+        "reading": "ほん"
+      },
+      {
+        "kanji": "部",
+        "reading": "ぶ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "別荘",
+    "meaning": "holiday house, villa",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "別",
+        "reading": "べっ"
+      },
+      {
+        "kanji": "荘",
+        "reading": "そう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "中間",
+    "meaning": "middle, midway, interim",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "中",
+        "reading": "ちゅう"
+      },
+      {
+        "kanji": "間",
+        "reading": "かん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "酒場",
+    "meaning": "bar, bar-room",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "酒",
+        "reading": "さか"
+      },
+      {
+        "kanji": "場",
+        "reading": "ば"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "海水浴",
+    "meaning": "sea bathing, seawater bath",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "海",
+        "reading": "かい"
+      },
+      {
+        "kanji": "水",
+        "reading": "すい"
+      },
+      {
+        "kanji": "浴",
+        "reading": "よく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "電力",
+    "meaning": "electric power",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "電",
+        "reading": "でん"
+      },
+      {
+        "kanji": "力",
+        "reading": "りょく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "通用",
+    "meaning": "popular use, circulation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "通",
+        "reading": "つう"
+      },
+      {
+        "kanji": "用",
+        "reading": "よう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "父母",
+    "meaning": "father and mother, parents",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "父",
+        "reading": "ちち"
+      },
+      {
+        "kanji": "母",
+        "reading": "はは"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "功績",
+    "meaning": "achievements, merit, meritorious service, meritorious deed",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "功",
+        "reading": "こう"
+      },
+      {
+        "kanji": "績",
+        "reading": "せき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "四角",
+    "meaning": "square",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "四",
+        "reading": "し"
+      },
+      {
+        "kanji": "角",
+        "reading": "かく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "目印",
+    "meaning": "mark, sign, landmark",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "目",
+        "reading": "め"
+      },
+      {
+        "kanji": "印",
+        "reading": "じるし"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "座布団",
+    "meaning": "cushion (Japanese)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "座",
+        "reading": "ざ"
+      },
+      {
+        "kanji": "布",
+        "reading": "ぶ"
+      },
+      {
+        "kanji": "団",
+        "reading": "とん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "夜間",
+    "meaning": "at night, nighttime",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "夜",
+        "reading": "や"
+      },
+      {
+        "kanji": "間",
+        "reading": "かん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "応用",
+    "meaning": "application, put to practical use",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "応",
+        "reading": "おう"
+      },
+      {
+        "kanji": "用",
+        "reading": "よう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "調整",
+    "meaning": "regulation, adjustment, tuning",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "調",
+        "reading": "ちょう"
+      },
+      {
+        "kanji": "整",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "標準",
+    "meaning": "standard, level",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "標",
+        "reading": "ひょう"
+      },
+      {
+        "kanji": "準",
+        "reading": "じゅん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "創作",
+    "meaning": "production, literary creation, work",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "創",
+        "reading": "そう"
+      },
+      {
+        "kanji": "作",
+        "reading": "さく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "開放",
+    "meaning": "open, throw open, liberalization",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "開",
+        "reading": "かい"
+      },
+      {
+        "kanji": "放",
+        "reading": "ほう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "日当たり",
+    "meaning": "exposure to the sun, sunny place",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "日当",
+        "reading": "ひあ"
+      },
+      {
+        "kanji": "たり",
+        "reading": "たり"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "公表",
+    "meaning": "official announcement, proclamation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "公",
+        "reading": "こう"
+      },
+      {
+        "kanji": "表",
+        "reading": "ひょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "寝巻",
+    "meaning": "sleep-wear, nightclothes, pyjamas, nightgown, nightdress",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "寝巻",
+        "reading": "ねまき"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "夕立",
+    "meaning": "(sudden) evening shower (rain)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "夕",
+        "reading": "ゆう"
+      },
+      {
+        "kanji": "立",
+        "reading": "だち"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "井戸",
+    "meaning": "water well",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "井",
+        "reading": "い"
+      },
+      {
+        "kanji": "戸",
+        "reading": "ど"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "研修",
+    "meaning": "training",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "研",
+        "reading": "けん"
+      },
+      {
+        "kanji": "修",
+        "reading": "しゅう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "削除",
+    "meaning": "elimination, cancellation, deletion, erasure",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "削",
+        "reading": "さく"
+      },
+      {
+        "kanji": "除",
+        "reading": "じょ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "浴衣",
+    "meaning": "bathrobe, informal summer kimono, yukata",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "浴衣",
+        "reading": "ゆかた"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "恩恵",
+    "meaning": "grace, favor, blessing, benefit",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "恩",
+        "reading": "おん"
+      },
+      {
+        "kanji": "恵",
+        "reading": "けい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "消化",
+    "meaning": "digestion",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "消",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "化",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "群れ",
+    "meaning": "group, crowd, flock, herd",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "群",
+        "reading": "む"
+      },
+      {
+        "kanji": "れ",
+        "reading": "れ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "薬局",
+    "meaning": "pharmacy, drugstore",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "薬",
+        "reading": "やっ"
+      },
+      {
+        "kanji": "局",
+        "reading": "きょく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "羊毛",
+    "meaning": "wool",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "羊",
+        "reading": "よう"
+      },
+      {
+        "kanji": "毛",
+        "reading": "もう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "在学",
+    "meaning": "(enrolled) in school",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "在",
+        "reading": "ざい"
+      },
+      {
+        "kanji": "学",
+        "reading": "がく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "血液",
+    "meaning": "blood",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "血",
+        "reading": "けつ"
+      },
+      {
+        "kanji": "液",
+        "reading": "えき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "御覧",
+    "meaning": "(hon) look, inspection, try",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "御",
+        "reading": "ご"
+      },
+      {
+        "kanji": "覧",
+        "reading": "らん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "白髪",
+    "meaning": "white or grey hair, trendy hair bleaching",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "白",
+        "reading": "はく"
+      },
+      {
+        "kanji": "髪",
+        "reading": "はつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "要領",
+    "meaning": "point, gist, essentials, outline",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "要",
+        "reading": "よう"
+      },
+      {
+        "kanji": "領",
+        "reading": "りょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "発電",
+    "meaning": "generation (e.g. power)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "発",
+        "reading": "はつ"
+      },
+      {
+        "kanji": "電",
+        "reading": "でん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "氏名",
+    "meaning": "full name, identity",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "氏",
+        "reading": "し"
+      },
+      {
+        "kanji": "名",
+        "reading": "めい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "凸凹",
+    "meaning": "unevenness, roughness, ruggedness",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "凸凹",
+        "reading": "おうとつ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "幼稚",
+    "meaning": "infancy, childish, infantile",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "幼",
+        "reading": "よう"
+      },
+      {
+        "kanji": "稚",
+        "reading": "ち"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "正面",
+    "meaning": "the front, honesty",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "正",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "面",
+        "reading": "めん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "月日",
+    "meaning": "time, years, days",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "月",
+        "reading": "つき"
+      },
+      {
+        "kanji": "日",
+        "reading": "ひ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "気配",
+    "meaning": "indication, market trend, worry",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "気",
+        "reading": "け"
+      },
+      {
+        "kanji": "配",
+        "reading": "はい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "天皇",
+    "meaning": "Emperor of Japan",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "天皇",
+        "reading": "てんのう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "県庁",
+    "meaning": "prefectural office",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "県",
+        "reading": "けん"
+      },
+      {
+        "kanji": "庁",
+        "reading": "ちょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "初級",
+    "meaning": "elementary level",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "初",
+        "reading": "しょ"
+      },
+      {
+        "kanji": "級",
+        "reading": "きゅう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "課税",
+    "meaning": "taxation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "課",
+        "reading": "か"
+      },
+      {
+        "kanji": "税",
+        "reading": "ぜい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ͼ立",
+    "meaning": "confrontation, opposition, antagonism",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "Ͼ",
+        "reading": "Ͼ"
+      },
+      {
+        "kanji": "立",
+        "reading": "たつ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "風呂敷",
+    "meaning": "wrapping cloth, cloth wrapper",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "風",
+        "reading": "ふ"
+      },
+      {
+        "kanji": "呂",
+        "reading": "ろ"
+      },
+      {
+        "kanji": "敷",
+        "reading": "しき"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "起床",
+    "meaning": "rising, getting out of bed",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "起",
+        "reading": "き"
+      },
+      {
+        "kanji": "床",
+        "reading": "しょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "移転",
+    "meaning": "moving, transfer, demise",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "移",
+        "reading": "い"
+      },
+      {
+        "kanji": "転",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "厳重",
+    "meaning": "strict, rigour, severe, firm",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "厳",
+        "reading": "げん"
+      },
+      {
+        "kanji": "重",
+        "reading": "じゅう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "増減",
+    "meaning": "increase and decrease, fluctuation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "増",
+        "reading": "ぞう"
+      },
+      {
+        "kanji": "減",
+        "reading": "げん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "街角",
+    "meaning": "street corner",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "街",
+        "reading": "まち"
+      },
+      {
+        "kanji": "角",
+        "reading": "かど"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "引分け",
+    "meaning": "a draw (in competition), tie game",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "引",
+        "reading": "ひき"
+      },
+      {
+        "kanji": "分",
+        "reading": "わけ"
+      },
+      {
+        "kanji": "け",
+        "reading": "け"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "兵隊",
+    "meaning": "soldier, sailor",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "兵",
+        "reading": "へい"
+      },
+      {
+        "kanji": "隊",
+        "reading": "たい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "吐き気",
+    "meaning": "nausea, sickness in the stomach",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "吐",
+        "reading": "は"
+      },
+      {
+        "kanji": "き",
+        "reading": "き"
+      },
+      {
+        "kanji": "気",
+        "reading": "け"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "集金",
+    "meaning": "money collection",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "集",
+        "reading": "しゅう"
+      },
+      {
+        "kanji": "金",
+        "reading": "きん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "隙間",
+    "meaning": "crevice, crack, gap, opening",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "隙",
+        "reading": "すき"
+      },
+      {
+        "kanji": "間",
+        "reading": "ま"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "漁業",
+    "meaning": "fishing (industry)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "漁",
+        "reading": "ぎょ"
+      },
+      {
+        "kanji": "業",
+        "reading": "ぎょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "素直",
+    "meaning": "obedient, meek, docile, unaffected",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "素直",
+        "reading": "すなお"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "領収",
+    "meaning": "receipt, voucher",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "領",
+        "reading": "りょう"
+      },
+      {
+        "kanji": "収",
+        "reading": "しゅう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "回転",
+    "meaning": "rotation, revolution, turning",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "回",
+        "reading": "かい"
+      },
+      {
+        "kanji": "転",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "一休み",
+    "meaning": "a rest",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "一休",
+        "reading": "ひとやす"
+      },
+      {
+        "kanji": "み",
+        "reading": "み"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "先祖",
+    "meaning": "ancestor",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "先",
+        "reading": "せん"
+      },
+      {
+        "kanji": "祖",
+        "reading": "ぞ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "引越し",
+    "meaning": "moving (dwelling etc.), changing residence",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "引越",
+        "reading": "ひっこ"
+      },
+      {
+        "kanji": "し",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "地名",
+    "meaning": "place name",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "地",
+        "reading": "ち"
+      },
+      {
+        "kanji": "名",
+        "reading": "めい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "電球",
+    "meaning": "light bulb",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "電",
+        "reading": "でん"
+      },
+      {
+        "kanji": "球",
+        "reading": "きゅう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "船便",
+    "meaning": "surface mail (ship)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "船",
+        "reading": "ふな"
+      },
+      {
+        "kanji": "便",
+        "reading": "びん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "継続",
+    "meaning": "continuation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "継",
+        "reading": "けい"
+      },
+      {
+        "kanji": "続",
+        "reading": "ぞく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "重力",
+    "meaning": "gravity",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "重",
+        "reading": "じゅう"
+      },
+      {
+        "kanji": "力",
+        "reading": "りょく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "早速",
+    "meaning": "at once, immediately, without delay, promptly",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "早",
+        "reading": "さっ"
+      },
+      {
+        "kanji": "速",
+        "reading": "そく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "脂",
+    "meaning": "fat, tallow, lard",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "脂",
+        "reading": "あぶら"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "児童",
+    "meaning": "children, juvenile",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "児",
+        "reading": "じ"
+      },
+      {
+        "kanji": "童",
+        "reading": "どう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "応援",
+    "meaning": "aid, assistance, help, reinforcement",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "応",
+        "reading": "おう"
+      },
+      {
+        "kanji": "援",
+        "reading": "えん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "空中",
+    "meaning": "sky, air",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "空",
+        "reading": "くう"
+      },
+      {
+        "kanji": "中",
+        "reading": "ちゅう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "屋外",
+    "meaning": "outdoors",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "屋",
+        "reading": "おく"
+      },
+      {
+        "kanji": "外",
+        "reading": "がい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "中途",
+    "meaning": "in the middle, half-way",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "中",
+        "reading": "ちゅう"
+      },
+      {
+        "kanji": "途",
+        "reading": "と"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "深夜",
+    "meaning": "late at night",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "深",
+        "reading": "しん"
+      },
+      {
+        "kanji": "夜",
+        "reading": "や"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "糊",
+    "meaning": "paste, starch",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "糊",
+        "reading": "のり"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "お出掛け",
+    "meaning": "",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "お",
+        "reading": "お"
+      },
+      {
+        "kanji": "出掛",
+        "reading": "でか"
+      },
+      {
+        "kanji": "け",
+        "reading": "け"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "透明",
+    "meaning": "transparency, cleanness",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "透",
+        "reading": "とう"
+      },
+      {
+        "kanji": "明",
+        "reading": "めい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "合同",
+    "meaning": "combination, incorporation, union, amalgamation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "合",
+        "reading": "ごう"
+      },
+      {
+        "kanji": "同",
+        "reading": "どう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "発射",
+    "meaning": "firing, shooting, discharge, catapult",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "発",
+        "reading": "はっ"
+      },
+      {
+        "kanji": "射",
+        "reading": "しゃ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "分解",
+    "meaning": "analysis, disassembly",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "分",
+        "reading": "ぶん"
+      },
+      {
+        "kanji": "解",
+        "reading": "かい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "観念",
+    "meaning": "(1) idea, notion, conception, (2) sense (e.g. of duty)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "観",
+        "reading": "かん"
+      },
+      {
+        "kanji": "念",
+        "reading": "ねん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "素人",
+    "meaning": "amateur, novice",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "素人",
+        "reading": "しろうと"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "全身",
+    "meaning": "the whole body, full-length (portrait)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "全",
+        "reading": "ぜん"
+      },
+      {
+        "kanji": "身",
+        "reading": "しん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "肌着",
+    "meaning": "underwear",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "肌",
+        "reading": "はだ"
+      },
+      {
+        "kanji": "着",
+        "reading": "ぎ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "角度",
+    "meaning": "angle",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "角",
+        "reading": "かく"
+      },
+      {
+        "kanji": "度",
+        "reading": "ど"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "適確",
+    "meaning": "precise, accurate",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "適",
+        "reading": "てき"
+      },
+      {
+        "kanji": "確",
+        "reading": "確"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "図形",
+    "meaning": "figure",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "図形",
+        "reading": "づけい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "芸能",
+    "meaning": "public entertainment, accomplishments, attainments",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "芸",
+        "reading": "げい"
+      },
+      {
+        "kanji": "能",
+        "reading": "のう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "長男",
+    "meaning": "eldest son",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "長",
+        "reading": "ちょう"
+      },
+      {
+        "kanji": "男",
+        "reading": "なん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "安易",
+    "meaning": "easy-going",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "安",
+        "reading": "あん"
+      },
+      {
+        "kanji": "易",
+        "reading": "い"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "膨大",
+    "meaning": "huge, bulky, enormous, extensive, swelling, expansion",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "膨",
+        "reading": "ぼう"
+      },
+      {
+        "kanji": "大",
+        "reading": "だい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "娯楽",
+    "meaning": "pleasure, amusement",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "娯",
+        "reading": "ご"
+      },
+      {
+        "kanji": "楽",
+        "reading": "らく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "伝染",
+    "meaning": "contagion",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "伝",
+        "reading": "でん"
+      },
+      {
+        "kanji": "染",
+        "reading": "せん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "茶碗",
+    "meaning": "rice bowl, tea cup, teacup",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "茶",
+        "reading": "ちゃ"
+      },
+      {
+        "kanji": "碗",
+        "reading": "わん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "複写",
+    "meaning": "copy, duplicate",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "複",
+        "reading": "ふく"
+      },
+      {
+        "kanji": "写",
+        "reading": "しゃ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "油断",
+    "meaning": "negligence, unpreparedness",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "油",
+        "reading": "ゆ"
+      },
+      {
+        "kanji": "断",
+        "reading": "だん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "編集",
+    "meaning": "editing, compilation, editorial (e.g. committee)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "編",
+        "reading": "へん"
+      },
+      {
+        "kanji": "集",
+        "reading": "しゅう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "高層",
+    "meaning": "upper",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "高",
+        "reading": "こう"
+      },
+      {
+        "kanji": "層",
+        "reading": "そう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "寒帯",
+    "meaning": "frigid zone",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "寒",
+        "reading": "かん"
+      },
+      {
+        "kanji": "帯",
+        "reading": "たい"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "反映",
+    "meaning": "reflection, influence",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "反",
+        "reading": "はん"
+      },
+      {
+        "kanji": "映",
+        "reading": "えい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "工員",
+    "meaning": "factory worker",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "工",
+        "reading": "こう"
+      },
+      {
+        "kanji": "員",
+        "reading": "いん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "手拭い",
+    "meaning": "(hand) towel",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "手拭",
+        "reading": "てぬぐ"
+      },
+      {
+        "kanji": "い",
+        "reading": "い"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "規準",
+    "meaning": "standard, basis, criteria, norm",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "規",
+        "reading": "き"
+      },
+      {
+        "kanji": "準",
+        "reading": "じゅん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "日課",
+    "meaning": "daily lesson, daily work, daily routine",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "日",
+        "reading": "にっ"
+      },
+      {
+        "kanji": "課",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "繋がり",
+    "meaning": "connection, link, relationship",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "繋",
+        "reading": "つな"
+      },
+      {
+        "kanji": "がり",
+        "reading": "がり"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "衣食住",
+    "meaning": "necessities of life (food, clothing, etc.)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "衣",
+        "reading": "い"
+      },
+      {
+        "kanji": "食",
+        "reading": "しょく"
+      },
+      {
+        "kanji": "住",
+        "reading": "じゅう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "寝台",
+    "meaning": "bed, couch",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "寝",
+        "reading": "しん"
+      },
+      {
+        "kanji": "台",
+        "reading": "だい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "水曜",
+    "meaning": "Wednesday",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "水",
+        "reading": "すい"
+      },
+      {
+        "kanji": "曜",
+        "reading": "よう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "原理",
+    "meaning": "principle, theory, fundamental truth",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "原",
+        "reading": "げん"
+      },
+      {
+        "kanji": "理",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "窓口",
+    "meaning": "ticket window",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "窓",
+        "reading": "まど"
+      },
+      {
+        "kanji": "口",
+        "reading": "ぐち"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "符号",
+    "meaning": "sign, mark, symbol",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "符",
+        "reading": "ふ"
+      },
+      {
+        "kanji": "号",
+        "reading": "ごう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "体積",
+    "meaning": "capacity, volume",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "体",
+        "reading": "たい"
+      },
+      {
+        "kanji": "積",
+        "reading": "せき"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "輸送",
+    "meaning": "transport, transportation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "輸",
+        "reading": "ゆ"
+      },
+      {
+        "kanji": "送",
+        "reading": "そう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "受取",
+    "meaning": "receipt",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "受",
+        "reading": "うけ"
+      },
+      {
+        "kanji": "取",
+        "reading": "とり"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "回数",
+    "meaning": "number of times, frequency",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "回",
+        "reading": "かい"
+      },
+      {
+        "kanji": "数",
+        "reading": "すう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "経度",
+    "meaning": "longitude",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "経",
+        "reading": "けい"
+      },
+      {
+        "kanji": "度",
+        "reading": "ど"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "定規",
+    "meaning": "(measuring) ruler",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "定",
+        "reading": "じょう"
+      },
+      {
+        "kanji": "規",
+        "reading": "ぎ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "鐘",
+    "meaning": "bell, chime",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "鐘",
+        "reading": "かね"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "下水",
+    "meaning": "drainage, sewage, ditch, gutter, sewerage",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "下",
+        "reading": "げ"
+      },
+      {
+        "kanji": "水",
+        "reading": "すい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "緯度",
+    "meaning": "latitude (nav.)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "緯",
+        "reading": "い"
+      },
+      {
+        "kanji": "度",
+        "reading": "ど"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "月末",
+    "meaning": "end of the month",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "月",
+        "reading": "げつ"
+      },
+      {
+        "kanji": "末",
+        "reading": "まつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "期限",
+    "meaning": "term, period",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "期",
+        "reading": "き"
+      },
+      {
+        "kanji": "限",
+        "reading": "げん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "蛍光灯",
+    "meaning": "fluorescent lamp, person who is slow to react",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "蛍",
+        "reading": "けい"
+      },
+      {
+        "kanji": "光",
+        "reading": "こう"
+      },
+      {
+        "kanji": "灯",
+        "reading": "とう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "狙い",
+    "meaning": "aim",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "狙",
+        "reading": "ねら"
+      },
+      {
+        "kanji": "い",
+        "reading": "い"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "偶数",
+    "meaning": "even number",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "偶",
+        "reading": "ぐう"
+      },
+      {
+        "kanji": "数",
+        "reading": "すう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "園芸",
+    "meaning": "horticulture, gardening",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "園",
+        "reading": "えん"
+      },
+      {
+        "kanji": "芸",
+        "reading": "げい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "体系",
+    "meaning": "system, organization",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "体",
+        "reading": "たい"
+      },
+      {
+        "kanji": "系",
+        "reading": "けい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "上下",
+    "meaning": "high and low, up and down, unloading and loading, praising and blaming",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "上",
+        "reading": "じょう"
+      },
+      {
+        "kanji": "下",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "重点",
+    "meaning": "important point, lay stress on, colon, emphasis",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "重",
+        "reading": "じゅう"
+      },
+      {
+        "kanji": "点",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "交流",
+    "meaning": "alternating current, intercourse, (cultural) exchange, intermingling",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "交",
+        "reading": "こう"
+      },
+      {
+        "kanji": "流",
+        "reading": "りゅう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "電流",
+    "meaning": "electric current",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "電",
+        "reading": "でん"
+      },
+      {
+        "kanji": "流",
+        "reading": "りゅう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "重役",
+    "meaning": "director, high executive",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "重",
+        "reading": "じゅう"
+      },
+      {
+        "kanji": "役",
+        "reading": "やく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "日用品",
+    "meaning": "daily necessities",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "日",
+        "reading": "にち"
+      },
+      {
+        "kanji": "用",
+        "reading": "よう"
+      },
+      {
+        "kanji": "品",
+        "reading": "ひん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "手前",
+    "meaning": "before, this side, we, you",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "手",
+        "reading": "て"
+      },
+      {
+        "kanji": "前",
+        "reading": "まえ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "寺院",
+    "meaning": "temple",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "寺",
+        "reading": "じ"
+      },
+      {
+        "kanji": "院",
+        "reading": "いん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "酢",
+    "meaning": "vinegar",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "酢",
+        "reading": "す"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "災難",
+    "meaning": "calamity, misfortune",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "災",
+        "reading": "さい"
+      },
+      {
+        "kanji": "難",
+        "reading": "なん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "活字",
+    "meaning": "printing type",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "活",
+        "reading": "かつ"
+      },
+      {
+        "kanji": "字",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "友好",
+    "meaning": "friendship",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "友",
+        "reading": "ゆう"
+      },
+      {
+        "kanji": "好",
+        "reading": "こう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "教養",
+    "meaning": "culture, education, refinement, cultivation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "教",
+        "reading": "きょう"
+      },
+      {
+        "kanji": "養",
+        "reading": "よう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "夫妻",
+    "meaning": "man and wife, married couple",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "夫",
+        "reading": "ふ"
+      },
+      {
+        "kanji": "妻",
+        "reading": "さい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "停止",
+    "meaning": "suspension, interruption, stoppage, ban",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "停",
+        "reading": "てい"
+      },
+      {
+        "kanji": "止",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "当日",
+    "meaning": "appointed day, very day",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "当",
+        "reading": "とう"
+      },
+      {
+        "kanji": "日",
+        "reading": "じつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "献立",
+    "meaning": "menu, program, schedule",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "献",
+        "reading": "こん"
+      },
+      {
+        "kanji": "立",
+        "reading": "だて"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "客席",
+    "meaning": "guest seating",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "客",
+        "reading": "きゃく"
+      },
+      {
+        "kanji": "席",
+        "reading": "せき"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "包装",
+    "meaning": "packing, wrapping",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "包",
+        "reading": "ほう"
+      },
+      {
+        "kanji": "装",
+        "reading": "そう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "形容動詞",
+    "meaning": "adjectival noun, quasi-adjective",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "形",
+        "reading": "けい"
+      },
+      {
+        "kanji": "容",
+        "reading": "よう"
+      },
+      {
+        "kanji": "動",
+        "reading": "どう"
+      },
+      {
+        "kanji": "詞",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "録音",
+    "meaning": "(audio) recording",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "録",
+        "reading": "ろく"
+      },
+      {
+        "kanji": "音",
+        "reading": "おん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "出入り",
+    "meaning": "in and out, coming and going, free association, income and expenditure, debits and credit",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "出入",
+        "reading": "でい"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "方言",
+    "meaning": "dialect",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "方",
+        "reading": "ほう"
+      },
+      {
+        "kanji": "言",
+        "reading": "げん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "空想",
+    "meaning": "daydream, fantasy, fancy, vision",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "空",
+        "reading": "くう"
+      },
+      {
+        "kanji": "想",
+        "reading": "そう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "店屋",
+    "meaning": "store, shop",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "店",
+        "reading": "みせ"
+      },
+      {
+        "kanji": "屋",
+        "reading": "や"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "一段と",
+    "meaning": "greater, more, further, still more",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "一",
+        "reading": "いち"
+      },
+      {
+        "kanji": "段",
+        "reading": "だん"
+      },
+      {
+        "kanji": "と",
+        "reading": "と"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "末っ子",
+    "meaning": "youngest child",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "末",
+        "reading": "すえ"
+      },
+      {
+        "kanji": "っ",
+        "reading": "っ"
+      },
+      {
+        "kanji": "子",
+        "reading": "こ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "口実",
+    "meaning": "excuse",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "口",
+        "reading": "こう"
+      },
+      {
+        "kanji": "実",
+        "reading": "じつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "話合い",
+    "meaning": "discussion, conference",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "話合",
+        "reading": "はなしあ"
+      },
+      {
+        "kanji": "い",
+        "reading": "い"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "噴水",
+    "meaning": "water fountain",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "噴",
+        "reading": "ふん"
+      },
+      {
+        "kanji": "水",
+        "reading": "すい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "枕",
+    "meaning": "pillow, bolster",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "枕",
+        "reading": "まくら"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "漢和",
+    "meaning": "Chinese Character-Japanese (e.g. dictionary)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "漢",
+        "reading": "かん"
+      },
+      {
+        "kanji": "和",
+        "reading": "わ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "法則",
+    "meaning": "law, rule",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "法",
+        "reading": "ほう"
+      },
+      {
+        "kanji": "則",
+        "reading": "そく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "工夫",
+    "meaning": "labourer, worker",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "工",
+        "reading": "く"
+      },
+      {
+        "kanji": "夫",
+        "reading": "ふう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "倉庫",
+    "meaning": "storehouse, warehouse, godown",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "倉",
+        "reading": "そう"
+      },
+      {
+        "kanji": "庫",
+        "reading": "こ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "仲直り",
+    "meaning": "reconciliation, make peace with",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "仲直",
+        "reading": "なかなお"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "缶詰",
+    "meaning": "packing (in cans), canning, canned goods, tin can",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "缶",
+        "reading": "かん"
+      },
+      {
+        "kanji": "詰",
+        "reading": "づめ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "瀬戸物",
+    "meaning": "earthenware, crockery, china",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "瀬",
+        "reading": "せ"
+      },
+      {
+        "kanji": "戸",
+        "reading": "と"
+      },
+      {
+        "kanji": "物",
+        "reading": "もの"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "解説",
+    "meaning": "explanation, commentary",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "解",
+        "reading": "かい"
+      },
+      {
+        "kanji": "説",
+        "reading": "せつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "編物",
+    "meaning": "knitting, web",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "編",
+        "reading": "あみ"
+      },
+      {
+        "kanji": "物",
+        "reading": "もの"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "公害",
+    "meaning": "public nuisance, pollution",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "公",
+        "reading": "こう"
+      },
+      {
+        "kanji": "害",
+        "reading": "がい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "御手洗",
+    "meaning": "font of purifying water placed at entrance of shrine",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "御手洗",
+        "reading": "みたらし"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "実感",
+    "meaning": "feelings (actual, true)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "実",
+        "reading": "じっ"
+      },
+      {
+        "kanji": "感",
+        "reading": "かん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "前後",
+    "meaning": "around, throughout, front and back, before and behind, before and after",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "前",
+        "reading": "ぜん"
+      },
+      {
+        "kanji": "後",
+        "reading": "ご"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "無沙汰",
+    "meaning": "neglecting to stay in contact",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "無",
+        "reading": "む"
+      },
+      {
+        "kanji": "沙",
+        "reading": "さ"
+      },
+      {
+        "kanji": "汰",
+        "reading": "た"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "純粋",
+    "meaning": "pure, true, genuine, unmixed",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "純",
+        "reading": "じゅん"
+      },
+      {
+        "kanji": "粋",
+        "reading": "すい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "咥える",
+    "meaning": "",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "咥",
+        "reading": "咥"
+      },
+      {
+        "kanji": "える",
+        "reading": "える"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "標識",
+    "meaning": "sign, mark",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "標",
+        "reading": "ひょう"
+      },
+      {
+        "kanji": "識",
+        "reading": "しき"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "消極的",
+    "meaning": "passive",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "消",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "極",
+        "reading": "きょく"
+      },
+      {
+        "kanji": "的",
+        "reading": "てき"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "落第",
+    "meaning": "failure, dropping out of a class",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "落",
+        "reading": "らく"
+      },
+      {
+        "kanji": "第",
+        "reading": "だい"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "活力",
+    "meaning": "vitality, energy",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "活",
+        "reading": "かつ"
+      },
+      {
+        "kanji": "力",
+        "reading": "りょく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "短編",
+    "meaning": "short (e.g. story, film)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "短",
+        "reading": "たん"
+      },
+      {
+        "kanji": "編",
+        "reading": "ぺん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "間接",
+    "meaning": "indirection, indirectness",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "間",
+        "reading": "かん"
+      },
+      {
+        "kanji": "接",
+        "reading": "せつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "原稿",
+    "meaning": "manuscript, copy",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "原",
+        "reading": "げん"
+      },
+      {
+        "kanji": "稿",
+        "reading": "こう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "用語",
+    "meaning": "term, terminology",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "用",
+        "reading": "よう"
+      },
+      {
+        "kanji": "語",
+        "reading": "ご"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "商社",
+    "meaning": "trading company, firm",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "商",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "社",
+        "reading": "しゃ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "神話",
+    "meaning": "myth, legend",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "神",
+        "reading": "しん"
+      },
+      {
+        "kanji": "話",
+        "reading": "わ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "過半数",
+    "meaning": "majority",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "過",
+        "reading": "か"
+      },
+      {
+        "kanji": "半",
+        "reading": "はん"
+      },
+      {
+        "kanji": "数",
+        "reading": "すう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "牧場",
+    "meaning": "(1) farm (livestock), (2) pasture land, meadow, grazing land",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "牧",
+        "reading": "ぼく"
+      },
+      {
+        "kanji": "場",
+        "reading": "じょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "名詞",
+    "meaning": "noun",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "名",
+        "reading": "めい"
+      },
+      {
+        "kanji": "詞",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "平凡",
+    "meaning": "common, commonplace, ordinary, mediocre",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "平",
+        "reading": "へい"
+      },
+      {
+        "kanji": "凡",
+        "reading": "ぼん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "草履",
+    "meaning": "zoori (Japanese footwear), sandals",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "草",
+        "reading": "ぞう"
+      },
+      {
+        "kanji": "履",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "往復",
+    "meaning": "(col) round trip, coming and going, return ticket",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "往",
+        "reading": "おう"
+      },
+      {
+        "kanji": "復",
+        "reading": "ふく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "剃刀",
+    "meaning": "razor",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "剃刀",
+        "reading": "かみそり"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "開会",
+    "meaning": "opening of a meeting",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "開",
+        "reading": "かい"
+      },
+      {
+        "kanji": "会",
+        "reading": "かい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "損得",
+    "meaning": "loss and gain, advantage and disadvantage",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "損",
+        "reading": "そん"
+      },
+      {
+        "kanji": "得",
+        "reading": "とく"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "至急",
+    "meaning": "urgent, pressing",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "至",
+        "reading": "し"
+      },
+      {
+        "kanji": "急",
+        "reading": "きゅう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "始終",
+    "meaning": "continuously, from beginning to end",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "始",
+        "reading": "し"
+      },
+      {
+        "kanji": "終",
+        "reading": "じゅう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "光線",
+    "meaning": "beam, light ray",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "光",
+        "reading": "こう"
+      },
+      {
+        "kanji": "線",
+        "reading": "せん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "貸間",
+    "meaning": "room to let",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "貸",
+        "reading": "かし"
+      },
+      {
+        "kanji": "間",
+        "reading": "ま"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "容器",
+    "meaning": "container, vessel",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "容",
+        "reading": "よう"
+      },
+      {
+        "kanji": "器",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "鑑賞",
+    "meaning": "appreciation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "鑑",
+        "reading": "かん"
+      },
+      {
+        "kanji": "賞",
+        "reading": "しょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "郵送",
+    "meaning": "mailing",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "郵",
+        "reading": "ゆう"
+      },
+      {
+        "kanji": "送",
+        "reading": "そう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "分類",
+    "meaning": "classification",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "分",
+        "reading": "ぶん"
+      },
+      {
+        "kanji": "類",
+        "reading": "るい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "炭鉱",
+    "meaning": "coal mine, coal pit",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "炭",
+        "reading": "たん"
+      },
+      {
+        "kanji": "鉱",
+        "reading": "こう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "書店",
+    "meaning": "bookshop",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "書",
+        "reading": "しょ"
+      },
+      {
+        "kanji": "店",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "直通",
+    "meaning": "direct communication",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "直",
+        "reading": "ちょく"
+      },
+      {
+        "kanji": "通",
+        "reading": "つう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "集会",
+    "meaning": "meeting, assembly",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "集",
+        "reading": "しゅう"
+      },
+      {
+        "kanji": "会",
+        "reading": "かい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "系統",
+    "meaning": "system, family line, geological formation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "系",
+        "reading": "けい"
+      },
+      {
+        "kanji": "統",
+        "reading": "とう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "改札",
+    "meaning": "examination of tickets",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "改",
+        "reading": "かい"
+      },
+      {
+        "kanji": "札",
+        "reading": "さつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "入社",
+    "meaning": "entry to a company",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "入",
+        "reading": "にゅう"
+      },
+      {
+        "kanji": "社",
+        "reading": "しゃ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "物差し",
+    "meaning": "ruler, measure",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "物",
+        "reading": "もの"
+      },
+      {
+        "kanji": "差",
+        "reading": "さ"
+      },
+      {
+        "kanji": "し",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "生存",
+    "meaning": "existence, being, survival",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "生",
+        "reading": "せい"
+      },
+      {
+        "kanji": "存",
+        "reading": "ぞん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "敬語",
+    "meaning": "honorific, term of respect",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "敬",
+        "reading": "けい"
+      },
+      {
+        "kanji": "語",
+        "reading": "ご"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "乗車",
+    "meaning": "taking a train, entraining",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "乗",
+        "reading": "じょう"
+      },
+      {
+        "kanji": "車",
+        "reading": "しゃ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "液体",
+    "meaning": "liquid, fluid",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "液",
+        "reading": "えき"
+      },
+      {
+        "kanji": "体",
+        "reading": "たい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "孝行",
+    "meaning": "filial piety",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "孝",
+        "reading": "こう"
+      },
+      {
+        "kanji": "行",
+        "reading": "こう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "薬品",
+    "meaning": "medicine(s), chemical(s)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "薬",
+        "reading": "やく"
+      },
+      {
+        "kanji": "品",
+        "reading": "ひん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "車庫",
+    "meaning": "garage, car shed",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "車",
+        "reading": "しゃ"
+      },
+      {
+        "kanji": "庫",
+        "reading": "こ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "鉢",
+    "meaning": "a bowl, a pot",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "鉢",
+        "reading": "はち"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "演劇",
+    "meaning": "play (theatrical)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "演",
+        "reading": "えん"
+      },
+      {
+        "kanji": "劇",
+        "reading": "げき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "噴火",
+    "meaning": "eruption",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "噴",
+        "reading": "ふん"
+      },
+      {
+        "kanji": "火",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "毎度",
+    "meaning": "each time, common service-sector greeting",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "毎",
+        "reading": "まい"
+      },
+      {
+        "kanji": "度",
+        "reading": "ど"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "地下水",
+    "meaning": "underground water",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "地",
+        "reading": "ち"
+      },
+      {
+        "kanji": "下",
+        "reading": "か"
+      },
+      {
+        "kanji": "水",
+        "reading": "すい"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "循環",
+    "meaning": "circulation, rotation, cycle",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "循",
+        "reading": "じゅん"
+      },
+      {
+        "kanji": "環",
+        "reading": "かん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "扇風機",
+    "meaning": "electric fan",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "扇",
+        "reading": "せん"
+      },
+      {
+        "kanji": "風",
+        "reading": "ぷう"
+      },
+      {
+        "kanji": "機",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "標本",
+    "meaning": "example, specimen",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "標",
+        "reading": "ひょう"
+      },
+      {
+        "kanji": "本",
+        "reading": "ほん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "北極",
+    "meaning": "North Pole",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "北",
+        "reading": "ほっ"
+      },
+      {
+        "kanji": "極",
+        "reading": "きょく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "通知",
+    "meaning": "notice, notification",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "通",
+        "reading": "つう"
+      },
+      {
+        "kanji": "知",
+        "reading": "ち"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "長短",
+    "meaning": "length, long and short, +-",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "長",
+        "reading": "ちょう"
+      },
+      {
+        "kanji": "短",
+        "reading": "たん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "文房具",
+    "meaning": "stationery",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "文",
+        "reading": "ぶん"
+      },
+      {
+        "kanji": "房",
+        "reading": "ぼう"
+      },
+      {
+        "kanji": "具",
+        "reading": "ぐ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "延長",
+    "meaning": "extension, elongation, prolongation, lengthening",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "延",
+        "reading": "えん"
+      },
+      {
+        "kanji": "長",
+        "reading": "ちょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "方面",
+    "meaning": "direction, district, field (e.g., of study)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "方",
+        "reading": "ほう"
+      },
+      {
+        "kanji": "面",
+        "reading": "めん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "お参り",
+    "meaning": "worship, shrine visit",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "お",
+        "reading": "お"
+      },
+      {
+        "kanji": "参",
+        "reading": "まい"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "五十音",
+    "meaning": "the Japanese syllabary",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "五",
+        "reading": "ご"
+      },
+      {
+        "kanji": "十",
+        "reading": "じゅう"
+      },
+      {
+        "kanji": "音",
+        "reading": "おん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "分布",
+    "meaning": "distribution",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "分",
+        "reading": "ぶん"
+      },
+      {
+        "kanji": "布",
+        "reading": "ぷ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "望遠鏡",
+    "meaning": "telescope",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "望",
+        "reading": "ぼう"
+      },
+      {
+        "kanji": "遠",
+        "reading": "えん"
+      },
+      {
+        "kanji": "鏡",
+        "reading": "きょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "特色",
+    "meaning": "characteristic, feature",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "特",
+        "reading": "とく"
+      },
+      {
+        "kanji": "色",
+        "reading": "しょく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "締切",
+    "meaning": "closing, cut-off, end, deadline, Closed, No Entrance",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "締",
+        "reading": "しめ"
+      },
+      {
+        "kanji": "切",
+        "reading": "きり"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "図鑑",
+    "meaning": "picture book",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "図",
+        "reading": "ず"
+      },
+      {
+        "kanji": "鑑",
+        "reading": "かん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "索引",
+    "meaning": "index, indices",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "索",
+        "reading": "さく"
+      },
+      {
+        "kanji": "引",
+        "reading": "いん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "学力",
+    "meaning": "scholarship, knowledge, literary ability",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "学",
+        "reading": "がく"
+      },
+      {
+        "kanji": "力",
+        "reading": "りょく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "鈴",
+    "meaning": "bell",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "鈴",
+        "reading": "すず"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "食塩",
+    "meaning": "table salt",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "食",
+        "reading": "しょく"
+      },
+      {
+        "kanji": "塩",
+        "reading": "えん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "何々",
+    "meaning": "such and such, What?",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "何",
+        "reading": "なに"
+      },
+      {
+        "kanji": "々",
+        "reading": "々"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "筆者",
+    "meaning": "writer, author",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "筆",
+        "reading": "ひっ"
+      },
+      {
+        "kanji": "者",
+        "reading": "しゃ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "応対",
+    "meaning": "receiving, dealing with",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "応",
+        "reading": "おう"
+      },
+      {
+        "kanji": "対",
+        "reading": "たい"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "万歳",
+    "meaning": "hurrah, cheers",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "万",
+        "reading": "ばん"
+      },
+      {
+        "kanji": "歳",
+        "reading": "ざい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "歯車",
+    "meaning": "gear, cog-wheel",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "歯",
+        "reading": "は"
+      },
+      {
+        "kanji": "車",
+        "reading": "ぐるま"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "御馳走",
+    "meaning": "feast, treating (someone)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "御",
+        "reading": "ご"
+      },
+      {
+        "kanji": "馳",
+        "reading": "ち"
+      },
+      {
+        "kanji": "走",
+        "reading": "そう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "乗換",
+    "meaning": "(n) transfer (trains, buses, etc.)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "乗換",
+        "reading": "のりかえ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "余所",
+    "meaning": "another place, somewhere else, strange parts",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "余所",
+        "reading": "よそ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "換気",
+    "meaning": "ventilation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "換",
+        "reading": "かん"
+      },
+      {
+        "kanji": "気",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "交通機関",
+    "meaning": "transportation facilities",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "交",
+        "reading": "こう"
+      },
+      {
+        "kanji": "通",
+        "reading": "つう"
+      },
+      {
+        "kanji": "機",
+        "reading": "き"
+      },
+      {
+        "kanji": "関",
+        "reading": "かん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "小遣い",
+    "meaning": "personal expenses, pocket money, spending money, incidental expenses, allowance",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "小遣",
+        "reading": "こづか"
+      },
+      {
+        "kanji": "い",
+        "reading": "い"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "匙",
+    "meaning": "spoon",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "匙",
+        "reading": "さじ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "話中",
+    "meaning": "while talking, the line is busy",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "話",
+        "reading": "はなし"
+      },
+      {
+        "kanji": "中",
+        "reading": "ちゅう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "逆様",
+    "meaning": "inversion, upside down",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "逆",
+        "reading": "さか"
+      },
+      {
+        "kanji": "様",
+        "reading": "さま"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "夕刊",
+    "meaning": "evening paper",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "夕",
+        "reading": "ゆう"
+      },
+      {
+        "kanji": "刊",
+        "reading": "かん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "売店",
+    "meaning": "shop, stand",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "売",
+        "reading": "ばい"
+      },
+      {
+        "kanji": "店",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "見出し",
+    "meaning": "heading, caption, subtitle, index",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "見出",
+        "reading": "みだ"
+      },
+      {
+        "kanji": "し",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "御辞儀",
+    "meaning": "bow",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "御",
+        "reading": "ご"
+      },
+      {
+        "kanji": "辞",
+        "reading": "じ"
+      },
+      {
+        "kanji": "儀",
+        "reading": "ぎ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "湯気",
+    "meaning": "steam, vapour",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "湯",
+        "reading": "ゆ"
+      },
+      {
+        "kanji": "気",
+        "reading": "げ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "直後",
+    "meaning": "immediately following",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "直",
+        "reading": "ちょく"
+      },
+      {
+        "kanji": "後",
+        "reading": "ご"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "為替",
+    "meaning": "money order, exchange",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "為替",
+        "reading": "かわせ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "斜",
+    "meaning": "",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "斜",
+        "reading": "はす"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "食器",
+    "meaning": "tableware",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "食",
+        "reading": "しょっ"
+      },
+      {
+        "kanji": "器",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "頭脳",
+    "meaning": "head, brains, intellect",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "頭",
+        "reading": "ず"
+      },
+      {
+        "kanji": "脳",
+        "reading": "のう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "文脈",
+    "meaning": "context",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "文",
+        "reading": "ぶん"
+      },
+      {
+        "kanji": "脈",
+        "reading": "みゃく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "蓋",
+    "meaning": "cover, lid, cap",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "蓋",
+        "reading": "ふた"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "低下",
+    "meaning": "fall, decline, lowering, deterioration",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "低",
+        "reading": "てい"
+      },
+      {
+        "kanji": "下",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "待合室",
+    "meaning": "waiting room",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "待",
+        "reading": "まち"
+      },
+      {
+        "kanji": "合",
+        "reading": "あい"
+      },
+      {
+        "kanji": "室",
+        "reading": "しつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "給与",
+    "meaning": "allowance, grant, supply",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "給",
+        "reading": "きゅう"
+      },
+      {
+        "kanji": "与",
+        "reading": "よ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "日の出",
+    "meaning": "sunrise",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "日",
+        "reading": "ひ"
+      },
+      {
+        "kanji": "の",
+        "reading": "の"
+      },
+      {
+        "kanji": "出",
+        "reading": "で"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "境界",
+    "meaning": "boundary",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "境",
+        "reading": "きょう"
+      },
+      {
+        "kanji": "界",
+        "reading": "かい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "送別",
+    "meaning": "farewell, send-off",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "送",
+        "reading": "そう"
+      },
+      {
+        "kanji": "別",
+        "reading": "べつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "落着く",
+    "meaning": "to calm down, to settle down",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "落",
+        "reading": "らく"
+      },
+      {
+        "kanji": "着",
+        "reading": "ちゃく"
+      },
+      {
+        "kanji": "く",
+        "reading": "く"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "目下",
+    "meaning": "at present, now",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "目",
+        "reading": "もっ"
+      },
+      {
+        "kanji": "下",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "中年",
+    "meaning": "middle-aged",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "中",
+        "reading": "ちゅう"
+      },
+      {
+        "kanji": "年",
+        "reading": "ねん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "加熱",
+    "meaning": "heating",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "加",
+        "reading": "か"
+      },
+      {
+        "kanji": "熱",
+        "reading": "ねつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "撮影",
+    "meaning": "photographing",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "撮",
+        "reading": "さつ"
+      },
+      {
+        "kanji": "影",
+        "reading": "えい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "手続き",
+    "meaning": "procedure, (legal) process, formalities",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "手続",
+        "reading": "てつづ"
+      },
+      {
+        "kanji": "き",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "学術",
+    "meaning": "science, learning, scholarship",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "学",
+        "reading": "がく"
+      },
+      {
+        "kanji": "術",
+        "reading": "じゅつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "佚",
+    "meaning": "be lost, peace, hide, mistake, beautiful, in turn",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "佚",
+        "reading": "佚"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "出張",
+    "meaning": "official tour, business trip",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "出",
+        "reading": "しゅっ"
+      },
+      {
+        "kanji": "張",
+        "reading": "ちょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "評論",
+    "meaning": "criticism, critique",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "評",
+        "reading": "ひょう"
+      },
+      {
+        "kanji": "論",
+        "reading": "ろん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "名所",
+    "meaning": "famous place",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "名",
+        "reading": "めい"
+      },
+      {
+        "kanji": "所",
+        "reading": "しょ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "以降",
+    "meaning": "on and after, hereafter, thereafter",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "以",
+        "reading": "い"
+      },
+      {
+        "kanji": "降",
+        "reading": "こう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "祖先",
+    "meaning": "ancestor",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "祖",
+        "reading": "そ"
+      },
+      {
+        "kanji": "先",
+        "reading": "せん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "飽くまで",
+    "meaning": "to the end, to the last, stubbornly",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "飽",
+        "reading": "あ"
+      },
+      {
+        "kanji": "くまで",
+        "reading": "くまで"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "摩擦",
+    "meaning": "friction, rubbing, rubdown, chafe",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "摩",
+        "reading": "ま"
+      },
+      {
+        "kanji": "擦",
+        "reading": "さつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "強気",
+    "meaning": "firm, strong",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "強気",
+        "reading": "つよき"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "断定",
+    "meaning": "conclusion, decision",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "断",
+        "reading": "だん"
+      },
+      {
+        "kanji": "定",
+        "reading": "てい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "大木",
+    "meaning": "large tree",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "大",
+        "reading": "たい"
+      },
+      {
+        "kanji": "木",
+        "reading": "ぼく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "日程",
+    "meaning": "agenda",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "日",
+        "reading": "にっ"
+      },
+      {
+        "kanji": "程",
+        "reading": "てい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "社説",
+    "meaning": "editorial, leading article",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "社",
+        "reading": "しゃ"
+      },
+      {
+        "kanji": "説",
+        "reading": "せつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "宴会",
+    "meaning": "party, banquet",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "宴",
+        "reading": "えん"
+      },
+      {
+        "kanji": "会",
+        "reading": "かい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "三角",
+    "meaning": "triangle, triangular",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "三",
+        "reading": "さん"
+      },
+      {
+        "kanji": "角",
+        "reading": "かく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "性質",
+    "meaning": "nature, property, disposition",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "性",
+        "reading": "せい"
+      },
+      {
+        "kanji": "質",
+        "reading": "しつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "間も無く",
+    "meaning": "soon, before long, in a short time",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "間",
+        "reading": "ま"
+      },
+      {
+        "kanji": "も",
+        "reading": "も"
+      },
+      {
+        "kanji": "無",
+        "reading": "な"
+      },
+      {
+        "kanji": "く",
+        "reading": "く"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "淡水",
+    "meaning": "fresh water",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "淡",
+        "reading": "たん"
+      },
+      {
+        "kanji": "水",
+        "reading": "すい"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "巡査",
+    "meaning": "police, policeman",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "巡",
+        "reading": "じゅん"
+      },
+      {
+        "kanji": "査",
+        "reading": "さ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "句読点",
+    "meaning": "punctuation marks",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "句",
+        "reading": "く"
+      },
+      {
+        "kanji": "読",
+        "reading": "とう"
+      },
+      {
+        "kanji": "点",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "果実",
+    "meaning": "fruit, nut, berry.",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "果",
+        "reading": "か"
+      },
+      {
+        "kanji": "実",
+        "reading": "じつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "垂直",
+    "meaning": "vertical, perpendicular",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "垂",
+        "reading": "すい"
+      },
+      {
+        "kanji": "直",
+        "reading": "ちょく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "長女",
+    "meaning": "eldest daughter",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "長",
+        "reading": "ちょう"
+      },
+      {
+        "kanji": "女",
+        "reading": "じょ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "動作",
+    "meaning": "action, movements, motions, bearing, behaviour, manners",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "動",
+        "reading": "どう"
+      },
+      {
+        "kanji": "作",
+        "reading": "さ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "英文",
+    "meaning": "sentence in English",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "英",
+        "reading": "えい"
+      },
+      {
+        "kanji": "文",
+        "reading": "ぶん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "溶岩",
+    "meaning": "lava",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "溶",
+        "reading": "よう"
+      },
+      {
+        "kanji": "岩",
+        "reading": "がん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "掏摸",
+    "meaning": "pickpocket",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "掏摸",
+        "reading": "すり"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "圧縮",
+    "meaning": "compression, condensation, pressure",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "圧",
+        "reading": "あっ"
+      },
+      {
+        "kanji": "縮",
+        "reading": "しゅく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "乾杯",
+    "meaning": "toast (drink)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "乾",
+        "reading": "かん"
+      },
+      {
+        "kanji": "杯",
+        "reading": "ぱい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "半島",
+    "meaning": "peninsula",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "半",
+        "reading": "はん"
+      },
+      {
+        "kanji": "島",
+        "reading": "とう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "床の間",
+    "meaning": "alcove",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "床",
+        "reading": "とこ"
+      },
+      {
+        "kanji": "の",
+        "reading": "の"
+      },
+      {
+        "kanji": "間",
+        "reading": "ま"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "車掌",
+    "meaning": "(train) conductor",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "車",
+        "reading": "しゃ"
+      },
+      {
+        "kanji": "掌",
+        "reading": "しょう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "有料",
+    "meaning": "admission-paid, toll",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "有",
+        "reading": "ゆう"
+      },
+      {
+        "kanji": "料",
+        "reading": "りょう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "日帰り",
+    "meaning": "day trip",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "日帰",
+        "reading": "ひがえ"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "不通",
+    "meaning": "suspension, interruption, stoppage, tie-up, cessation",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "不",
+        "reading": "ふ"
+      },
+      {
+        "kanji": "通",
+        "reading": "つう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "東西",
+    "meaning": "East and West, whole country",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "東",
+        "reading": "とう"
+      },
+      {
+        "kanji": "西",
+        "reading": "ざい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "正門",
+    "meaning": "main gate, main entrance",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "正",
+        "reading": "せい"
+      },
+      {
+        "kanji": "門",
+        "reading": "もん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "岬",
+    "meaning": "cape (on coast)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "岬",
+        "reading": "みさき"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "面積",
+    "meaning": "area",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "面",
+        "reading": "めん"
+      },
+      {
+        "kanji": "積",
+        "reading": "せき"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "扇子",
+    "meaning": "folding fan",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "扇",
+        "reading": "せん"
+      },
+      {
+        "kanji": "子",
+        "reading": "す"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "再三",
+    "meaning": "again and again, repeatedly",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "再",
+        "reading": "さい"
+      },
+      {
+        "kanji": "三",
+        "reading": "さん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "快晴",
+    "meaning": "good weather",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "快",
+        "reading": "かい"
+      },
+      {
+        "kanji": "晴",
+        "reading": "せい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "叔父さん",
+    "meaning": "middle-aged gentleman, uncle",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "叔父",
+        "reading": "おじ"
+      },
+      {
+        "kanji": "さん",
+        "reading": "さん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "売り切れ",
+    "meaning": "sold-out",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "売",
+        "reading": "う"
+      },
+      {
+        "kanji": "り",
+        "reading": "り"
+      },
+      {
+        "kanji": "切",
+        "reading": "き"
+      },
+      {
+        "kanji": "れ",
+        "reading": "れ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "姪",
+    "meaning": "niece",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "姪",
+        "reading": "めい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "水平線",
+    "meaning": "horizon",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "水",
+        "reading": "すい"
+      },
+      {
+        "kanji": "平",
+        "reading": "へい"
+      },
+      {
+        "kanji": "線",
+        "reading": "せん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "概論",
+    "meaning": "intro, outline, general remarks",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "概",
+        "reading": "がい"
+      },
+      {
+        "kanji": "論",
+        "reading": "ろん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "塵紙",
+    "meaning": "tissue paper, toilet paper",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "塵",
+        "reading": "ちり"
+      },
+      {
+        "kanji": "紙",
+        "reading": "がみ"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "言葉遣い",
+    "meaning": "speech, expression, wording",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "言",
+        "reading": "こと"
+      },
+      {
+        "kanji": "葉",
+        "reading": "ば"
+      },
+      {
+        "kanji": "遣",
+        "reading": "づか"
+      },
+      {
+        "kanji": "い",
+        "reading": "い"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "加速",
+    "meaning": "acceleration",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "加",
+        "reading": "か"
+      },
+      {
+        "kanji": "速",
+        "reading": "そく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "着替え",
+    "meaning": "changing clothes, change of clothes",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "着替",
+        "reading": "きが"
+      },
+      {
+        "kanji": "え",
+        "reading": "え"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "洗剤",
+    "meaning": "detergent, washing material",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "洗",
+        "reading": "せん"
+      },
+      {
+        "kanji": "剤",
+        "reading": "ざい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "下書き",
+    "meaning": "rough copy, draft",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "下書",
+        "reading": "したが"
+      },
+      {
+        "kanji": "き",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "和服",
+    "meaning": "Japanese clothes",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "和",
+        "reading": "わ"
+      },
+      {
+        "kanji": "服",
+        "reading": "ふく"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "短期",
+    "meaning": "short term",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "短",
+        "reading": "たん"
+      },
+      {
+        "kanji": "期",
+        "reading": "き"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "貨物",
+    "meaning": "cargo, freight",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "貨",
+        "reading": "か"
+      },
+      {
+        "kanji": "物",
+        "reading": "もつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "温帯",
+    "meaning": "temperate zone",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "温",
+        "reading": "おん"
+      },
+      {
+        "kanji": "帯",
+        "reading": "たい"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "農産物",
+    "meaning": "agricultural produce",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "農",
+        "reading": "のう"
+      },
+      {
+        "kanji": "産",
+        "reading": "さん"
+      },
+      {
+        "kanji": "物",
+        "reading": "ぶつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "私立",
+    "meaning": "private (establishment)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "私",
+        "reading": "し"
+      },
+      {
+        "kanji": "立",
+        "reading": "りつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "商店",
+    "meaning": "shop, business firm",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "商",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "店",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "合流",
+    "meaning": "confluence, union, linking up, merge",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "合",
+        "reading": "ごう"
+      },
+      {
+        "kanji": "流",
+        "reading": "りゅう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "客間",
+    "meaning": "parlor, guest room",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "客",
+        "reading": "きゃく"
+      },
+      {
+        "kanji": "間",
+        "reading": "ま"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "運河",
+    "meaning": "canal, waterway",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "運",
+        "reading": "うん"
+      },
+      {
+        "kanji": "河",
+        "reading": "が"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "俳句",
+    "meaning": "haiku poetry",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "俳",
+        "reading": "はい"
+      },
+      {
+        "kanji": "句",
+        "reading": "く"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "神様",
+    "meaning": "god",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "神",
+        "reading": "かみ"
+      },
+      {
+        "kanji": "様",
+        "reading": "さま"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "判事",
+    "meaning": "judge, judiciary",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "判",
+        "reading": "はん"
+      },
+      {
+        "kanji": "事",
+        "reading": "じ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "森林",
+    "meaning": "forest, woods",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "森",
+        "reading": "しん"
+      },
+      {
+        "kanji": "林",
+        "reading": "りん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "内線",
+    "meaning": "phone extension, indoor wiring, inner line",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "内",
+        "reading": "ない"
+      },
+      {
+        "kanji": "線",
+        "reading": "せん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "組合せ",
+    "meaning": "combination",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "組合",
+        "reading": "くみあわ"
+      },
+      {
+        "kanji": "せ",
+        "reading": "せ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "停車",
+    "meaning": "stopping (e.g. train)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "停",
+        "reading": "てい"
+      },
+      {
+        "kanji": "車",
+        "reading": "しゃ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "洋品店",
+    "meaning": "shop which handles Western-style apparel and accessories",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "洋",
+        "reading": "よう"
+      },
+      {
+        "kanji": "品",
+        "reading": "ひん"
+      },
+      {
+        "kanji": "店",
+        "reading": "てん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "格別",
+    "meaning": "exceptional",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "格",
+        "reading": "かく"
+      },
+      {
+        "kanji": "別",
+        "reading": "べつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "文芸",
+    "meaning": "literature, art and literature, belles-lettres",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "文",
+        "reading": "ぶん"
+      },
+      {
+        "kanji": "芸",
+        "reading": "げい"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "日日",
+    "meaning": "every day, daily, day after day",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "日",
+        "reading": "ひ"
+      },
+      {
+        "kanji": "日",
+        "reading": "び"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "個体",
+    "meaning": "an individual",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "個",
+        "reading": "こ"
+      },
+      {
+        "kanji": "体",
+        "reading": "たい"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "正味",
+    "meaning": "net (weight)",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "正",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "味",
+        "reading": "み"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "日陰",
+    "meaning": "shadow",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "日",
+        "reading": "ひ"
+      },
+      {
+        "kanji": "陰",
+        "reading": "かげ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "付近",
+    "meaning": "neighbourhood, vicinity, environs",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "付",
+        "reading": "ふ"
+      },
+      {
+        "kanji": "近",
+        "reading": "きん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "電池",
+    "meaning": "battery",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "電",
+        "reading": "でん"
+      },
+      {
+        "kanji": "池",
+        "reading": "ち"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "再来週",
+    "meaning": "week after next",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "再",
+        "reading": "さ"
+      },
+      {
+        "kanji": "来",
+        "reading": "らい"
+      },
+      {
+        "kanji": "週",
+        "reading": "しゅう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "水分",
+    "meaning": "moisture",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "水",
+        "reading": "すい"
+      },
+      {
+        "kanji": "分",
+        "reading": "ぶん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "解散",
+    "meaning": "breakup, dissolution",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "解",
+        "reading": "かい"
+      },
+      {
+        "kanji": "散",
+        "reading": "さん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "武士",
+    "meaning": "warrior, samurai",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "武",
+        "reading": "ぶ"
+      },
+      {
+        "kanji": "士",
+        "reading": "し"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "入れ物",
+    "meaning": "container, case, receptacle",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "入",
+        "reading": "い"
+      },
+      {
+        "kanji": "れ",
+        "reading": "れ"
+      },
+      {
+        "kanji": "物",
+        "reading": "もの"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "発想",
+    "meaning": "expression (music), conceptualization",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "発",
+        "reading": "はっ"
+      },
+      {
+        "kanji": "想",
+        "reading": "そう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "釘",
+    "meaning": "nail",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "釘",
+        "reading": "くぎ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "楕円",
+    "meaning": "ellipse",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "楕",
+        "reading": "だ"
+      },
+      {
+        "kanji": "円",
+        "reading": "えん"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "生長",
+    "meaning": "growth, increment",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "生",
+        "reading": "せい"
+      },
+      {
+        "kanji": "長",
+        "reading": "ちょう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "掛け算",
+    "meaning": "multiplication",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "掛",
+        "reading": "か"
+      },
+      {
+        "kanji": "け",
+        "reading": "け"
+      },
+      {
+        "kanji": "算",
+        "reading": "ざん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "普及",
+    "meaning": "diffusion, spread",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "普",
+        "reading": "ふ"
+      },
+      {
+        "kanji": "及",
+        "reading": "きゅう"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "紙屑",
+    "meaning": "wastepaper",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "紙",
+        "reading": "かみ"
+      },
+      {
+        "kanji": "屑",
+        "reading": "くず"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "規律",
+    "meaning": "order, rules, law",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "規",
+        "reading": "き"
+      },
+      {
+        "kanji": "律",
+        "reading": "りつ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "貸家",
+    "meaning": "house for rent",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "貸",
+        "reading": "かし"
+      },
+      {
+        "kanji": "家",
+        "reading": "や"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "自治",
+    "meaning": "self-government, autonomy",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "自",
+        "reading": "じ"
+      },
+      {
+        "kanji": "治",
+        "reading": "ち"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "器具",
+    "meaning": "utensil",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "器",
+        "reading": "き"
+      },
+      {
+        "kanji": "具",
+        "reading": "ぐ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "図表",
+    "meaning": "chart, diagram, graph",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "図",
+        "reading": "ず"
+      },
+      {
+        "kanji": "表",
+        "reading": "ひょう"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "性別",
+    "meaning": "distinction by sex, sex, gender",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "性",
+        "reading": "せい"
+      },
+      {
+        "kanji": "別",
+        "reading": "べつ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "傾らか",
+    "meaning": "",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "傾",
+        "reading": "傾"
+      },
+      {
+        "kanji": "らか",
+        "reading": "らか"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "腰掛け",
+    "meaning": "seat, bench",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "腰掛",
+        "reading": "こしか"
+      },
+      {
+        "kanji": "け",
+        "reading": "け"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "小父さん",
+    "meaning": "middle-aged gentleman, uncle",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "小",
+        "reading": "しょう"
+      },
+      {
+        "kanji": "父",
+        "reading": "とう"
+      },
+      {
+        "kanji": "さん",
+        "reading": "さん"
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "word": "足跡",
+    "meaning": "footprints",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "足",
+        "reading": "あし"
+      },
+      {
+        "kanji": "跡",
+        "reading": "あと"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "算数",
+    "meaning": "arithmetic",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "算",
+        "reading": "さん"
+      },
+      {
+        "kanji": "数",
+        "reading": "すう"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "手頃",
+    "meaning": "moderate, handy",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "手",
+        "reading": "て"
+      },
+      {
+        "kanji": "頃",
+        "reading": "ごろ"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "役者",
+    "meaning": "actor, actress",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "役",
+        "reading": "やく"
+      },
+      {
+        "kanji": "者",
+        "reading": "しゃ"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "製作",
+    "meaning": "manufacture, production",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "製",
+        "reading": "せい"
+      },
+      {
+        "kanji": "作",
+        "reading": "さく"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "理科",
+    "meaning": "science",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "理",
+        "reading": "り"
+      },
+      {
+        "kanji": "科",
+        "reading": "か"
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "word": "未満",
+    "meaning": "less than, insufficient",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "未",
+        "reading": "み"
+      },
+      {
+        "kanji": "満",
+        "reading": "まん"
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "word": "的確",
+    "meaning": "precise, accurate",
+    "level": "N2",
+    "category": "noun",
+    "parts": [
+      {
+        "kanji": "的",
+        "reading": "てき"
+      },
+      {
+        "kanji": "確",
+        "reading": "かく"
+      }
+    ],
+    "difficulty": "medium"
+  }
+];

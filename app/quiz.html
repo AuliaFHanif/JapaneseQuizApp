@@ -217,7 +217,7 @@
     </div>
 
     <script src="KanjiBank.js"></script>
-    <script src="QuestionBank.js"></script>
+    <script src="dataManager.js"></script>
     <script>
         </script>
     <script>
@@ -370,8 +370,16 @@
         }
         const tracker = new KanjiTracker();
 
+        (async function init() {
+        const kanjiElementForLoading = document.getElementById('kanji');
+        if (kanjiElementForLoading) kanjiElementForLoading.textContent = "Loading Data...";
         const urlParams = new URLSearchParams(window.location.search);
         const selectedLevel = urlParams.get('level') || 'N5';
+        await dataManager.loadQuestionDataByLevel(selectedLevel);
+        
+        // Remove loading text
+        if (kanjiElementForLoading) kanjiElementForLoading.textContent = "";
+
         const requestedLength = parseInt(urlParams.get('length')) || 20;
 
         const difficulty = urlParams.get('difficulty') || 'hard';
@@ -658,6 +666,7 @@
         });
 
         loadNewWord();
+        })();
     </script>
 </body>
 
