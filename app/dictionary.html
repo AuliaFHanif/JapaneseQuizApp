@@ -184,21 +184,7 @@ h1 {
         let currentPage = 1;
         let filteredWords = [];
         
-        // Prepare data array for fast searching
-        const allWords = questionData.map(q => {
-            const word = q.word;
-            const meaning = (q.meaning || "").toLowerCase();
-            const reading = q.parts.map(p => p.reading).join("").toLowerCase();
-            
-            // Store a searchable string
-            const searchStr = `${word} ${meaning} ${reading}`;
-            return {
-                word,
-                meaning: q.meaning,
-                reading,
-                searchStr
-            };
-        });
+        let allWords = [];
 
         const wordList = document.getElementById('wordList');
         const pagination = document.getElementById('pagination');
@@ -276,10 +262,25 @@ h1 {
             renderGrid();
         }
 
-        searchInput.addEventListener('input', handleSearch);
+        (async function init() {
+            resultsCount.textContent = "Loading dictionary data...";
+            await dataManager.loadAllQuestionData();
+            
+            allWords = questionData.map(q => {
+                const word = q.word;
+                const meaning = (q.meaning || "").toLowerCase();
+                const reading = q.parts.map(p => p.reading).join("").toLowerCase();
+                return {
+                    word,
+                    meaning: q.meaning,
+                    reading,
+                    searchStr: `${word} ${meaning} ${reading}`
+                };
+            });
 
-        // Initial render
-        handleSearch();
+            searchInput.addEventListener('input', handleSearch);
+            handleSearch();
+        })();
     </script>
 </body>
 </html>

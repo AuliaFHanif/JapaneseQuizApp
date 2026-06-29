@@ -199,7 +199,7 @@ h1 {
     <script src="dataManager.js"></script>
     <script>
         (async function init() {
-        document.getElementById('word-title').textContent = "Loading...";
+        document.getElementById('content').innerHTML = '<div style="text-align:center; padding: 40px; color: var(--text-light);">Loading...</div>';
         await dataManager.loadAllQuestionData();
         
         const urlParams = new URLSearchParams(window.location.search);
@@ -297,6 +297,7 @@ h1 {
                 }
             }
         }
+        })();
     </script>
 </body>
 </html>
