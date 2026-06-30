@@ -214,7 +214,7 @@ h1 {
             if (!wordData) {
                 contentDiv.innerHTML = `<div class="error-state">Word "${targetWord}" not found in the dictionary.</div>`;
             } else {
-                const reading = wordData.parts.map(p => p.reading).join('');
+                const reading = wordData.parts ? wordData.parts.map(p => p.reading).join('') : '';
                 
                 // Build the kanji breakdown
                 let kanjiHtml = '';
@@ -226,7 +226,7 @@ h1 {
                         if (kData) {
                             kanjiHtml += `
                                 <li class="word-item">
-                                    <div class="word-kanji" style="width:60px;"><a href="kanjidetail.html?kanji=${k}" style="color:var(--text-sepia);text-decoration:none;">${k}</a></div>
+                                    <div class="word-kanji" style="width:60px;"><a href="kanjidetail.html?kanji=${encodeURIComponent(k)}" style="color:var(--text-sepia);text-decoration:none;">${k}</a></div>
                                     <div class="word-meaning">
                                         <strong style="font-size: 1.1rem;">${kData.meaning}</strong><br>
                                         <span style="color:var(--text-light); font-size: 0.9rem;">Kun: ${kData.kunyomi || '-'} | On: ${kData.onyomi || '-'}</span>
@@ -250,7 +250,7 @@ h1 {
                 contentDiv.innerHTML = `
                     <div class="detail-card">
                         <div class="kanji-display" style="font-size: ${targetWord.length > 2 ? '3rem' : '4rem'};">${targetWord}</div>
-                        <div class="level-badge" style="font-size: 0.9rem; color: var(--bg-sepia); background: var(--text-light); padding: 4px 12px; border-radius: 12px; display: inline-block; margin-bottom: 20px; font-weight: 600; letter-spacing: 0.05em;">${wordData.level}</div>
+                        <div class="level-badge" style="font-size: 0.9rem; color: var(--bg-sepia); background: var(--text-light); padding: 4px 12px; border-radius: 12px; display: inline-block; margin-bottom: 20px; font-weight: 600; letter-spacing: 0.05em;">${wordData.level || 'Unknown'}</div>
                         <div class="meaning">${wordData.meaning}</div>
                         
                         <div class="readings" style="margin-top: 20px;">

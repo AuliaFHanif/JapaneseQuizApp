@@ -208,7 +208,7 @@
 
             <div class="input-section">
                 <form id="quiz-form">
-                    <input type="text" id="answer-input" placeholder="Reading (romaji)" autocomplete="off" autofocus>
+                    <input type="text" id="answer-input" placeholder="Reading (romaji or hiragana)" autocomplete="off" autofocus>
                     <input type="text" id="meaning-input" placeholder="Meaning (english)" autocomplete="off" style="margin-top: 10px;">
                     <button type="submit" style="display: none;">Submit</button>
                     <div id="hiragana-display" class="hiragana-display"></div>
@@ -264,6 +264,11 @@
         const mapKeys = Object.keys(romajiToHiraganaMap).sort((a, b) => b.length - a.length);
 
         function convertToHiragana(romaji) {
+            // Convert any katakana to hiragana to support both inputs natively
+            romaji = romaji.replace(/[\u30A1-\u30F6]/g, function(match) {
+                return String.fromCharCode(match.charCodeAt(0) - 0x60);
+            });
+
             let result = '';
             let i = 0;
             while (i < romaji.length) {
@@ -311,7 +316,7 @@
 
                 // Double consonant → っ (gemination)
                 // e.g. 'kk' in 'gakkou', 'tt' in 'zettai', 'pp' in 'yappari'
-                if (i + 1 < romaji.length && romaji[i] === romaji[i + 1] && !"aeiouyn".includes(romaji[i])) {
+                if (i + 1 < romaji.length && romaji[i] === romaji[i + 1] && /[a-z]/.test(romaji[i]) && !"aeiouyn".includes(romaji[i])) {
                     result += 'っ';
                     i++;
                     continue;

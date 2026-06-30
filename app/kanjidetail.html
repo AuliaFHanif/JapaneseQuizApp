@@ -224,10 +224,8 @@
     <script src="KanjiBank.js"></script>
     <script src="dataManager.js"></script>
     <script>
-    </script>
-    <script>
         (async function init() {
-            document.getElementById('kanji-title').textContent = "Loading...";
+            document.getElementById('content').innerHTML = '<div style="text-align:center; padding: 40px; color: var(--text-light);">Loading...</div>';
             await dataManager.loadAllQuestionData();
 
             const urlParams = new URLSearchParams(window.location.search);
@@ -250,7 +248,7 @@
                         const fullReading = w.parts.map(p => p.reading).join('');
                         wordsHtml += `
                         <li class="word-item">
-                            <div class="word-kanji"><a href="worddetail.html?word=${w.word}" style="color:var(--text-sepia);text-decoration:none;">${w.word}</a></div>
+                            <div class="word-kanji"><a href="worddetail.html?word=${encodeURIComponent(w.word)}" style="color:var(--text-sepia);text-decoration:none;">${w.word}</a></div>
                             <div class="word-reading">${fullReading}</div>
                             <div class="word-meaning">${w.meaning}</div>
                         </li>
@@ -270,11 +268,11 @@
                     <div class="readings">
                         <div class="reading-row">
                             <div class="reading-label">Kun</div>
-                            <div class="reading-value">${data.kunyomi}</div>
+                            <div class="reading-value">${data.kunyomi || '-'}</div>
                         </div>
                         <div class="reading-row">
                             <div class="reading-label">On</div>
-                            <div class="reading-value">${data.onyomi}</div>
+                            <div class="reading-value">${data.onyomi || '-'}</div>
                         </div>
                     </div>
 
