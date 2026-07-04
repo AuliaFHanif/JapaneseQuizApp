@@ -188,6 +188,83 @@
         .btn:hover {
             background: rgba(0, 0, 0, 0.03);
         }
+
+        .clue-btn {
+            display: inline-block;
+            margin-top: 18px;
+            padding: 8px 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            font-family: var(--font-system);
+            color: var(--text-light);
+            background: transparent;
+            border: 1px solid var(--border-sepia);
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            letter-spacing: 0.02em;
+        }
+
+        .clue-btn:hover {
+            color: var(--text-sepia);
+            border-color: var(--text-sepia);
+            background: rgba(0, 0, 0, 0.02);
+        }
+
+        .clue-btn:active {
+            transform: scale(0.97);
+        }
+
+        .clue-btn:disabled {
+            opacity: 0.4;
+            cursor: default;
+            pointer-events: none;
+        }
+
+        .clue-display {
+            margin-top: 14px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .clue-display.show {
+            opacity: 1;
+        }
+
+        .clue-tag {
+            display: inline-block;
+            padding: 4px 12px;
+            margin: 3px 4px;
+            font-size: 0.85rem;
+            font-family: var(--font-system);
+            border-radius: 4px;
+            animation: softFadeIn 0.4s ease-out;
+        }
+
+        .clue-tag.kunyomi {
+            background: rgba(91, 122, 91, 0.1);
+            color: var(--success);
+            border: 1px solid rgba(91, 122, 91, 0.25);
+        }
+
+        .clue-tag.onyomi {
+            background: rgba(178, 93, 56, 0.1);
+            color: var(--accent);
+            border: 1px solid rgba(178, 93, 56, 0.25);
+        }
+
+        .clue-tag.unknown {
+            background: rgba(0, 0, 0, 0.04);
+            color: var(--text-light);
+            border: 1px solid var(--border-sepia);
+        }
+
+        .clue-tag.special {
+            background: rgba(106, 90, 160, 0.1);
+            color: #6a5aa0;
+            border: 1px solid rgba(106, 90, 160, 0.25);
+        }
     </style>
 </head>
 
@@ -211,6 +288,10 @@
                     <input type="text" id="answer-input" placeholder="Reading (romaji or hiragana)" autocomplete="off" autofocus>
                     <div id="hiragana-display" class="hiragana-display"></div>
                 </form>
+                <div style="text-align: center;">
+                    <button type="button" id="clue-btn" class="clue-btn" title="Show whether the reading is kunyomi or onyomi">💡 Show Clue</button>
+                </div>
+                <div id="clue-display" class="clue-display"></div>
                 <div id="feedback" class="feedback"></div>
             </div>
         </main>
@@ -288,10 +369,13 @@
                 if (romaji[i] === 'n') {
                     const next = i + 1 < romaji.length ? romaji[i + 1] : null;
 
-                    // 'nn' → ん (consume both n's, let next char start a new syllable)
+                    // 'nn' → ん — but if the char after 'nn' can form a syllable with 'n'
+                    // (vowel or 'y'), only consume the first 'n' so the second 'n' starts
+                    // a new syllable. e.g. "onna" → おんな, not おんあ.
                     if (next === 'n') {
+                        const afterNN = i + 2 < romaji.length ? romaji[i + 2] : null;
                         result += 'ん';
-                        i += 2;
+                        i += (afterNN && 'aiueoy'.includes(afterNN)) ? 1 : 2;
                         continue;
                     }
 
@@ -504,6 +588,14 @@
             input.disabled = false;
             input.focus();
             isAnimating = false;
+
+            // Reset clue state
+            const clueBtn = document.getElementById('clue-btn');
+            const clueDisplay = document.getElementById('clue-display');
+            clueBtn.style.display = 'inline-block';
+            clueBtn.disabled = false;
+            clueDisplay.className = 'clue-display';
+            clueDisplay.innerHTML = '';
         }
 
         function evaluateAnswer(userAnswer, parts) {
@@ -621,6 +713,10 @@
             input.disabled = true;
             feedback.className = 'feedback show';
 
+            // Hide clue button and clue display during feedback
+            document.getElementById('clue-btn').style.display = 'none';
+            document.getElementById('clue-display').className = 'clue-display';
+
             // Save for summary
             sessionDeck[currentQuestionIndex].evalResults = evalObj.results;
             sessionDeck[currentQuestionIndex].isFullyCorrect = evalObj.isFullyCorrect;
@@ -668,6 +764,60 @@
             const hiraganaAnswer = convertToHiragana(userAnswer);
             const evaluation = evaluateAnswer(hiraganaAnswer, currentWordData.parts);
             showFeedback(evaluation, hiraganaAnswer);
+        });
+
+        // --- Show Clue Logic ---
+        document.getElementById('clue-btn').addEventListener('click', function() {
+            if (!currentWordData || isAnimating) return;
+
+            const clueDisplay = document.getElementById('clue-display');
+            const clueBtn = document.getElementById('clue-btn');
+            let clueHtml = '';
+
+            // For each kanji part, determine if the reading is kunyomi or onyomi
+            currentWordData.parts.forEach(part => {
+                const kanjiChar = part.kanji;
+                const reading = part.reading;
+
+                // Skip single-char non-kanji parts (hiragana/katakana okurigana)
+                if (!kanjiDictionary[kanjiChar]) {
+                    // If it's a multi-character compound (e.g. 今日, 大人, 明日),
+                    // it's a special reading (熟字訓 / jukujikun)
+                    if (kanjiChar.length > 1) {
+                        clueHtml += `<span class="clue-tag special"><strong>${escapeHtml(kanjiChar)}</strong> → 特別な読み (Special Reading)</span>`;
+                    }
+                    return;
+                }
+
+                const entry = kanjiDictionary[kanjiChar];
+                const onyomiReadings = entry.onyomi ? entry.onyomi.split(/[,、]/).map(r => r.trim().replace(/[-.]/g, '')) : [];
+                const kunyomiReadings = entry.kunyomi ? entry.kunyomi.split(/[,、]/).map(r => r.trim().replace(/[-.]/g, '')) : [];
+
+                const normalizedReading = reading.replace(/[-.]/g, '');
+
+                let readingType = 'unknown';
+                let label = '—';
+
+                if (kunyomiReadings.some(kr => kr === normalizedReading || normalizedReading.startsWith(kr) || kr.startsWith(normalizedReading))) {
+                    readingType = 'kunyomi';
+                    label = '訓読み (Kunyomi)';
+                } else if (onyomiReadings.some(or => or === normalizedReading || normalizedReading.startsWith(or) || or.startsWith(normalizedReading))) {
+                    readingType = 'onyomi';
+                    label = '音読み (Onyomi)';
+                } else {
+                    label = 'Unknown reading type';
+                }
+
+                clueHtml += `<span class="clue-tag ${readingType}"><strong>${escapeHtml(kanjiChar)}</strong> → ${label}</span>`;
+            });
+
+            if (clueHtml === '') {
+                clueHtml = '<span class="clue-tag unknown">No kanji reading data available</span>';
+            }
+
+            clueDisplay.innerHTML = clueHtml;
+            clueDisplay.className = 'clue-display show';
+            clueBtn.disabled = true;
         });
 
         loadNewWord();
