@@ -1,176 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kanji Dictionary</title>
 
     <style>
-:root {
-    --bg-sepia: #f9f6f0;
-    --text-sepia: #4a3f35;
-    --text-light: #8c7e71;
-    --border-sepia: #dcd3c6;
-    --accent: #b25d38;
-    --font-jp: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", "MS PMincho", serif;
-    --font-system: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
+        :root {
+            --bg-sepia: #f9f6f0;
+            --text-sepia: #4a3f35;
+            --text-light: #8c7e71;
+            --border-sepia: #dcd3c6;
+            --accent: #b25d38;
+            --font-jp: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", "MS PMincho", serif;
+            --font-system: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-body {
-    font-family: var(--font-system);
-    -webkit-font-smoothing: antialiased;
-    background-color: var(--bg-sepia);
-    color: var(--text-sepia);
-    padding: 40px 20px;
-}
+        body {
+            font-family: var(--font-system);
+            -webkit-font-smoothing: antialiased;
+            background-color: var(--bg-sepia);
+            color: var(--text-sepia);
+            padding: 40px 20px;
+        }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-}
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
-}
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
 
-h1 {
-    font-family: var(--font-jp);
-    font-size: 2.5rem;
-    font-weight: 400;
-}
+        h1 {
+            font-family: var(--font-jp);
+            font-size: 2.5rem;
+            font-weight: 400;
+        }
 
-.btn {
-    padding: 10px 20px;
-    font-size: 0.95rem;
-    font-family: var(--font-system);
-    font-weight: 500;
-    color: var(--text-sepia);
-    background: transparent;
-    border: 1px solid var(--border-sepia);
-    border-radius: 6px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: all 0.2s ease;
-}
+        .btn {
+            padding: 10px 20px;
+            font-size: 0.95rem;
+            font-family: var(--font-system);
+            font-weight: 500;
+            color: var(--text-sepia);
+            background: transparent;
+            border: 1px solid var(--border-sepia);
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
 
-.btn:hover {
-    background: rgba(0, 0, 0, 0.03);
-    border-color: var(--text-sepia);
-}
+        .btn:hover {
+            background: rgba(0, 0, 0, 0.03);
+            border-color: var(--text-sepia);
+        }
 
-.search-section {
-    margin-bottom: 30px;
-}
+        .header-actions {
+            display: flex;
+            gap: 10px;
+        }
 
-.search-input {
-    width: 100%;
-    padding: 15px 20px;
-    font-size: 1.1rem;
-    border: 1px solid var(--border-sepia);
-    border-radius: 8px;
-    background: transparent;
-    color: var(--text-sepia);
-    outline: none;
-    font-family: var(--font-system);
-    transition: border-color 0.2s;
-}
+        .search-section {
+            margin-bottom: 30px;
+        }
 
-.search-input:focus {
-    border-color: var(--text-sepia);
-}
+        .search-input {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1.1rem;
+            border: 1px solid var(--border-sepia);
+            border-radius: 8px;
+            background: transparent;
+            color: var(--text-sepia);
+            outline: none;
+            font-family: var(--font-system);
+            transition: border-color 0.2s;
+        }
 
-.results-count {
-    margin-top: 10px;
-    font-size: 0.9rem;
-    color: var(--text-light);
-}
+        .search-input:focus {
+            border-color: var(--text-sepia);
+        }
 
-.word-list {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 30px;
-}
+        .results-count {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
 
-.word-item {
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    background: rgba(0,0,0,0.02);
-    border-radius: 8px;
-    border: 1px solid var(--border-sepia);
-    text-decoration: none;
-    color: var(--text-sepia);
-    transition: all 0.2s ease;
-}
+        .word-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
 
-.word-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    border-color: var(--text-sepia);
-    background: rgba(0,0,0,0.04);
-}
+        .word-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.02);
+            border-radius: 8px;
+            border: 1px solid var(--border-sepia);
+            text-decoration: none;
+            color: var(--text-sepia);
+            transition: all 0.2s ease;
+            position: relative;
+        }
 
-.word-kanji {
-    font-family: var(--font-jp);
-    font-size: 1.8rem;
-    min-width: 140px;
-    font-weight: 500;
-}
+        .word-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            border-color: var(--text-sepia);
+            background: rgba(0, 0, 0, 0.04);
+        }
 
-.word-reading {
-    min-width: 150px;
-    color: var(--text-light);
-    font-size: 1rem;
-}
+        .word-kanji {
+            font-family: var(--font-jp);
+            font-size: 1.8rem;
+            min-width: 140px;
+            font-weight: 500;
+        }
 
-.word-meaning {
-    flex: 1;
-    font-size: 1.1rem;
-}
+        .word-reading {
+            min-width: 150px;
+            color: var(--text-light);
+            font-size: 1rem;
+        }
 
-.empty-state {
-    grid-column: 1 / -1;
-    text-align: center;
-    padding: 30px;
-    color: var(--text-light);
-    font-style: italic;
-    background: rgba(0,0,0,0.02);
-    border-radius: 8px;
-}
+        .word-meaning {
+            flex: 1;
+            font-size: 1.1rem;
+        }
 
-.pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 40px;
-}
-.pagination button {
-    padding: 6px 12px;
-    font-size: 0.9rem;
-}
-.pagination span {
-    font-size: 0.95rem;
-    color: var(--text-light);
-}
+        .add-to-set-btn {
+            flex-shrink: 0;
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            border: 1px solid var(--border-sepia);
+            background: var(--bg-sepia);
+            color: var(--text-sepia);
+            font-size: 1.2rem;
+            line-height: 1;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+        }
+
+        .add-to-set-btn:hover {
+            background: var(--text-sepia);
+            color: var(--bg-sepia);
+        }
+
+        .set-picker {
+            position: absolute;
+            top: 100%;
+            right: 15px;
+            margin-top: 6px;
+            background: var(--bg-sepia);
+            border: 1px solid var(--border-sepia);
+            border-radius: 8px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            z-index: 10;
+            min-width: 220px;
+            display: none;
+        }
+
+        .set-picker.open {
+            display: block;
+        }
+
+        .set-picker-title {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-light);
+            margin-bottom: 8px;
+        }
+
+        .set-picker-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 6px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+
+        .set-picker-item:hover {
+            background: rgba(0, 0, 0, 0.04);
+        }
+
+        .set-picker-item.added {
+            color: var(--text-light);
+            cursor: default;
+        }
+
+        .set-picker-new {
+            display: flex;
+            gap: 6px;
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 1px solid var(--border-sepia);
+        }
+
+        .set-picker-new input {
+            flex: 1;
+            padding: 6px 8px;
+            font-size: 0.9rem;
+            border: 1px solid var(--border-sepia);
+            border-radius: 6px;
+            background: transparent;
+            color: var(--text-sepia);
+            outline: none;
+        }
+
+        .set-picker-new button {
+            padding: 6px 10px;
+            font-size: 0.85rem;
+            border: 1px solid var(--border-sepia);
+            border-radius: 6px;
+            background: var(--text-sepia);
+            color: var(--bg-sepia);
+            cursor: pointer;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%) translateY(20px);
+            background: var(--text-sepia);
+            color: var(--bg-sepia);
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            opacity: 0;
+            transition: all 0.25s ease;
+            pointer-events: none;
+            z-index: 100;
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        .empty-state {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 30px;
+            color: var(--text-light);
+            font-style: italic;
+            background: rgba(0, 0, 0, 0.02);
+            border-radius: 8px;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .pagination button {
+            padding: 6px 12px;
+            font-size: 0.9rem;
+        }
+
+        .pagination span {
+            font-size: 0.95rem;
+            color: var(--text-light);
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
             <h1>Dictionary</h1>
-            <a href="../index.html" class="btn">Return Home</a>
+            <div class="header-actions">
+                <a href="customsets.html" class="btn">Custom Sets</a>
+                <a href="../index.html" class="btn">Return Home</a>
+            </div>
         </header>
 
         <div class="search-section">
-            <input type="text" id="searchInput" class="search-input" placeholder="Search by kanji, meaning, or reading (e.g. water, みず, 水)..." autofocus>
+            <input type="text" id="searchInput" class="search-input"
+                placeholder="Search by kanji, meaning, or reading (e.g. water, みず, 水)..." autofocus>
             <div class="results-count" id="resultsCount">Loading...</div>
         </div>
 
@@ -178,22 +314,95 @@ h1 {
         <div class="pagination" id="pagination"></div>
     </div>
 
+    <div class="toast" id="toast"></div>
+
     <script src="dataManager.js"></script>
+    <script src="customSetManager.js"></script>
     <script>
         const ITEMS_PER_PAGE = 100;
         let currentPage = 1;
         let filteredWords = [];
-        
+
         let allWords = [];
 
         const wordList = document.getElementById('wordList');
         const pagination = document.getElementById('pagination');
         const resultsCount = document.getElementById('resultsCount');
         const searchInput = document.getElementById('searchInput');
+        const toastEl = document.getElementById('toast');
+
+        function showToast(msg) {
+            toastEl.textContent = msg;
+            toastEl.classList.add('show');
+            clearTimeout(showToast._t);
+            showToast._t = setTimeout(() => toastEl.classList.remove('show'), 1800);
+        }
+
+        function closeAllPickers(except) {
+            document.querySelectorAll('.set-picker.open').forEach(p => {
+                if (p !== except) p.classList.remove('open');
+            });
+        }
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.set-picker') && !e.target.closest('.add-to-set-btn')) {
+                closeAllPickers();
+            }
+        });
+
+        function buildSetPicker(word) {
+            const picker = document.createElement('div');
+            picker.className = 'set-picker';
+
+            function render() {
+                const sets = customSetManager.getAllSets();
+                let html = `<div class="set-picker-title">Add "${word}" to set</div>`;
+                if (sets.length === 0) {
+                    html += `<div style="font-size:0.85rem;color:var(--text-light);margin-bottom:6px;">No sets yet.</div>`;
+                } else {
+                    sets.forEach(s => {
+                        const already = s.words.includes(word);
+                        html += `<div class="set-picker-item ${already ? 'added' : ''}" data-set-id="${s.id}">
+                            <span>${s.name} (${s.words.length})</span>
+                            <span>${already ? '✓ added' : '+ add'}</span>
+                        </div>`;
+                    });
+                }
+                html += `<div class="set-picker-new">
+                    <input type="text" placeholder="New set name" class="new-set-name">
+                    <button type="button" class="create-and-add">Create & Add</button>
+                </div>`;
+                picker.innerHTML = html;
+
+                picker.querySelectorAll('.set-picker-item:not(.added)').forEach(item => {
+                    item.addEventListener('click', () => {
+                        customSetManager.addWordToSet(item.getAttribute('data-set-id'), word);
+                        showToast(`Added ${word} to set`);
+                        render();
+                    });
+                });
+
+                const nameInput = picker.querySelector('.new-set-name');
+                picker.querySelector('.create-and-add').addEventListener('click', () => {
+                    const name = nameInput.value.trim();
+                    if (!name) { nameInput.focus(); return; }
+                    const newSet = customSetManager.createSet(name);
+                    customSetManager.addWordToSet(newSet.id, word);
+                    showToast(`Created "${name}" and added ${word}`);
+                    render();
+                });
+                nameInput.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') picker.querySelector('.create-and-add').click();
+                });
+            }
+
+            render();
+            return picker;
+        }
 
         function renderGrid() {
             wordList.innerHTML = '';
-            
+
             if (filteredWords.length === 0) {
                 pagination.style.display = 'none';
                 wordList.innerHTML = '<li class="empty-state">No words found matching your search.</li>';
@@ -209,18 +418,37 @@ h1 {
 
             filteredWords.slice(startIdx, endIdx).forEach(item => {
                 const li = document.createElement('li');
-                
+                li.style.position = 'relative';
+
                 const a = document.createElement('a');
                 a.href = `worddetail.html?word=${item.word}`;
                 a.className = 'word-item';
-                
+
                 a.innerHTML = `
                     <div class="word-kanji">${item.word}</div>
                     <div class="word-reading">${item.reading}</div>
                     <div class="word-meaning">${item.meaning}</div>
                 `;
-                
+
+                const addBtn = document.createElement('button');
+                addBtn.type = 'button';
+                addBtn.className = 'add-to-set-btn';
+                addBtn.title = 'Add to custom set';
+                addBtn.textContent = '+';
+
+                const picker = buildSetPicker(item.word);
+
+                addBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const isOpen = picker.classList.contains('open');
+                    closeAllPickers();
+                    picker.classList.toggle('open', !isOpen);
+                });
+
                 li.appendChild(a);
+                li.appendChild(addBtn);
+                li.appendChild(picker);
                 wordList.appendChild(li);
             });
 
@@ -256,7 +484,7 @@ h1 {
             } else {
                 filteredWords = allWords.filter(item => item.searchStr.includes(term));
             }
-            
+
             resultsCount.textContent = `Showing ${filteredWords.length} words`;
             currentPage = 1; // reset to page 1 on new search
             renderGrid();
@@ -265,7 +493,7 @@ h1 {
         (async function init() {
             resultsCount.textContent = "Loading dictionary data...";
             await dataManager.loadAllQuestionData();
-            
+
             allWords = questionData.map(q => {
                 const word = q.word;
                 const meaning = (q.meaning || "").toLowerCase();
@@ -283,4 +511,5 @@ h1 {
         })();
     </script>
 </body>
+
 </html>

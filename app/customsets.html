@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Sets</title>
+
+    <style>
+        :root {
+            --bg-sepia: #f9f6f0;
+            --text-sepia: #4a3f35;
+            --text-light: #8c7e71;
+            --border-sepia: #dcd3c6;
+            --accent: #b25d38;
+            --error: #b25d38;
+            --success: #5b7a5b;
+            --font-jp: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", "MS PMincho", serif;
+            --font-system: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-system);
+            -webkit-font-smoothing: antialiased;
+            background-color: var(--bg-sepia);
+            color: var(--text-sepia);
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-family: var(--font-jp);
+            font-size: 2.2rem;
+            font-weight: 400;
+        }
+
+        .subtitle {
+            color: var(--text-light);
+            margin-bottom: 30px;
+            font-size: 0.95rem;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            font-size: 0.95rem;
+            font-family: var(--font-system);
+            font-weight: 500;
+            color: var(--text-sepia);
+            background: transparent;
+            border: 1px solid var(--border-sepia);
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background: rgba(0, 0, 0, 0.03);
+            border-color: var(--text-sepia);
+        }
+
+        .btn.primary {
+            background: var(--text-sepia);
+            color: var(--bg-sepia);
+            border-color: var(--text-sepia);
+        }
+
+        .btn.primary:hover {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .btn.small {
+            padding: 6px 12px;
+            font-size: 0.85rem;
+        }
+
+        .btn.danger {
+            color: var(--error);
+            border-color: var(--error);
+        }
+
+        .create-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 40px;
+        }
+
+        .create-row input {
+            flex: 1;
+            padding: 12px 16px;
+            font-size: 1rem;
+            border: 1px solid var(--border-sepia);
+            border-radius: 8px;
+            background: transparent;
+            color: var(--text-sepia);
+            outline: none;
+            font-family: var(--font-system);
+        }
+
+        .create-row input:focus {
+            border-color: var(--text-sepia);
+        }
+
+        .set-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 40px;
+        }
+
+        .set-card {
+            background: rgba(0, 0, 0, 0.02);
+            border: 1px solid var(--border-sepia);
+            border-radius: 10px;
+            padding: 18px 20px;
+        }
+
+        .set-card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .set-name {
+            font-size: 1.15rem;
+            font-weight: 500;
+        }
+
+        .set-count {
+            color: var(--text-light);
+            font-size: 0.85rem;
+            margin-top: 2px;
+        }
+
+        .set-actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-light);
+            font-style: italic;
+            background: rgba(0, 0, 0, 0.02);
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+
+        /* Manage panel */
+        #managePanel {
+            display: none;
+            border-top: 2px solid var(--border-sepia);
+            padding-top: 30px;
+            margin-top: 10px;
+        }
+
+        .manage-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .manage-header h2 {
+            font-family: var(--font-jp);
+            font-size: 1.6rem;
+            font-weight: 400;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 12px 16px;
+            font-size: 1rem;
+            border: 1px solid var(--border-sepia);
+            border-radius: 8px;
+            background: transparent;
+            color: var(--text-sepia);
+            outline: none;
+            font-family: var(--font-system);
+            margin-bottom: 15px;
+        }
+
+        .search-input:focus {
+            border-color: var(--text-sepia);
+        }
+
+        .word-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 14px;
+            background: rgba(0, 0, 0, 0.02);
+            border: 1px solid var(--border-sepia);
+            border-radius: 8px;
+            margin-bottom: 8px;
+        }
+
+        .word-row .word-kanji {
+            font-family: var(--font-jp);
+            font-size: 1.2rem;
+            min-width: 80px;
+        }
+
+        .word-row .word-meaning {
+            flex: 1;
+            color: var(--text-light);
+            font-size: 0.9rem;
+            padding: 0 10px;
+        }
+
+        .columns {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .column {
+            flex: 1;
+            min-width: 280px;
+        }
+
+        .column h3 {
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+
+        .scroll-box {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Custom Sets</h1>
+            <a href="../index.html" class="btn">Return Home</a>
+        </header>
+        <p class="subtitle">Build your own list of words to practice. Progress on custom sets is not counted toward your
+            SRS stats.</p>
+
+        <div class="create-row">
+            <input type="text" id="newSetName" placeholder="New set name (e.g. Chapter 3 vocab)" autocomplete="off">
+            <button class="btn primary" id="createSetBtn">Create Set</button>
+        </div>
+
+        <div id="setList" class="set-list"></div>
+
+        <div id="managePanel">
+            <div class="manage-header">
+                <h2 id="manageSetTitle"></h2>
+                <button class="btn small" id="closeManageBtn">Close</button>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <h3>Words in this set (<span id="setWordCount">0</span>)</h3>
+                    <div class="scroll-box" id="setWordsBox"></div>
+                </div>
+                <div class="column">
+                    <h3>Add words</h3>
+                    <input type="text" id="addSearchInput" class="search-input"
+                        placeholder="Search by kanji, meaning, or reading...">
+                    <div class="scroll-box" id="addResultsBox"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="KanjiBank.js"></script>
+    <script src="dataManager.js"></script>
+    <script src="customSetManager.js"></script>
+    <script>
+        let allWords = []; // { word, meaning, reading, searchStr }
+        let activeSetId = null;
+
+        const setListEl = document.getElementById('setList');
+        const managePanel = document.getElementById('managePanel');
+        const manageSetTitle = document.getElementById('manageSetTitle');
+        const setWordsBox = document.getElementById('setWordsBox');
+        const setWordCount = document.getElementById('setWordCount');
+        const addSearchInput = document.getElementById('addSearchInput');
+        const addResultsBox = document.getElementById('addResultsBox');
+
+        function renderSetList() {
+            const sets = customSetManager.getAllSets();
+            if (sets.length === 0) {
+                setListEl.innerHTML = '<div class="empty-state">You haven\'t created any custom sets yet. Create one above to get started.</div>';
+                return;
+            }
+            setListEl.innerHTML = '';
+            sets.forEach(set => {
+                const card = document.createElement('div');
+                card.className = 'set-card';
+                card.innerHTML = `
+                    <div class="set-card-top">
+                        <div>
+                            <div class="set-name">${escapeHtml(set.name)}</div>
+                            <div class="set-count">${set.words.length} word${set.words.length === 1 ? '' : 's'}</div>
+                        </div>
+                        <div class="set-actions">
+                            <a class="btn small primary" href="quiz.html?customSet=${encodeURIComponent(set.id)}">Practice Readings</a>
+                            <a class="btn small primary" href="quiz-meaning.html?customSet=${encodeURIComponent(set.id)}">Practice Readings + Meaning</a>
+                            <button class="btn small" data-manage="${set.id}">Manage</button>
+                            <button class="btn small danger" data-delete="${set.id}">Delete</button>
+                        </div>
+                    </div>
+                `;
+                setListEl.appendChild(card);
+            });
+
+            setListEl.querySelectorAll('[data-manage]').forEach(btn => {
+                btn.addEventListener('click', () => openManage(btn.getAttribute('data-manage')));
+            });
+            setListEl.querySelectorAll('[data-delete]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const id = btn.getAttribute('data-delete');
+                    const set = customSetManager.getSet(id);
+                    if (set && confirm(`Delete "${set.name}"? This cannot be undone.`)) {
+                        customSetManager.deleteSet(id);
+                        if (activeSetId === id) closeManage();
+                        renderSetList();
+                    }
+                });
+            });
+        }
+
+        function escapeHtml(str) {
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        function openManage(id) {
+            activeSetId = id;
+            const set = customSetManager.getSet(id);
+            if (!set) return;
+            manageSetTitle.textContent = set.name;
+            managePanel.style.display = 'block';
+            addSearchInput.value = '';
+            renderSetWords();
+            renderAddResults('');
+            managePanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        function closeManage() {
+            activeSetId = null;
+            managePanel.style.display = 'none';
+        }
+
+        function renderSetWords() {
+            const set = customSetManager.getSet(activeSetId);
+            if (!set) return;
+            setWordCount.textContent = set.words.length;
+            if (set.words.length === 0) {
+                setWordsBox.innerHTML = '<div class="empty-state" style="padding:20px;">No words added yet.</div>';
+                return;
+            }
+            setWordsBox.innerHTML = '';
+            set.words.forEach(word => {
+                const info = allWords.find(w => w.word === word);
+                const row = document.createElement('div');
+                row.className = 'word-row';
+                row.innerHTML = `
+                    <span class="word-kanji">${escapeHtml(word)}</span>
+                    <span class="word-meaning">${info ? escapeHtml(info.meaning) : ''}</span>
+                    <button class="btn small danger" data-remove="${escapeHtml(word)}">Remove</button>
+                `;
+                setWordsBox.appendChild(row);
+            });
+            setWordsBox.querySelectorAll('[data-remove]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    customSetManager.removeWordFromSet(activeSetId, btn.getAttribute('data-remove'));
+                    renderSetWords();
+                    renderSetList();
+                    renderAddResults(addSearchInput.value);
+                });
+            });
+        }
+
+        function renderAddResults(term) {
+            term = (term || '').toLowerCase().trim();
+            const set = customSetManager.getSet(activeSetId);
+            if (!set) return;
+
+            let matches;
+            if (!term) {
+                matches = allWords.slice(0, 50);
+            } else {
+                matches = allWords.filter(w => w.searchStr.includes(term)).slice(0, 100);
+            }
+
+            if (matches.length === 0) {
+                addResultsBox.innerHTML = '<div class="empty-state" style="padding:20px;">No matches.</div>';
+                return;
+            }
+
+            addResultsBox.innerHTML = '';
+            matches.forEach(w => {
+                const alreadyIn = set.words.includes(w.word);
+                const row = document.createElement('div');
+                row.className = 'word-row';
+                row.innerHTML = `
+                    <span class="word-kanji">${escapeHtml(w.word)}</span>
+                    <span class="word-meaning">${escapeHtml(w.meaning)}</span>
+                    <button class="btn small ${alreadyIn ? '' : 'primary'}" ${alreadyIn ? 'disabled style="opacity:0.5;cursor:not-allowed;"' : ''} data-add="${escapeHtml(w.word)}">${alreadyIn ? 'Added' : 'Add'}</button>
+                `;
+                addResultsBox.appendChild(row);
+            });
+
+            addResultsBox.querySelectorAll('[data-add]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    customSetManager.addWordToSet(activeSetId, btn.getAttribute('data-add'));
+                    renderSetWords();
+                    renderSetList();
+                    renderAddResults(addSearchInput.value);
+                });
+            });
+        }
+
+        document.getElementById('createSetBtn').addEventListener('click', () => {
+            const nameInput = document.getElementById('newSetName');
+            const name = nameInput.value.trim();
+            if (!name) {
+                nameInput.focus();
+                return;
+            }
+            const set = customSetManager.createSet(name);
+            nameInput.value = '';
+            renderSetList();
+            openManage(set.id);
+        });
+
+        document.getElementById('newSetName').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') document.getElementById('createSetBtn').click();
+        });
+
+        document.getElementById('closeManageBtn').addEventListener('click', closeManage);
+
+        addSearchInput.addEventListener('input', (e) => renderAddResults(e.target.value));
+
+        (async function init() {
+            await dataManager.loadAllQuestionData();
+            allWords = questionData.map(q => {
+                const word = q.word;
+                const meaning = (q.meaning || '');
+                const reading = q.parts.map(p => p.reading).join('');
+                return {
+                    word,
+                    meaning,
+                    reading,
+                    searchStr: `${word} ${meaning} ${reading}`.toLowerCase()
+                };
+            });
+            renderSetList();
+
+            // Support deep-linking straight into manage view: customsets.html?manage=<id>
+            const urlParams = new URLSearchParams(window.location.search);
+            const manageId = urlParams.get('manage');
+            if (manageId && customSetManager.getSet(manageId)) {
+                openManage(manageId);
+            }
+        })();
+    </script>
+</body>
+
+</html>
