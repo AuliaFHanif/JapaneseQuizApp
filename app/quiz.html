@@ -231,6 +231,10 @@
                         autofocus>
                     <div id="hiragana-display" class="hiragana-display"></div>
                 </form>
+                <div id="clue-container" style="text-align: center; margin-top: 10px; min-height: 30px;">
+                    <button type="button" id="clue-btn" class="btn" style="padding: 6px 12px; font-size: 0.9rem;">Show Clue</button>
+                    <div id="clue-display" style="display: none; font-size: 1rem; color: var(--accent); padding-top: 6px;"></div>
+                </div>
                 <div id="feedback" class="feedback"></div>
             </div>
         </main>
@@ -523,6 +527,19 @@
             const feedback = document.getElementById('feedback');
             const scoreElement = document.getElementById('score');
             const totalQuestionsElement = document.getElementById('total-questions');
+            const clueBtn = document.getElementById('clue-btn');
+            const clueDisplay = document.getElementById('clue-display');
+
+            if (clueBtn) {
+                clueBtn.addEventListener('click', () => {
+                    if (!currentWordData) return;
+                    const readingType = currentWordData.clue || "Unknown Reading";
+                    clueDisplay.textContent = readingType;
+                    clueBtn.style.display = 'none';
+                    clueDisplay.style.display = 'block';
+                    input.focus();
+                });
+            }
 
             totalQuestionsElement.textContent = sessionDeck.length;
 
@@ -553,6 +570,13 @@
 
                 input.value = '';
                 if (hiraganaDisplay) hiraganaDisplay.textContent = '';
+                
+                if (clueBtn && clueDisplay) {
+                    clueBtn.style.display = 'inline-block';
+                    clueDisplay.style.display = 'none';
+                    clueDisplay.textContent = '';
+                }
+
                 input.disabled = false;
                 input.focus();
                 isAnimating = false;

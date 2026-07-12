@@ -14,7 +14,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "興じる",
@@ -31,7 +32,8 @@ window.questionData_N1_verbs = [
         "reading": "じる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "負う",
@@ -48,7 +50,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "染める",
@@ -65,7 +68,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "自惚れ",
@@ -82,7 +86,8 @@ window.questionData_N1_verbs = [
         "reading": "れ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "阻む",
@@ -99,7 +104,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "纏め",
@@ -116,7 +122,8 @@ window.questionData_N1_verbs = [
         "reading": "め"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "瞑る",
@@ -133,7 +140,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "取り締まる",
@@ -158,7 +166,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "葬る",
@@ -175,7 +184,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "沿う",
@@ -192,7 +202,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "揺さぶる",
@@ -209,7 +220,8 @@ window.questionData_N1_verbs = [
         "reading": "さぶる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "背負う",
@@ -226,7 +238,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "名付ける",
@@ -243,7 +256,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "察する",
@@ -260,7 +274,8 @@ window.questionData_N1_verbs = [
         "reading": "する"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "取り組む",
@@ -285,7 +300,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "違える",
@@ -302,7 +318,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "重んじる",
@@ -319,7 +336,8 @@ window.questionData_N1_verbs = [
         "reading": "んじる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "捗る",
@@ -336,7 +354,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "懐く",
@@ -353,7 +372,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "取り巻く",
@@ -378,7 +398,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "練る",
@@ -395,7 +416,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "放り出す",
@@ -420,7 +442,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "挑む",
@@ -437,7 +460,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "現われる",
@@ -454,7 +478,8 @@ window.questionData_N1_verbs = [
         "reading": "われる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "妬む",
@@ -471,7 +496,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "誤魔化す",
@@ -496,7 +522,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "溜まり",
@@ -513,7 +540,8 @@ window.questionData_N1_verbs = [
         "reading": "まり"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "植わる",
@@ -530,7 +558,8 @@ window.questionData_N1_verbs = [
         "reading": "わる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "遠ざかる",
@@ -547,7 +576,8 @@ window.questionData_N1_verbs = [
         "reading": "ざかる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "免れる",
@@ -564,7 +594,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "漏らす",
@@ -581,7 +612,8 @@ window.questionData_N1_verbs = [
         "reading": "らす"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "剃る",
@@ -598,7 +630,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "舞う",
@@ -615,7 +648,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "投げ出す",
@@ -640,7 +674,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "問う",
@@ -657,7 +692,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "継ぐ",
@@ -674,7 +710,8 @@ window.questionData_N1_verbs = [
         "reading": "ぐ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "活ける",
@@ -691,7 +728,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "仕入れる",
@@ -708,7 +746,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "背く",
@@ -725,7 +764,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "拐う",
@@ -742,7 +782,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "諮る",
@@ -759,7 +800,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "偏る",
@@ -776,7 +818,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "産む",
@@ -793,7 +836,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "毟る",
@@ -810,7 +854,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "落ち込む",
@@ -835,7 +880,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "為さる",
@@ -852,7 +898,8 @@ window.questionData_N1_verbs = [
         "reading": "さる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "演じる",
@@ -869,7 +916,8 @@ window.questionData_N1_verbs = [
         "reading": "じる"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "勤まる",
@@ -886,7 +934,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "填まる",
@@ -903,7 +952,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "取り立てる",
@@ -928,7 +978,8 @@ window.questionData_N1_verbs = [
         "reading": "てる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "引き受ける",
@@ -953,7 +1004,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "面する",
@@ -970,7 +1022,8 @@ window.questionData_N1_verbs = [
         "reading": "する"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "徹する",
@@ -987,7 +1040,8 @@ window.questionData_N1_verbs = [
         "reading": "する"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "濯ぐ",
@@ -1004,7 +1058,8 @@ window.questionData_N1_verbs = [
         "reading": "ぐ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "折り返す",
@@ -1029,7 +1084,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "契る",
@@ -1046,7 +1102,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "脅かす",
@@ -1063,7 +1120,8 @@ window.questionData_N1_verbs = [
         "reading": "かす"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "涸れる",
@@ -1080,7 +1138,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "絡む",
@@ -1097,7 +1156,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "打ち合わせる",
@@ -1122,7 +1182,8 @@ window.questionData_N1_verbs = [
         "reading": "わせる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "堪える",
@@ -1139,7 +1200,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "歩む",
@@ -1156,7 +1218,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "織",
@@ -1169,7 +1232,8 @@ window.questionData_N1_verbs = [
         "reading": "お"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "ぶら下げる",
@@ -1190,7 +1254,8 @@ window.questionData_N1_verbs = [
         "reading": "げる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "くっ付ける",
@@ -1211,7 +1276,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "遣り通す",
@@ -1236,7 +1302,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "零す",
@@ -1253,7 +1320,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "急かす",
@@ -1270,7 +1338,8 @@ window.questionData_N1_verbs = [
         "reading": "かす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "備わる",
@@ -1287,7 +1356,8 @@ window.questionData_N1_verbs = [
         "reading": "わる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "突く",
@@ -1304,7 +1374,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "見落とす",
@@ -1321,7 +1392,8 @@ window.questionData_N1_verbs = [
         "reading": "とす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "納まる",
@@ -1338,7 +1410,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "弾く",
@@ -1355,7 +1428,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "照り返す",
@@ -1380,7 +1454,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "深める",
@@ -1397,7 +1472,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "凌ぐ",
@@ -1414,7 +1490,8 @@ window.questionData_N1_verbs = [
         "reading": "ぐ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "埋め込む",
@@ -1439,7 +1516,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "殴る",
@@ -1456,7 +1534,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "誤る",
@@ -1473,7 +1552,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "据える",
@@ -1490,7 +1570,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "苛める",
@@ -1507,7 +1588,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "喋る",
@@ -1524,7 +1606,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "任す",
@@ -1541,7 +1624,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "負かす",
@@ -1558,7 +1642,8 @@ window.questionData_N1_verbs = [
         "reading": "かす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "出くわす",
@@ -1575,7 +1660,8 @@ window.questionData_N1_verbs = [
         "reading": "くわす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "滅ぼす",
@@ -1592,7 +1678,8 @@ window.questionData_N1_verbs = [
         "reading": "ぼす"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "仕立てる",
@@ -1609,7 +1696,8 @@ window.questionData_N1_verbs = [
         "reading": "てる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "剥げる",
@@ -1626,7 +1714,8 @@ window.questionData_N1_verbs = [
         "reading": "げる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "嵩張る",
@@ -1643,7 +1732,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "呉れる",
@@ -1660,7 +1750,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "催す",
@@ -1677,7 +1768,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "脱する",
@@ -1694,7 +1786,8 @@ window.questionData_N1_verbs = [
         "reading": "する"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "訪れる",
@@ -1711,7 +1804,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "叶える",
@@ -1728,7 +1822,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "廃れる",
@@ -1745,7 +1840,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "賭ける",
@@ -1762,7 +1858,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "待ち望む",
@@ -1787,7 +1884,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "広まる",
@@ -1804,7 +1902,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "似通う",
@@ -1821,7 +1920,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "恥じらう",
@@ -1838,7 +1938,8 @@ window.questionData_N1_verbs = [
         "reading": "じらう"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "書き取る",
@@ -1863,7 +1964,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "嘗める",
@@ -1880,7 +1982,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "畏まりました",
@@ -1897,7 +2000,8 @@ window.questionData_N1_verbs = [
         "reading": "まりました"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "諦め",
@@ -1914,7 +2018,8 @@ window.questionData_N1_verbs = [
         "reading": "め"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "有りのまま",
@@ -1931,7 +2036,8 @@ window.questionData_N1_verbs = [
         "reading": "りのまま"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "書き取り",
@@ -1956,7 +2062,8 @@ window.questionData_N1_verbs = [
         "reading": "り"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "仕掛ける",
@@ -1973,7 +2080,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "取り調べる",
@@ -1998,7 +2106,8 @@ window.questionData_N1_verbs = [
         "reading": "べる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "志す",
@@ -2015,7 +2124,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "引き下げる",
@@ -2040,7 +2150,8 @@ window.questionData_N1_verbs = [
         "reading": "げる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "持て成す",
@@ -2065,7 +2176,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "造る",
@@ -2082,7 +2194,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "耐える",
@@ -2099,7 +2212,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "草臥れる",
@@ -2116,7 +2230,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "養う",
@@ -2133,7 +2248,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "差し支える",
@@ -2158,7 +2274,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "食い違う",
@@ -2183,7 +2300,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "見せびらかす",
@@ -2200,7 +2318,8 @@ window.questionData_N1_verbs = [
         "reading": "せびらかす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "危ぶむ",
@@ -2217,7 +2336,8 @@ window.questionData_N1_verbs = [
         "reading": "ぶむ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "駆けっこ",
@@ -2234,7 +2354,8 @@ window.questionData_N1_verbs = [
         "reading": "けっこ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "障る",
@@ -2251,7 +2372,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "寄こす",
@@ -2268,7 +2390,8 @@ window.questionData_N1_verbs = [
         "reading": "こす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "包む",
@@ -2285,7 +2408,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "盛る",
@@ -2302,7 +2426,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "努めて",
@@ -2319,7 +2444,8 @@ window.questionData_N1_verbs = [
         "reading": "めて"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "引き上げる",
@@ -2344,7 +2470,8 @@ window.questionData_N1_verbs = [
         "reading": "げる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "重んずる",
@@ -2361,7 +2488,8 @@ window.questionData_N1_verbs = [
         "reading": "んずる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "押し寄せる",
@@ -2386,7 +2514,8 @@ window.questionData_N1_verbs = [
         "reading": "せる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "楽しむ",
@@ -2403,7 +2532,8 @@ window.questionData_N1_verbs = [
         "reading": "しむ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "逸らす",
@@ -2420,7 +2550,8 @@ window.questionData_N1_verbs = [
         "reading": "らす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "結び付く",
@@ -2445,7 +2576,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "司る",
@@ -2462,7 +2594,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "仕切る",
@@ -2479,7 +2612,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "受け止める",
@@ -2504,7 +2638,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "呆れる",
@@ -2521,7 +2656,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "連ねる",
@@ -2538,7 +2674,8 @@ window.questionData_N1_verbs = [
         "reading": "ねる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "導く",
@@ -2555,7 +2692,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "繕う",
@@ -2572,7 +2710,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "寝かせる",
@@ -2589,7 +2728,8 @@ window.questionData_N1_verbs = [
         "reading": "かせる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "盛り上がる",
@@ -2614,7 +2754,8 @@ window.questionData_N1_verbs = [
         "reading": "がる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "強請る",
@@ -2631,7 +2772,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "試みる",
@@ -2648,7 +2790,8 @@ window.questionData_N1_verbs = [
         "reading": "みる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "乗っ取る",
@@ -2673,7 +2816,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "漏れる",
@@ -2690,7 +2834,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "溢れる",
@@ -2707,7 +2852,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "弱まる",
@@ -2724,7 +2870,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "慣らす",
@@ -2741,7 +2888,8 @@ window.questionData_N1_verbs = [
         "reading": "らす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "代わる",
@@ -2758,7 +2906,8 @@ window.questionData_N1_verbs = [
         "reading": "わる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "荒らす",
@@ -2775,7 +2924,8 @@ window.questionData_N1_verbs = [
         "reading": "らす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "費やす",
@@ -2792,7 +2942,8 @@ window.questionData_N1_verbs = [
         "reading": "やす"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "問い合わせる",
@@ -2817,7 +2968,8 @@ window.questionData_N1_verbs = [
         "reading": "わせる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "群がる",
@@ -2834,7 +2986,8 @@ window.questionData_N1_verbs = [
         "reading": "がる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "仕上げる",
@@ -2851,7 +3004,8 @@ window.questionData_N1_verbs = [
         "reading": "げる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "仕舞う",
@@ -2868,7 +3022,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "成るべく",
@@ -2885,7 +3040,8 @@ window.questionData_N1_verbs = [
         "reading": "るべく"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "覆す",
@@ -2902,7 +3058,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "鈍る",
@@ -2919,7 +3076,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "仕付ける",
@@ -2936,7 +3094,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "心掛ける",
@@ -2953,7 +3112,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "起こす",
@@ -2970,7 +3130,8 @@ window.questionData_N1_verbs = [
         "reading": "こす"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "賄う",
@@ -2987,7 +3148,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "慣れ",
@@ -3004,7 +3166,8 @@ window.questionData_N1_verbs = [
         "reading": "れ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "生やす",
@@ -3021,7 +3184,8 @@ window.questionData_N1_verbs = [
         "reading": "やす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "沿い",
@@ -3038,7 +3202,8 @@ window.questionData_N1_verbs = [
         "reading": "い"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "あざ笑う",
@@ -3059,7 +3224,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "操る",
@@ -3076,7 +3242,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "据え付ける",
@@ -3101,7 +3268,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "交わす",
@@ -3118,7 +3286,8 @@ window.questionData_N1_verbs = [
         "reading": "わす"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "取り替え",
@@ -3143,7 +3312,8 @@ window.questionData_N1_verbs = [
         "reading": "え"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "定まる",
@@ -3160,7 +3330,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "擦る",
@@ -3177,7 +3348,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "霞む",
@@ -3194,7 +3366,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "綴じる",
@@ -3211,7 +3384,8 @@ window.questionData_N1_verbs = [
         "reading": "じる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "意気込む",
@@ -3228,7 +3402,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "満たす",
@@ -3245,7 +3420,8 @@ window.questionData_N1_verbs = [
         "reading": "たす"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "煽てる",
@@ -3262,7 +3438,8 @@ window.questionData_N1_verbs = [
         "reading": "てる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "怒る",
@@ -3279,7 +3456,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "軋む",
@@ -3296,7 +3474,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "逃す",
@@ -3313,7 +3492,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "退く",
@@ -3330,7 +3510,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "潤う",
@@ -3347,7 +3528,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "害する",
@@ -3364,7 +3546,8 @@ window.questionData_N1_verbs = [
         "reading": "する"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "剥がす",
@@ -3381,7 +3564,8 @@ window.questionData_N1_verbs = [
         "reading": "がす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "制する",
@@ -3398,7 +3582,8 @@ window.questionData_N1_verbs = [
         "reading": "する"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "顧みる",
@@ -3415,7 +3600,8 @@ window.questionData_N1_verbs = [
         "reading": "みる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "混む",
@@ -3432,7 +3618,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "対して",
@@ -3449,7 +3636,8 @@ window.questionData_N1_verbs = [
         "reading": "して"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "励ます",
@@ -3466,7 +3654,8 @@ window.questionData_N1_verbs = [
         "reading": "ます"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "接ぐ",
@@ -3483,7 +3672,8 @@ window.questionData_N1_verbs = [
         "reading": "ぐ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "損なう",
@@ -3500,7 +3690,8 @@ window.questionData_N1_verbs = [
         "reading": "なう"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "定める",
@@ -3517,7 +3708,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "詰る",
@@ -3534,7 +3726,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "禁じる",
@@ -3551,7 +3744,8 @@ window.questionData_N1_verbs = [
         "reading": "じる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "罵る",
@@ -3568,7 +3762,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "成り立つ",
@@ -3593,7 +3788,8 @@ window.questionData_N1_verbs = [
         "reading": "つ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "案じる",
@@ -3610,7 +3806,8 @@ window.questionData_N1_verbs = [
         "reading": "じる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "唱える",
@@ -3627,7 +3824,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "見すぼらしい",
@@ -3644,7 +3842,8 @@ window.questionData_N1_verbs = [
         "reading": "すぼらしい"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "怠い",
@@ -3661,7 +3860,8 @@ window.questionData_N1_verbs = [
         "reading": "い"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "弛む",
@@ -3678,7 +3878,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "仕える",
@@ -3695,7 +3896,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "鍛える",
@@ -3712,7 +3914,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "励む",
@@ -3729,7 +3932,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "図る",
@@ -3746,7 +3950,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "営む",
@@ -3763,7 +3968,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "築く",
@@ -3780,7 +3986,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "突っ張る",
@@ -3805,7 +4012,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "進み",
@@ -3822,7 +4030,8 @@ window.questionData_N1_verbs = [
         "reading": "み"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "明かす",
@@ -3839,7 +4048,8 @@ window.questionData_N1_verbs = [
         "reading": "かす"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "篭る",
@@ -3856,7 +4066,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "合わせ",
@@ -3873,7 +4084,8 @@ window.questionData_N1_verbs = [
         "reading": "わせ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "尽くす",
@@ -3890,7 +4102,8 @@ window.questionData_N1_verbs = [
         "reading": "くす"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "読み上げる",
@@ -3915,7 +4128,8 @@ window.questionData_N1_verbs = [
         "reading": "げる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "当てはまる",
@@ -3932,7 +4146,8 @@ window.questionData_N1_verbs = [
         "reading": "てはまる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "禁ずる",
@@ -3949,7 +4164,8 @@ window.questionData_N1_verbs = [
         "reading": "ずる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "手掛ける",
@@ -3966,7 +4182,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "告げる",
@@ -3983,7 +4200,8 @@ window.questionData_N1_verbs = [
         "reading": "げる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "担う",
@@ -4000,7 +4218,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "捧げる",
@@ -4017,7 +4236,8 @@ window.questionData_N1_verbs = [
         "reading": "げる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "即する",
@@ -4034,7 +4254,8 @@ window.questionData_N1_verbs = [
         "reading": "する"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "剥ぐ",
@@ -4051,7 +4272,8 @@ window.questionData_N1_verbs = [
         "reading": "ぐ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "持ち",
@@ -4068,7 +4290,8 @@ window.questionData_N1_verbs = [
         "reading": "ち"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "萎びる",
@@ -4085,7 +4308,8 @@ window.questionData_N1_verbs = [
         "reading": "びる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "炒める",
@@ -4102,7 +4326,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "騙す",
@@ -4119,7 +4344,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "召す",
@@ -4136,7 +4362,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "遮る",
@@ -4153,7 +4380,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "痺れる",
@@ -4170,7 +4398,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "咎める",
@@ -4187,7 +4416,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "差し出す",
@@ -4212,7 +4442,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "貫く",
@@ -4229,7 +4460,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "改まる",
@@ -4246,7 +4478,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "固める",
@@ -4263,7 +4496,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "出合う",
@@ -4280,7 +4514,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "やり遂げる",
@@ -4301,7 +4536,8 @@ window.questionData_N1_verbs = [
         "reading": "げる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "捻じれる",
@@ -4318,7 +4554,8 @@ window.questionData_N1_verbs = [
         "reading": "じれる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "控える",
@@ -4335,7 +4572,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "漂う",
@@ -4352,7 +4590,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "奉る",
@@ -4369,7 +4608,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "逃げ出す",
@@ -4394,7 +4634,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "差し掛かる",
@@ -4419,7 +4660,8 @@ window.questionData_N1_verbs = [
         "reading": "かる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "揉める",
@@ -4436,7 +4678,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "帯びる",
@@ -4453,7 +4696,8 @@ window.questionData_N1_verbs = [
         "reading": "びる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "襲う",
@@ -4470,7 +4714,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "留める",
@@ -4487,7 +4732,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "上回る",
@@ -4504,7 +4750,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "吊るす",
@@ -4521,7 +4768,8 @@ window.questionData_N1_verbs = [
         "reading": "るす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "誂える",
@@ -4538,7 +4786,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "汚す",
@@ -4555,7 +4804,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "流し",
@@ -4572,7 +4822,8 @@ window.questionData_N1_verbs = [
         "reading": "し"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "甘える",
@@ -4589,7 +4840,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "滅びる",
@@ -4606,7 +4858,8 @@ window.questionData_N1_verbs = [
         "reading": "びる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "省みる",
@@ -4623,7 +4876,8 @@ window.questionData_N1_verbs = [
         "reading": "みる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "伴う",
@@ -4640,7 +4894,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "誇る",
@@ -4657,7 +4912,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "及ぶ",
@@ -4674,7 +4930,8 @@ window.questionData_N1_verbs = [
         "reading": "ぶ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "組み合わせる",
@@ -4699,7 +4956,8 @@ window.questionData_N1_verbs = [
         "reading": "わせる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "立ち寄る",
@@ -4724,7 +4982,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "決まる",
@@ -4741,7 +5000,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "揺らぐ",
@@ -4758,7 +5018,8 @@ window.questionData_N1_verbs = [
         "reading": "らぐ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "賜る",
@@ -4775,7 +5036,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "通りかかる",
@@ -4792,7 +5054,8 @@ window.questionData_N1_verbs = [
         "reading": "りかかる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "設ける",
@@ -4809,7 +5072,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "病む",
@@ -4826,7 +5090,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "付け加える",
@@ -4851,7 +5116,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "反する",
@@ -4868,7 +5134,8 @@ window.questionData_N1_verbs = [
         "reading": "する"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "汚れる",
@@ -4885,7 +5152,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "腹立ち",
@@ -4902,7 +5170,8 @@ window.questionData_N1_verbs = [
         "reading": "ち"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "申出",
@@ -4919,7 +5188,8 @@ window.questionData_N1_verbs = [
         "reading": "で"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "傾ける",
@@ -4936,7 +5206,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "恵む",
@@ -4953,7 +5224,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "引き取る",
@@ -4978,7 +5250,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "入る",
@@ -4995,7 +5268,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "貶す",
@@ -5012,7 +5286,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "依って",
@@ -5029,7 +5304,8 @@ window.questionData_N1_verbs = [
         "reading": "って"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "済みません",
@@ -5046,7 +5322,8 @@ window.questionData_N1_verbs = [
         "reading": "みません"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "絶える",
@@ -5063,7 +5340,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "止める",
@@ -5080,7 +5358,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "口ずさむ",
@@ -5097,7 +5376,8 @@ window.questionData_N1_verbs = [
         "reading": "ずさむ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "追い出す",
@@ -5122,7 +5402,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "滞る",
@@ -5139,7 +5420,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "親しむ",
@@ -5156,7 +5438,8 @@ window.questionData_N1_verbs = [
         "reading": "しむ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "強める",
@@ -5173,7 +5456,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "遅らす",
@@ -5190,7 +5474,8 @@ window.questionData_N1_verbs = [
         "reading": "らす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "遣る",
@@ -5207,7 +5492,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "打付ける",
@@ -5224,7 +5510,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "丸める",
@@ -5241,7 +5528,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "報ずる",
@@ -5258,7 +5546,8 @@ window.questionData_N1_verbs = [
         "reading": "ずる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "裂ける",
@@ -5275,7 +5564,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "飲み込む",
@@ -5300,7 +5590,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "認める",
@@ -5317,7 +5608,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "受け付ける",
@@ -5342,7 +5634,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "恐れ入る",
@@ -5367,7 +5660,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "粘り",
@@ -5384,7 +5678,8 @@ window.questionData_N1_verbs = [
         "reading": "り"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "見渡す",
@@ -5401,7 +5696,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "募る",
@@ -5418,7 +5714,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "踏まえる",
@@ -5435,7 +5732,8 @@ window.questionData_N1_verbs = [
         "reading": "まえる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "躊躇う",
@@ -5452,7 +5750,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "愛でたい",
@@ -5469,7 +5768,8 @@ window.questionData_N1_verbs = [
         "reading": "でたい"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "緩める",
@@ -5486,7 +5786,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "粘る",
@@ -5503,7 +5804,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "間違う",
@@ -5520,7 +5822,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "悩ます",
@@ -5537,7 +5840,8 @@ window.questionData_N1_verbs = [
         "reading": "ます"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "見合わせる",
@@ -5554,7 +5858,8 @@ window.questionData_N1_verbs = [
         "reading": "わせる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "乱れる",
@@ -5571,7 +5876,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "果たす",
@@ -5588,7 +5894,8 @@ window.questionData_N1_verbs = [
         "reading": "たす"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "染みる",
@@ -5605,7 +5912,8 @@ window.questionData_N1_verbs = [
         "reading": "みる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "焦る",
@@ -5622,7 +5930,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "経る",
@@ -5639,7 +5948,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "取り混ぜる",
@@ -5664,7 +5974,8 @@ window.questionData_N1_verbs = [
         "reading": "ぜる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "合わす",
@@ -5681,7 +5992,8 @@ window.questionData_N1_verbs = [
         "reading": "わす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "紛れる",
@@ -5698,7 +6010,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "施す",
@@ -5715,7 +6028,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "炙る",
@@ -5732,7 +6046,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "吐く",
@@ -5749,7 +6064,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "上がる",
@@ -5766,7 +6082,8 @@ window.questionData_N1_verbs = [
         "reading": "がる"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "擦れる",
@@ -5783,7 +6100,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "引きずる",
@@ -5800,7 +6118,8 @@ window.questionData_N1_verbs = [
         "reading": "きずる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "辿る",
@@ -5817,7 +6136,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "埋まる",
@@ -5834,7 +6154,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "歪む",
@@ -5851,7 +6172,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "捕らえる",
@@ -5868,7 +6190,8 @@ window.questionData_N1_verbs = [
         "reading": "らえる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "擦れ違い",
@@ -5893,7 +6216,8 @@ window.questionData_N1_verbs = [
         "reading": "い"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "代わる代わる",
@@ -5918,7 +6242,8 @@ window.questionData_N1_verbs = [
         "reading": "わる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "赤らむ",
@@ -5935,7 +6260,8 @@ window.questionData_N1_verbs = [
         "reading": "らむ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "垂れる",
@@ -5952,7 +6278,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "綻びる",
@@ -5969,7 +6296,8 @@ window.questionData_N1_verbs = [
         "reading": "びる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "役立つ",
@@ -5986,7 +6314,8 @@ window.questionData_N1_verbs = [
         "reading": "つ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "生かす",
@@ -6003,7 +6332,8 @@ window.questionData_N1_verbs = [
         "reading": "かす"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "抜け出す",
@@ -6028,7 +6358,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "受け継ぐ",
@@ -6053,7 +6384,8 @@ window.questionData_N1_verbs = [
         "reading": "ぐ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "於いて",
@@ -6070,7 +6402,8 @@ window.questionData_N1_verbs = [
         "reading": "いて"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "説く",
@@ -6087,7 +6420,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "受かる",
@@ -6104,7 +6438,8 @@ window.questionData_N1_verbs = [
         "reading": "かる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "値する",
@@ -6121,7 +6456,8 @@ window.questionData_N1_verbs = [
         "reading": "する"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "蹴飛ばす",
@@ -6138,7 +6474,8 @@ window.questionData_N1_verbs = [
         "reading": "ばす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "止まる",
@@ -6155,7 +6492,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "切り替える",
@@ -6180,7 +6518,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "集まる",
@@ -6197,7 +6536,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "凝る",
@@ -6214,7 +6554,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "掻き回す",
@@ -6239,7 +6580,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "込める",
@@ -6256,7 +6598,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "仰ぐ",
@@ -6273,7 +6616,8 @@ window.questionData_N1_verbs = [
         "reading": "ぐ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "擽ぐったい",
@@ -6290,7 +6634,8 @@ window.questionData_N1_verbs = [
         "reading": "ぐったい"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "申し出る",
@@ -6315,7 +6660,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "茹でる",
@@ -6332,7 +6678,8 @@ window.questionData_N1_verbs = [
         "reading": "でる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "交える",
@@ -6349,7 +6696,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "休める",
@@ -6366,7 +6714,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "遂げる",
@@ -6383,7 +6732,8 @@ window.questionData_N1_verbs = [
         "reading": "げる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "冴える",
@@ -6400,7 +6750,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "乗り込む",
@@ -6425,7 +6776,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "拵える",
@@ -6442,7 +6794,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "始めまして",
@@ -6459,7 +6812,8 @@ window.questionData_N1_verbs = [
         "reading": "めまして"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "果てる",
@@ -6476,7 +6830,8 @@ window.questionData_N1_verbs = [
         "reading": "てる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "摘む",
@@ -6493,7 +6848,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "沈める",
@@ -6510,7 +6866,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "詰らない",
@@ -6527,7 +6884,8 @@ window.questionData_N1_verbs = [
         "reading": "らない"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "呟く",
@@ -6544,7 +6902,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "打ち込む",
@@ -6569,7 +6928,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "緩む",
@@ -6586,7 +6946,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "弱める",
@@ -6603,7 +6964,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "逃れる",
@@ -6620,7 +6982,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "恋する",
@@ -6637,7 +7000,8 @@ window.questionData_N1_verbs = [
         "reading": "する"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "来る",
@@ -6654,7 +7018,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "栄える",
@@ -6671,7 +7036,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "弾む",
@@ -6688,7 +7054,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "掲げる",
@@ -6705,7 +7072,8 @@ window.questionData_N1_verbs = [
         "reading": "げる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "伐",
@@ -6718,7 +7086,8 @@ window.questionData_N1_verbs = [
         "reading": "き"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "保つ",
@@ -6735,7 +7104,8 @@ window.questionData_N1_verbs = [
         "reading": "つ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "兼ねて",
@@ -6752,7 +7122,8 @@ window.questionData_N1_verbs = [
         "reading": "ねて"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "跨ぐ",
@@ -6769,7 +7140,8 @@ window.questionData_N1_verbs = [
         "reading": "ぐ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "くっ付く",
@@ -6790,7 +7162,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "潜る",
@@ -6807,7 +7180,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "老ける",
@@ -6824,7 +7198,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "恥じる",
@@ -6841,7 +7216,8 @@ window.questionData_N1_verbs = [
         "reading": "じる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "映える",
@@ -6858,7 +7234,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "押し込む",
@@ -6883,7 +7260,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "途絶える",
@@ -6900,7 +7278,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "堪らない",
@@ -6917,7 +7296,8 @@ window.questionData_N1_verbs = [
         "reading": "らない"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "出切る",
@@ -6934,7 +7314,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "携わる",
@@ -6951,7 +7332,8 @@ window.questionData_N1_verbs = [
         "reading": "わる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "抓る",
@@ -6968,7 +7350,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "治まる",
@@ -6985,7 +7368,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "跨がる",
@@ -7002,7 +7386,8 @@ window.questionData_N1_verbs = [
         "reading": "がる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "寄り掛かる",
@@ -7027,7 +7412,8 @@ window.questionData_N1_verbs = [
         "reading": "かる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "冷やかす",
@@ -7044,7 +7430,8 @@ window.questionData_N1_verbs = [
         "reading": "やかす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "痛む",
@@ -7061,7 +7448,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "赴く",
@@ -7078,7 +7466,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "馴らす",
@@ -7095,7 +7484,8 @@ window.questionData_N1_verbs = [
         "reading": "らす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "富む",
@@ -7112,7 +7502,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "萎む",
@@ -7129,7 +7520,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "転じる",
@@ -7146,7 +7538,8 @@ window.questionData_N1_verbs = [
         "reading": "じる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "衰える",
@@ -7163,7 +7556,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "懲りる",
@@ -7180,7 +7574,8 @@ window.questionData_N1_verbs = [
         "reading": "りる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "漏る",
@@ -7197,7 +7592,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "叶う",
@@ -7214,7 +7610,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "退ける",
@@ -7231,7 +7628,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "怯える",
@@ -7248,7 +7646,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "成る丈",
@@ -7269,7 +7668,8 @@ window.questionData_N1_verbs = [
         "reading": "たけ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "落とす",
@@ -7286,7 +7686,8 @@ window.questionData_N1_verbs = [
         "reading": "とす"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "給う",
@@ -7303,7 +7704,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "湿気る",
@@ -7320,7 +7722,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "掬う",
@@ -7337,7 +7740,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "吃逆",
@@ -7354,7 +7758,8 @@ window.questionData_N1_verbs = [
         "reading": "ぎゃく"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "聞き取り",
@@ -7379,7 +7784,8 @@ window.questionData_N1_verbs = [
         "reading": "り"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "囀る",
@@ -7396,7 +7802,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "準ずる",
@@ -7413,7 +7820,8 @@ window.questionData_N1_verbs = [
         "reading": "ずる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "唸る",
@@ -7430,7 +7838,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "依",
@@ -7443,7 +7852,8 @@ window.questionData_N1_verbs = [
         "reading": "よ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "演ずる",
@@ -7460,7 +7870,8 @@ window.questionData_N1_verbs = [
         "reading": "ずる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "付き合う",
@@ -7485,7 +7896,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "怒鳴る",
@@ -7502,7 +7914,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "憧れ",
@@ -7519,7 +7932,8 @@ window.questionData_N1_verbs = [
         "reading": "れ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "取り扱う",
@@ -7544,7 +7958,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "欺く",
@@ -7561,7 +7976,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "煙る",
@@ -7578,7 +7994,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "呉れ呉れも",
@@ -7603,7 +8020,8 @@ window.questionData_N1_verbs = [
         "reading": "れも"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "臨む",
@@ -7620,7 +8038,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "打ち切る",
@@ -7645,7 +8064,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "化ける",
@@ -7662,7 +8082,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "尊ぶ",
@@ -7679,7 +8100,8 @@ window.questionData_N1_verbs = [
         "reading": "ぶ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "重なる",
@@ -7696,7 +8118,8 @@ window.questionData_N1_verbs = [
         "reading": "なる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "見逃す",
@@ -7713,7 +8136,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "率いる",
@@ -7730,7 +8154,8 @@ window.questionData_N1_verbs = [
         "reading": "いる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "積もり",
@@ -7747,7 +8172,8 @@ window.questionData_N1_verbs = [
         "reading": "もり"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "戴きます",
@@ -7764,7 +8190,8 @@ window.questionData_N1_verbs = [
         "reading": "きます"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "落ちる",
@@ -7781,7 +8208,8 @@ window.questionData_N1_verbs = [
         "reading": "ちる"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "添う",
@@ -7798,7 +8226,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "仰っしゃる",
@@ -7815,7 +8244,8 @@ window.questionData_N1_verbs = [
         "reading": "っしゃる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "研ぐ",
@@ -7832,7 +8262,8 @@ window.questionData_N1_verbs = [
         "reading": "ぐ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "浮かぶ",
@@ -7849,7 +8280,8 @@ window.questionData_N1_verbs = [
         "reading": "かぶ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "絶つ",
@@ -7866,7 +8298,8 @@ window.questionData_N1_verbs = [
         "reading": "つ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "取り除く",
@@ -7891,7 +8324,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "慎む",
@@ -7908,7 +8342,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "辿り着く",
@@ -7933,7 +8368,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "着飾る",
@@ -7950,7 +8386,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "連なる",
@@ -7967,7 +8404,8 @@ window.questionData_N1_verbs = [
         "reading": "なる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "弱る",
@@ -7984,7 +8422,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "称する",
@@ -8001,7 +8440,8 @@ window.questionData_N1_verbs = [
         "reading": "する"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "取り寄せる",
@@ -8026,7 +8466,8 @@ window.questionData_N1_verbs = [
         "reading": "せる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "申し入れる",
@@ -8051,7 +8492,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "解く",
@@ -8068,7 +8510,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "嵩む",
@@ -8085,7 +8528,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "捲る",
@@ -8102,7 +8546,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "下がる",
@@ -8119,7 +8564,8 @@ window.questionData_N1_verbs = [
         "reading": "がる"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "謙る",
@@ -8136,7 +8582,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "済ます",
@@ -8153,7 +8600,8 @@ window.questionData_N1_verbs = [
         "reading": "ます"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "欠く",
@@ -8170,7 +8618,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "当てはめる",
@@ -8187,7 +8636,8 @@ window.questionData_N1_verbs = [
         "reading": "てはめる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "返る",
@@ -8204,7 +8654,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "抜かす",
@@ -8221,7 +8672,8 @@ window.questionData_N1_verbs = [
         "reading": "かす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "整える",
@@ -8238,7 +8690,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "見っともない",
@@ -8255,7 +8708,8 @@ window.questionData_N1_verbs = [
         "reading": "っともない"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "打ち消し",
@@ -8280,7 +8734,8 @@ window.questionData_N1_verbs = [
         "reading": "し"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "纏まり",
@@ -8297,7 +8752,8 @@ window.questionData_N1_verbs = [
         "reading": "まり"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "腫れる",
@@ -8314,7 +8770,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "傾く",
@@ -8331,7 +8788,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "錆び",
@@ -8348,7 +8806,8 @@ window.questionData_N1_verbs = [
         "reading": "び"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "澄ます",
@@ -8365,7 +8824,8 @@ window.questionData_N1_verbs = [
         "reading": "ます"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "組み込む",
@@ -8390,7 +8850,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "躓く",
@@ -8407,7 +8868,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "勝る",
@@ -8424,7 +8886,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "勧め",
@@ -8441,7 +8904,8 @@ window.questionData_N1_verbs = [
         "reading": "め"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "止むを得ない",
@@ -8466,7 +8930,8 @@ window.questionData_N1_verbs = [
         "reading": "ない"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "染まる",
@@ -8483,7 +8948,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "引っ掛ける",
@@ -8508,7 +8974,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "要する",
@@ -8525,7 +8992,8 @@ window.questionData_N1_verbs = [
         "reading": "する"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "目覚める",
@@ -8542,7 +9010,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "悟る",
@@ -8559,7 +9028,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "老いる",
@@ -8576,7 +9046,8 @@ window.questionData_N1_verbs = [
         "reading": "いる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "やっ付ける",
@@ -8597,7 +9068,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "構える",
@@ -8614,7 +9086,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "賑わう",
@@ -8631,7 +9104,8 @@ window.questionData_N1_verbs = [
         "reading": "わう"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "凭れる",
@@ -8648,7 +9122,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "強まる",
@@ -8665,7 +9140,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "裁く",
@@ -8682,7 +9158,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "差し引く",
@@ -8707,7 +9184,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "添える",
@@ -8724,7 +9202,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "覚え",
@@ -8741,7 +9220,8 @@ window.questionData_N1_verbs = [
         "reading": "え"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "嘆く",
@@ -8758,7 +9238,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "追い込む",
@@ -8783,7 +9264,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "噛み切る",
@@ -8808,7 +9290,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "犯す",
@@ -8825,7 +9308,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "苦しめる",
@@ -8842,7 +9326,8 @@ window.questionData_N1_verbs = [
         "reading": "しめる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "過ぎ",
@@ -8859,7 +9344,8 @@ window.questionData_N1_verbs = [
         "reading": "ぎ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "洒落る",
@@ -8876,7 +9362,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "惜しむ",
@@ -8893,7 +9380,8 @@ window.questionData_N1_verbs = [
         "reading": "しむ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "授ける",
@@ -8910,7 +9398,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "記す",
@@ -8927,7 +9416,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "拗れる",
@@ -8944,7 +9434,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "収まる",
@@ -8961,7 +9452,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "有する",
@@ -8978,7 +9470,8 @@ window.questionData_N1_verbs = [
         "reading": "する"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "準じる",
@@ -8995,7 +9488,8 @@ window.questionData_N1_verbs = [
         "reading": "じる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "縮まる",
@@ -9012,7 +9506,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "慌てる",
@@ -9029,7 +9524,8 @@ window.questionData_N1_verbs = [
         "reading": "てる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "促す",
@@ -9046,7 +9542,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "尽きる",
@@ -9063,7 +9560,8 @@ window.questionData_N1_verbs = [
         "reading": "きる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "受け入れる",
@@ -9088,7 +9586,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "売り出す",
@@ -9113,7 +9612,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "零れる",
@@ -9130,7 +9630,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "凝らす",
@@ -9147,7 +9648,8 @@ window.questionData_N1_verbs = [
         "reading": "らす"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "終わる",
@@ -9164,7 +9666,8 @@ window.questionData_N1_verbs = [
         "reading": "わる"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "呼び止める",
@@ -9189,7 +9692,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "漕ぐ",
@@ -9206,7 +9710,8 @@ window.questionData_N1_verbs = [
         "reading": "ぐ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "駆ける",
@@ -9223,7 +9728,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "聳える",
@@ -9240,7 +9746,8 @@ window.questionData_N1_verbs = [
         "reading": "える"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "備え付ける",
@@ -9265,7 +9772,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "割り込む",
@@ -9290,7 +9798,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "見掛ける",
@@ -9307,7 +9816,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "宛てる",
@@ -9324,7 +9834,8 @@ window.questionData_N1_verbs = [
         "reading": "てる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "現われ",
@@ -9341,7 +9852,8 @@ window.questionData_N1_verbs = [
         "reading": "われ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "乱す",
@@ -9358,7 +9870,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "交わる",
@@ -9375,7 +9888,8 @@ window.questionData_N1_verbs = [
         "reading": "わる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "痛める",
@@ -9392,7 +9906,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "和らげる",
@@ -9409,7 +9924,8 @@ window.questionData_N1_verbs = [
         "reading": "らげる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "報じる",
@@ -9426,7 +9942,8 @@ window.questionData_N1_verbs = [
         "reading": "じる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "放り込む",
@@ -9451,7 +9968,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "散蒔く",
@@ -9472,7 +9990,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "蕩ける",
@@ -9489,7 +10008,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "引っ掻く",
@@ -9514,7 +10034,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "結び付ける",
@@ -9539,7 +10060,8 @@ window.questionData_N1_verbs = [
         "reading": "ける"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "近付く",
@@ -9556,7 +10078,8 @@ window.questionData_N1_verbs = [
         "reading": "く"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "曲がる",
@@ -9573,7 +10096,8 @@ window.questionData_N1_verbs = [
         "reading": "がる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "浸す",
@@ -9590,7 +10114,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "例え",
@@ -9607,7 +10132,8 @@ window.questionData_N1_verbs = [
         "reading": "え"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "引き起こす",
@@ -9632,7 +10158,8 @@ window.questionData_N1_verbs = [
         "reading": "こす"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "震わせる",
@@ -9649,7 +10176,8 @@ window.questionData_N1_verbs = [
         "reading": "わせる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "すれ違う",
@@ -9670,7 +10198,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "脅す",
@@ -9687,7 +10216,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "膨れる",
@@ -9704,7 +10234,8 @@ window.questionData_N1_verbs = [
         "reading": "れる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "織る",
@@ -9721,7 +10252,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "慕う",
@@ -9738,7 +10270,8 @@ window.questionData_N1_verbs = [
         "reading": "う"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "取り次ぐ",
@@ -9763,7 +10296,8 @@ window.questionData_N1_verbs = [
         "reading": "ぐ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "持てる",
@@ -9780,7 +10314,8 @@ window.questionData_N1_verbs = [
         "reading": "てる"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "弄る",
@@ -9797,7 +10332,8 @@ window.questionData_N1_verbs = [
         "reading": "る"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "強いる",
@@ -9814,7 +10350,8 @@ window.questionData_N1_verbs = [
         "reading": "いる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "填める",
@@ -9831,7 +10368,8 @@ window.questionData_N1_verbs = [
         "reading": "める"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "朽ちる",
@@ -9848,7 +10386,8 @@ window.questionData_N1_verbs = [
         "reading": "ちる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "隔たる",
@@ -9865,7 +10404,8 @@ window.questionData_N1_verbs = [
         "reading": "たる"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "侵す",
@@ -9882,7 +10422,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "取り戻す",
@@ -9907,7 +10448,8 @@ window.questionData_N1_verbs = [
         "reading": "す"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "高まる",
@@ -9924,7 +10466,8 @@ window.questionData_N1_verbs = [
         "reading": "まる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "滲む",
@@ -9941,7 +10484,8 @@ window.questionData_N1_verbs = [
         "reading": "む"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "借り",
@@ -9958,7 +10502,8 @@ window.questionData_N1_verbs = [
         "reading": "り"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "押さえる",
@@ -9975,6 +10520,7 @@ window.questionData_N1_verbs = [
         "reading": "さえる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   }
 ];

@@ -14,7 +14,8 @@ window.questionData_N4_adjectives = [
         "reading": "い"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "美しい",
@@ -31,7 +32,8 @@ window.questionData_N4_adjectives = [
         "reading": "しい"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "苦い",
@@ -48,7 +50,8 @@ window.questionData_N4_adjectives = [
         "reading": "い"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "厳しい",
@@ -65,7 +68,8 @@ window.questionData_N4_adjectives = [
         "reading": "しい"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "優しい",
@@ -82,7 +86,8 @@ window.questionData_N4_adjectives = [
         "reading": "しい"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "浅い",
@@ -99,7 +104,8 @@ window.questionData_N4_adjectives = [
         "reading": "い"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "深い",
@@ -116,7 +122,8 @@ window.questionData_N4_adjectives = [
         "reading": "い"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "悲しい",
@@ -133,7 +140,8 @@ window.questionData_N4_adjectives = [
         "reading": "しい"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "寂しい",
@@ -150,7 +158,8 @@ window.questionData_N4_adjectives = [
         "reading": "しい"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "恥ずかしい",
@@ -167,7 +176,8 @@ window.questionData_N4_adjectives = [
         "reading": "ずかしい"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "細かい",
@@ -184,7 +194,8 @@ window.questionData_N4_adjectives = [
         "reading": "かい"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "珍しい",
@@ -201,7 +212,8 @@ window.questionData_N4_adjectives = [
         "reading": "しい"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "眠い",
@@ -218,7 +230,8 @@ window.questionData_N4_adjectives = [
         "reading": "い"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "正しい",
@@ -235,7 +248,8 @@ window.questionData_N4_adjectives = [
         "reading": "しい"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "柔らかい",
@@ -252,7 +266,8 @@ window.questionData_N4_adjectives = [
         "reading": "らかい"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "凄い",
@@ -269,6 +284,7 @@ window.questionData_N4_adjectives = [
         "reading": "い"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   }
 ];

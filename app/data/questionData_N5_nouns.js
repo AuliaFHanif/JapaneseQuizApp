@@ -14,7 +14,8 @@ window.questionData_N5_nouns = [
         "reading": "あさ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "問題",
@@ -31,7 +32,8 @@ window.questionData_N5_nouns = [
         "reading": "だい"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "お茶",
@@ -48,7 +50,8 @@ window.questionData_N5_nouns = [
         "reading": "ちゃ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "黒",
@@ -61,7 +64,8 @@ window.questionData_N5_nouns = [
         "reading": "くろ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "台所",
@@ -78,7 +82,8 @@ window.questionData_N5_nouns = [
         "reading": "どころ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "葉書",
@@ -95,7 +100,8 @@ window.questionData_N5_nouns = [
         "reading": "がき"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "花瓶",
@@ -112,7 +118,8 @@ window.questionData_N5_nouns = [
         "reading": "びん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "電気",
@@ -129,7 +136,8 @@ window.questionData_N5_nouns = [
         "reading": "き"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "病気",
@@ -146,7 +154,8 @@ window.questionData_N5_nouns = [
         "reading": "き"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "頭",
@@ -159,7 +168,8 @@ window.questionData_N5_nouns = [
         "reading": "あたま"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "英語",
@@ -176,7 +186,8 @@ window.questionData_N5_nouns = [
         "reading": "ご"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "家",
@@ -189,7 +200,8 @@ window.questionData_N5_nouns = [
         "reading": "いえ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "一月",
@@ -206,7 +218,8 @@ window.questionData_N5_nouns = [
         "reading": "がつ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "九",
@@ -219,7 +232,8 @@ window.questionData_N5_nouns = [
         "reading": "きゅう"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "奥さん",
@@ -236,7 +250,8 @@ window.questionData_N5_nouns = [
         "reading": "さん"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "作文",
@@ -253,7 +268,8 @@ window.questionData_N5_nouns = [
         "reading": "ぶん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "便利",
@@ -270,7 +286,8 @@ window.questionData_N5_nouns = [
         "reading": "り"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "右",
@@ -283,7 +300,8 @@ window.questionData_N5_nouns = [
         "reading": "みぎ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "十",
@@ -296,7 +314,8 @@ window.questionData_N5_nouns = [
         "reading": "じゅう"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "中",
@@ -309,7 +328,8 @@ window.questionData_N5_nouns = [
         "reading": "なか"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "近く",
@@ -326,7 +346,8 @@ window.questionData_N5_nouns = [
         "reading": "く"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "七つ",
@@ -343,7 +364,8 @@ window.questionData_N5_nouns = [
         "reading": "つ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "目",
@@ -356,7 +378,8 @@ window.questionData_N5_nouns = [
         "reading": "め"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "空",
@@ -369,7 +392,8 @@ window.questionData_N5_nouns = [
         "reading": "そら"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "六日",
@@ -386,7 +410,8 @@ window.questionData_N5_nouns = [
         "reading": "にち"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "年",
@@ -399,7 +424,8 @@ window.questionData_N5_nouns = [
         "reading": "とし"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "男の子",
@@ -420,7 +446,8 @@ window.questionData_N5_nouns = [
         "reading": "こ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "冷蔵庫",
@@ -441,7 +468,8 @@ window.questionData_N5_nouns = [
         "reading": "こ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "玄関",
@@ -458,7 +486,8 @@ window.questionData_N5_nouns = [
         "reading": "かん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "練習",
@@ -475,7 +504,8 @@ window.questionData_N5_nouns = [
         "reading": "しゅう"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "何",
@@ -488,7 +518,8 @@ window.questionData_N5_nouns = [
         "reading": "なに"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "毎月",
@@ -505,7 +536,8 @@ window.questionData_N5_nouns = [
         "reading": "つき"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "雨",
@@ -518,7 +550,8 @@ window.questionData_N5_nouns = [
         "reading": "あめ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "お皿",
@@ -535,7 +568,8 @@ window.questionData_N5_nouns = [
         "reading": "さら"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "お風呂",
@@ -556,7 +590,8 @@ window.questionData_N5_nouns = [
         "reading": "ろ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "廊下",
@@ -573,7 +608,8 @@ window.questionData_N5_nouns = [
         "reading": "か"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "茶色",
@@ -590,7 +626,8 @@ window.questionData_N5_nouns = [
         "reading": "いろ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "手紙",
@@ -607,7 +644,8 @@ window.questionData_N5_nouns = [
         "reading": "がみ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "時々",
@@ -620,7 +658,8 @@ window.questionData_N5_nouns = [
         "reading": "ときどき"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "傘",
@@ -633,7 +672,8 @@ window.questionData_N5_nouns = [
         "reading": "かさ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "電話",
@@ -650,7 +690,8 @@ window.questionData_N5_nouns = [
         "reading": "わ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "道",
@@ -663,7 +704,8 @@ window.questionData_N5_nouns = [
         "reading": "みち"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "新聞",
@@ -680,7 +722,8 @@ window.questionData_N5_nouns = [
         "reading": "ぶん"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "庭",
@@ -693,7 +736,8 @@ window.questionData_N5_nouns = [
         "reading": "にわ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "大きな",
@@ -710,7 +754,8 @@ window.questionData_N5_nouns = [
         "reading": "きな"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "辺",
@@ -723,7 +768,8 @@ window.questionData_N5_nouns = [
         "reading": "あたり"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "番号",
@@ -740,7 +786,8 @@ window.questionData_N5_nouns = [
         "reading": "ごう"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "家族",
@@ -757,7 +804,8 @@ window.questionData_N5_nouns = [
         "reading": "ぞく"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "下手",
@@ -770,7 +818,8 @@ window.questionData_N5_nouns = [
         "reading": "へた"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "料理",
@@ -787,7 +836,8 @@ window.questionData_N5_nouns = [
         "reading": "り"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "六",
@@ -800,7 +850,8 @@ window.questionData_N5_nouns = [
         "reading": "ろく"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "今年",
@@ -813,7 +864,8 @@ window.questionData_N5_nouns = [
         "reading": "ことし"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "初めて",
@@ -830,7 +882,8 @@ window.questionData_N5_nouns = [
         "reading": "めて"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "風邪",
@@ -843,7 +896,8 @@ window.questionData_N5_nouns = [
         "reading": "かぜ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "西",
@@ -856,7 +910,8 @@ window.questionData_N5_nouns = [
         "reading": "にし"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "毎週",
@@ -873,7 +928,8 @@ window.questionData_N5_nouns = [
         "reading": "しゅう"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "五つ",
@@ -890,7 +946,8 @@ window.questionData_N5_nouns = [
         "reading": "つ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "建物",
@@ -907,7 +964,8 @@ window.questionData_N5_nouns = [
         "reading": "もの"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "風",
@@ -920,7 +978,8 @@ window.questionData_N5_nouns = [
         "reading": "かぜ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "少し",
@@ -937,7 +996,8 @@ window.questionData_N5_nouns = [
         "reading": "し"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "大学",
@@ -954,7 +1014,8 @@ window.questionData_N5_nouns = [
         "reading": "がく"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "病院",
@@ -971,7 +1032,8 @@ window.questionData_N5_nouns = [
         "reading": "いん"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "会社",
@@ -988,7 +1050,8 @@ window.questionData_N5_nouns = [
         "reading": "しゃ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "地下鉄",
@@ -1009,7 +1072,8 @@ window.questionData_N5_nouns = [
         "reading": "てつ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "辞書",
@@ -1026,7 +1090,8 @@ window.questionData_N5_nouns = [
         "reading": "しょ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "万年筆",
@@ -1047,7 +1112,8 @@ window.questionData_N5_nouns = [
         "reading": "ひつ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "海",
@@ -1060,7 +1126,8 @@ window.questionData_N5_nouns = [
         "reading": "うみ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "夕方",
@@ -1077,7 +1144,8 @@ window.questionData_N5_nouns = [
         "reading": "がた"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "東",
@@ -1090,7 +1158,8 @@ window.questionData_N5_nouns = [
         "reading": "ひがし"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "声",
@@ -1103,7 +1172,8 @@ window.questionData_N5_nouns = [
         "reading": "こえ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "私",
@@ -1116,7 +1186,8 @@ window.questionData_N5_nouns = [
         "reading": "わたし"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "両親",
@@ -1133,7 +1204,8 @@ window.questionData_N5_nouns = [
         "reading": "しん"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "好き",
@@ -1150,7 +1222,8 @@ window.questionData_N5_nouns = [
         "reading": "き"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "静か",
@@ -1167,7 +1240,8 @@ window.questionData_N5_nouns = [
         "reading": "か"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "お父さん",
@@ -1188,7 +1262,8 @@ window.questionData_N5_nouns = [
         "reading": "さん"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "人",
@@ -1201,7 +1276,8 @@ window.questionData_N5_nouns = [
         "reading": "ひと"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "休み",
@@ -1218,7 +1294,8 @@ window.questionData_N5_nouns = [
         "reading": "み"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "池",
@@ -1231,7 +1308,8 @@ window.questionData_N5_nouns = [
         "reading": "いけ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "掃除",
@@ -1248,7 +1326,8 @@ window.questionData_N5_nouns = [
         "reading": "じ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "賑やか",
@@ -1265,7 +1344,8 @@ window.questionData_N5_nouns = [
         "reading": "やか"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "一つ",
@@ -1282,7 +1362,8 @@ window.questionData_N5_nouns = [
         "reading": "つ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "来週",
@@ -1299,7 +1380,8 @@ window.questionData_N5_nouns = [
         "reading": "しゅう"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "財布",
@@ -1316,7 +1398,8 @@ window.questionData_N5_nouns = [
         "reading": "ふ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "朝御飯",
@@ -1337,7 +1420,8 @@ window.questionData_N5_nouns = [
         "reading": "はん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "言葉",
@@ -1354,7 +1438,8 @@ window.questionData_N5_nouns = [
         "reading": "ば"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "赤",
@@ -1367,7 +1452,8 @@ window.questionData_N5_nouns = [
         "reading": "あか"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "自分",
@@ -1384,7 +1470,8 @@ window.questionData_N5_nouns = [
         "reading": "ぶん"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "卵",
@@ -1397,7 +1484,8 @@ window.questionData_N5_nouns = [
         "reading": "たまご"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "一日",
@@ -1414,7 +1502,8 @@ window.questionData_N5_nouns = [
         "reading": "にち"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "小さな",
@@ -1431,7 +1520,8 @@ window.questionData_N5_nouns = [
         "reading": "さな"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "時間",
@@ -1448,7 +1538,8 @@ window.questionData_N5_nouns = [
         "reading": "かん"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "生徒",
@@ -1465,7 +1556,8 @@ window.questionData_N5_nouns = [
         "reading": "と"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "音楽",
@@ -1482,7 +1574,8 @@ window.questionData_N5_nouns = [
         "reading": "がく"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "歌",
@@ -1495,7 +1588,8 @@ window.questionData_N5_nouns = [
         "reading": "うた"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "山",
@@ -1508,7 +1602,8 @@ window.questionData_N5_nouns = [
         "reading": "やま"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "授業",
@@ -1525,7 +1620,8 @@ window.questionData_N5_nouns = [
         "reading": "ぎょう"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "自転車",
@@ -1546,7 +1642,8 @@ window.questionData_N5_nouns = [
         "reading": "しゃ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "さ来年",
@@ -1567,7 +1664,8 @@ window.questionData_N5_nouns = [
         "reading": "ねん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "学校",
@@ -1584,7 +1682,8 @@ window.questionData_N5_nouns = [
         "reading": "こう"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "四",
@@ -1597,7 +1696,8 @@ window.questionData_N5_nouns = [
         "reading": "よん"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "外国",
@@ -1614,7 +1714,8 @@ window.questionData_N5_nouns = [
         "reading": "こく"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "仕事",
@@ -1631,7 +1732,8 @@ window.questionData_N5_nouns = [
         "reading": "ごと"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "窓",
@@ -1644,7 +1746,8 @@ window.questionData_N5_nouns = [
         "reading": "まど"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "晩",
@@ -1657,7 +1760,8 @@ window.questionData_N5_nouns = [
         "reading": "ばん"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "村",
@@ -1670,7 +1774,8 @@ window.questionData_N5_nouns = [
         "reading": "むら"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "鉛筆",
@@ -1687,7 +1792,8 @@ window.questionData_N5_nouns = [
         "reading": "ぴつ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "雑誌",
@@ -1704,7 +1810,8 @@ window.questionData_N5_nouns = [
         "reading": "し"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "国",
@@ -1717,7 +1824,8 @@ window.questionData_N5_nouns = [
         "reading": "くに"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "今朝",
@@ -1730,7 +1838,8 @@ window.questionData_N5_nouns = [
         "reading": "けさ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "夕飯",
@@ -1747,7 +1856,8 @@ window.questionData_N5_nouns = [
         "reading": "はん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "一緒",
@@ -1764,7 +1874,8 @@ window.questionData_N5_nouns = [
         "reading": "しょ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "元気",
@@ -1781,7 +1892,8 @@ window.questionData_N5_nouns = [
         "reading": "き"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "天気",
@@ -1798,7 +1910,8 @@ window.questionData_N5_nouns = [
         "reading": "き"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "医者",
@@ -1815,7 +1928,8 @@ window.questionData_N5_nouns = [
         "reading": "しゃ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "七",
@@ -1828,7 +1942,8 @@ window.questionData_N5_nouns = [
         "reading": "なな"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "戸",
@@ -1841,7 +1956,8 @@ window.questionData_N5_nouns = [
         "reading": "と"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "今日",
@@ -1854,7 +1970,8 @@ window.questionData_N5_nouns = [
         "reading": "きょう"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "一昨年",
@@ -1875,7 +1992,8 @@ window.questionData_N5_nouns = [
         "reading": "ねん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "文章",
@@ -1892,7 +2010,8 @@ window.questionData_N5_nouns = [
         "reading": "しょう"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "公園",
@@ -1909,7 +2028,8 @@ window.questionData_N5_nouns = [
         "reading": "えん"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "口",
@@ -1922,7 +2042,8 @@ window.questionData_N5_nouns = [
         "reading": "くち"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "上着",
@@ -1939,7 +2060,8 @@ window.questionData_N5_nouns = [
         "reading": "ぎ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "秋",
@@ -1952,7 +2074,8 @@ window.questionData_N5_nouns = [
         "reading": "あき"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "木曜日",
@@ -1973,7 +2096,8 @@ window.questionData_N5_nouns = [
         "reading": "び"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "お手洗い",
@@ -1994,7 +2118,8 @@ window.questionData_N5_nouns = [
         "reading": "い"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "写真",
@@ -2011,7 +2136,8 @@ window.questionData_N5_nouns = [
         "reading": "しん"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "南",
@@ -2024,7 +2150,8 @@ window.questionData_N5_nouns = [
         "reading": "みなみ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "五日",
@@ -2041,7 +2168,8 @@ window.questionData_N5_nouns = [
         "reading": "にち"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "来月",
@@ -2058,7 +2186,8 @@ window.questionData_N5_nouns = [
         "reading": "げつ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "果物",
@@ -2071,7 +2200,8 @@ window.questionData_N5_nouns = [
         "reading": "くだもの"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "大好き",
@@ -2088,7 +2218,8 @@ window.questionData_N5_nouns = [
         "reading": "き"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "妹",
@@ -2101,7 +2232,8 @@ window.questionData_N5_nouns = [
         "reading": "いもうと"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "夏",
@@ -2114,7 +2246,8 @@ window.questionData_N5_nouns = [
         "reading": "なつ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "今晩",
@@ -2131,7 +2264,8 @@ window.questionData_N5_nouns = [
         "reading": "ばん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "塩",
@@ -2144,7 +2278,8 @@ window.questionData_N5_nouns = [
         "reading": "しお"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "先週",
@@ -2161,7 +2296,8 @@ window.questionData_N5_nouns = [
         "reading": "しゅう"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "木",
@@ -2174,7 +2310,8 @@ window.questionData_N5_nouns = [
         "reading": "き"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "薬",
@@ -2187,7 +2324,8 @@ window.questionData_N5_nouns = [
         "reading": "くすり"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "お菓子",
@@ -2208,7 +2346,8 @@ window.questionData_N5_nouns = [
         "reading": "し"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "金曜日",
@@ -2229,7 +2368,8 @@ window.questionData_N5_nouns = [
         "reading": "び"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "お酒",
@@ -2246,7 +2386,8 @@ window.questionData_N5_nouns = [
         "reading": "さけ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "動物",
@@ -2263,7 +2404,8 @@ window.questionData_N5_nouns = [
         "reading": "ぶつ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "切符",
@@ -2276,7 +2418,8 @@ window.questionData_N5_nouns = [
         "reading": "きっぷ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "体",
@@ -2289,7 +2432,8 @@ window.questionData_N5_nouns = [
         "reading": "からだ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "二日",
@@ -2306,7 +2450,8 @@ window.questionData_N5_nouns = [
         "reading": "にち"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "大人",
@@ -2319,7 +2464,8 @@ window.questionData_N5_nouns = [
         "reading": "おとな"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "歯",
@@ -2332,7 +2478,8 @@ window.questionData_N5_nouns = [
         "reading": "は"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "冬",
@@ -2345,7 +2492,8 @@ window.questionData_N5_nouns = [
         "reading": "ふゆ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "所",
@@ -2358,7 +2506,8 @@ window.questionData_N5_nouns = [
         "reading": "ところ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "足",
@@ -2371,7 +2520,8 @@ window.questionData_N5_nouns = [
         "reading": "あし"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "箱",
@@ -2384,7 +2534,8 @@ window.questionData_N5_nouns = [
         "reading": "はこ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "八",
@@ -2397,7 +2548,8 @@ window.questionData_N5_nouns = [
         "reading": "はち"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "朝",
@@ -2410,7 +2562,8 @@ window.questionData_N5_nouns = [
         "reading": "あさ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "一昨日",
@@ -2423,7 +2576,8 @@ window.questionData_N5_nouns = [
         "reading": "おととい"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "有名",
@@ -2440,7 +2594,8 @@ window.questionData_N5_nouns = [
         "reading": "めい"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "二十日",
@@ -2461,7 +2616,8 @@ window.questionData_N5_nouns = [
         "reading": "にち"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "時計",
@@ -2474,7 +2630,8 @@ window.questionData_N5_nouns = [
         "reading": "とけい"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "午後",
@@ -2491,7 +2648,8 @@ window.questionData_N5_nouns = [
         "reading": "ご"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "食べ物",
@@ -2512,7 +2670,8 @@ window.questionData_N5_nouns = [
         "reading": "もの"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "大使館",
@@ -2533,7 +2692,8 @@ window.questionData_N5_nouns = [
         "reading": "かん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "誰",
@@ -2546,7 +2706,8 @@ window.questionData_N5_nouns = [
         "reading": "だれ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "上",
@@ -2559,7 +2720,8 @@ window.questionData_N5_nouns = [
         "reading": "うえ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "五",
@@ -2572,7 +2734,8 @@ window.questionData_N5_nouns = [
         "reading": "ご"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "十日",
@@ -2589,7 +2752,8 @@ window.questionData_N5_nouns = [
         "reading": "にち"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "今週",
@@ -2606,7 +2770,8 @@ window.questionData_N5_nouns = [
         "reading": "しゅう"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "肉",
@@ -2619,7 +2784,8 @@ window.questionData_N5_nouns = [
         "reading": "にく"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "零",
@@ -2632,7 +2798,8 @@ window.questionData_N5_nouns = [
         "reading": "れい"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "豚肉",
@@ -2649,7 +2816,8 @@ window.questionData_N5_nouns = [
         "reading": "にく"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "靴下",
@@ -2666,7 +2834,8 @@ window.questionData_N5_nouns = [
         "reading": "した"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "一人",
@@ -2683,7 +2852,8 @@ window.questionData_N5_nouns = [
         "reading": "にん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "向こう",
@@ -2700,7 +2870,8 @@ window.questionData_N5_nouns = [
         "reading": "こう"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "上手",
@@ -2717,7 +2888,8 @@ window.questionData_N5_nouns = [
         "reading": "ず"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "牛肉",
@@ -2734,7 +2906,8 @@ window.questionData_N5_nouns = [
         "reading": "にく"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "話",
@@ -2747,7 +2920,8 @@ window.questionData_N5_nouns = [
         "reading": "はなし"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "毎晩",
@@ -2764,7 +2938,8 @@ window.questionData_N5_nouns = [
         "reading": "ばん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "三つ",
@@ -2781,7 +2956,8 @@ window.questionData_N5_nouns = [
         "reading": "つ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "銀行",
@@ -2798,7 +2974,8 @@ window.questionData_N5_nouns = [
         "reading": "こう"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "大切",
@@ -2815,7 +2992,8 @@ window.questionData_N5_nouns = [
         "reading": "せつ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "学生",
@@ -2832,7 +3010,8 @@ window.questionData_N5_nouns = [
         "reading": "せい"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "部屋",
@@ -2845,7 +3024,8 @@ window.questionData_N5_nouns = [
         "reading": "へや"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "昼御飯",
@@ -2866,7 +3046,8 @@ window.questionData_N5_nouns = [
         "reading": "はん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "下",
@@ -2879,7 +3060,8 @@ window.questionData_N5_nouns = [
         "reading": "した"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "二つ",
@@ -2896,7 +3078,8 @@ window.questionData_N5_nouns = [
         "reading": "つ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "百",
@@ -2909,7 +3092,8 @@ window.questionData_N5_nouns = [
         "reading": "ひゃく"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "地図",
@@ -2926,7 +3110,8 @@ window.questionData_N5_nouns = [
         "reading": "ず"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "八百屋",
@@ -2939,7 +3124,8 @@ window.questionData_N5_nouns = [
         "reading": "やおや"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "去年",
@@ -2956,7 +3142,8 @@ window.questionData_N5_nouns = [
         "reading": "ねん"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "火曜日",
@@ -2977,7 +3164,8 @@ window.questionData_N5_nouns = [
         "reading": "び"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "弟",
@@ -2990,7 +3178,8 @@ window.questionData_N5_nouns = [
         "reading": "おとうと"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "千",
@@ -3003,7 +3192,8 @@ window.questionData_N5_nouns = [
         "reading": "せん"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "緑",
@@ -3016,7 +3206,8 @@ window.questionData_N5_nouns = [
         "reading": "みどり"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "帽子",
@@ -3033,7 +3224,8 @@ window.questionData_N5_nouns = [
         "reading": "し"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "丈夫",
@@ -3050,7 +3242,8 @@ window.questionData_N5_nouns = [
         "reading": "ぶ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "二十歳",
@@ -3071,7 +3264,8 @@ window.questionData_N5_nouns = [
         "reading": "さい"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "三日",
@@ -3088,7 +3282,8 @@ window.questionData_N5_nouns = [
         "reading": "にち"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "夏休み",
@@ -3105,7 +3300,8 @@ window.questionData_N5_nouns = [
         "reading": "み"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "友達",
@@ -3122,7 +3318,8 @@ window.questionData_N5_nouns = [
         "reading": "だち"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "横",
@@ -3135,7 +3332,8 @@ window.questionData_N5_nouns = [
         "reading": "よこ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "夜",
@@ -3148,7 +3346,8 @@ window.questionData_N5_nouns = [
         "reading": "よる"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "暇",
@@ -3161,7 +3360,8 @@ window.questionData_N5_nouns = [
         "reading": "ひま"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "隣",
@@ -3174,7 +3374,8 @@ window.questionData_N5_nouns = [
         "reading": "となり"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "先生",
@@ -3191,7 +3392,8 @@ window.questionData_N5_nouns = [
         "reading": "せい"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "出口",
@@ -3204,7 +3406,8 @@ window.questionData_N5_nouns = [
         "reading": "いでぐち"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "後ろ",
@@ -3221,7 +3424,8 @@ window.questionData_N5_nouns = [
         "reading": "ろ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "先月",
@@ -3238,7 +3442,8 @@ window.questionData_N5_nouns = [
         "reading": "げつ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "お姉さん",
@@ -3259,7 +3464,8 @@ window.questionData_N5_nouns = [
         "reading": "さん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "本",
@@ -3272,7 +3478,8 @@ window.questionData_N5_nouns = [
         "reading": "ほん"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "灰皿",
@@ -3289,7 +3496,8 @@ window.questionData_N5_nouns = [
         "reading": "ざら"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "門",
@@ -3302,7 +3510,8 @@ window.questionData_N5_nouns = [
         "reading": "もん"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "荷物",
@@ -3319,7 +3528,8 @@ window.questionData_N5_nouns = [
         "reading": "もつ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "毎年",
@@ -3336,7 +3546,8 @@ window.questionData_N5_nouns = [
         "reading": "とし"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "明日",
@@ -3349,7 +3560,8 @@ window.questionData_N5_nouns = [
         "reading": "あした"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "電車",
@@ -3366,7 +3578,8 @@ window.questionData_N5_nouns = [
         "reading": "しゃ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "嫌",
@@ -3379,7 +3592,8 @@ window.questionData_N5_nouns = [
         "reading": "いや"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "宿題",
@@ -3396,7 +3610,8 @@ window.questionData_N5_nouns = [
         "reading": "だい"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "万",
@@ -3409,7 +3624,8 @@ window.questionData_N5_nouns = [
         "reading": "ばん"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "映画",
@@ -3426,7 +3642,8 @@ window.questionData_N5_nouns = [
         "reading": "が"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "耳",
@@ -3439,7 +3656,8 @@ window.questionData_N5_nouns = [
         "reading": "みみ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "四つ",
@@ -3456,7 +3674,8 @@ window.questionData_N5_nouns = [
         "reading": "つ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "机",
@@ -3469,7 +3688,8 @@ window.questionData_N5_nouns = [
         "reading": "つくえ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "教室",
@@ -3486,7 +3706,8 @@ window.questionData_N5_nouns = [
         "reading": "しつ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "姉",
@@ -3499,7 +3720,8 @@ window.questionData_N5_nouns = [
         "reading": "あね"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "大勢",
@@ -3516,7 +3738,8 @@ window.questionData_N5_nouns = [
         "reading": "せい"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "店",
@@ -3529,7 +3752,8 @@ window.questionData_N5_nouns = [
         "reading": "みせ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "北",
@@ -3542,7 +3766,8 @@ window.questionData_N5_nouns = [
         "reading": "きた"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "全部",
@@ -3559,7 +3784,8 @@ window.questionData_N5_nouns = [
         "reading": "ぶ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "橋",
@@ -3572,7 +3798,8 @@ window.questionData_N5_nouns = [
         "reading": "はし"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "入口",
@@ -3589,7 +3816,8 @@ window.questionData_N5_nouns = [
         "reading": "ぐち"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "自動車",
@@ -3610,7 +3838,8 @@ window.questionData_N5_nouns = [
         "reading": "しゃ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "昼",
@@ -3623,7 +3852,8 @@ window.questionData_N5_nouns = [
         "reading": "ひる"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "色",
@@ -3636,7 +3866,8 @@ window.questionData_N5_nouns = [
         "reading": "いろ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "黄色",
@@ -3653,7 +3884,8 @@ window.questionData_N5_nouns = [
         "reading": "いろ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "左",
@@ -3666,7 +3898,8 @@ window.questionData_N5_nouns = [
         "reading": "ひだり"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "野菜",
@@ -3683,7 +3916,8 @@ window.questionData_N5_nouns = [
         "reading": "さい"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "散歩",
@@ -3700,7 +3934,8 @@ window.questionData_N5_nouns = [
         "reading": "ぽ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "三",
@@ -3713,7 +3948,8 @@ window.questionData_N5_nouns = [
         "reading": "さん"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "映画館",
@@ -3734,7 +3970,8 @@ window.questionData_N5_nouns = [
         "reading": "かん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "誕生日",
@@ -3755,7 +3992,8 @@ window.questionData_N5_nouns = [
         "reading": "び"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "七日",
@@ -3772,7 +4010,8 @@ window.questionData_N5_nouns = [
         "reading": "にち"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "後",
@@ -3785,7 +4024,8 @@ window.questionData_N5_nouns = [
         "reading": "のち"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "猫",
@@ -3798,7 +4038,8 @@ window.questionData_N5_nouns = [
         "reading": "ねこ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "図書館",
@@ -3819,7 +4060,8 @@ window.questionData_N5_nouns = [
         "reading": "かん"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "八日",
@@ -3836,7 +4078,8 @@ window.questionData_N5_nouns = [
         "reading": "にち"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "九日",
@@ -3853,7 +4096,8 @@ window.questionData_N5_nouns = [
         "reading": "にち"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "お兄さん",
@@ -3874,7 +4118,8 @@ window.questionData_N5_nouns = [
         "reading": "さん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "手",
@@ -3887,7 +4132,8 @@ window.questionData_N5_nouns = [
         "reading": "て"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "毎日",
@@ -3904,7 +4150,8 @@ window.questionData_N5_nouns = [
         "reading": "にち"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "花",
@@ -3917,7 +4164,8 @@ window.questionData_N5_nouns = [
         "reading": "はな"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "一",
@@ -3930,7 +4178,8 @@ window.questionData_N5_nouns = [
         "reading": "いち"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "砂糖",
@@ -3947,7 +4196,8 @@ window.questionData_N5_nouns = [
         "reading": "とう"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "今",
@@ -3960,7 +4210,8 @@ window.questionData_N5_nouns = [
         "reading": "いま"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "旅行",
@@ -3977,7 +4228,8 @@ window.questionData_N5_nouns = [
         "reading": "こう"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "春",
@@ -3990,7 +4242,8 @@ window.questionData_N5_nouns = [
         "reading": "はる"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "八つ",
@@ -4007,7 +4260,8 @@ window.questionData_N5_nouns = [
         "reading": "つ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "町",
@@ -4020,7 +4274,8 @@ window.questionData_N5_nouns = [
         "reading": "まち"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "青",
@@ -4033,7 +4288,8 @@ window.questionData_N5_nouns = [
         "reading": "あお"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "白",
@@ -4046,7 +4302,8 @@ window.questionData_N5_nouns = [
         "reading": "しろ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "水",
@@ -4059,7 +4316,8 @@ window.questionData_N5_nouns = [
         "reading": "みず"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "御飯",
@@ -4076,7 +4334,8 @@ window.questionData_N5_nouns = [
         "reading": "はん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "皆さん",
@@ -4093,7 +4352,8 @@ window.questionData_N5_nouns = [
         "reading": "さん"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "外",
@@ -4106,7 +4366,8 @@ window.questionData_N5_nouns = [
         "reading": "そと"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "前",
@@ -4119,7 +4380,8 @@ window.questionData_N5_nouns = [
         "reading": "まえ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "洗濯",
@@ -4136,7 +4398,8 @@ window.questionData_N5_nouns = [
         "reading": "たく"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "九つ",
@@ -4153,7 +4416,8 @@ window.questionData_N5_nouns = [
         "reading": "つ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "来年",
@@ -4170,7 +4434,8 @@ window.questionData_N5_nouns = [
         "reading": "ねん"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "眼鏡",
@@ -4183,7 +4448,8 @@ window.questionData_N5_nouns = [
         "reading": "めがね"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "背",
@@ -4196,7 +4462,8 @@ window.questionData_N5_nouns = [
         "reading": "せ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "水曜日",
@@ -4217,7 +4484,8 @@ window.questionData_N5_nouns = [
         "reading": "び"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "お金",
@@ -4234,7 +4502,8 @@ window.questionData_N5_nouns = [
         "reading": "かね"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "同じ",
@@ -4251,7 +4520,8 @@ window.questionData_N5_nouns = [
         "reading": "じ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "土曜日",
@@ -4272,7 +4542,8 @@ window.questionData_N5_nouns = [
         "reading": "び"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "階段",
@@ -4289,7 +4560,8 @@ window.questionData_N5_nouns = [
         "reading": "だん"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "半分",
@@ -4306,7 +4578,8 @@ window.questionData_N5_nouns = [
         "reading": "ぶん"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "背広",
@@ -4319,7 +4592,8 @@ window.questionData_N5_nouns = [
         "reading": "せびろ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "晴れ",
@@ -4336,7 +4610,8 @@ window.questionData_N5_nouns = [
         "reading": "れ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "飲み物",
@@ -4357,7 +4632,8 @@ window.questionData_N5_nouns = [
         "reading": "もの"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "雪",
@@ -4370,7 +4646,8 @@ window.questionData_N5_nouns = [
         "reading": "ゆき"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "買い物",
@@ -4391,7 +4668,8 @@ window.questionData_N5_nouns = [
         "reading": "もの"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "交差点",
@@ -4412,7 +4690,8 @@ window.questionData_N5_nouns = [
         "reading": "てん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "駅",
@@ -4425,7 +4704,8 @@ window.questionData_N5_nouns = [
         "reading": "えき"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "大丈夫",
@@ -4446,7 +4726,8 @@ window.questionData_N5_nouns = [
         "reading": "ぶ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "勉強",
@@ -4463,7 +4744,8 @@ window.questionData_N5_nouns = [
         "reading": "きょう"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "兄弟",
@@ -4480,7 +4762,8 @@ window.questionData_N5_nouns = [
         "reading": "だい"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "封筒",
@@ -4497,7 +4780,8 @@ window.questionData_N5_nouns = [
         "reading": "とう"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "漢字",
@@ -4514,7 +4798,8 @@ window.questionData_N5_nouns = [
         "reading": "じ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "喫茶店",
@@ -4535,7 +4820,8 @@ window.questionData_N5_nouns = [
         "reading": "てん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "子供",
@@ -4552,7 +4838,8 @@ window.questionData_N5_nouns = [
         "reading": "ども"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "女の子",
@@ -4573,7 +4860,8 @@ window.questionData_N5_nouns = [
         "reading": "こ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "紙",
@@ -4586,7 +4874,8 @@ window.questionData_N5_nouns = [
         "reading": "かみ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "字引",
@@ -4603,7 +4892,8 @@ window.questionData_N5_nouns = [
         "reading": "びき"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "先",
@@ -4616,7 +4906,8 @@ window.questionData_N5_nouns = [
         "reading": "さき"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "食堂",
@@ -4633,7 +4924,8 @@ window.questionData_N5_nouns = [
         "reading": "どう"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "交番",
@@ -4650,7 +4942,8 @@ window.questionData_N5_nouns = [
         "reading": "ばん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "洋服",
@@ -4667,7 +4960,8 @@ window.questionData_N5_nouns = [
         "reading": "ふく"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "晩御飯",
@@ -4688,7 +4982,8 @@ window.questionData_N5_nouns = [
         "reading": "はん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "車",
@@ -4701,7 +4996,8 @@ window.questionData_N5_nouns = [
         "reading": "くるま"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "もう一度",
@@ -4722,7 +5018,8 @@ window.questionData_N5_nouns = [
         "reading": "ど"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "服",
@@ -4735,7 +5032,8 @@ window.questionData_N5_nouns = [
         "reading": "ふく"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "半",
@@ -4748,7 +5046,8 @@ window.questionData_N5_nouns = [
         "reading": "はん"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "四日",
@@ -4765,7 +5064,8 @@ window.questionData_N5_nouns = [
         "reading": "にち"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "警官",
@@ -4782,7 +5082,8 @@ window.questionData_N5_nouns = [
         "reading": "かん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "鳥",
@@ -4795,7 +5096,8 @@ window.questionData_N5_nouns = [
         "reading": "とり"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "方",
@@ -4808,7 +5110,8 @@ window.questionData_N5_nouns = [
         "reading": "ほう"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "次",
@@ -4821,7 +5124,8 @@ window.questionData_N5_nouns = [
         "reading": "つぎ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "角",
@@ -4834,7 +5138,8 @@ window.questionData_N5_nouns = [
         "reading": "かく"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "男",
@@ -4847,7 +5152,8 @@ window.questionData_N5_nouns = [
         "reading": "おとこ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "お母さん",
@@ -4868,7 +5174,8 @@ window.questionData_N5_nouns = [
         "reading": "さん"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "意味",
@@ -4885,7 +5192,8 @@ window.questionData_N5_nouns = [
         "reading": "み"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "物",
@@ -4898,7 +5206,8 @@ window.questionData_N5_nouns = [
         "reading": "もの"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "魚",
@@ -4911,7 +5220,8 @@ window.questionData_N5_nouns = [
         "reading": "さかな"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "切手",
@@ -4924,7 +5234,8 @@ window.questionData_N5_nouns = [
         "reading": "きって"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Special or Irregular reading"
   },
   {
     "word": "犬",
@@ -4937,7 +5248,8 @@ window.questionData_N5_nouns = [
         "reading": "いぬ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "女",
@@ -4950,7 +5262,8 @@ window.questionData_N5_nouns = [
         "reading": "おんな"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "飛行機",
@@ -4971,7 +5284,8 @@ window.questionData_N5_nouns = [
         "reading": "き"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "日曜日",
@@ -4992,7 +5306,8 @@ window.questionData_N5_nouns = [
         "reading": "び"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "午前",
@@ -5009,7 +5324,8 @@ window.questionData_N5_nouns = [
         "reading": "ぜん"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "名前",
@@ -5026,7 +5342,8 @@ window.questionData_N5_nouns = [
         "reading": "まえ"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "鼻",
@@ -5039,7 +5356,8 @@ window.questionData_N5_nouns = [
         "reading": "はな"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "お弁当",
@@ -5060,7 +5378,8 @@ window.questionData_N5_nouns = [
         "reading": "とう"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "結婚",
@@ -5077,7 +5396,8 @@ window.questionData_N5_nouns = [
         "reading": "こん"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "家庭",
@@ -5094,7 +5414,8 @@ window.questionData_N5_nouns = [
         "reading": "てい"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "靴",
@@ -5107,7 +5428,8 @@ window.questionData_N5_nouns = [
         "reading": "くつ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "今月",
@@ -5124,7 +5446,8 @@ window.questionData_N5_nouns = [
         "reading": "げつ"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "二人",
@@ -5141,7 +5464,8 @@ window.questionData_N5_nouns = [
         "reading": "にん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "飴",
@@ -5154,7 +5478,8 @@ window.questionData_N5_nouns = [
         "reading": "あめ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "質問",
@@ -5171,7 +5496,8 @@ window.questionData_N5_nouns = [
         "reading": "もん"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "牛乳",
@@ -5188,7 +5514,8 @@ window.questionData_N5_nouns = [
         "reading": "にゅう"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "二",
@@ -5201,7 +5528,8 @@ window.questionData_N5_nouns = [
         "reading": "に"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "紅茶",
@@ -5218,7 +5546,8 @@ window.questionData_N5_nouns = [
         "reading": "ちゃ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "兄",
@@ -5231,7 +5560,8 @@ window.questionData_N5_nouns = [
         "reading": "あに"
       }
     ],
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "留学生",
@@ -5252,7 +5582,8 @@ window.questionData_N5_nouns = [
         "reading": "せい"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "月曜日",
@@ -5273,7 +5604,8 @@ window.questionData_N5_nouns = [
         "reading": "び"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "郵便局",
@@ -5294,7 +5626,8 @@ window.questionData_N5_nouns = [
         "reading": "きょく"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "六つ",
@@ -5311,7 +5644,8 @@ window.questionData_N5_nouns = [
         "reading": "つ"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Kunyomi (Japanese reading)"
   },
   {
     "word": "本棚",
@@ -5328,7 +5662,8 @@ window.questionData_N5_nouns = [
         "reading": "だな"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Mixed reading (Jūbako / Yutō)"
   },
   {
     "word": "結構",
@@ -5345,7 +5680,8 @@ window.questionData_N5_nouns = [
         "reading": "こう"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "昨夜",
@@ -5362,7 +5698,8 @@ window.questionData_N5_nouns = [
         "reading": "や"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "外国人",
@@ -5383,7 +5720,8 @@ window.questionData_N5_nouns = [
         "reading": "じん"
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "絵",
@@ -5396,7 +5734,8 @@ window.questionData_N5_nouns = [
         "reading": "え"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Onyomi (Chinese reading)"
   },
   {
     "word": "昨日",
@@ -5409,6 +5748,7 @@ window.questionData_N5_nouns = [
         "reading": "きのう"
       }
     ],
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "clue": "Special or Irregular reading"
   }
 ];
